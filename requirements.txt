@@ -1,0 +1,22 @@
+# Python 3.10 or newer.
+# Install with:  pip install -r requirements.txt
+
+# Data handling
+pandas>=2.1
+numpy>=1.26
+pyarrow>=14.0        # Parquet files
+openpyxl>=3.1        # read the WIPO concordance (Excel)
+
+# Plots
+matplotlib>=3.8
+seaborn>=0.13
+
+# Text analysis (TF-IDF, similarity)
+scikit-learn>=1.4
+
+# Notebooks
+jupyterlab>=4.0
+ipykernel>=6.29
+
+# Later phases (not needed for notebooks 00-05):
+# sentence-transformers   # text embeddings, a GPU (e.g. on Azure) is recommended

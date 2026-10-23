@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# macOS
+.DS_Store
+
+# CSV versions of the merged datasets and samples: create them with src/parquet_to_csv.py
+data/processed/*.csv
+data/samples/
