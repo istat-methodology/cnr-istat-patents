@@ -30,6 +30,7 @@ import os
 import platform
 import shutil
 import time
+import traceback
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -85,10 +86,6 @@ MODELS: dict[str, ModelSpec] = {
         prompt=QWEN_INSTRUCTION, tokenizer_kwargs={"padding_side": "left"},
         note="same instruction and pooling as the 4B model",
     ),
-    "gte-multilingual": ModelSpec(
-        "Alibaba-NLP/gte-multilingual-base", 2048, "float32", 64,
-        trust_remote_code=True, note="CLS pooling, no prompt; runs custom model code from the Hub",
-    ),
     "mpnet": ModelSpec("sentence-transformers/all-mpnet-base-v2", 384, "float32", 128, note="384-token limit"),
 }
 
@@ -127,6 +124,17 @@ def load_model(spec: ModelSpec, device: str):
     for key, value in spec.tokenizer_kwargs.items():   # set after loading: the ST kwarg name changed across versions
         setattr(model.tokenizer, key, value)
     return model
+
+
+def padding_check(model, texts: list[str], prompt: str | None) -> float:
+    """Min cosine between an embedding computed alone and the same text inside a padded batch.
+    A wrong attention mask or padding side shows up here as a low value."""
+    order = sorted(range(len(texts)), key=lambda i: len(texts[i]))
+    probe = [texts[order[0]], texts[order[-1]]] + texts[:4]
+    kw = dict(prompt=prompt, normalize_embeddings=True, convert_to_numpy=True, show_progress_bar=False)
+    batch = model.encode(probe, batch_size=len(probe), **kw)
+    single = np.concatenate([model.encode([t], batch_size=1, **kw) for t in probe])
+    return float((batch * single).sum(axis=1).min())
 
 
 def token_stats(model, texts: list[str], prefix: str, max_len: int) -> dict:
@@ -169,6 +177,12 @@ def run_model(name: str, spec: ModelSpec, df: pd.DataFrame, out_root: Path, devi
     texts = build_texts(df, spec.joiner)
     stats = token_stats(model, texts, prompt or "", spec.max_seq_length)
     print(f"[{name}] prompt={prompt!r} max_len={spec.max_seq_length} {stats}")
+    pad_cos = padding_check(model, texts, prompt)
+    print(f"[{name}] padding check: min cosine alone-vs-batch = {pad_cos:.4f}")
+    if pad_cos < 0.95:
+        raise RuntimeError(f"[{name}] padding check failed ({pad_cos:.4f}): attention mask or padding side is wrong")
+    if pad_cos < 0.99:
+        print(f"[{name}] WARNING: padding check below 0.99")
 
     bs = batch_size or spec.batch_size
     n = len(texts)
@@ -204,7 +218,7 @@ def run_model(name: str, spec: ModelSpec, df: pd.DataFrame, out_root: Path, devi
         "n_patents": n, "dim": int(emb.shape[1]), "stored_dtype": "float16", "normalized": True,
         "compute_dtype": spec.compute_dtype, "max_seq_length": spec.max_seq_length,
         "joiner": spec.joiner, "prompt": prompt, "prompt_name": spec.prompt_name,
-        "chunking": "none (truncation at max_seq_length)", **stats,
+        "chunking": "none (truncation at max_seq_length)", **stats, "padding_check_min_cos": round(pad_cos, 5),
         "seconds": round(time.time() - t0), "batch_size": bs, "note": spec.note,
         "gpu": torch.cuda.get_device_name(0) if torch.cuda.is_available() else None,
         "versions": {"torch": torch.__version__, "sentence_transformers": sentence_transformers.__version__,
@@ -255,8 +269,19 @@ def main() -> None:
     df = df.reset_index(drop=True)
     print(f"{len(df)} patents from {args.input.name}; output in {args.out_dir}")
 
+    failed = []
     for name in args.models:
-        run_model(name, MODELS[name], df, args.out_dir, device, args.batch_size, args.overwrite)
+        try:
+            run_model(name, MODELS[name], df, args.out_dir, device, args.batch_size, args.overwrite)
+        except Exception:
+            traceback.print_exc()
+            failed.append(name)
+            import gc
+            gc.collect()
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+    if failed:
+        raise SystemExit(f"FAILED models: {', '.join(failed)}")
 
 
 if __name__ == "__main__":
