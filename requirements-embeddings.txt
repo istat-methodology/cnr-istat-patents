@@ -2,7 +2,7 @@
 # Install the CUDA build of torch first, following https://pytorch.org
 torch>=2.4
 transformers>=4.51        # Qwen3-Embedding needs >=4.51
-sentence-transformers>=6.1.0   # EmbeddingGemma-2 needs >=6.1.0
+sentence-transformers>=5.0
 pandas>=2.1
 numpy>=1.26
 pyarrow>=14.0

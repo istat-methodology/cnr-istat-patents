@@ -57,14 +57,16 @@ class ModelSpec:
     prompt: str | None = None            # literal prefix, passed to encode(prompt=...)
     prompt_name: str | None = None       # name in the model's own prompts dict
     tokenizer_kwargs: dict = field(default_factory=dict)
+    trust_remote_code: bool = False
     note: str = ""
+    in_default: bool = True              # included when --models is not given
 
 
 MODELS: dict[str, ModelSpec] = {
-    "embeddinggemma-2": ModelSpec(
-        "google/embeddinggemma-2", 2048, "bfloat16", 64,
-        prompt_name="Clustering",        # "task: clustering | query: "
-        note="fp16 compute gives NaN on this model: use bf16 or fp32. Needs sentence-transformers>=6.1.0",
+    "embeddinggemma-300m": ModelSpec(
+        "google/embeddinggemma-300m", 2048, "bfloat16", 64,
+        prompt="task: clustering | query: ",
+        note="gated on HF (accept the licence, set HF_TOKEN). No fp16: bf16 or fp32 only",
     ),
     "bge-m3": ModelSpec("BAAI/bge-m3", 2048, "float32", 64, note="dense embedding, CLS pooling, no prompt"),
     "qwen3-embedding-4b": ModelSpec(
@@ -78,6 +80,16 @@ MODELS: dict[str, ModelSpec] = {
         joiner=" [SEP] ", note="SPECTER convention: title [SEP] abstract; CLS pooling",
     ),
     "sbert-adapt-ub": ModelSpec("graziasveva93/sbert-adapt-ub", 512, "float32", 128),
+    "qwen3-embedding-0.6b": ModelSpec(
+        "Qwen/Qwen3-Embedding-0.6B", 2048, "bfloat16", 64,
+        prompt=QWEN_INSTRUCTION, tokenizer_kwargs={"padding_side": "left"},
+        note="same instruction and pooling as the 4B model",
+    ),
+    "gte-multilingual": ModelSpec(
+        "Alibaba-NLP/gte-multilingual-base", 2048, "float32", 64,
+        trust_remote_code=True, note="CLS pooling, no prompt; runs custom model code from the Hub",
+    ),
+    "mpnet": ModelSpec("sentence-transformers/all-mpnet-base-v2", 384, "float32", 128, note="384-token limit"),
 }
 
 
@@ -104,6 +116,7 @@ def load_model(spec: ModelSpec, device: str):
         try:
             model = SentenceTransformer(
                 spec.hf_id, device=device, model_kwargs=model_kwargs,
+                trust_remote_code=spec.trust_remote_code,
             )
             break
         except (TypeError, ValueError) as e:
@@ -210,13 +223,15 @@ def run_model(name: str, spec: ModelSpec, df: pd.DataFrame, out_root: Path, devi
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--models", nargs="+", default=list(MODELS), choices=list(MODELS))
+    ap.add_argument("--models", nargs="+", default=[k for k, s in MODELS.items() if s.in_default],
+                    choices=list(MODELS), help="default: all models except those marked in_default=False")
     ap.add_argument("--input", type=Path, default=DEFAULT_INPUT)
     ap.add_argument("--out-dir", type=Path, default=DEFAULT_OUT)
     ap.add_argument("--device", default=None, help="default: cuda if available, else cpu")
     ap.add_argument("--batch-size", type=int, default=None, help="override the per-model default")
     ap.add_argument("--limit", type=int, default=None, help="use only the first N patents (smoke test)")
     ap.add_argument("--overwrite", action="store_true")
+    ap.add_argument("--allow-cpu", action="store_true", help="do not stop when no GPU is available")
     ap.add_argument("--list", action="store_true", help="print the model registry and exit")
     args = ap.parse_args()
 
@@ -228,6 +243,9 @@ def main() -> None:
     import torch
     torch.backends.cuda.matmul.allow_tf32 = True
     device = args.device or ("cuda" if torch.cuda.is_available() else "cpu")
+    if device == "cpu" and not args.allow_cpu:
+        raise SystemExit(f"No GPU available (torch {torch.__version__}, cuda={torch.version.cuda}). "
+                         "Fix the torch/driver match, or pass --allow-cpu to run on CPU anyway.")
 
     df = pd.read_parquet(args.input, columns=["publication_number", "title_clean", "abstract_clean",
                                               "abstract_is_placeholder"])
