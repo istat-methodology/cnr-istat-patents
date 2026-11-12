@@ -104,7 +104,6 @@ def load_model(spec: ModelSpec, device: str):
         try:
             model = SentenceTransformer(
                 spec.hf_id, device=device, model_kwargs=model_kwargs,
-                tokenizer_kwargs=spec.tokenizer_kwargs or None,
             )
             break
         except (TypeError, ValueError) as e:
@@ -112,6 +111,8 @@ def load_model(spec: ModelSpec, device: str):
     else:
         raise last_err
     model.max_seq_length = spec.max_seq_length
+    for key, value in spec.tokenizer_kwargs.items():   # set after loading: the ST kwarg name changed across versions
+        setattr(model.tokenizer, key, value)
     return model
 
 
