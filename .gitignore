@@ -223,3 +223,6 @@ __marimo__/
 # CSV versions of the merged datasets and samples: create them with src/parquet_to_csv.py
 data/processed/*.csv
 data/samples/
+
+# Embeddings (large; regenerate with src/generate_embeddings.py)
+embeddings/
