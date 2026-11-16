@@ -1,0 +1,61 @@
+model,comparison,setting,n_compared,coverage,ARI
+bge-m3,KMeans vs Spherical,k8,6400,1.0,0.7188454586124612
+bge-m3,KMeans vs Spherical,k16,6400,1.0,0.7312021473051854
+bge-m3,KMeans vs Spherical,k32,6400,1.0,0.5415027095380741
+bge-m3,KMeans K8 vs HDBSCAN,"mcs75_ms10, all incl. noise",6400,0.17296875,0.013502598848132066
+bge-m3,"KMeans K8 vs HDBSCAN, assigned only",mcs75_ms10,1107,0.17296875,0.6142247444332395
+bge-m3,KMeans K8 vs HDBSCAN,"mcs150_ms20, all incl. noise",6400,0.12671875,0.004424468160787559
+bge-m3,"KMeans K8 vs HDBSCAN, assigned only",mcs150_ms20,811,0.12671875,0.6955413102470829
+qwen3-embedding-4b,KMeans vs Spherical,k8,6400,1.0,0.9555869203039784
+qwen3-embedding-4b,KMeans vs Spherical,k16,6400,1.0,0.696179908128153
+qwen3-embedding-4b,KMeans vs Spherical,k32,6400,1.0,0.5297400992493135
+qwen3-embedding-4b,KMeans K8 vs HDBSCAN,"mcs75_ms10, all incl. noise",6400,0.23046875,0.010774235267299091
+qwen3-embedding-4b,"KMeans K8 vs HDBSCAN, assigned only",mcs75_ms10,1475,0.23046875,0.6141248463266576
+qwen3-embedding-4b,KMeans K8 vs HDBSCAN,"mcs150_ms20, all incl. noise",6400,0.2865625,0.022562176855109035
+qwen3-embedding-4b,"KMeans K8 vs HDBSCAN, assigned only",mcs150_ms20,1834,0.2865625,0.19636999020227414
+qwen3-embedding-0.6b,KMeans vs Spherical,k8,6400,1.0,0.5588639297012693
+qwen3-embedding-0.6b,KMeans vs Spherical,k16,6400,1.0,0.6910660597712142
+qwen3-embedding-0.6b,KMeans vs Spherical,k32,6400,1.0,0.6690634498112461
+qwen3-embedding-0.6b,KMeans K8 vs HDBSCAN,"mcs75_ms10, all incl. noise",6400,0.15875,0.013140195977810189
+qwen3-embedding-0.6b,"KMeans K8 vs HDBSCAN, assigned only",mcs75_ms10,1016,0.15875,0.6657122956051881
+qwen3-embedding-0.6b,KMeans K8 vs HDBSCAN,"mcs150_ms20, all incl. noise",6400,0.14453125,0.0225470804713548
+qwen3-embedding-0.6b,"KMeans K8 vs HDBSCAN, assigned only",mcs150_ms20,925,0.14453125,0.33136272571111586
+embeddinggemma-300m,KMeans vs Spherical,k8,6400,1.0,0.6437587719766762
+embeddinggemma-300m,KMeans vs Spherical,k16,6400,1.0,0.5137626778684579
+embeddinggemma-300m,KMeans vs Spherical,k32,6400,1.0,0.5569756216374628
+embeddinggemma-300m,KMeans K8 vs HDBSCAN,"mcs75_ms10, all incl. noise",6400,0.11109375,0.013236086713549757
+embeddinggemma-300m,"KMeans K8 vs HDBSCAN, assigned only",mcs75_ms10,711,0.11109375,0.26543356534215656
+embeddinggemma-300m,KMeans K8 vs HDBSCAN,"mcs150_ms20, all incl. noise",6400,0.0,0.0
+paecter,KMeans vs Spherical,k8,6400,1.0,0.6956343173872647
+paecter,KMeans vs Spherical,k16,6400,1.0,0.6719534689706075
+paecter,KMeans vs Spherical,k32,6400,1.0,0.5956376892304391
+paecter,KMeans K8 vs HDBSCAN,"mcs75_ms10, all incl. noise",6400,0.23640625,0.022108217195251512
+paecter,"KMeans K8 vs HDBSCAN, assigned only",mcs75_ms10,1513,0.23640625,0.6588235139451123
+paecter,KMeans K8 vs HDBSCAN,"mcs150_ms20, all incl. noise",6400,0.218125,0.021151042947580384
+paecter,"KMeans K8 vs HDBSCAN, assigned only",mcs150_ms20,1396,0.218125,0.5755215123709018
+pat-specter,KMeans vs Spherical,k8,6400,1.0,0.7002161259058083
+pat-specter,KMeans vs Spherical,k16,6400,1.0,0.7089627957766078
+pat-specter,KMeans vs Spherical,k32,6400,1.0,0.5310437602232078
+pat-specter,KMeans K8 vs HDBSCAN,"mcs75_ms10, all incl. noise",6400,0.155625,0.011165571273299769
+pat-specter,"KMeans K8 vs HDBSCAN, assigned only",mcs75_ms10,996,0.155625,0.6320286214212832
+pat-specter,KMeans K8 vs HDBSCAN,"mcs150_ms20, all incl. noise",6400,0.0,0.0
+sbert-adapt-ub,KMeans vs Spherical,k8,6400,1.0,0.9402997887647968
+sbert-adapt-ub,KMeans vs Spherical,k16,6400,1.0,0.7196330309670994
+sbert-adapt-ub,KMeans vs Spherical,k32,6400,1.0,0.6525423462812743
+sbert-adapt-ub,KMeans K8 vs HDBSCAN,"mcs75_ms10, all incl. noise",6400,0.218125,0.045331625207055914
+sbert-adapt-ub,"KMeans K8 vs HDBSCAN, assigned only",mcs75_ms10,1396,0.218125,0.6061422062543542
+sbert-adapt-ub,KMeans K8 vs HDBSCAN,"mcs150_ms20, all incl. noise",6400,0.2171875,0.0490878456456369
+sbert-adapt-ub,"KMeans K8 vs HDBSCAN, assigned only",mcs150_ms20,1390,0.2171875,0.6695712039957297
+mpnet,KMeans vs Spherical,k8,6400,1.0,0.9145634048379498
+mpnet,KMeans vs Spherical,k16,6400,1.0,0.6625778517049703
+mpnet,KMeans vs Spherical,k32,6400,1.0,0.525502954240018
+mpnet,KMeans K8 vs HDBSCAN,"mcs75_ms10, all incl. noise",6400,0.05625,0.004000778607726469
+mpnet,"KMeans K8 vs HDBSCAN, assigned only",mcs75_ms10,360,0.05625,0.9365537137507334
+mpnet,KMeans K8 vs HDBSCAN,"mcs150_ms20, all incl. noise",6400,0.0,0.0
+minilm09_chunked,KMeans vs Spherical,k8,6400,1.0,0.7393578973757602
+minilm09_chunked,KMeans vs Spherical,k16,6400,1.0,0.6699991719677604
+minilm09_chunked,KMeans vs Spherical,k32,6400,1.0,0.48473590952309836
+minilm09_chunked,KMeans K8 vs HDBSCAN,"mcs75_ms10, all incl. noise",6400,0.12234375,0.013931918321843033
+minilm09_chunked,"KMeans K8 vs HDBSCAN, assigned only",mcs75_ms10,783,0.12234375,0.49471690680258334
+minilm09_chunked,KMeans K8 vs HDBSCAN,"mcs150_ms20, all incl. noise",6400,0.1384375,0.014811800008127285
+minilm09_chunked,"KMeans K8 vs HDBSCAN, assigned only",mcs150_ms20,886,0.1384375,0.4828878584636537

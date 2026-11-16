@@ -1,0 +1,68 @@
+{
+  "dataset_repo_id": "istat-ai/wipo32-patent-embeddings",
+  "dataset_revision": "e570ab0121c6dff0e61b05b64dd7ee21b98b78b7",
+  "n_publications": 63968,
+  "canonical_model_folder": "bge-m3",
+  "canonical_ids_order_sha256": "b828eb4827f13e90f197eabc17781d4296ed3cfd46f6fdc2380749cec5e64411",
+  "all_model_id_sets_match": true,
+  "all_model_id_orders_match": true,
+  "all_placeholder_flags_match": true,
+  "metadata_origin": "Notebook 09 full_publication_cluster_assignments.parquet",
+  "models_checked_numerically": [
+    "bge-m3"
+  ],
+  "numeric_check_full_scan": false,
+  "source_embedding_format": "float16; L2-normalized according to README",
+  "source_text": "title + abstract; no chunking; model-specific token truncation/prefixes",
+  "minilm_baseline": "Notebook 09 (chunked MiniLM), separate from the eight HF model folders",
+  "models": {
+    "bge-m3": {
+      "model_id": "BAAI/bge-m3",
+      "dim": 1024,
+      "max_length": 2048,
+      "truncated": 0
+    },
+    "qwen3-embedding-4b": {
+      "model_id": "Qwen/Qwen3-Embedding-4B",
+      "dim": 2560,
+      "max_length": 2048,
+      "truncated": 0
+    },
+    "qwen3-embedding-0.6b": {
+      "model_id": "Qwen/Qwen3-Embedding-0.6B",
+      "dim": 1024,
+      "max_length": 2048,
+      "truncated": 0
+    },
+    "embeddinggemma-300m": {
+      "model_id": "google/embeddinggemma-300m",
+      "dim": 768,
+      "max_length": 2048,
+      "truncated": 0
+    },
+    "paecter": {
+      "model_id": "mpi-inno-comp/paecter",
+      "dim": 1024,
+      "max_length": 512,
+      "truncated": 20
+    },
+    "pat-specter": {
+      "model_id": "mpi-inno-comp/pat_specter",
+      "dim": 768,
+      "max_length": 512,
+      "truncated": 26
+    },
+    "sbert-adapt-ub": {
+      "model_id": "graziasveva93/sbert-adapt-ub",
+      "dim": 384,
+      "max_length": 512,
+      "truncated": 31
+    },
+    "mpnet": {
+      "model_id": "sentence-transformers/all-mpnet-base-v2",
+      "dim": 768,
+      "max_length": 384,
+      "truncated": 199
+    }
+  }
+}
