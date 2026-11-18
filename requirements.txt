@@ -18,5 +18,5 @@ scikit-learn>=1.4
 jupyterlab>=4.0
 ipykernel>=6.29
 
-# Later phases (not needed for notebooks 00-05):
-# sentence-transformers   # text embeddings, a GPU (e.g. on Azure) is recommended
+# Embeddings (not needed for notebooks 00-05): see requirements-embeddings.txt
+# A GPU (e.g. an A100 on Azure) is recommended to generate them.

@@ -19,6 +19,9 @@ exploratory analysis             structure, text, IPC codes and overlap
 
 ipc/EN_ipc_scheme_20260101.xml --(src/build_ipc_titles.py)--> ipc/ipc_titles.csv
                                   titles of IPC codes, used in notebooks 00 and 05
+
+data/processed/*_by_publication.parquet --(src/generate_embeddings.py)--> embeddings/<model>/
+                                  embeddings of title + abstract, 8 models, published on Hugging Face
 ```
 
 ## Step 1. Rules (already done)
@@ -103,3 +106,15 @@ Open the notebooks from the `notebooks/` folder. They use relative paths (`../da
 - Text embeddings of titles and abstracts, to test whether text recovers the technology structure. This needs a GPU, for example on Azure.
 - Identification of AI-related patents, using the OECD method in `papers/` as a starting point.
 - Extraction of fields 33 to 35, if needed.
+
+## Step 6. Embeddings
+
+Embeddings of title + abstract were computed for all 63,968 publications with 8 models (BGE-m3, Qwen3-Embedding 4B and 0.6B, EmbeddingGemma-300m, PaECTER, PAT-SPECTER, Patent SBERT-adapt-ub, all-mpnet-base-v2). The run took about 35 minutes on one A100 80GB.
+
+```
+pip install -r requirements-embeddings.txt        # after installing torch with CUDA
+python src/generate_embeddings.py                 # all models, writes embeddings/<model>/
+python src/generate_embeddings.py --models bge-m3 --limit 200 --out-dir /tmp/emb_test    # quick test
+```
+
+The embeddings are not in git (about 1 GB). They are published at https://huggingface.co/datasets/istat-ai/wipo32-patent-embeddings. Details are in `docs/embeddings.md`.

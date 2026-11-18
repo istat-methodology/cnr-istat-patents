@@ -64,10 +64,12 @@ Notebooks 03–05 only need the Parquet files that notebook 02 writes in `data/p
 ```
 README.md
 requirements.txt
+requirements-embeddings.txt   packages to generate the embeddings (GPU machine)
 docs/
   methodology.md        how the corpus was designed and extracted
-  workflow.md           the steps from the WIPO rules to the notebooks
+  workflow.md           the steps from the WIPO rules to the notebooks and the embeddings
   data_dictionary.md    columns of every file, known problems
+  embeddings.md         the embedding models, prompts, truncation, how to reproduce
 queries/                4 BigQuery SQL files (one per WIPO sector)
 ipc/
   ipc_technology.xlsx   WIPO IPC-Technology concordance (March 2026)
@@ -76,9 +78,11 @@ ipc/
 src/
   build_ipc_titles.py   script that builds ipc_titles.csv
   parquet_to_csv.py     script that converts the merged Parquet files to CSV (optionally a random sample)
+  generate_embeddings.py  script that embeds title + abstract with 8 models
 data/
   raw/                  the 4 CSV files exported from BigQuery
   processed/            merged datasets (Parquet)
+embeddings/             written by generate_embeddings.py, not in git: published on Hugging Face
 notebooks/              notebooks 00-05
 papers/                 background reading
 ```
@@ -100,6 +104,57 @@ python src/parquet_to_csv.py --sample 5000         # a random sample of 5,000 ro
 ```
 
 CSV files created in `data/processed/` are ignored by git.
+
+## Embeddings
+
+Embeddings of title + abstract for all 63,968 publications, from 8 models, are published as a public Hugging Face dataset:
+[`istat-ai/wipo32-patent-embeddings`](https://huggingface.co/datasets/istat-ai/wipo32-patent-embeddings). No account or token is needed.
+They were produced with `src/generate_embeddings.py` on an A100 GPU. Models, prompts and truncation are described in [`docs/embeddings.md`](docs/embeddings.md).
+
+To download everything (about 1 GB), or one model:
+
+```
+pip install huggingface_hub
+hf download istat-ai/wipo32-patent-embeddings --repo-type dataset --local-dir ./patents-embeddings
+hf download istat-ai/wipo32-patent-embeddings --repo-type dataset --include "bge-m3/*" --local-dir ./patents-embeddings
+```
+
+Each model has its own folder with three files:
+
+- `embeddings.npy`: float16 matrix, one row per publication, L2-normalised (dot product = cosine similarity)
+- `ids.parquet`: `publication_number` of each row. The row order of `embeddings.npy` follows this file
+- `meta.json`: model id and revision, prompt, maximum length, number of truncated texts, library versions
+
+| Folder | Model | Dim | Max length | Note |
+|---|---|---|---|---|
+| `bge-m3` | BAAI/bge-m3 | 1024 | 2048 | |
+| `qwen3-embedding-4b` | Qwen/Qwen3-Embedding-4B | 2560 | 2048 | instruction prefix |
+| `qwen3-embedding-0.6b` | Qwen/Qwen3-Embedding-0.6B | 1024 | 2048 | instruction prefix |
+| `embeddinggemma-300m` | google/embeddinggemma-300m | 768 | 2048 | prefix `task: clustering` |
+| `paecter` | mpi-inno-comp/paecter | 1024 | 512 | |
+| `pat-specter` | mpi-inno-comp/pat_specter | 768 | 512 | `title [SEP] abstract` |
+| `sbert-adapt-ub` | graziasveva93/sbert-adapt-ub | 384 | 512 | |
+| `mpnet` | sentence-transformers/all-mpnet-base-v2 | 768 | 384 | |
+
+The input text is the title followed by the abstract. Longer texts are truncated at the maximum length of the model, without chunking; the count is in `meta.json`.
+Placeholder abstracts are included and flagged in `ids.parquet` (`abstract_is_placeholder`).
+
+Load one model and join it with the patent table:
+
+```python
+import numpy as np, pandas as pd
+from huggingface_hub import hf_hub_download
+
+REPO, MODEL = "istat-ai/wipo32-patent-embeddings", "bge-m3"
+get = lambda f: hf_hub_download(REPO, f"{MODEL}/{f}", repo_type="dataset")
+
+X = np.load(get("embeddings.npy")).astype("float32")      # (63968, dim)
+ids = pd.read_parquet(get("ids.parquet"))
+
+patents = pd.read_parquet("data/processed/patents_2021-2026_by_publication.parquet")
+df = patents.set_index("publication_number").loc[ids["publication_number"]].reset_index()
+assert len(df) == len(X)                                   # row i of df is row i of X
+```
 
 ## Things to keep in mind
 
