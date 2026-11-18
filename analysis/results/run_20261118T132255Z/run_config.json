@@ -1,0 +1,39 @@
+{
+  "data": "/home/azureuser/projects/cnr-istat-patents/data/processed/patents_2021-2026_by_publication.parquet",
+  "embeddings_dir": "/home/azureuser/projects/cnr-istat-patents/embeddings",
+  "models": [
+    "bge-m3",
+    "qwen3-embedding-4b",
+    "qwen3-embedding-0.6b",
+    "embeddinggemma-300m",
+    "paecter",
+    "pat-specter",
+    "sbert-adapt-ub",
+    "mpnet"
+  ],
+  "cohorts": [
+    "full",
+    "exclude-cn"
+  ],
+  "k_values": [
+    8,
+    16
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "reference_seed": 42,
+  "n_init": 10,
+  "max_iter": 300,
+  "threads": 4,
+  "silhouette_sample": 1200,
+  "ctfidf_top_terms": 10,
+  "wipo_mapping": "WIPO IPC Tech Concordance, fields 1-32, prefix matching as in Notebook 05",
+  "wipo_primary_ami": "Notebook 09 convention = lowest IPC-compatible WIPO field number; selection-field AMI is also reported separately; all compatible/selection fields are separately profiled",
+  "sklearn_version": "1.7.2",
+  "numpy_version": "2.2.6",
+  "pandas_version": "2.3.3",
+  "created_utc": "2026-11-18T13:23:11.841354+00:00"
+}

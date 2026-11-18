@@ -1,0 +1,464 @@
+cohort,model,k,cluster,wipo_profile_type,wipo_field_number,wipo_field_name,n_patents,cluster_share,cohort_share,lift
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,1,"Electrical machinery, apparatus, energy",54,0.0193756727664155,0.07449341561786287,0.26009913232880927
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,2,Audio-visual technology,478,0.17151058485827053,0.07386170367850721,2.3220502143410195
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,3,Telecommunications,270,0.0968783638320775,0.06453180426648525,1.5012498865213275
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,4,Digital communication,720,0.25834230355220666,0.07833228048010107,3.298031181638251
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,5,Basic communication processes,123,0.04413347685683531,0.05277224354924923,0.83630093944458
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,6,Computer technology,1404,0.503767491926803,0.11302784391855775,4.457021159226862
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,7,IT methods for management,882,0.31646932185145316,0.051071480635599395,6.196595789135162
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,8,Semiconductors,14,0.005023322569070686,0.09606880800816366,0.05228879876019507
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,9,Optics,75,0.02691065662002153,0.07668011079255552,0.3509470231834113
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,10,Measurement,255,0.09149623250807319,0.07556246659215705,1.2108687902145583
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,11,Analysis of biological materials,45,0.016146393972012917,0.04718402254725691,0.34220045473743954
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,12,Control,591,0.21205597416576966,0.05442441323679479,3.896339189604798
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,13,Medical technology,248,0.08898457122353785,0.06681568589338646,1.3317916299703167
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,14,Organic fine chemistry,1,0.0003588087549336204,0.07770056854074542,0.004617839504552204
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,15,Biotechnology,4,0.0014352350197344816,0.09854706253948199,0.014563955360510798
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,16,Pharmaceuticals,2,0.0007176175098672408,0.11861606492055007,0.006049918367700921
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,17,"Macromolecular chemistry, polymers",2,0.0007176175098672408,0.06200495650906264,0.011573550733195884
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,18,Food chemistry,1,0.0003588087549336204,0.043733903493852956,0.008204361519754415
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,19,Basic materials chemistry,3,0.001076426264800861,0.07507653433111425,0.01433771916073587
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,20,"Materials, metallurgy",6,0.002152852529601722,0.0449001409203557,0.04794756732324009
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,21,"Surface technology, coating",3,0.001076426264800861,0.05661110841148744,0.019014400088701217
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,22,Micro-structural and nano-technology,16,0.0057409400789379264,0.032557461489868315,0.1763325460962143
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,23,Chemical engineering,5,0.001794043774668102,0.044657174789834296,0.04017369623383555
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,24,Environmental technology,4,0.0014352350197344816,0.025025511443704747,0.05735087664294349
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,25,Handling,41,0.014711158952278435,0.031488410515574126,0.4671928087637931
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,26,Machine tools,3,0.001076426264800861,0.020943680450945138,0.05139623225832232
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,27,"Engines, pumps, turbines",2,0.0007176175098672408,0.03795130958744351,0.018908899789446796
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,28,Textile and paper machines,30,0.010764262648008612,0.03547305505612518,0.3034489877169441
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,29,Other special machines,40,0.014352350197344816,0.058797803586180086,0.24409670637285866
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,30,Thermal processes and apparatus,14,0.005023322569070686,0.026774867583458865,0.18761334872759644
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,31,Mechanical elements,3,0.001076426264800861,0.032265902133242624,0.03336110858936283
+exclude-cn,qwen3-embedding-4b,8,0,ipc_compatible,32,Transport,174,0.062432723358449946,0.06010982069099568,1.0386443120400497
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,1,"Electrical machinery, apparatus, energy",169,0.07919400187441425,0.07449341561786287,1.0631006944380763
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,2,Audio-visual technology,528,0.24742268041237114,0.07386170367850721,3.349810092240912
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,3,Telecommunications,186,0.08716026241799438,0.06453180426648525,1.350655903840291
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,4,Digital communication,15,0.007029053420805998,0.07833228048010107,0.08973380294464431
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,5,Basic communication processes,30,0.014058106841611996,0.05277224354924923,0.2663920632537139
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,6,Computer technology,278,0.1302717900656045,0.11302784391855775,1.1525637006707115
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,7,IT methods for management,5,0.0023430178069353325,0.051071480635599395,0.04587722497518764
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,8,Semiconductors,545,0.25538894095595127,0.09606880800816366,2.658396062687163
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,9,Optics,1030,0.48266166822867856,0.07668011079255552,6.294483187882114
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,10,Measurement,160,0.07497656982193064,0.07556246659215705,0.9922461931611001
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,11,Analysis of biological materials,8,0.0037488284910965324,0.04718402254725691,0.07945122710430025
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,12,Control,24,0.011246485473289597,0.05442441323679479,0.20664412906680948
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,13,Medical technology,43,0.02014995313964386,0.06681568589338646,0.30157518957144075
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,14,Organic fine chemistry,102,0.04779756326148079,0.07770056854074542,0.6151507531945049
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,15,Biotechnology,1,0.00046860356138706655,0.09854706253948199,0.004755124600485426
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,16,Pharmaceuticals,2,0.0009372071227741331,0.11861606492055007,0.00790118204816423
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,17,"Macromolecular chemistry, polymers",72,0.033739456419868794,0.06200495650906264,0.5441412803013165
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,19,Basic materials chemistry,220,0.10309278350515463,0.07507653433111425,1.3731691856003736
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,20,"Materials, metallurgy",41,0.019212746016869727,0.0449001409203557,0.4278994591787469
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,21,"Surface technology, coating",127,0.05951265229615745,0.05661110841148744,1.0512539670408791
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,22,Micro-structural and nano-technology,87,0.04076850984067479,0.032557461489868315,1.2522017373302186
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,23,Chemical engineering,16,0.007497656982193065,0.044657174789834296,0.16789367033357028
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,24,Environmental technology,11,0.005154639175257732,0.025025511443704747,0.20597537784005604
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,25,Handling,47,0.022024367385192128,0.031488410515574126,0.6994436055862173
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,26,Machine tools,24,0.011246485473289597,0.020943680450945138,0.5369870639323123
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,27,"Engines, pumps, turbines",10,0.004686035613870665,0.03795130958744351,0.1234749384095319
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,28,Textile and paper machines,279,0.13074039362699155,0.03547305505612518,3.6856254252737797
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,29,Other special machines,72,0.033739456419868794,0.058797803586180086,0.5738217137722974
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,30,Thermal processes and apparatus,5,0.0023430178069353325,0.026774867583458865,0.08750810063325265
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,31,Mechanical elements,29,0.01358950328022493,0.032265902133242624,0.4211722710899832
+exclude-cn,qwen3-embedding-4b,8,1,ipc_compatible,32,Transport,48,0.022492970946579195,0.06010982069099568,0.3741979378412718
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,1,"Electrical machinery, apparatus, energy",4,0.0028188865398167725,0.07449341561786287,0.0378407476209324
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,2,Audio-visual technology,2,0.0014094432699083862,0.07386170367850721,0.01908219279700308
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,3,Telecommunications,1,0.0007047216349541931,0.06453180426648525,0.010920532022381281
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,6,Computer technology,10,0.007047216349541931,0.11302784391855775,0.06234938317163517
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,7,IT methods for management,10,0.007047216349541931,0.051071480635599395,0.13798731232847136
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,9,Optics,1,0.0007047216349541931,0.07668011079255552,0.009190409712118087
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,10,Measurement,33,0.023255813953488372,0.07556246659215705,0.3077693860764226
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,11,Analysis of biological materials,43,0.030303030303030304,0.04718402254725691,0.642230752426427
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,12,Control,9,0.006342494714587738,0.05442441323679479,0.11653767743884023
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,13,Medical technology,53,0.037350246652572236,0.06681568589338646,0.5590041642642066
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,14,Organic fine chemistry,333,0.2346723044397463,0.07770056854074542,3.0202134790903936
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,15,Biotechnology,375,0.2642706131078224,0.09854706253948199,2.681669106087711
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,16,Pharmaceuticals,336,0.23678646934460887,0.11861606492055007,1.9962428318896788
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,17,"Macromolecular chemistry, polymers",37,0.026074700493305146,0.06200495650906264,0.42052606696843775
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,18,Food chemistry,749,0.5278365045806906,0.043733903493852956,12.069274919740037
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,19,Basic materials chemistry,237,0.16701902748414377,0.07507653433111425,2.224650204916631
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,20,"Materials, metallurgy",12,0.008456659619450317,0.0449001409203557,0.18834372111327716
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,21,"Surface technology, coating",8,0.005637773079633545,0.05661110841148744,0.09958775296633367
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,22,Micro-structural and nano-technology,10,0.007047216349541931,0.032557461489868315,0.2164547242645125
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,23,Chemical engineering,55,0.03875968992248062,0.044657174789834296,0.8679386930519355
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,24,Environmental technology,32,0.02255109231853418,0.025025511443704747,0.9011241336371163
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,25,Handling,26,0.018322762508809022,0.031488410515574126,0.5818890889950322
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,26,Machine tools,4,0.0028188865398167725,0.020943680450945138,0.1345936568512514
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,27,"Engines, pumps, turbines",1,0.0007047216349541931,0.03795130958744351,0.018569099264689293
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,28,Textile and paper machines,25,0.017618040873854827,0.03547305505612518,0.4966598125247376
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,29,Other special machines,149,0.10500352360817478,0.058797803586180086,1.7858409192831641
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,30,Thermal processes and apparatus,5,0.0035236081747709656,0.026774867583458865,0.131601329634504
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,31,Mechanical elements,2,0.0014094432699083862,0.032265902133242624,0.043682128089525124
+exclude-cn,qwen3-embedding-4b,8,2,ipc_compatible,32,Transport,1,0.0007047216349541931,0.06010982069099568,0.011723901799290493
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,1,"Electrical machinery, apparatus, energy",21,0.005608974358974359,0.07449341561786287,0.07529490106544902
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,2,Audio-visual technology,27,0.007211538461538462,0.07386170367850721,0.09763569078947369
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,3,Telecommunications,9,0.002403846153846154,0.06453180426648525,0.037250564759036146
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,4,Digital communication,3,0.0008012820512820513,0.07833228048010107,0.01022927005789909
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,5,Basic communication processes,9,0.002403846153846154,0.05277224354924923,0.045551335174953966
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,6,Computer technology,115,0.030715811965811964,0.11302784391855775,0.2717543828222031
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,7,IT methods for management,8,0.002136752136752137,0.051071480635599395,0.041838460725235234
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,8,Semiconductors,9,0.002403846153846154,0.09606880800816366,0.02502212948912494
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,9,Optics,58,0.015491452991452992,0.07668011079255552,0.20202700323898043
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,10,Measurement,289,0.07719017094017094,0.07556246659215705,1.0215411754197927
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,11,Analysis of biological materials,706,0.18856837606837606,0.04718402254725691,3.996445531525346
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,12,Control,26,0.006944444444444444,0.05442441323679479,0.12759796626984127
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,13,Medical technology,782,0.20886752136752137,0.06681568589338646,3.1260252525252525
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,14,Organic fine chemistry,777,0.2075320512820513,0.07770056854074542,2.670920627475506
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,15,Biotechnology,1605,0.4286858974358974,0.09854706253948199,4.350062664365549
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,16,Pharmaceuticals,2074,0.5539529914529915,0.11861606492055007,4.670134621512131
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,17,"Macromolecular chemistry, polymers",76,0.0202991452991453,0.06200495650906264,0.3273793974225009
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,18,Food chemistry,85,0.022702991452991452,0.043733903493852956,0.519116512345679
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,19,Basic materials chemistry,74,0.019764957264957264,0.07507653433111425,0.26326411362819124
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,20,"Materials, metallurgy",18,0.004807692307692308,0.0449001409203557,0.10707521645021646
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,21,"Surface technology, coating",20,0.005341880341880342,0.05661110841148744,0.09436099189318073
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,22,Micro-structural and nano-technology,126,0.03365384615384615,0.032557461489868315,1.0336753731343282
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,23,Chemical engineering,166,0.04433760683760684,0.044657174789834296,0.9928439729174224
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,24,Environmental technology,13,0.003472222222222222,0.025025511443704747,0.13874730312837108
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,25,Handling,28,0.007478632478632479,0.031488410515574126,0.23750428669410154
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,26,Machine tools,14,0.0037393162393162395,0.020943680450945138,0.17854150554266565
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,27,"Engines, pumps, turbines",22,0.005876068376068376,0.03795130958744351,0.15483176838810642
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,28,Textile and paper machines,16,0.004273504273504274,0.03547305505612518,0.12047184170471842
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,29,Other special machines,79,0.021100427350427352,0.058797803586180086,0.35886421028466486
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,30,Thermal processes and apparatus,7,0.0018696581196581197,0.026774867583458865,0.06982884654164147
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,31,Mechanical elements,14,0.0037393162393162395,0.032265902133242624,0.11589064591700135
+exclude-cn,qwen3-embedding-4b,8,3,ipc_compatible,32,Transport,5,0.0013354700854700855,0.06010982069099568,0.022217169675738793
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,1,"Electrical machinery, apparatus, energy",310,0.10295582862836267,0.07449341561786287,1.382079580784785
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,2,Audio-visual technology,60,0.019926934573231483,0.07386170367850721,0.2697870964358755
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,3,Telecommunications,5,0.0016605778811026237,0.06453180426648525,0.025732704981333506
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,4,Digital communication,1,0.00033211557622052476,0.07833228048010107,0.004239830299653957
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,5,Basic communication processes,1,0.00033211557622052476,0.05277224354924923,0.006293376098565543
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,6,Computer technology,18,0.005978080371969445,0.11302784391855775,0.052890333609096826
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,7,IT methods for management,8,0.002656924609764198,0.051071480635599395,0.0520236456178282
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,8,Semiconductors,118,0.03918963799402192,0.09606880800816366,0.4079330097516323
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,9,Optics,96,0.031883095317170373,0.07668011079255552,0.41579354786568384
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,10,Measurement,113,0.037529060112919295,0.07556246659215705,0.49666271901206827
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,11,Analysis of biological materials,62,0.020591165725672534,0.04718402254725691,0.4364012352920856
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,12,Control,10,0.0033211557622052474,0.05442441323679479,0.061023271812876596
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,13,Medical technology,80,0.02656924609764198,0.06681568589338646,0.39764982941336313
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,14,Organic fine chemistry,330,0.10959814015277317,0.07770056854074542,1.4105191533482921
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,15,Biotechnology,35,0.011624045167718366,0.09854706253948199,0.11795425320832163
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,16,Pharmaceuticals,26,0.008635004981733644,0.11861606492055007,0.0727979383527639
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,17,"Macromolecular chemistry, polymers",994,0.3301228827632016,0.06200495650906264,5.3241369940312895
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,18,Food chemistry,18,0.005978080371969445,0.043733903493852956,0.13669212886084356
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,19,Basic materials chemistry,831,0.27598804383925607,0.07507653433111425,3.6760892907236573
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,20,"Materials, metallurgy",660,0.21919628030554633,0.0449001409203557,4.881861745030128
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,21,"Surface technology, coating",657,0.21819993357688475,0.05661110841148744,3.854366036977434
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,22,Micro-structural and nano-technology,170,0.05645964795748921,0.032557461489868315,1.734153873607717
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,23,Chemical engineering,417,0.1384921952839588,0.044657174789834296,3.101230562294438
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,24,Environmental technology,206,0.06841580870142809,0.025025511443704747,2.7338425772168713
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,25,Handling,127,0.042178678180006646,0.031488410515574126,1.3394984849789457
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,26,Machine tools,81,0.026901361673862503,0.020943680450945138,1.284461999736465
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,27,"Engines, pumps, turbines",40,0.01328462304882099,0.03795130958744351,0.35004386392021397
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,28,Textile and paper machines,280,0.09299236134174693,0.03547305505612518,2.6214928822627535
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,29,Other special machines,545,0.181002989040186,0.058797803586180086,3.078397116907428
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,30,Thermal processes and apparatus,50,0.016605778811026237,0.026774867583458865,0.6202002216916678
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,31,Mechanical elements,47,0.015609432082364663,0.032265902133242624,0.4837748536490699
+exclude-cn,qwen3-embedding-4b,8,4,ipc_compatible,32,Transport,48,0.015941547658585187,0.06010982069099568,0.2652070406354281
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,1,"Electrical machinery, apparatus, energy",51,0.0395655546935609,0.07449341561786287,0.5311282126802281
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,2,Audio-visual technology,42,0.032583397982932506,0.07386170367850721,0.44114062308603164
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,3,Telecommunications,685,0.5314197051978278,0.06453180426648525,8.235004603363025
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,4,Digital communication,783,0.6074476338246703,0.07833228048010107,7.754754873745589
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,5,Basic communication processes,251,0.1947245927075252,0.05277224354924923,3.6899055187183807
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,6,Computer technology,77,0.05973622963537626,0.11302784391855775,0.528508972341534
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,7,IT methods for management,11,0.008533747090768037,0.051071480635599395,0.1670941782882164
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,8,Semiconductors,24,0.018619084561675717,0.09606880800816366,0.1938098842664262
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,9,Optics,16,0.012412723041117145,0.07668011079255552,0.1618766967447083
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,10,Measurement,74,0.057408844065166796,0.07556246659215705,0.759753441811619
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,12,Control,14,0.010861132660977503,0.05442441323679479,0.19956361520558574
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,13,Medical technology,4,0.0031031807602792862,0.06681568589338646,0.04644389590239086
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,17,"Macromolecular chemistry, polymers",2,0.0015515903801396431,0.06200495650906264,0.025023650809477833
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,19,Basic materials chemistry,2,0.0015515903801396431,0.07507653433111425,0.02066678215721276
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,20,"Materials, metallurgy",2,0.0015515903801396431,0.0449001409203557,0.034556470165469394
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,22,Micro-structural and nano-technology,1,0.0007757951900698216,0.032557461489868315,0.02382849136783113
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,23,Chemical engineering,1,0.0007757951900698216,0.044657174789834296,0.017372240714305612
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,28,Textile and paper machines,1,0.0007757951900698216,0.03547305505612518,0.021869985228009394
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,29,Other special machines,1,0.0007757951900698216,0.058797803586180086,0.013194288608633767
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,30,Thermal processes and apparatus,1,0.0007757951900698216,0.026774867583458865,0.028974753568869072
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,31,Mechanical elements,3,0.0023273855702094647,0.032265902133242624,0.07213142718274183
+exclude-cn,qwen3-embedding-4b,8,5,ipc_compatible,32,Transport,11,0.008533747090768037,0.06010982069099568,0.1419692654655743
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,1,"Electrical machinery, apparatus, energy",277,0.11949956859361519,0.07449341561786287,1.604162832412268
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,2,Audio-visual technology,229,0.09879206212251941,0.07386170367850721,1.337527530539031
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,3,Telecommunications,84,0.0362381363244176,0.06453180426648525,0.5615546742621912
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,4,Digital communication,40,0.01725625539257981,0.07833228048010107,0.2202955829552729
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,5,Basic communication processes,607,0.2618636755823986,0.05277224354924923,4.962147863545286
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,6,Computer technology,268,0.11561691113028473,0.11302784391855775,1.0229064549226696
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,7,IT methods for management,2,0.0008628127696289905,0.051071480635599395,0.01689421882606565
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,8,Semiconductors,1187,0.5120793787748059,0.09606880800816366,5.3303396741561615
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,9,Optics,239,0.10310612597066436,0.07668011079255552,1.344626721388024
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,10,Measurement,201,0.08671268334771355,0.07556246659215705,1.1475629007154966
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,11,Analysis of biological materials,21,0.0090595340811044,0.04718402254725691,0.19200427585483776
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,12,Control,49,0.02113891285591027,0.05442441323679479,0.3884086496980156
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,13,Medical technology,17,0.007333908541846419,0.06681568589338646,0.10976327555102361
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,14,Organic fine chemistry,53,0.02286453839516825,0.07770056854074542,0.2942647502402548
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,15,Biotechnology,4,0.001725625539257981,0.09854706253948199,0.017510674542598616
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,17,"Macromolecular chemistry, polymers",72,0.031061259706643658,0.06200495650906264,0.5009480121497021
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,19,Basic materials chemistry,123,0.05306298533218291,0.07507653433111425,0.7067852266349464
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,20,"Materials, metallurgy",62,0.026747195858498704,0.0449001409203557,0.595704051484897
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,21,"Surface technology, coating",265,0.11432269197584125,0.05661110841148744,2.019439208730332
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,22,Micro-structural and nano-technology,247,0.10655737704918032,0.032557461489868315,3.27290188402251
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,23,Chemical engineering,59,0.02545297670405522,0.044657174789834296,0.5699638820378155
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,24,Environmental technology,14,0.0060396893874029335,0.025025511443704747,0.24134129689973782
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,25,Handling,21,0.0090595340811044,0.031488410515574126,0.28771011088741894
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,26,Machine tools,64,0.027610008628127698,0.020943680450945138,1.3182978365620415
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,27,"Engines, pumps, turbines",7,0.0030198446937014668,0.03795130958744351,0.07957155435554734
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,28,Textile and paper machines,14,0.0060396893874029335,0.03547305505612518,0.1702613258950205
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,29,Other special machines,41,0.017687661777394306,0.058797803586180086,0.3008218113363615
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,30,Thermal processes and apparatus,21,0.0090595340811044,0.026774867583458865,0.33835962224146543
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,31,Mechanical elements,14,0.0060396893874029335,0.032265902133242624,0.1871848914207304
+exclude-cn,qwen3-embedding-4b,8,6,ipc_compatible,32,Transport,7,0.0030198446937014668,0.06010982069099568,0.05023879058341348
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,1,"Electrical machinery, apparatus, energy",647,0.16688160949187517,0.07449341561786287,2.2402195966949114
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,2,Audio-visual technology,154,0.03972143409852979,0.07386170367850721,0.5377811791537136
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,3,Telecommunications,88,0.022697962342017024,0.06453180426648525,0.3517329571056991
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,4,Digital communication,50,0.012896569512509672,0.07833228048010107,0.16463927047018395
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,5,Basic communication processes,65,0.016765540366262575,0.05277224354924923,0.3176961834229443
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,6,Computer technology,156,0.04023729687903018,0.11302784391855775,0.3559945539439218
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,7,IT methods for management,125,0.03224142378127418,0.051071480635599395,0.6312999619361003
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,8,Semiconductors,80,0.020634511220015476,0.09606880800816366,0.2147888752638839
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,9,Optics,63,0.016249677585762186,0.07668011079255552,0.21191515528352348
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,10,Measurement,430,0.11091049780758318,0.07556246659215705,1.4677988002458227
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,11,Analysis of biological materials,86,0.022182099561516636,0.04718402254725691,0.4701188742290946
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,12,Control,397,0.1023987619293268,0.05442441323679479,1.8814858229853717
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,13,Medical technology,148,0.03817384575702863,0.06681568589338646,0.5713305976973762
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,14,Organic fine chemistry,3,0.0007737941707505803,0.07770056854074542,0.009958668067464786
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,15,Biotechnology,4,0.0010317255610007739,0.09854706253948199,0.010469368994001443
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,16,Pharmaceuticals,1,0.00025793139025019347,0.11861606492055007,0.002174506382613163
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,17,"Macromolecular chemistry, polymers",21,0.0054165591952540625,0.06200495650906264,0.08735687435668758
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,18,Food chemistry,47,0.012122775341759092,0.043733903493852956,0.27719399306451153
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,19,Basic materials chemistry,55,0.014186226463760639,0.07507653433111425,0.18895686368785125
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,20,"Materials, metallurgy",123,0.0317255610007738,0.0449001409203557,0.7065804327217793
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,21,"Surface technology, coating",85,0.021924168171266443,0.05661110841148744,0.38727678694977863
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,22,Micro-structural and nano-technology,13,0.0033531080732525148,0.032557461489868315,0.10299046423800522
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,23,Chemical engineering,200,0.05158627805003869,0.044657174789834296,1.1551621501542395
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,24,Environmental technology,235,0.060613876708795464,0.025025511443704747,2.4220834345442754
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,25,Handling,358,0.09233943770956926,0.031488410515574126,2.9324896429401637
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,26,Machine tools,241,0.06216146505029662,0.020943680450945138,2.968029673480404
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,27,"Engines, pumps, turbines",699,0.18029404178488523,0.03795130958744351,4.750667203445778
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,28,Textile and paper machines,85,0.021924168171266443,0.03547305505612518,0.6180513106801262
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,29,Other special machines,283,0.07299458344080474,0.058797803586180086,1.2414508534118354
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,30,Thermal processes and apparatus,448,0.11555326283208667,0.026774867583458865,4.315736108568987
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,31,Mechanical elements,552,0.1423781274181068,0.032265902133242624,4.412649825507861
+exclude-cn,qwen3-embedding-4b,8,7,ipc_compatible,32,Transport,943,0.24322930100593243,0.06010982069099568,4.046415347939437
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,1,"Electrical machinery, apparatus, energy",18,0.006458557588805167,0.024879731765391905,0.2595911262109796
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,2,Audio-visual technology,295,0.10584858270541801,0.0356674279605423,2.9676539284670262
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,3,Telecommunications,151,0.054180121994976675,0.04135283541474318,1.3101912227198884
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,4,Digital communication,393,0.14101184068891282,0.045531852859711355,3.0969932439030274
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,5,Basic communication processes,108,0.038751345532831,0.04684386996452695,0.8272447507470219
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,6,Computer technology,444,0.15931108719052745,0.029787647601924292,5.348226530658833
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,7,IT methods for management,602,0.21600287047003947,0.03367510569026678,6.414319006353452
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,8,Semiconductors,4,0.0014352350197344816,0.05466737936731619,0.02625395686321413
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,9,Optics,38,0.013634732687477575,0.04689246319063123,0.29076597303171087
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,10,Measurement,75,0.02691065662002153,0.0192429175372953,1.3984707135945027
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,11,Analysis of biological materials,34,0.012199497667743094,0.03377229214247534,0.3612280036035757
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,12,Control,342,0.12271259418729817,0.029787647601924292,4.119579895237209
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,13,Medical technology,131,0.04700394689630427,0.035278682151708055,1.3323611889518534
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,14,Organic fine chemistry,1,0.0003588087549336204,0.04509451382477283,0.00795681612907217
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,15,Biotechnology,2,0.0007176175098672408,0.04689246319063123,0.015303472264826888
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,16,Pharmaceuticals,1,0.0003588087549336204,0.059526701977744303,0.0060276941777787545
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,17,"Macromolecular chemistry, polymers",1,0.0003588087549336204,0.03634773312600224,0.009871557978314136
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,19,Basic materials chemistry,2,0.0007176175098672408,0.03552164828222946,0.02020225818817777
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,20,"Materials, metallurgy",4,0.0014352350197344816,0.023664901112784877,0.06064825764089507
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,21,"Surface technology, coating",1,0.0003588087549336204,0.030710918897905632,0.01168342621484015
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,22,Micro-structural and nano-technology,13,0.0046645138141370645,0.028086884688274454,0.1660744459881084
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,23,Chemical engineering,1,0.0003588087549336204,0.01054473006462899,0.034027305842299425
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,24,Environmental technology,1,0.0003588087549336204,0.012002526847757423,0.029894434687364267
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,25,Handling,17,0.006099748833871547,0.014966713640118567,0.4075543222475408
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,27,"Engines, pumps, turbines",1,0.0003588087549336204,0.0292531221147772,0.01226565675710793
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,28,Textile and paper machines,16,0.0057409400789379264,0.02337334175615919,0.24561913905293886
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,29,Other special machines,13,0.0046645138141370645,0.018514019145731087,0.25194496005545053
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,30,Thermal processes and apparatus,6,0.002152852529601722,0.01725059526701978,0.12479873861034883
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,31,Mechanical elements,1,0.0003588087549336204,0.0182224597891054,0.019690467647410597
+exclude-cn,qwen3-embedding-4b,8,0,selection_all,32,Transport,71,0.025475421600287047,0.032557461489868315,0.7824756733019509
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,1,"Electrical machinery, apparatus, energy",46,0.02155576382380506,0.024879731765391905,0.866398561972821
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,2,Audio-visual technology,250,0.11715089034676664,0.0356674279605423,3.2845342948857095
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,3,Telecommunications,105,0.04920337394564199,0.04135283541474318,1.1898428113130042
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,4,Digital communication,5,0.0023430178069353325,0.045531852859711355,0.05145887241080278
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,5,Basic communication processes,24,0.011246485473289597,0.04684386996452695,0.24008446530583674
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,6,Computer technology,45,0.021087160262417994,0.029787647601924292,0.7079162659711254
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,7,IT methods for management,3,0.0014058106841611997,0.03367510569026678,0.04174628870036555
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,8,Semiconductors,314,0.1471415182755389,0.05466737936731619,2.691578048526502
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,9,Optics,676,0.316776007497657,0.04689246319063123,6.755371459372314
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,10,Measurement,51,0.023898781630740395,0.0192429175372953,1.2419520888358753
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,11,Analysis of biological materials,6,0.0028116213683223993,0.03377229214247534,0.08325231099094482
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,12,Control,10,0.004686035613870665,0.029787647601924292,0.1573147257713612
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,13,Medical technology,15,0.007029053420805998,0.035278682151708055,0.19924365061538102
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,14,Organic fine chemistry,53,0.02483598875351453,0.04509451382477283,0.5507541083605338
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,15,Biotechnology,1,0.00046860356138706655,0.04689246319063123,0.009993153046408748
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,16,Pharmaceuticals,1,0.00046860356138706655,0.059526701977744303,0.007872157297783218
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,17,"Macromolecular chemistry, polymers",32,0.01499531396438613,0.03634773312600224,0.41255155892125955
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,19,Basic materials chemistry,66,0.030927835051546393,0.03552164828222946,0.8706756737698675
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,20,"Materials, metallurgy",15,0.007029053420805998,0.023664901112784877,0.2970244154964407
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,21,"Surface technology, coating",59,0.027647610121836926,0.030710918897905632,0.9002534314830413
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,22,Micro-structural and nano-technology,70,0.03280224929709466,0.028086884688274454,1.1678849278285657
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,23,Chemical engineering,4,0.0018744142455482662,0.01054473006462899,0.17775839059510495
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,24,Environmental technology,3,0.0014058106841611997,0.012002526847757423,0.11712622700143048
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,25,Handling,7,0.0032802249297094657,0.014966713640118567,0.21916801567691915
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,26,Machine tools,9,0.004217432052483599,0.008115068759414937,0.5197037976530539
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,27,"Engines, pumps, turbines",3,0.0014058106841611997,0.0292531221147772,0.0480567742015836
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,28,Textile and paper machines,204,0.09559512652296158,0.02337334175615919,4.089921223941843
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,29,Other special machines,20,0.00937207122774133,0.018514019145731087,0.5062148393587633
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,30,Thermal processes and apparatus,5,0.0023430178069353325,0.01725059526701978,0.1358224322504851
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,31,Mechanical elements,17,0.007966260543580132,0.0182224597891054,0.43716713527022805
+exclude-cn,qwen3-embedding-4b,8,1,selection_all,32,Transport,15,0.007029053420805998,0.032557461489868315,0.21589685126383076
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,1,"Electrical machinery, apparatus, energy",1,0.0007047216349541931,0.024879731765391905,0.028325129933051446
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,7,IT methods for management,5,0.0035236081747709656,0.03367510569026678,0.1046354006184873
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,10,Measurement,2,0.0014094432699083862,0.0192429175372953,0.07324478043294111
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,11,Analysis of biological materials,26,0.018322762508809022,0.03377229214247534,0.5425383160701883
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,12,Control,3,0.0021141649048625794,0.029787647601924292,0.07097455069684669
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,13,Medical technology,25,0.017618040873854827,0.035278682151708055,0.49939623022459845
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,14,Organic fine chemistry,217,0.1529245947850599,0.04509451382477283,3.3912017630191245
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,15,Biotechnology,177,0.12473572938689217,0.04689246319063123,2.660037901609175
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,16,Pharmaceuticals,124,0.08738548273431994,0.059526701977744303,1.4680047748486285
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,17,"Macromolecular chemistry, polymers",18,0.012684989429175475,0.03634773312600224,0.34898983618048407
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,18,Food chemistry,578,0.4073291050035236,0.032508868263764035,12.529784232985817
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,19,Basic materials chemistry,129,0.09090909090909091,0.03552164828222946,2.5592587986568835
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,20,"Materials, metallurgy",4,0.0028188865398167725,0.023664901112784877,0.11911676817841758
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,21,"Surface technology, coating",2,0.0014094432699083862,0.030710918897905632,0.04589388141051373
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,22,Micro-structural and nano-technology,9,0.006342494714587738,0.028086884688274454,0.22581695282266617
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,23,Chemical engineering,14,0.009866102889358703,0.01054473006462899,0.9356430016595058
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,24,Environmental technology,13,0.009161381254404511,0.012002526847757423,0.7632877118801232
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,25,Handling,10,0.007047216349541931,0.014966713640118567,0.4708593027831929
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,26,Machine tools,3,0.0021141649048625794,0.008115068759414937,0.2605233507614792
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,27,"Engines, pumps, turbines",1,0.0007047216349541931,0.0292531221147772,0.024090475956349403
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,28,Textile and paper machines,13,0.009161381254404511,0.02337334175615919,0.3919585547492525
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,29,Other special machines,45,0.03171247357293869,0.018514019145731087,1.7128897471325595
+exclude-cn,qwen3-embedding-4b,8,2,selection_all,30,Thermal processes and apparatus,2,0.0014094432699083862,0.01725059526701978,0.08170403676463289
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,1,"Electrical machinery, apparatus, energy",3,0.0008012820512820513,0.024879731765391905,0.032206217447916664
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,2,Audio-visual technology,10,0.002670940170940171,0.0356674279605423,0.07488457462912504
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,3,Telecommunications,4,0.0010683760683760685,0.04135283541474318,0.02583561822692258
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,5,Basic communication processes,7,0.0018696581196581197,0.04684386996452695,0.03991254610419548
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,6,Computer technology,22,0.005876068376068376,0.029787647601924292,0.1972652709806054
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,7,IT methods for management,4,0.0010683760683760685,0.03367510569026678,0.031725990059323396
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,8,Semiconductors,3,0.0008012820512820513,0.05466737936731619,0.014657407407407407
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,9,Optics,37,0.009882478632478632,0.04689246319063123,0.21074769717904432
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,10,Measurement,46,0.012286324786324786,0.0192429175372953,0.6384855499438833
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,11,Analysis of biological materials,505,0.13488247863247863,0.03377229214247534,3.993879896083133
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,12,Control,16,0.004273504273504274,0.029787647601924292,0.1434656516222585
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,13,Medical technology,458,0.12232905982905982,0.035278682151708055,3.4675065044383224
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,14,Organic fine chemistry,432,0.11538461538461539,0.04509451382477283,2.558728448275862
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,15,Biotechnology,775,0.20699786324786323,0.04689246319063123,4.4143098733448465
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,16,Pharmaceuticals,1088,0.2905982905982906,0.059526701977744303,4.881814058956916
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,17,"Macromolecular chemistry, polymers",34,0.009081196581196582,0.03634773312600224,0.24984217171717174
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,18,Food chemistry,44,0.011752136752136752,0.032508868263764035,0.3615055638598239
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,19,Basic materials chemistry,28,0.007478632478632479,0.03552164828222946,0.21053731570147438
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,20,"Materials, metallurgy",6,0.0016025641025641025,0.023664901112784877,0.06771902806297057
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,21,"Surface technology, coating",8,0.002136752136752137,0.030710918897905632,0.06957630098452884
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,22,Micro-structural and nano-technology,105,0.028044871794871796,0.028086884688274454,0.9985041810841985
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,23,Chemical engineering,31,0.00827991452991453,0.01054473006462899,0.7852182539682541
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,24,Environmental technology,6,0.0016025641025641025,0.012002526847757423,0.13351889338731443
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,25,Handling,14,0.0037393162393162395,0.014966713640118567,0.24984217171717174
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,26,Machine tools,6,0.0016025641025641025,0.008115068759414937,0.1974800399201597
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,27,"Engines, pumps, turbines",16,0.004273504273504274,0.0292531221147772,0.14608711701734958
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,28,Textile and paper machines,8,0.002136752136752137,0.02337334175615919,0.09141834141834143
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,29,Other special machines,19,0.005074786324786325,0.018514019145731087,0.27410505978419364
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,30,Thermal processes and apparatus,3,0.0008012820512820513,0.01725059526701978,0.04644953051643192
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,31,Mechanical elements,7,0.0018696581196581197,0.0182224597891054,0.10260185185185186
+exclude-cn,qwen3-embedding-4b,8,3,selection_all,32,Transport,1,0.0002670940170940171,0.032557461489868315,0.0082037728026534
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,1,"Electrical machinery, apparatus, energy",82,0.02723347725008303,0.024879731765391905,1.094604938143474
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,2,Audio-visual technology,6,0.0019926934573231483,0.0356674279605423,0.05586871751805595
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,3,Telecommunications,3,0.0009963467286615742,0.04135283541474318,0.024093794746329656
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,5,Basic communication processes,1,0.00033211557622052476,0.04684386996452695,0.007089840708549978
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,6,Computer technology,5,0.0016605778811026237,0.029787647601924292,0.055747197740963934
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,7,IT methods for management,7,0.002324809033543673,0.03367510569026678,0.06903642871759776
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,8,Semiconductors,39,0.012952507472600464,0.05466737936731619,0.2369330233587955
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,9,Optics,35,0.011624045167718366,0.04689246319063123,0.24788728031759197
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,10,Measurement,21,0.006974427100631019,0.0192429175372953,0.36244125076738826
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,11,Analysis of biological materials,46,0.015277316506144138,0.03377229214247534,0.4523624408344463
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,12,Control,5,0.0016605778811026237,0.029787647601924292,0.055747197740963934
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,13,Medical technology,22,0.0073065426768515445,0.035278682151708055,0.20710928615279328
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,14,Organic fine chemistry,192,0.06376619063434075,0.04509451382477283,1.4140565054570022
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,15,Biotechnology,9,0.0029890401859847225,0.04689246319063123,0.06374244351023793
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,16,Pharmaceuticals,10,0.0033211557622052474,0.059526701977744303,0.055792705657487174
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,17,"Macromolecular chemistry, polymers",616,0.20458319495184324,0.03634773312600224,5.628499423681794
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,18,Food chemistry,9,0.0029890401859847225,0.032508868263764035,0.09194537815751809
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,19,Basic materials chemistry,422,0.14015277316506145,0.03552164828222946,3.945559396667304
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,20,"Materials, metallurgy",359,0.11922949186316838,0.023664901112784877,5.0382417105793476
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,21,"Surface technology, coating",368,0.1222185320491531,0.030710918897905632,3.9796442579739266
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,22,Micro-structural and nano-technology,143,0.04749252739953504,0.028086884688274454,1.6909147428287743
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,23,Chemical engineering,89,0.0295582862836267,0.01054473006462899,2.8031335181140733
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,24,Environmental technology,101,0.033543673198273,0.012002526847757423,2.794717614361377
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,25,Handling,40,0.01328462304882099,0.014966713640118567,0.8876112263691142
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,26,Machine tools,12,0.003985386914646297,0.008115068759414937,0.4911094450090189
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,27,"Engines, pumps, turbines",20,0.006642311524410495,0.0292531221147772,0.22706333697814546
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,28,Textile and paper machines,160,0.05313849219528396,0.02337334175615919,2.273465760679311
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,29,Other special machines,140,0.046496180670873466,0.018514019145731087,2.51140394232521
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,30,Thermal processes and apparatus,19,0.00631019594818997,0.01725059526701978,0.36579583779662367
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,31,Mechanical elements,16,0.005313849219528396,0.0182224597891054,0.29160987490313295
+exclude-cn,qwen3-embedding-4b,8,4,selection_all,32,Transport,14,0.004649618067087346,0.032557461489868315,0.14281267194416492
+exclude-cn,qwen3-embedding-4b,8,5,selection_all,1,"Electrical machinery, apparatus, energy",6,0.004654771140418929,0.024879731765391905,0.18709088925523662
+exclude-cn,qwen3-embedding-4b,8,5,selection_all,2,Audio-visual technology,13,0.01008533747090768,0.0356674279605423,0.28276043571363646
+exclude-cn,qwen3-embedding-4b,8,5,selection_all,3,Telecommunications,491,0.3809154383242824,0.04135283541474318,9.211349947444662
+exclude-cn,qwen3-embedding-4b,8,5,selection_all,4,Digital communication,505,0.39177657098525986,0.045531852859711355,8.604450431489502
+exclude-cn,qwen3-embedding-4b,8,5,selection_all,5,Basic communication processes,214,0.16602017067494182,0.04684386996452695,3.544117315684261
+exclude-cn,qwen3-embedding-4b,8,5,selection_all,6,Computer technology,11,0.008533747090768037,0.029787647601924292,0.2864861033946418
+exclude-cn,qwen3-embedding-4b,8,5,selection_all,7,IT methods for management,7,0.005430566330488751,0.03367510569026678,0.16126352743885716
+exclude-cn,qwen3-embedding-4b,8,5,selection_all,8,Semiconductors,6,0.004654771140418929,0.05466737936731619,0.08514714248771658
+exclude-cn,qwen3-embedding-4b,8,5,selection_all,9,Optics,5,0.003878975950349108,0.04689246319063123,0.08272066951526869
+exclude-cn,qwen3-embedding-4b,8,5,selection_all,10,Measurement,19,0.01474010861132661,0.0192429175372953,0.7660017553345715
+exclude-cn,qwen3-embedding-4b,8,5,selection_all,12,Control,4,0.0031031807602792862,0.029787647601924292,0.10417676487077884
+exclude-cn,qwen3-embedding-4b,8,5,selection_all,13,Medical technology,1,0.0007757951900698216,0.035278682151708055,0.02199048101438961
+exclude-cn,qwen3-embedding-4b,8,5,selection_all,19,Basic materials chemistry,1,0.0007757951900698216,0.03552164828222946,0.02184006732756068
+exclude-cn,qwen3-embedding-4b,8,5,selection_all,20,"Materials, metallurgy",1,0.0007757951900698216,0.023664901112784877,0.03278252405841244
+exclude-cn,qwen3-embedding-4b,8,5,selection_all,28,Textile and paper machines,1,0.0007757951900698216,0.02337334175615919,0.03319145367244669
+exclude-cn,qwen3-embedding-4b,8,5,selection_all,30,Thermal processes and apparatus,1,0.0007757951900698216,0.01725059526701978,0.0449720822998503
+exclude-cn,qwen3-embedding-4b,8,5,selection_all,32,Transport,3,0.0023273855702094647,0.032557461489868315,0.07148547410349339
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,1,"Electrical machinery, apparatus, energy",78,0.03364969801553063,0.024879731765391905,1.3524944051984469
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,2,Audio-visual technology,94,0.04055220017256255,0.0356674279605423,1.1369533070179356
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,3,Telecommunications,43,0.018550474547023296,0.04135283541474318,0.4485901477123295
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,4,Digital communication,14,0.0060396893874029335,0.045531852859711355,0.1326475644646371
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,5,Basic communication processes,556,0.23986194995685936,0.04684386996452695,5.120455464898557
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,6,Computer technology,53,0.02286453839516825,0.029787647601924292,0.7675845605777608
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,8,Semiconductors,713,0.3075927523727351,0.05466737936731619,5.626623334292014
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,9,Optics,126,0.054357204486626405,0.04689246319063123,1.1591885089433003
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,10,Measurement,33,0.014236410698878344,0.0192429175372953,0.7398259994247915
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,11,Analysis of biological materials,10,0.004314063848144953,0.03377229214247534,0.12773974090787768
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,12,Control,22,0.009490940465918895,0.029787647601924292,0.3186200062775611
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,13,Medical technology,3,0.0012942191544434857,0.035278682151708055,0.03668558674833676
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,14,Organic fine chemistry,30,0.012942191544434857,0.04509451382477283,0.2870014652941001
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,17,"Macromolecular chemistry, polymers",32,0.013805004314063849,0.03634773312600224,0.3798037216298395
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,19,Basic materials chemistry,47,0.020276100086281276,0.03552164828222946,0.5708096630308924
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,20,"Materials, metallurgy",24,0.010353753235547885,0.023664901112784877,0.4375151700910471
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,21,"Surface technology, coating",145,0.06255392579810182,0.030710918897905632,2.036862719935344
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,22,Micro-structural and nano-technology,227,0.09792924935289042,0.028086884688274454,3.4866540180504013
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,23,Chemical engineering,11,0.004745470232959448,0.01054473006462899,0.4500324051800575
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,24,Environmental technology,4,0.001725625539257981,0.012002526847757423,0.14377185413923074
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,25,Handling,7,0.0030198446937014668,0.014966713640118567,0.20177072711585223
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,26,Machine tools,18,0.007765314926660914,0.008115068759414937,0.9569006938667962
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,27,"Engines, pumps, turbines",4,0.001725625539257981,0.0292531221147772,0.05898944845911959
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,28,Textile and paper machines,8,0.003451251078515962,0.02337334175615919,0.14765757992677753
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,29,Other special machines,7,0.0030198446937014668,0.018514019145731087,0.16311124396767054
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,30,Thermal processes and apparatus,10,0.004314063848144953,0.01725059526701978,0.2500820279745774
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,31,Mechanical elements,1,0.0004314063848144953,0.0182224597891054,0.023674431981593327
+exclude-cn,qwen3-embedding-4b,8,6,selection_all,32,Transport,2,0.0008628127696289905,0.032557461489868315,0.026501229830141783
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,1,"Electrical machinery, apparatus, energy",278,0.07170492648955377,0.024879731765391905,2.882061879352592
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,2,Audio-visual technology,66,0.017023471756512767,0.0356674279605423,0.47728341318430006
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,3,Telecommunications,54,0.013928295073510446,0.04135283541474318,0.3368159627705893
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,4,Digital communication,20,0.005158627805003869,0.045531852859711355,0.11329712016987686
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,5,Basic communication processes,54,0.013928295073510446,0.04684386996452695,0.29733442356615297
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,6,Computer technology,33,0.008511735878256384,0.029787647601924292,0.2857471658052824
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,7,IT methods for management,65,0.016765540366262575,0.03367510569026678,0.4978615515112807
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,8,Semiconductors,46,0.0118648439515089,0.05466737936731619,0.21703699882497923
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,9,Optics,48,0.012380706732009285,0.04689246319063123,0.2640233822155638
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,10,Measurement,149,0.03843177714727882,0.0192429175372953,1.9971907624087144
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,11,Analysis of biological materials,68,0.017539334537013153,0.03377229214247534,0.519340957463588
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,12,Control,211,0.05442352334279082,0.029787647601924292,1.827050060148927
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,13,Medical technology,71,0.018313128707763734,0.035278682151708055,0.5190990023100136
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,14,Organic fine chemistry,3,0.0007737941707505803,0.04509451382477283,0.017159386034349345
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,15,Biotechnology,1,0.00025793139025019347,0.04689246319063123,0.005500487129490913
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,16,Pharmaceuticals,1,0.00025793139025019347,0.059526701977744303,0.004333036799966311
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,17,"Macromolecular chemistry, polymers",15,0.003868970853752902,0.03634773312600224,0.10644325026655209
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,18,Food chemistry,38,0.00980139282950735,0.032508868263764035,0.3014990478900325
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,19,Basic materials chemistry,36,0.009285530049006964,0.03552164828222946,0.26140481925925346
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,20,"Materials, metallurgy",74,0.019086922878514316,0.023664901112784877,0.8065498684126203
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,21,"Surface technology, coating",49,0.01263863812225948,0.030710918897905632,0.4115356549335092
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,22,Micro-structural and nano-technology,11,0.002837245292752128,0.028086884688274454,0.10101673162551218
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,23,Chemical engineering,67,0.01728140314676296,0.01054473006462899,1.638866338051774
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,24,Environmental technology,119,0.03069383543977302,0.012002526847757423,2.5572811316400363
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,25,Handling,213,0.0549393861232912,0.014966713640118567,3.6707715163350962
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,26,Machine tools,119,0.03069383543977302,0.008115068759414937,3.7823259851202935
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,27,"Engines, pumps, turbines",557,0.14366778436935776,0.0292531221147772,4.911194907868793
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,28,Textile and paper machines,71,0.018313128707763734,0.02337334175615919,0.7835049390375673
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,29,Other special machines,137,0.0353366004642765,0.018514019145731087,1.9086401599851603
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,30,Thermal processes and apparatus,309,0.07970079958730977,0.01725059526701978,4.620176773823233
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,31,Mechanical elements,333,0.08589115295331441,0.0182224597891054,4.713477431003352
+exclude-cn,qwen3-embedding-4b,8,7,selection_all,32,Transport,564,0.14547330410110912,0.032557461489868315,4.468201679248843
