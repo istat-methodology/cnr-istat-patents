@@ -4,7 +4,13 @@ Questa cartella contiene una pipeline Python da eseguire sul corpus completo e s
 
 ## Requisiti
 
-Usa Python 3.10 o superiore e le dipendenze già presenti in `requirements.txt` dalla radice della repository. La pipeline usa NumPy, pandas, PyArrow, openpyxl e scikit-learn; non richiede CUDA né una GPU.
+Usa Python 3.10 o superiore. Nel virtualenv attivo, dalla radice della repository, installa le dipendenze dedicate:
+
+```bash
+python -m pip install -r analysis/requirements.txt
+```
+
+La pipeline usa NumPy, pandas, PyArrow, openpyxl, scikit-learn e threadpoolctl; non richiede CUDA né una GPU. `openpyxl` serve a leggere il file Excel della concordanza WIPO.
 
 La macchina Azure mostrata ha già la struttura richiesta nella cartella `embeddings/` della repository:
 
@@ -40,6 +46,23 @@ Per impostazione predefinita la pipeline:
 - salva le assegnazioni del seed 42, le metriche per seed, la stabilità tra seed, l'ARI tra modelli e l'ARI tra fit full/no-CN sui brevetti comuni.
 
 I risultati vengono scritti in una nuova sottocartella con timestamp. L'output non va nella cartella Git della repository, così i file grandi e le tabelle derivate restano separati dai dati e dal codice sorgente.
+
+### Riprendere un run interrotto
+
+La pipeline può riprendere la cartella di un run già avviato. `--resume-dir` controlla la configurazione salvata, i checkpoint delle metriche, le assegnazioni e i profili. Salta le coppie modello/coorte complete, ricalcola dall'inizio un'eventuale coorte incompleta e, alla fine, produce tutti i riepiloghi nella cartella originale. Le impostazioni fondamentali e le versioni di NumPy, pandas e scikit-learn devono coincidere con quelle del run.
+
+Per riprendere l'esecuzione mostrata nella sessione Azure, dalla radice `~/projects/cnr-istat-patents`:
+
+```bash
+python analysis/run_analysis.py \
+  --data data/processed/patents_2021-2026_by_publication.parquet \
+  --concordance ipc/ipc_technology.xlsx \
+  --embeddings-dir embeddings \
+  --output-dir ../patent-analysis-results \
+  --resume-dir ../patent-analysis-results/run_20261118T132255Z
+```
+
+Non cambiare modelli, coorti, K, seed o parametri mentre riprendi. I modelli e le coorti già complete vengono conservati; se il run precedente si è fermato nel mezzo di una coorte, viene ripetuta soltanto quella coorte.
 
 Per un run più breve, ad esempio su un solo modello:
 
@@ -89,4 +112,4 @@ La cartella del singolo run contiene:
 
 Il notebook 13 contiene un run full-corpus eseguito in precedenza: riporta all'incirca 7–31 minuti per modello sui nove modelli, circa due ore complessive nell'ambiente usato per quel run. È una stima indicativa; il doppio fit full/no-CN e la generazione dei profili aumentano la durata. La GPU non è usata dal codice.
 
-La pipeline crea una nuova cartella di run e salva metriche progressivamente dopo ogni coorte completata. Se il processo si interrompe, i file già scritti restano disponibili; non c'è ripresa automatica e un nuovo tentativo richiede un nuovo `--run-name` (o il timestamp automatico). Non eseguire due run contemporaneamente nella stessa cartella di output.
+La pipeline salva metriche progressivamente dopo ogni coorte completata. Se il processo si interrompe, i file già scritti restano disponibili e si può continuare con `--resume-dir`. Non eseguire due processi contemporaneamente sulla stessa cartella di run.

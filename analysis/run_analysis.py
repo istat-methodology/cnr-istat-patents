@@ -112,7 +112,14 @@ def load_corpus(path: Path) -> pd.DataFrame:
 
 
 def load_wipo_prefixes(path: Path) -> tuple[dict[int, tuple[str, ...]], dict[int, str]]:
-    rules = pd.read_excel(path, sheet_name="IPC Tech Concordance", header=6)
+    try:
+        rules = pd.read_excel(path, sheet_name="IPC Tech Concordance", header=6)
+    except ImportError as exc:
+        raise RuntimeError(
+            "Reading the WIPO Excel concordance requires openpyxl. "
+            "Install the analysis dependencies with: "
+            "python -m pip install -r analysis/requirements.txt"
+        ) from exc
     required = {"Field_number", "Field_en", "IPC_code"}
     if not required.issubset(rules.columns):
         raise ValueError(f"WIPO concordance is missing columns: {sorted(required)}")
@@ -464,19 +471,101 @@ def example_metadata(row: pd.Series) -> dict[str, Any]:
     }
 
 
+def completed_cohort_artifacts(
+    output: Path,
+    cohort: str,
+    model: str,
+    k_values: list[int],
+    seeds: list[int],
+    metrics: list[dict[str, Any]],
+    stability: list[dict[str, Any]],
+) -> bool:
+    """Return true only when a cohort has all checkpointed metrics and outputs."""
+    metric_rows = [
+        row for row in metrics if row.get("cohort") == cohort and row.get("model") == model
+    ]
+    actual_metrics = {(int(row["k"]), int(row["seed"])) for row in metric_rows}
+    expected_metrics = {(k, seed) for k in k_values for seed in seeds}
+    if actual_metrics != expected_metrics:
+        return False
+
+    seed_pairs = list(itertools.combinations(seeds, 2))
+    stability_rows = [
+        row for row in stability if row.get("cohort") == cohort and row.get("model") == model
+    ]
+    actual_stability = {
+        (int(row["k"]), int(row["seed_a"]), int(row["seed_b"])) for row in stability_rows
+    }
+    expected_stability = {
+        (k, seed_a, seed_b)
+        for k in k_values
+        for seed_a, seed_b in seed_pairs
+    }
+    if actual_stability != expected_stability:
+        return False
+
+    assignment = output / "assignments" / f"{slug(cohort)}__{slug(model)}.parquet"
+    if not assignment.exists():
+        return False
+    for k in k_values:
+        stem = f"{slug(cohort)}__{slug(model)}__k{k}"
+        expected_files = [
+            output / "profiles" / f"{stem}__wipo_profiles.csv",
+            output / "profiles" / f"{stem}__office_profiles.csv",
+            output / "profiles" / f"{stem}__cluster_cards.csv",
+            output / "profiles" / f"{stem}__patent_examples.csv",
+        ]
+        if not all(path.exists() for path in expected_files):
+            return False
+    return True
+
+
+def restore_reference_assignments(
+    output: Path,
+    cohort: str,
+    model: str,
+    k_values: list[int],
+    expected_ids: np.ndarray,
+    reference_labels: dict[tuple[str, int, str], np.ndarray],
+    reference_ids: dict[tuple[str, str], np.ndarray],
+) -> None:
+    """Load the saved seed-reference labels needed for final comparisons."""
+    path = output / "assignments" / f"{slug(cohort)}__{slug(model)}.parquet"
+    frame = pd.read_parquet(path)
+    ids = frame["publication_number"].astype(str).to_numpy()
+    if not np.array_equal(ids, expected_ids.astype(str)):
+        raise ValueError(
+            f"Saved assignment order does not match the current corpus for {cohort}/{model}"
+        )
+    reference_ids[(cohort, model)] = ids
+    for k in k_values:
+        column = f"cluster_k{k}"
+        if column not in frame:
+            raise ValueError(f"Missing {column} in saved assignments for {cohort}/{model}")
+        reference_labels[(cohort, k, model)] = frame[column].to_numpy(dtype=np.int32)
+
+
 def run(args: argparse.Namespace) -> Path:
-    output_root = args.output_dir.expanduser().resolve()
-    run_name = args.run_name or datetime.now(timezone.utc).strftime("run_%Y%m%dT%H%M%SZ")
-    output = output_root / run_name
-    output.mkdir(parents=True, exist_ok=False)
+    if args.resume_dir:
+        if args.run_name:
+            raise ValueError("Do not combine --resume-dir and --run-name")
+        output = args.resume_dir.expanduser().resolve()
+        if not output.is_dir():
+            raise FileNotFoundError(f"Resume directory does not exist: {output}")
+    else:
+        output_root = args.output_dir.expanduser().resolve()
+        run_name = args.run_name or datetime.now(timezone.utc).strftime("run_%Y%m%dT%H%M%SZ")
+        output = output_root / run_name
+        output.mkdir(parents=True, exist_ok=False)
     for sub in ["audit", "metrics", "assignments", "profiles"]:
-        (output / sub).mkdir()
+        (output / sub).mkdir(exist_ok=args.resume_dir is not None)
 
     print(f"Loading publication data: {args.data}")
     corpus = load_corpus(args.data.expanduser().resolve())
     prefixes, field_names = load_wipo_prefixes(args.concordance.expanduser().resolve())
     corpus = build_wipo_matches(corpus, prefixes, field_names)
-    write_corpus_audit(corpus, output / "audit", field_names)
+    if not args.resume_dir or not (output / "audit" / "corpus_overview.csv").exists():
+        write_corpus_audit(corpus, output / "audit", field_names)
 
     requested_cohorts = args.cohorts
     cohort_masks = {
@@ -511,15 +600,89 @@ def run(args: argparse.Namespace) -> Path:
         "pandas_version": pd.__version__,
         "created_utc": datetime.now(timezone.utc).isoformat(),
     }
-    (output / "run_config.json").write_text(json.dumps(config, indent=2), encoding="utf-8")
+    config_path = output / "run_config.json"
+    if args.resume_dir:
+        if not config_path.exists():
+            raise FileNotFoundError(f"Cannot resume: missing {config_path}")
+        previous = json.loads(config_path.read_text(encoding="utf-8"))
+        compare_keys = [
+            "data",
+            "embeddings_dir",
+            "models",
+            "cohorts",
+            "k_values",
+            "seeds",
+            "reference_seed",
+            "n_init",
+            "max_iter",
+            "threads",
+            "silhouette_sample",
+            "ctfidf_top_terms",
+            "sklearn_version",
+            "numpy_version",
+            "pandas_version",
+        ]
+        mismatches = [key for key in compare_keys if previous.get(key) != config.get(key)]
+        if mismatches:
+            raise ValueError(
+                "Resume settings differ from the saved run for: " + ", ".join(mismatches)
+            )
+        metrics_progress = output / "metrics" / "seed_metrics_progress.csv"
+        stability_progress = output / "metrics" / "seed_stability_progress.csv"
+        if metrics_progress.exists():
+            all_metrics = pd.read_csv(metrics_progress).to_dict(orient="records")
+        if stability_progress.exists():
+            all_stability = pd.read_csv(stability_progress).to_dict(orient="records")
+        print(f"Resuming existing run: {output}")
+    else:
+        config_path.write_text(json.dumps(config, indent=2), encoding="utf-8")
 
     for model in args.models:
+        completed_cohorts: set[str] = set()
+        for cohort_name in requested_cohorts:
+            is_complete = args.resume_dir and completed_cohort_artifacts(
+                output,
+                cohort_name,
+                model,
+                args.k,
+                args.seeds,
+                all_metrics,
+                all_stability,
+            )
+            if is_complete:
+                ids = corpus.loc[cohort_masks[cohort_name], "publication_number"].astype(str).to_numpy()
+                restore_reference_assignments(
+                    output,
+                    cohort_name,
+                    model,
+                    args.k,
+                    ids,
+                    reference_labels,
+                    reference_ids,
+                )
+                completed_cohorts.add(cohort_name)
+                print(f"  [resume] keeping completed cohort: {model} / {cohort_name}")
+            else:
+                # A cohort without a complete checkpoint is recomputed from the
+                # beginning; discard any uncheckpointed or partial rows for it.
+                all_metrics = [
+                    row for row in all_metrics
+                    if not (row.get("cohort") == cohort_name and row.get("model") == model)
+                ]
+                all_stability = [
+                    row for row in all_stability
+                    if not (row.get("cohort") == cohort_name and row.get("model") == model)
+                ]
+        pending_cohorts = [c for c in requested_cohorts if c not in completed_cohorts]
+        if not pending_cohorts:
+            continue
+
         print(f"\nLoading embedding model: {model}")
         matrix, aligned_meta = load_embedding(
             args.embeddings_dir.expanduser().resolve(), model, corpus
         )
         print(f"  shape={matrix.shape}, dtype={matrix.dtype}")
-        for cohort_name in requested_cohorts:
+        for cohort_name in pending_cohorts:
             positions = np.flatnonzero(cohort_masks[cohort_name])
             meta = aligned_meta.iloc[positions].reset_index(drop=True)
             # The source matrices are float16 and L2-normalized. Renormalize after
@@ -599,7 +762,9 @@ def run(args: argparse.Namespace) -> Path:
                     all_metrics.append(score)
                     print(
                         f"  {cohort_name:9s} K={k:2d} seed={seed}: "
-                        f"sil={sil:.4f} AMI_WIPO={score['AMI_WIPO_selection_primary']:.4f} "
+                        f"sil={sil:.4f} "
+                        f"AMI_WIPO_selection={score['AMI_WIPO_selection_primary']:.4f} "
+                        f"AMI_WIPO_IPC_primary={score['AMI_WIPO_compatible_primary']:.4f} "
                         f"fit={elapsed / 60:.1f} min"
                     )
 
@@ -756,6 +921,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--embeddings-dir", type=Path, required=True, help="Root containing MODEL/embeddings.npy and ids.parquet")
     parser.add_argument("--output-dir", type=Path, default=Path("analysis/results"))
     parser.add_argument("--run-name", help="Optional output directory name; must not already exist")
+    parser.add_argument("--resume-dir", type=Path, help="Resume a run directory after validating its config and checkpoints")
     parser.add_argument("--models", nargs="+", default=DEFAULT_MODELS)
     parser.add_argument("--cohorts", nargs="+", choices=["full", "exclude-cn"], default=["full", "exclude-cn"])
     parser.add_argument("--k", nargs="+", type=int, default=[8, 16])
@@ -775,5 +941,8 @@ if __name__ == "__main__":
     try:
         run(build_parser().parse_args())
     except KeyboardInterrupt:
-        print("Interrupted. Outputs already written remain available; rerun with a new --run-name.", file=sys.stderr)
+        print(
+            "Interrupted. Completed checkpoints remain available; continue with --resume-dir.",
+            file=sys.stderr,
+        )
         raise SystemExit(130)
