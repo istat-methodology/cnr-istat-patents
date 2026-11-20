@@ -1,6 +1,6 @@
 # Workflow
 
-From the WIPO concordance to the analysis notebooks.
+From the WIPO concordance to the reproducible full-corpus analysis.
 
 ```
 ipc/ipc_technology.xlsx          WIPO rules: IPC pattern -> technology field
@@ -22,6 +22,10 @@ ipc/EN_ipc_scheme_20260101.xml --(src/build_ipc_titles.py)--> ipc/ipc_titles.csv
 
 data/processed/*_by_publication.parquet --(src/generate_embeddings.py)--> embeddings/<model>/
                                   embeddings of title + abstract, 8 models, published on Hugging Face
+
+data/processed/*_by_publication.parquet + embeddings/<model>/
+        --(analysis/run_analysis.py)--> analysis/results/run_<timestamp>/
+                                  audit, K-means metrics, assignments, cluster profiles
 ```
 
 ## Step 1. Rules (already done)
@@ -101,12 +105,6 @@ Open the notebooks from the `notebooks/` folder. They use relative paths (`../da
 - Notebook 02 is deterministic. Running it again rebuilds the merged files from the raw files.
 - Keep the same file names when you add new extractions, and update `docs/methodology.md`.
 
-## Planned for later
-
-- Text embeddings of titles and abstracts, to test whether text recovers the technology structure. This needs a GPU, for example on Azure.
-- Identification of AI-related patents, using the OECD method in `papers/` as a starting point.
-- Extraction of fields 33 to 35, if needed.
-
 ## Step 6. Embeddings
 
 Embeddings of title + abstract were computed for all 63,968 publications with 8 models (BGE-m3, Qwen3-Embedding 4B and 0.6B, EmbeddingGemma-300m, PaECTER, PAT-SPECTER, Patent SBERT-adapt-ub, all-mpnet-base-v2). The run took about 35 minutes on one A100 80GB.
@@ -118,3 +116,16 @@ python src/generate_embeddings.py --models bge-m3 --limit 200 --out-dir /tmp/emb
 ```
 
 The embeddings are not in git (about 1 GB). They are published at https://huggingface.co/datasets/istat-ai/wipo32-patent-embeddings. Details are in `docs/embeddings.md`.
+
+## Step 7. Full-corpus clustering and profiles
+
+The current analysis is a Python script, not a rerun of notebooks 13 or 14. It reads the publication-level Parquet file and precomputed embeddings, evaluates eight models on the full corpus and a sensitivity cohort excluding office CN, and writes one timestamped output folder. See [`analysis/README.md`](../analysis/README.md) for commands and output definitions.
+
+The committed reference output is [`analysis/results/run_20261118T132255Z/`](../analysis/results/run_20261118T132255Z/). Its configuration, metrics, assignments, audit tables, and cluster profiles are summarized in [`research-status.md`](research-status.md). The comparison page at [`model-comparison.html`](model-comparison.html) presents K=8 cards for Qwen 4B, Patent SBERT-adapt-ub, and Pat-SPECTER.
+
+The Patent Observatory under [`patent-observatory/`](patent-observatory/README.md) is a separate, broader exploratory dashboard built around earlier notebook outputs. Keep those results distinct from the run above unless their source, cohort, and method are explicitly reconciled.
+
+## Possible future work
+
+- Identify AI-related patents, using the OECD method in `papers/` as a starting point.
+- Extend the corpus to WIPO fields 33–35 if the research question requires them.

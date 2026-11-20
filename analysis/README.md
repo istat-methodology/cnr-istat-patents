@@ -2,6 +2,8 @@
 
 Questa cartella contiene una pipeline Python da eseguire sul corpus completo e sugli embedding già calcolati. Non genera embedding, non modifica dati di input e non riesegue i notebook 13/14.
 
+Per una sintesi del disegno e dei risultati preliminari, vedere [`docs/research-status.md`](../docs/research-status.md). La mappa dei documenti è in [`docs/README.md`](../docs/README.md).
+
 ## Requisiti
 
 Usa Python 3.10 o superiore. Nel virtualenv attivo, dalla radice della repository, installa le dipendenze dedicate:
@@ -45,7 +47,7 @@ Per impostazione predefinita la pipeline:
 - calcola la silhouette coseno su un campione deterministico di 1.200 brevetti;
 - salva le assegnazioni del seed 42, le metriche per seed, la stabilità tra seed, l'ARI tra modelli e l'ARI tra fit full/no-CN sui brevetti comuni.
 
-I risultati vengono scritti in una nuova sottocartella con timestamp. L'output non va nella cartella Git della repository, così i file grandi e le tabelle derivate restano separati dai dati e dal codice sorgente.
+I nuovi risultati vengono scritti in una sottocartella con timestamp. Per impostazione consigliata, `--output-dir` punta fuori dalla repository, così i run intermedi non si accumulano nel controllo versione. Il run di riferimento `run_20261118T132255Z` è un'eccezione intenzionale: è stato copiato in `analysis/results/` e committato come output documentato del progetto.
 
 ### Riprendere un run interrotto
 

@@ -1,7 +1,7 @@
 # Methodology
 
 How the patent corpus was designed and extracted.
-Status: working version, October 2026.
+For the current analysis status and preliminary findings, see [research-status.md](research-status.md).
 
 ## 1. Aim
 

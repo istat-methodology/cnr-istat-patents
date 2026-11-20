@@ -14,6 +14,8 @@ The repository is meant for students: read the data, build one merged dataset, a
 
 Details are in [`docs/methodology.md`](docs/methodology.md).
 
+For the current research question, preliminary results, limitations, and priorities for the paper, start with [`docs/research-status.md`](docs/research-status.md). The full documentation map is in [`docs/README.md`](docs/README.md).
+
 For a local comparison of the K=8 cluster profiles from Qwen 4B, Patent SBERT-adapt-ub, and Pat-SPECTER, open [`docs/model-comparison.html`](docs/model-comparison.html) in a browser. Keep [`docs/model-comparison-data.js`](docs/model-comparison-data.js) alongside it.
 
 ## How the data were extracted
@@ -46,7 +48,7 @@ cd notebooks
 jupyter lab
 ```
 
-Open the notebooks in order. They use relative paths, so start Jupyter from the `notebooks/` folder.
+The notebooks use relative paths, so start Jupyter from the `notebooks/` folder. Notebooks 00–05 cover corpus construction and EDA; notebooks 13–14 preserve earlier clustering and visualization analyses. The current full-corpus K-means pipeline is the script in [`analysis/`](analysis/README.md), with its committed run outputs under `analysis/results/`.
 
 ## Notebooks
 
@@ -58,6 +60,8 @@ Open the notebooks in order. They use relative paths, so start Jupyter from the 
 | 03 | `03_eda_structure` | Fields, years, patent offices, document types |
 | 04 | `04_eda_text` | Length and quality of text, vocabulary, words per field, similarity between fields |
 | 05 | `05_eda_ipc_and_overlap` | IPC codes with their titles; how many patents belong to more than one field |
+| 13 | `13_multimodel_kmeans_benchmark_colab` | Earlier multi-model K-means benchmark and robustness summaries |
+| 14 | `14_clustering_robustness_interactive_patent_map_colab` | Earlier clustering robustness and interactive patent maps |
 
 Notebooks 03–05 only need the Parquet files that notebook 02 writes in `data/processed/`. If you only want to explore, they are already in the repository.
 
@@ -68,10 +72,17 @@ README.md
 requirements.txt
 requirements-embeddings.txt   packages to generate the embeddings (GPU machine)
 docs/
+  README.md             map of project documentation
+  research-status.md    current research snapshot and preliminary results
+  model-comparison.html local comparison of three models (keep its data JS alongside)
   methodology.md        how the corpus was designed and extracted
   workflow.md           the steps from the WIPO rules to the notebooks and the embeddings
   data_dictionary.md    columns of every file, known problems
   embeddings.md         the embedding models, prompts, truncation, how to reproduce
+  patent-observatory/   Brian's broader exploratory dashboard and related artifacts
+analysis/
+  run_analysis.py       reproducible full-corpus K-means analysis
+  results/              committed outputs for the documented full-corpus run
 queries/                4 BigQuery SQL files (one per WIPO sector)
 ipc/
   ipc_technology.xlsx   WIPO IPC-Technology concordance (March 2026)
@@ -85,7 +96,7 @@ data/
   raw/                  the 4 CSV files exported from BigQuery
   processed/            merged datasets (Parquet)
 embeddings/             written by generate_embeddings.py, not in git: published on Hugging Face
-notebooks/              notebooks 00-05
+notebooks/              EDA notebooks 00-05 and earlier analyses 13-14
 papers/                 background reading
 ```
 
