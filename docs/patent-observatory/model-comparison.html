@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Confronto esplorativo dei cluster K-means prodotti da Qwen 4B, Patent SBERT-adapt-ub e Pat-SPECTER sui brevetti WIPO32.">
+  <title>Confronto modelli · Patent Observatory</title>
+  <style>
+    :root { color-scheme:light; --ink:#182330; --muted:#647387; --line:#dce3eb; --paper:#f4f7fa; --surface:#fff; --blue:#315a82; --blue-soft:#eaf1f8; --gold:#ba8b37; --green:#38745b; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font:15px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    button { font:inherit; }
+    .shell { max-width:1440px; margin:0 auto; padding:34px clamp(18px,4vw,56px) 64px; }
+    .masthead { display:flex; align-items:center; gap:10px; color:var(--muted); font-size:12px; letter-spacing:.08em; text-transform:uppercase; }
+    .mark { width:9px; height:9px; border-radius:50%; background:var(--gold); }
+    .back { margin-left:auto; color:var(--blue); font-size:13px; letter-spacing:0; text-transform:none; text-decoration:none; }
+    h1 { margin:20px 0 5px; font-size:clamp(30px,4vw,46px); line-height:1.08; letter-spacing:-.04em; font-weight:650; }
+    .intro { color:var(--muted); max-width:860px; margin:0; }
+    .controls { display:flex; justify-content:space-between; align-items:flex-end; gap:18px; flex-wrap:wrap; margin:26px 0 16px; }
+    .control-block { display:grid; gap:7px; }
+    .control-label { color:var(--muted); font-size:12px; }
+    .segmented { display:inline-flex; gap:4px; padding:4px; background:#e7edf3; border-radius:12px; }
+    .segmented button { border:0; border-radius:9px; background:transparent; color:#47576b; padding:8px 13px; cursor:pointer; }
+    .segmented button[aria-pressed="true"] { color:#fff; background:var(--blue); }
+    .cohort-meta { color:var(--muted); font-size:13px; padding-bottom:4px; }
+    .metric-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; }
+    .metric { min-width:0; padding:15px 16px; background:var(--surface); border:1px solid var(--line); border-radius:13px; }
+    .metric-label { color:var(--muted); font-size:12px; line-height:1.3; }
+    .metric-value { margin-top:5px; font-size:23px; font-weight:650; letter-spacing:-.03em; font-variant-numeric:tabular-nums; }
+    .metric-note { color:var(--muted); font-size:11px; margin-top:2px; }
+    .comparison-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px; }
+    .comparison { min-width:0; padding:17px 18px; background:var(--surface); border:1px solid var(--line); border-radius:13px; }
+    .comparison h2 { margin:0 0 4px; font-size:16px; }
+    .comparison-note { margin:0 0 12px; color:var(--muted); font-size:12px; }
+    .agreement-list { display:grid; gap:8px; }
+    .agreement-row { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:8px; align-items:center; font-size:13px; }
+    .agreement-row span:first-child { color:#344255; }
+    .agreement-value { font-variant-numeric:tabular-nums; font-weight:650; color:var(--blue); }
+    .bar { grid-column:1/-1; height:5px; border-radius:10px; background:#edf1f5; overflow:hidden; margin-top:-6px; }
+    .bar span { display:block; height:100%; background:var(--blue); border-radius:10px; }
+    .section-heading { display:flex; justify-content:space-between; align-items:baseline; gap:12px; margin:28px 0 10px; }
+    .section-heading h2 { margin:0; font-size:19px; }
+    .section-heading span { color:var(--muted); font-size:12px; }
+    .cluster-nav { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
+    .cluster-choice { min-width:0; text-align:left; border:1px solid var(--line); background:var(--surface); border-radius:12px; padding:14px; color:var(--ink); cursor:pointer; min-height:122px; transition:background .15s ease,border-color .15s ease,transform .15s ease; }
+    .cluster-choice:hover { border-color:#aabbd0; transform:translateY(-1px); }
+    .cluster-choice[aria-pressed="true"] { border-color:var(--blue); background:var(--blue-soft); box-shadow:inset 0 0 0 1px var(--blue); }
+    .cluster-top { display:flex; align-items:baseline; justify-content:space-between; gap:10px; }
+    .cluster-id { color:var(--blue); font-size:12px; letter-spacing:.04em; text-transform:uppercase; white-space:nowrap; }
+    .cluster-size { flex:none; font-variant-numeric:tabular-nums; font-size:12px; font-weight:600; white-space:nowrap; }
+    .cluster-wipo { display:grid; gap:4px; margin-top:10px; color:var(--muted); }
+    .cluster-wipo-row { display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:start; gap:8px; font-size:12px; line-height:1.35; }
+    .cluster-wipo-name { min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+    .cluster-wipo-share { white-space:nowrap; font-variant-numeric:tabular-nums; }
+    .detail { margin-top:16px; border:1px solid var(--line); border-radius:16px; background:var(--surface); padding:clamp(18px,2.4vw,30px); min-width:0; }
+    .detail-header { display:flex; align-items:flex-start; justify-content:space-between; gap:14px; flex-wrap:wrap; }
+    .eyebrow { color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.08em; }
+    h3 { margin:5px 0 0; font-size:25px; line-height:1.2; letter-spacing:-.025em; white-space:nowrap; }
+    .share-chip { border-radius:999px; background:var(--blue-soft); color:var(--blue); padding:6px 11px; font-size:13px; white-space:nowrap; }
+    .detail-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px 30px; margin-top:24px; }
+    .detail-section { min-width:0; }
+    .detail-section h4 { margin:0 0 11px; font-size:15px; font-weight:650; }
+    .term-list { display:flex; flex-wrap:wrap; gap:7px; }
+    .term { border-radius:7px; background:#edf1f5; padding:5px 8px; font-size:12px; }
+    .field-list { display:grid; gap:9px; }
+    .field-row { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:2px 12px; align-items:center; }
+    .field-name { font-size:13px; }
+    .field-value { color:var(--muted); font-size:12px; font-variant-numeric:tabular-nums; white-space:nowrap; }
+    .field-row .bar { grid-column:1/-1; margin-top:0; }
+    .plain-list { display:grid; gap:7px; margin:0; padding:0; list-style:none; color:#344255; font-size:13px; }
+    .plain-list li { padding-bottom:7px; border-bottom:1px solid #edf0f3; }
+    .patents { margin-top:24px; }
+    .patents h4 { margin:0 0 4px; font-size:17px; }
+    .patent-note { color:var(--muted); margin:0 0 11px; font-size:12px; }
+    .patent { border-top:1px solid var(--line); padding:13px 0; }
+    .patent summary { cursor:pointer; font-weight:580; }
+    .patent-id { display:block; margin-top:4px; color:var(--muted); font-size:12px; font-weight:400; }
+    .patent-meta { margin:9px 0 5px; color:var(--muted); font-size:12px; overflow-wrap:anywhere; }
+    .patent-abstract { margin:0; color:#344255; font-size:13px; }
+    .method { margin-top:22px; padding-top:15px; border-top:1px solid var(--line); color:var(--muted); font-size:12px; }
+    @media(max-width:1040px) { .metric-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } .cluster-nav { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+    @media(max-width:720px) { .shell { padding-top:22px; } .metric-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .comparison-grid,.detail-grid { grid-template-columns:1fr; } .cluster-nav { grid-template-columns:1fr; } .controls { align-items:flex-start; } }
+    @media(prefers-reduced-motion:reduce) { *,*::before,*::after { transition:none !important; scroll-behavior:auto !important; } }
+  </style>
+</head>
+<body>
+<main class="shell">
+  <div class="masthead"><span class="mark" aria-hidden="true"></span><span>Patent Observatory · confronto modelli</span></div>
+  <h1>Tre modelli, lo stesso corpus</h1>
+  <p class="intro">Confronta i cluster K=8 prodotti da Qwen 4B, Patent SBERT-adapt-ub e Pat-SPECTER. Le stesse otto card sono disponibili sul corpus completo e nella coorte senza ufficio CN.</p>
+  <div class="controls">
+    <div class="control-block"><span class="control-label">Modello</span><div class="segmented" id="model-controls" role="group" aria-label="Seleziona il modello"></div></div>
+    <div class="control-block"><span class="control-label">Coorte</span><div class="segmented" id="cohort-controls" role="group" aria-label="Seleziona la coorte"><button type="button" data-cohort="full" aria-pressed="true">Corpus completo</button><button type="button" data-cohort="exclude-cn" aria-pressed="false">Senza CN</button></div></div>
+    <span class="cohort-meta" id="cohort-meta" aria-live="polite"></span>
+  </div>
+  <section class="metric-grid" id="metrics" aria-label="Metriche del modello selezionato"></section>
+  <section class="comparison-grid" aria-label="Confronti tra modelli">
+    <article class="comparison"><h2>Accordo tra modelli</h2><p class="comparison-note">ARI tra le partizioni K=8, sullo stesso corpus; seed di riferimento 42. I numeri dei cluster non sono allineati tra modelli.</p><div class="agreement-list" id="cross-ari"></div></article>
+    <article class="comparison"><h2>Effetto dell’esclusione di CN</h2><p class="comparison-note">ARI tra il fit completo e il fit senza CN, calcolato sui 20.579 brevetti in comune; seed 42.</p><div class="agreement-list" id="cohort-ari"></div></article>
+  </section>
+  <div class="section-heading"><h2>Panoramica degli otto cluster</h2><span>Seleziona una card per aprire il profilo</span></div>
+  <nav class="cluster-nav" id="cluster-nav" aria-label="Seleziona cluster"></nav>
+  <section class="detail" id="detail" aria-live="polite"></section>
+  <p class="method">La silhouette descrive la separazione geometrica nel singolo spazio e non va letta come una classifica diretta fra modelli. L’AMI con la WIPO del campione misura corrispondenza con il campo usato per la selezione, non una validazione indipendente. Le quote IPC possono sovrapporsi perché un brevetto può avere più sottoclassi. Stabilità seed = media ARI sui tre seed; il confronto tra modelli e tra coorti usa il seed 42.</p>
+</main>
+<script src="model-comparison-data.js"></script>
+<script>
+  const MODEL_IDS=['qwen3-embedding-4b','sbert-adapt-ub','pat-specter'];
+  const MODEL_LABELS={'qwen3-embedding-4b':'Qwen 4B','sbert-adapt-ub':'SBERT','pat-specter':'Pat-SPECTER'};
+  const MODEL_CONTEXT={'qwen3-embedding-4b':'Qwen3 · embedding general-purpose','sbert-adapt-ub':'Patent SBERT · adattato al dominio','pat-specter':'SPECTER2 · fine-tuned su brevetti'};
+  let cohort='full', model=MODEL_IDS[0], selected=0;
+  const $=id=>document.getElementById(id);
+  const node=(tag,cls,text)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=text;return x;};
+  const fmt=x=>Number(x).toFixed(3);
+  const renderControls=()=>{
+    const models=$('model-controls'); models.replaceChildren();
+    for(const id of MODEL_IDS){const b=node('button','',MODEL_LABELS[id]);b.type='button';b.setAttribute('aria-pressed',String(id===model));b.addEventListener('click',()=>{model=id;selected=0;render();});models.append(b);}
+    for(const b of document.querySelectorAll('[data-cohort]')){b.setAttribute('aria-pressed',String(b.dataset.cohort===cohort));b.onclick=()=>{cohort=b.dataset.cohort;selected=0;render();};}
+  };
+  const drawMetrics=entry=>{
+    const items=[
+      ['Silhouette coseno',fmt(entry.silhouette_mean),'Descrittiva nello spazio del modello'],
+      ['AMI · WIPO del campione',fmt(entry.AMI_WIPO_selection_primary_mean),'Corrispondenza con il campo di selezione'],
+      ['ARI · stabilità seed',fmt(entry.seed_ARI_mean),'Media su tre seed'],
+      ['Cluster più grande',`${(entry.largest_cluster_share_mean*100).toFixed(1)}%`,'Quota media dei brevetti nel corpus']
+    ];
+    const root=$('metrics');root.replaceChildren();
+    for(const [label,value,note] of items){const c=node('article','metric');c.append(node('div','metric-label',label),node('div','metric-value',value),node('div','metric-note',note));root.append(c);}
+  };
+  const drawAgreements=()=>{
+    const pairs=COMPARE_DATA[cohort].crossModelARI;const c=$('cross-ari');c.replaceChildren();
+    for(const p of pairs){const row=node('div','agreement-row');row.append(node('span','',`${MODEL_LABELS[p.a]} × ${MODEL_LABELS[p.b]}`),node('span','agreement-value',fmt(p.ari)));const bar=node('div','bar');const fill=node('span');fill.style.width=`${Math.max(0,Math.min(100,p.ari*100))}%`;bar.append(fill);c.append(row,bar);}
+    const s=$('cohort-ari');s.replaceChildren();
+    for(const id of MODEL_IDS){const value=COMPARE_DATA.fullNoCnARI[id];const row=node('div','agreement-row');row.append(node('span','',MODEL_LABELS[id]),node('span','agreement-value',fmt(value)));const bar=node('div','bar');const fill=node('span');fill.style.width=`${Math.max(0,Math.min(100,value*100))}%`;bar.append(fill);s.append(row,bar);}
+  };
+  const drawNav=rows=>{
+    const nav=$('cluster-nav');nav.replaceChildren();
+    for(const row of rows){const b=node('button','cluster-choice');b.type='button';b.setAttribute('aria-pressed',String(row.id===selected));
+      const top=node('span','cluster-top');top.append(node('span','cluster-id',`Cluster ${row.id}`),node('span','cluster-size',`${row.n.toLocaleString('it-IT')} · ${row.share}%`));
+      const ws=node('span','cluster-wipo');for(const field of row.wipo.slice(0,2)){const item=node('span','cluster-wipo-row');const name=node('span','cluster-wipo-name',field.name);name.title=field.name;item.append(name,node('span','cluster-wipo-share',`${field.share}%`));ws.append(item);}b.append(top,ws);b.addEventListener('click',()=>{selected=row.id;render();});nav.append(b);}
+  };
+  const drawDetail=row=>{
+    const root=$('detail');root.replaceChildren();
+    const header=node('div','detail-header');const title=node('div');title.append(node('div','eyebrow',`${MODEL_LABELS[model]} · K=8 · ${MODEL_CONTEXT[model]}`),node('h3','',`Cluster ${row.id}`));header.append(title,node('span','share-chip',`${row.n.toLocaleString('it-IT')} brevetti · ${row.share}%`));root.append(header);
+    const grid=node('div','detail-grid');
+    const terms=node('section','detail-section');terms.append(node('h4','','Termini c-TF-IDF'));const chips=node('div','term-list');for(const t of row.terms)chips.append(node('span','term',t));terms.append(chips);
+    const wipo=node('section','detail-section');wipo.append(node('h4','','WIPO'));const fields=node('div','field-list');for(const f of row.wipo){const r=node('div','field-row');r.append(node('span','field-name',`${String(f.number).padStart(2,'0')} ${f.name}`),node('span','field-value',`${f.share}%`));const bar=node('div','bar');const fill=node('span');fill.style.width=`${Math.max(0,Math.min(100,f.share))}%`;bar.append(fill);r.append(bar);fields.append(r);}wipo.append(fields);
+    const ipc=node('section','detail-section');ipc.append(node('h4','','Top 5 IPC · sottoclassi'));const ipclist=node('div','field-list');for(const f of row.ipcSubclasses){const r=node('div','field-row');r.append(node('span','field-name',`${f.code} · ${f.title}`),node('span','field-value',`${f.count.toLocaleString('it-IT')} · ${f.share}%`));const bar=node('div','bar');const fill=node('span');fill.style.width=`${Math.max(0,Math.min(100,f.share))}%`;bar.append(fill);r.append(bar);ipclist.append(r);}ipc.append(ipclist);
+    const offices=node('section','detail-section');offices.append(node('h4','','Uffici di pubblicazione'));const list=node('ul','plain-list');for(const f of row.offices)list.append(node('li','',`${f.name} · ${f.share}%`));offices.append(list);
+    grid.append(terms,wipo,ipc,offices);root.append(grid);
+    const patents=node('section','patents');patents.append(node('h4','','Cinque brevetti centrali'),node('p','patent-note','I cinque brevetti più vicini al centroide del cluster. Apri un elemento per abstract e codici.'));
+    for(const p of row.patents){const item=node('details','patent');const summary=node('summary');summary.append(document.createTextNode(p.title));summary.append(node('span','patent-id',`${p.rank}. ${p.id}`));item.append(summary,node('p','patent-meta',`${p.office} · WIPO: ${p.wipo.join(' · ')||'n.d.'} · IPC: ${p.ipc.join(' · ')||'n.d.'}`),node('p','patent-abstract',p.abstract));patents.append(item);}root.append(patents);
+  };
+  const render=()=>{
+    renderControls();const entry=COMPARE_DATA[cohort].models[model];const rows=entry.clusters;selected=Math.min(selected,rows.length-1);
+    $('cohort-meta').textContent=`${cohort==='full'?'63.968':'20.579'} brevetti · 8 cluster · ${MODEL_CONTEXT[model]}`;
+    drawMetrics(entry);drawAgreements();drawNav(rows);drawDetail(rows.find(r=>r.id===selected)||rows[0]);
+  };
+  render();
+</script>
+</body>
+</html>
