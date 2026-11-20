@@ -17,10 +17,6 @@
 
 **Scientific framing:** The sample exhibits measured technological differentiation across embeddings; this is not equivalent to a unique 'true' technology partition. The comparative proposition *more heterogeneous than the old sample* is **not tested** by these analyses alone.
 
-## Compare three embedding models
-
-Open [`model-comparison.html`](model-comparison.html) in a browser to explore the K=8 cluster cards for Qwen 4B, Patent SBERT-adapt-ub, and Pat-SPECTER, on the full corpus and with CN excluded. Keep `model-comparison-data.js` beside the HTML file; it contains the comparison data used by the page. Both files work directly from a local clone and do not require a server or a deployment.
-
 ## Open locally
 
 **Simplest:** unzip the package, then double-click `index.html` in Chrome, Firefox or Safari. Plotly JavaScript is bundled locally in `assets/plotly.min.js` so the charts do not require an internet connection. Google Patents links require internet when clicked.

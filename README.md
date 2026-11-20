@@ -14,6 +14,8 @@ The repository is meant for students: read the data, build one merged dataset, a
 
 Details are in [`docs/methodology.md`](docs/methodology.md).
 
+For a local comparison of the K=8 cluster profiles from Qwen 4B, Patent SBERT-adapt-ub, and Pat-SPECTER, open [`docs/model-comparison.html`](docs/model-comparison.html) in a browser. Keep [`docs/model-comparison-data.js`](docs/model-comparison-data.js) alongside it.
+
 ## How the data were extracted
 
 The data were extracted with **Google BigQuery**, using the web console of Google Cloud (BigQuery Studio, in the browser).
