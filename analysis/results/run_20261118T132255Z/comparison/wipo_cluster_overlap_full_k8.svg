@@ -1,0 +1,448 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1242" height="560" viewBox="0 0 1242 560">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#263238}.small{font-size:11px}.tiny{font-size:10px}.title{font-size:20px;font-weight:700}.subtitle{font-size:12px;fill:#52616b}</style>
+<text x="30" y="32" class="title">Sovrapposizione dei profili WIPO compatibili</text>
+<text x="30" y="55" class="subtitle">Weighted Jaccard sulle prevalenze dei 32 campi; ogni cella confronta due cluster, senza forzare un abbinamento 1:1.</text>
+<text x="241.0" y="43" text-anchor="middle" class="small" font-weight="700">Qwen 4B × SBERT</text>
+<text x="94.0" y="73" text-anchor="middle" class="tiny">0</text>
+<text x="136.0" y="73" text-anchor="middle" class="tiny">1</text>
+<text x="178.0" y="73" text-anchor="middle" class="tiny">2</text>
+<text x="220.0" y="73" text-anchor="middle" class="tiny">3</text>
+<text x="262.0" y="73" text-anchor="middle" class="tiny">4</text>
+<text x="304.0" y="73" text-anchor="middle" class="tiny">5</text>
+<text x="346.0" y="73" text-anchor="middle" class="tiny">6</text>
+<text x="388.0" y="73" text-anchor="middle" class="tiny">7</text>
+<text x="65" y="112.3" text-anchor="end" class="tiny">0</text>
+<rect x="73" y="85" width="41" height="41" fill="#fee2c6"><title>Qwen 4B cluster 0 vs SBERT cluster 0: weighted Jaccard 0.145</title></rect>
+<text x="94.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.15</text>
+<rect x="115" y="85" width="41" height="41" fill="#fee3c9"><title>Qwen 4B cluster 0 vs SBERT cluster 1: weighted Jaccard 0.134</title></rect>
+<text x="136.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.13</text>
+<rect x="157" y="85" width="41" height="41" fill="#fee0c4"><title>Qwen 4B cluster 0 vs SBERT cluster 2: weighted Jaccard 0.156</title></rect>
+<text x="178.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.16</text>
+<rect x="199" y="85" width="41" height="41" fill="#ffe6cf"><title>Qwen 4B cluster 0 vs SBERT cluster 3: weighted Jaccard 0.113</title></rect>
+<text x="220.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.11</text>
+<rect x="241" y="85" width="41" height="41" fill="#ffe9d3"><title>Qwen 4B cluster 0 vs SBERT cluster 4: weighted Jaccard 0.098</title></rect>
+<text x="262.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.10</text>
+<rect x="283" y="85" width="41" height="41" fill="#b86533"><title>Qwen 4B cluster 0 vs SBERT cluster 5: weighted Jaccard 0.772</title></rect>
+<text x="304.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#ffffff">0.77</text>
+<rect x="325" y="85" width="41" height="41" fill="#ffecd9"><title>Qwen 4B cluster 0 vs SBERT cluster 6: weighted Jaccard 0.074</title></rect>
+<text x="346.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.07</text>
+<rect x="367" y="85" width="41" height="41" fill="#fee4cb"><title>Qwen 4B cluster 0 vs SBERT cluster 7: weighted Jaccard 0.128</title></rect>
+<text x="388.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.13</text>
+<text x="65" y="154.3" text-anchor="end" class="tiny">1</text>
+<rect x="73" y="127" width="41" height="41" fill="#fed0a7"><title>Qwen 4B cluster 1 vs SBERT cluster 0: weighted Jaccard 0.266</title></rect>
+<text x="94.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.27</text>
+<rect x="115" y="127" width="41" height="41" fill="#fcac6a"><title>Qwen 4B cluster 1 vs SBERT cluster 1: weighted Jaccard 0.506</title></rect>
+<text x="136.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.51</text>
+<rect x="157" y="127" width="41" height="41" fill="#fed5b0"><title>Qwen 4B cluster 1 vs SBERT cluster 2: weighted Jaccard 0.234</title></rect>
+<text x="178.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.23</text>
+<rect x="199" y="127" width="41" height="41" fill="#f5a665"><title>Qwen 4B cluster 1 vs SBERT cluster 3: weighted Jaccard 0.530</title></rect>
+<text x="220.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.53</text>
+<rect x="241" y="127" width="41" height="41" fill="#fee4ca"><title>Qwen 4B cluster 1 vs SBERT cluster 4: weighted Jaccard 0.133</title></rect>
+<text x="262.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.13</text>
+<rect x="283" y="127" width="41" height="41" fill="#ffe9d3"><title>Qwen 4B cluster 1 vs SBERT cluster 5: weighted Jaccard 0.097</title></rect>
+<text x="304.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.10</text>
+<rect x="325" y="127" width="41" height="41" fill="#fee4ca"><title>Qwen 4B cluster 1 vs SBERT cluster 6: weighted Jaccard 0.131</title></rect>
+<text x="346.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.13</text>
+<rect x="367" y="127" width="41" height="41" fill="#fdbd85"><title>Qwen 4B cluster 1 vs SBERT cluster 7: weighted Jaccard 0.398</title></rect>
+<text x="388.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.40</text>
+<text x="65" y="196.3" text-anchor="end" class="tiny">2</text>
+<rect x="73" y="169" width="41" height="41" fill="#fed3ac"><title>Qwen 4B cluster 2 vs SBERT cluster 0: weighted Jaccard 0.247</title></rect>
+<text x="94.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.25</text>
+<rect x="115" y="169" width="41" height="41" fill="#fedec1"><title>Qwen 4B cluster 2 vs SBERT cluster 1: weighted Jaccard 0.168</title></rect>
+<text x="136.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.17</text>
+<rect x="157" y="169" width="41" height="41" fill="#cd7b44"><title>Qwen 4B cluster 2 vs SBERT cluster 2: weighted Jaccard 0.690</title></rect>
+<text x="178.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#ffffff">0.69</text>
+<rect x="199" y="169" width="41" height="41" fill="#fee1c6"><title>Qwen 4B cluster 2 vs SBERT cluster 3: weighted Jaccard 0.148</title></rect>
+<text x="220.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.15</text>
+<rect x="241" y="169" width="41" height="41" fill="#fedebf"><title>Qwen 4B cluster 2 vs SBERT cluster 4: weighted Jaccard 0.173</title></rect>
+<text x="262.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.17</text>
+<rect x="283" y="169" width="41" height="41" fill="#ffe7d1"><title>Qwen 4B cluster 2 vs SBERT cluster 5: weighted Jaccard 0.107</title></rect>
+<text x="304.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.11</text>
+<rect x="325" y="169" width="41" height="41" fill="#fecea3"><title>Qwen 4B cluster 2 vs SBERT cluster 6: weighted Jaccard 0.281</title></rect>
+<text x="346.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.28</text>
+<rect x="367" y="169" width="41" height="41" fill="#fedbba"><title>Qwen 4B cluster 2 vs SBERT cluster 7: weighted Jaccard 0.194</title></rect>
+<text x="388.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.19</text>
+<text x="65" y="238.3" text-anchor="end" class="tiny">3</text>
+<rect x="73" y="211" width="41" height="41" fill="#ab5628"><title>Qwen 4B cluster 3 vs SBERT cluster 0: weighted Jaccard 0.826</title></rect>
+<text x="94.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#ffffff">0.83</text>
+<rect x="115" y="211" width="41" height="41" fill="#fecda2"><title>Qwen 4B cluster 3 vs SBERT cluster 1: weighted Jaccard 0.287</title></rect>
+<text x="136.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.29</text>
+<rect x="157" y="211" width="41" height="41" fill="#fecfa5"><title>Qwen 4B cluster 3 vs SBERT cluster 2: weighted Jaccard 0.276</title></rect>
+<text x="178.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.28</text>
+<rect x="199" y="211" width="41" height="41" fill="#feca9d"><title>Qwen 4B cluster 3 vs SBERT cluster 3: weighted Jaccard 0.305</title></rect>
+<text x="220.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.31</text>
+<rect x="241" y="211" width="41" height="41" fill="#ffecd8"><title>Qwen 4B cluster 3 vs SBERT cluster 4: weighted Jaccard 0.077</title></rect>
+<text x="262.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.08</text>
+<rect x="283" y="211" width="41" height="41" fill="#fee1c6"><title>Qwen 4B cluster 3 vs SBERT cluster 5: weighted Jaccard 0.147</title></rect>
+<text x="304.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.15</text>
+<rect x="325" y="211" width="41" height="41" fill="#ffe8d2"><title>Qwen 4B cluster 3 vs SBERT cluster 6: weighted Jaccard 0.102</title></rect>
+<text x="346.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.10</text>
+<rect x="367" y="211" width="41" height="41" fill="#fedec0"><title>Qwen 4B cluster 3 vs SBERT cluster 7: weighted Jaccard 0.169</title></rect>
+<text x="388.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.17</text>
+<text x="65" y="280.3" text-anchor="end" class="tiny">4</text>
+<rect x="73" y="253" width="41" height="41" fill="#fee3c9"><title>Qwen 4B cluster 4 vs SBERT cluster 0: weighted Jaccard 0.137</title></rect>
+<text x="94.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.14</text>
+<rect x="115" y="253" width="41" height="41" fill="#fed2ab"><title>Qwen 4B cluster 4 vs SBERT cluster 1: weighted Jaccard 0.252</title></rect>
+<text x="136.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.25</text>
+<rect x="157" y="253" width="41" height="41" fill="#fec18d"><title>Qwen 4B cluster 4 vs SBERT cluster 2: weighted Jaccard 0.369</title></rect>
+<text x="178.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.37</text>
+<rect x="199" y="253" width="41" height="41" fill="#fee2c6"><title>Qwen 4B cluster 4 vs SBERT cluster 3: weighted Jaccard 0.146</title></rect>
+<text x="220.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.15</text>
+<rect x="241" y="253" width="41" height="41" fill="#fdbc83"><title>Qwen 4B cluster 4 vs SBERT cluster 4: weighted Jaccard 0.405</title></rect>
+<text x="262.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.41</text>
+<rect x="283" y="253" width="41" height="41" fill="#ffedda"><title>Qwen 4B cluster 4 vs SBERT cluster 5: weighted Jaccard 0.069</title></rect>
+<text x="304.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.07</text>
+<rect x="325" y="253" width="41" height="41" fill="#f4a464"><title>Qwen 4B cluster 4 vs SBERT cluster 6: weighted Jaccard 0.535</title></rect>
+<text x="346.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.54</text>
+<rect x="367" y="253" width="41" height="41" fill="#fec28f"><title>Qwen 4B cluster 4 vs SBERT cluster 7: weighted Jaccard 0.361</title></rect>
+<text x="388.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.36</text>
+<text x="65" y="322.3" text-anchor="end" class="tiny">5</text>
+<rect x="73" y="295" width="41" height="41" fill="#fff1e2"><title>Qwen 4B cluster 5 vs SBERT cluster 0: weighted Jaccard 0.040</title></rect>
+<text x="94.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.04</text>
+<rect x="115" y="295" width="41" height="41" fill="#ffecd8"><title>Qwen 4B cluster 5 vs SBERT cluster 1: weighted Jaccard 0.076</title></rect>
+<text x="136.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.08</text>
+<rect x="157" y="295" width="41" height="41" fill="#fee2c8"><title>Qwen 4B cluster 5 vs SBERT cluster 2: weighted Jaccard 0.141</title></rect>
+<text x="178.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.14</text>
+<rect x="199" y="295" width="41" height="41" fill="#ffefde"><title>Qwen 4B cluster 5 vs SBERT cluster 3: weighted Jaccard 0.052</title></rect>
+<text x="220.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.05</text>
+<rect x="241" y="295" width="41" height="41" fill="#d07d46"><title>Qwen 4B cluster 5 vs SBERT cluster 4: weighted Jaccard 0.680</title></rect>
+<text x="262.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#ffffff">0.68</text>
+<rect x="283" y="295" width="41" height="41" fill="#fff1e2"><title>Qwen 4B cluster 5 vs SBERT cluster 5: weighted Jaccard 0.040</title></rect>
+<text x="304.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.04</text>
+<rect x="325" y="295" width="41" height="41" fill="#fec898"><title>Qwen 4B cluster 5 vs SBERT cluster 6: weighted Jaccard 0.324</title></rect>
+<text x="346.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.32</text>
+<rect x="367" y="295" width="41" height="41" fill="#fee3c9"><title>Qwen 4B cluster 5 vs SBERT cluster 7: weighted Jaccard 0.135</title></rect>
+<text x="388.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.13</text>
+<text x="65" y="364.3" text-anchor="end" class="tiny">6</text>
+<rect x="73" y="337" width="41" height="41" fill="#fed3ac"><title>Qwen 4B cluster 6 vs SBERT cluster 0: weighted Jaccard 0.247</title></rect>
+<text x="94.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.25</text>
+<rect x="115" y="337" width="41" height="41" fill="#fed7b4"><title>Qwen 4B cluster 6 vs SBERT cluster 1: weighted Jaccard 0.217</title></rect>
+<text x="136.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.22</text>
+<rect x="157" y="337" width="41" height="41" fill="#fed7b3"><title>Qwen 4B cluster 6 vs SBERT cluster 2: weighted Jaccard 0.220</title></rect>
+<text x="178.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.22</text>
+<rect x="199" y="337" width="41" height="41" fill="#fed5af"><title>Qwen 4B cluster 6 vs SBERT cluster 3: weighted Jaccard 0.235</title></rect>
+<text x="220.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.24</text>
+<rect x="241" y="337" width="41" height="41" fill="#fee5cc"><title>Qwen 4B cluster 6 vs SBERT cluster 4: weighted Jaccard 0.126</title></rect>
+<text x="262.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.13</text>
+<rect x="283" y="337" width="41" height="41" fill="#fdae6b"><title>Qwen 4B cluster 6 vs SBERT cluster 5: weighted Jaccard 0.498</title></rect>
+<text x="304.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.50</text>
+<rect x="325" y="337" width="41" height="41" fill="#ffe9d3"><title>Qwen 4B cluster 6 vs SBERT cluster 6: weighted Jaccard 0.097</title></rect>
+<text x="346.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.10</text>
+<rect x="367" y="337" width="41" height="41" fill="#fedbbb"><title>Qwen 4B cluster 6 vs SBERT cluster 7: weighted Jaccard 0.190</title></rect>
+<text x="388.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.19</text>
+<text x="65" y="406.3" text-anchor="end" class="tiny">7</text>
+<rect x="73" y="379" width="41" height="41" fill="#fedfc1"><title>Qwen 4B cluster 7 vs SBERT cluster 0: weighted Jaccard 0.167</title></rect>
+<text x="94.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.17</text>
+<rect x="115" y="379" width="41" height="41" fill="#fdb578"><title>Qwen 4B cluster 7 vs SBERT cluster 1: weighted Jaccard 0.451</title></rect>
+<text x="136.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.45</text>
+<rect x="157" y="379" width="41" height="41" fill="#fecda2"><title>Qwen 4B cluster 7 vs SBERT cluster 2: weighted Jaccard 0.286</title></rect>
+<text x="178.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.29</text>
+<rect x="199" y="379" width="41" height="41" fill="#fed5b1"><title>Qwen 4B cluster 7 vs SBERT cluster 3: weighted Jaccard 0.230</title></rect>
+<text x="220.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.23</text>
+<rect x="241" y="379" width="41" height="41" fill="#fed2ab"><title>Qwen 4B cluster 7 vs SBERT cluster 4: weighted Jaccard 0.250</title></rect>
+<text x="262.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.25</text>
+<rect x="283" y="379" width="41" height="41" fill="#ffebd7"><title>Qwen 4B cluster 7 vs SBERT cluster 5: weighted Jaccard 0.083</title></rect>
+<text x="304.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.08</text>
+<rect x="325" y="379" width="41" height="41" fill="#fed1a8"><title>Qwen 4B cluster 7 vs SBERT cluster 6: weighted Jaccard 0.263</title></rect>
+<text x="346.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.26</text>
+<rect x="367" y="379" width="41" height="41" fill="#ed9d5e"><title>Qwen 4B cluster 7 vs SBERT cluster 7: weighted Jaccard 0.562</title></rect>
+<text x="388.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.56</text>
+<text x="241.0" y="447" text-anchor="middle" class="tiny">cluster SBERT</text>
+<text x="37" y="253.0" text-anchor="middle" transform="rotate(-90 37 253.0)" class="tiny">cluster Qwen 4B</text>
+<text x="645.0" y="43" text-anchor="middle" class="small" font-weight="700">Qwen 4B × Pat-SPECTER</text>
+<text x="498.0" y="73" text-anchor="middle" class="tiny">0</text>
+<text x="540.0" y="73" text-anchor="middle" class="tiny">1</text>
+<text x="582.0" y="73" text-anchor="middle" class="tiny">2</text>
+<text x="624.0" y="73" text-anchor="middle" class="tiny">3</text>
+<text x="666.0" y="73" text-anchor="middle" class="tiny">4</text>
+<text x="708.0" y="73" text-anchor="middle" class="tiny">5</text>
+<text x="750.0" y="73" text-anchor="middle" class="tiny">6</text>
+<text x="792.0" y="73" text-anchor="middle" class="tiny">7</text>
+<text x="469" y="112.3" text-anchor="end" class="tiny">0</text>
+<rect x="477" y="85" width="41" height="41" fill="#fee5cc"><title>Qwen 4B cluster 0 vs Pat-SPECTER cluster 0: weighted Jaccard 0.126</title></rect>
+<text x="498.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.13</text>
+<rect x="519" y="85" width="41" height="41" fill="#fdbb82"><title>Qwen 4B cluster 0 vs Pat-SPECTER cluster 1: weighted Jaccard 0.411</title></rect>
+<text x="540.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.41</text>
+<rect x="561" y="85" width="41" height="41" fill="#ffebd7"><title>Qwen 4B cluster 0 vs Pat-SPECTER cluster 2: weighted Jaccard 0.082</title></rect>
+<text x="582.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.08</text>
+<rect x="603" y="85" width="41" height="41" fill="#fee2c6"><title>Qwen 4B cluster 0 vs Pat-SPECTER cluster 3: weighted Jaccard 0.147</title></rect>
+<text x="624.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.15</text>
+<rect x="645" y="85" width="41" height="41" fill="#fee1c5"><title>Qwen 4B cluster 0 vs Pat-SPECTER cluster 4: weighted Jaccard 0.150</title></rect>
+<text x="666.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.15</text>
+<rect x="687" y="85" width="41" height="41" fill="#ffe5cc"><title>Qwen 4B cluster 0 vs Pat-SPECTER cluster 5: weighted Jaccard 0.123</title></rect>
+<text x="708.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.12</text>
+<rect x="729" y="85" width="41" height="41" fill="#ffead5"><title>Qwen 4B cluster 0 vs Pat-SPECTER cluster 6: weighted Jaccard 0.089</title></rect>
+<text x="750.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.09</text>
+<rect x="771" y="85" width="41" height="41" fill="#d07e47"><title>Qwen 4B cluster 0 vs Pat-SPECTER cluster 7: weighted Jaccard 0.677</title></rect>
+<text x="792.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.68</text>
+<text x="469" y="154.3" text-anchor="end" class="tiny">1</text>
+<rect x="477" y="127" width="41" height="41" fill="#fed7b4"><title>Qwen 4B cluster 1 vs Pat-SPECTER cluster 0: weighted Jaccard 0.216</title></rect>
+<text x="498.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.22</text>
+<rect x="519" y="127" width="41" height="41" fill="#fedec0"><title>Qwen 4B cluster 1 vs Pat-SPECTER cluster 1: weighted Jaccard 0.170</title></rect>
+<text x="540.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.17</text>
+<rect x="561" y="127" width="41" height="41" fill="#fee4ca"><title>Qwen 4B cluster 1 vs Pat-SPECTER cluster 2: weighted Jaccard 0.133</title></rect>
+<text x="582.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.13</text>
+<rect x="603" y="127" width="41" height="41" fill="#fed3ac"><title>Qwen 4B cluster 1 vs Pat-SPECTER cluster 3: weighted Jaccard 0.249</title></rect>
+<text x="624.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.25</text>
+<rect x="645" y="127" width="41" height="41" fill="#f2a262"><title>Qwen 4B cluster 1 vs Pat-SPECTER cluster 4: weighted Jaccard 0.545</title></rect>
+<text x="666.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.54</text>
+<rect x="687" y="127" width="41" height="41" fill="#eb9b5c"><title>Qwen 4B cluster 1 vs Pat-SPECTER cluster 5: weighted Jaccard 0.571</title></rect>
+<text x="708.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.57</text>
+<rect x="729" y="127" width="41" height="41" fill="#fee4ca"><title>Qwen 4B cluster 1 vs Pat-SPECTER cluster 6: weighted Jaccard 0.130</title></rect>
+<text x="750.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.13</text>
+<rect x="771" y="127" width="41" height="41" fill="#ffebd6"><title>Qwen 4B cluster 1 vs Pat-SPECTER cluster 7: weighted Jaccard 0.084</title></rect>
+<text x="792.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.08</text>
+<text x="469" y="196.3" text-anchor="end" class="tiny">2</text>
+<rect x="477" y="169" width="41" height="41" fill="#bf6b38"><title>Qwen 4B cluster 2 vs Pat-SPECTER cluster 0: weighted Jaccard 0.747</title></rect>
+<text x="498.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#ffffff">0.75</text>
+<rect x="519" y="169" width="41" height="41" fill="#ffe5cd"><title>Qwen 4B cluster 2 vs Pat-SPECTER cluster 1: weighted Jaccard 0.121</title></rect>
+<text x="540.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.12</text>
+<rect x="561" y="169" width="41" height="41" fill="#fed0a6"><title>Qwen 4B cluster 2 vs Pat-SPECTER cluster 2: weighted Jaccard 0.270</title></rect>
+<text x="582.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.27</text>
+<rect x="603" y="169" width="41" height="41" fill="#fecfa6"><title>Qwen 4B cluster 2 vs Pat-SPECTER cluster 3: weighted Jaccard 0.272</title></rect>
+<text x="624.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.27</text>
+<rect x="645" y="169" width="41" height="41" fill="#feddbe"><title>Qwen 4B cluster 2 vs Pat-SPECTER cluster 4: weighted Jaccard 0.179</title></rect>
+<text x="666.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.18</text>
+<rect x="687" y="169" width="41" height="41" fill="#fed6b2"><title>Qwen 4B cluster 2 vs Pat-SPECTER cluster 5: weighted Jaccard 0.223</title></rect>
+<text x="708.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.22</text>
+<rect x="729" y="169" width="41" height="41" fill="#fedec1"><title>Qwen 4B cluster 2 vs Pat-SPECTER cluster 6: weighted Jaccard 0.168</title></rect>
+<text x="750.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.17</text>
+<rect x="771" y="169" width="41" height="41" fill="#ffead5"><title>Qwen 4B cluster 2 vs Pat-SPECTER cluster 7: weighted Jaccard 0.091</title></rect>
+<text x="792.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.09</text>
+<text x="469" y="238.3" text-anchor="end" class="tiny">3</text>
+<rect x="477" y="211" width="41" height="41" fill="#fed5b0"><title>Qwen 4B cluster 3 vs Pat-SPECTER cluster 0: weighted Jaccard 0.232</title></rect>
+<text x="498.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.23</text>
+<rect x="519" y="211" width="41" height="41" fill="#fed0a7"><title>Qwen 4B cluster 3 vs Pat-SPECTER cluster 1: weighted Jaccard 0.269</title></rect>
+<text x="540.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.27</text>
+<rect x="561" y="211" width="41" height="41" fill="#ffe8d2"><title>Qwen 4B cluster 3 vs Pat-SPECTER cluster 2: weighted Jaccard 0.101</title></rect>
+<text x="582.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.10</text>
+<rect x="603" y="211" width="41" height="41" fill="#b35f2e"><title>Qwen 4B cluster 3 vs Pat-SPECTER cluster 3: weighted Jaccard 0.794</title></rect>
+<text x="624.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#ffffff">0.79</text>
+<rect x="645" y="211" width="41" height="41" fill="#fec99b"><title>Qwen 4B cluster 3 vs Pat-SPECTER cluster 4: weighted Jaccard 0.315</title></rect>
+<text x="666.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.32</text>
+<rect x="687" y="211" width="41" height="41" fill="#fed4ae"><title>Qwen 4B cluster 3 vs Pat-SPECTER cluster 5: weighted Jaccard 0.241</title></rect>
+<text x="708.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.24</text>
+<rect x="729" y="211" width="41" height="41" fill="#ffecd9"><title>Qwen 4B cluster 3 vs Pat-SPECTER cluster 6: weighted Jaccard 0.072</title></rect>
+<text x="750.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.07</text>
+<rect x="771" y="211" width="41" height="41" fill="#ffe7d0"><title>Qwen 4B cluster 3 vs Pat-SPECTER cluster 7: weighted Jaccard 0.109</title></rect>
+<text x="792.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.11</text>
+<text x="469" y="280.3" text-anchor="end" class="tiny">4</text>
+<rect x="477" y="253" width="41" height="41" fill="#fec491"><title>Qwen 4B cluster 4 vs Pat-SPECTER cluster 0: weighted Jaccard 0.352</title></rect>
+<text x="498.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.35</text>
+<rect x="519" y="253" width="41" height="41" fill="#ffecd8"><title>Qwen 4B cluster 4 vs Pat-SPECTER cluster 1: weighted Jaccard 0.078</title></rect>
+<text x="540.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.08</text>
+<rect x="561" y="253" width="41" height="41" fill="#faaa68"><title>Qwen 4B cluster 4 vs Pat-SPECTER cluster 2: weighted Jaccard 0.514</title></rect>
+<text x="582.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.51</text>
+<rect x="603" y="253" width="41" height="41" fill="#fedfc2"><title>Qwen 4B cluster 4 vs Pat-SPECTER cluster 3: weighted Jaccard 0.163</title></rect>
+<text x="624.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.16</text>
+<rect x="645" y="253" width="41" height="41" fill="#fed1aa"><title>Qwen 4B cluster 4 vs Pat-SPECTER cluster 4: weighted Jaccard 0.257</title></rect>
+<text x="666.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.26</text>
+<rect x="687" y="253" width="41" height="41" fill="#fec797"><title>Qwen 4B cluster 4 vs Pat-SPECTER cluster 5: weighted Jaccard 0.330</title></rect>
+<text x="708.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.33</text>
+<rect x="729" y="253" width="41" height="41" fill="#fdbe88"><title>Qwen 4B cluster 4 vs Pat-SPECTER cluster 6: weighted Jaccard 0.388</title></rect>
+<text x="750.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.39</text>
+<rect x="771" y="253" width="41" height="41" fill="#ffedda"><title>Qwen 4B cluster 4 vs Pat-SPECTER cluster 7: weighted Jaccard 0.068</title></rect>
+<text x="792.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.07</text>
+<text x="469" y="322.3" text-anchor="end" class="tiny">5</text>
+<rect x="477" y="295" width="41" height="41" fill="#fedfc2"><title>Qwen 4B cluster 5 vs Pat-SPECTER cluster 0: weighted Jaccard 0.164</title></rect>
+<text x="498.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.16</text>
+<rect x="519" y="295" width="41" height="41" fill="#fff3e4"><title>Qwen 4B cluster 5 vs Pat-SPECTER cluster 1: weighted Jaccard 0.030</title></rect>
+<text x="540.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.03</text>
+<rect x="561" y="295" width="41" height="41" fill="#fec797"><title>Qwen 4B cluster 5 vs Pat-SPECTER cluster 2: weighted Jaccard 0.331</title></rect>
+<text x="582.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.33</text>
+<rect x="603" y="295" width="41" height="41" fill="#fff0df"><title>Qwen 4B cluster 5 vs Pat-SPECTER cluster 3: weighted Jaccard 0.051</title></rect>
+<text x="624.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.05</text>
+<rect x="645" y="295" width="41" height="41" fill="#ffebd7"><title>Qwen 4B cluster 5 vs Pat-SPECTER cluster 4: weighted Jaccard 0.080</title></rect>
+<text x="666.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.08</text>
+<rect x="687" y="295" width="41" height="41" fill="#ffe6ce"><title>Qwen 4B cluster 5 vs Pat-SPECTER cluster 5: weighted Jaccard 0.116</title></rect>
+<text x="708.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.12</text>
+<rect x="729" y="295" width="41" height="41" fill="#cf7d45"><title>Qwen 4B cluster 5 vs Pat-SPECTER cluster 6: weighted Jaccard 0.683</title></rect>
+<text x="750.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#ffffff">0.68</text>
+<rect x="771" y="295" width="41" height="41" fill="#fff1e2"><title>Qwen 4B cluster 5 vs Pat-SPECTER cluster 7: weighted Jaccard 0.038</title></rect>
+<text x="792.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.04</text>
+<text x="469" y="364.3" text-anchor="end" class="tiny">6</text>
+<rect x="477" y="337" width="41" height="41" fill="#fedfc1"><title>Qwen 4B cluster 6 vs Pat-SPECTER cluster 0: weighted Jaccard 0.166</title></rect>
+<text x="498.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.17</text>
+<rect x="519" y="337" width="41" height="41" fill="#f5a564"><title>Qwen 4B cluster 6 vs Pat-SPECTER cluster 1: weighted Jaccard 0.532</title></rect>
+<text x="540.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.53</text>
+<rect x="561" y="337" width="41" height="41" fill="#ffe8d1"><title>Qwen 4B cluster 6 vs Pat-SPECTER cluster 2: weighted Jaccard 0.103</title></rect>
+<text x="582.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.10</text>
+<rect x="603" y="337" width="41" height="41" fill="#fed2ab"><title>Qwen 4B cluster 6 vs Pat-SPECTER cluster 3: weighted Jaccard 0.253</title></rect>
+<text x="624.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.25</text>
+<rect x="645" y="337" width="41" height="41" fill="#fed2aa"><title>Qwen 4B cluster 6 vs Pat-SPECTER cluster 4: weighted Jaccard 0.256</title></rect>
+<text x="666.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.26</text>
+<rect x="687" y="337" width="41" height="41" fill="#fed7b3"><title>Qwen 4B cluster 6 vs Pat-SPECTER cluster 5: weighted Jaccard 0.219</title></rect>
+<text x="708.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.22</text>
+<rect x="729" y="337" width="41" height="41" fill="#ffe6ce"><title>Qwen 4B cluster 6 vs Pat-SPECTER cluster 6: weighted Jaccard 0.116</title></rect>
+<text x="750.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.12</text>
+<rect x="771" y="337" width="41" height="41" fill="#fec695"><title>Qwen 4B cluster 6 vs Pat-SPECTER cluster 7: weighted Jaccard 0.338</title></rect>
+<text x="792.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.34</text>
+<text x="469" y="406.3" text-anchor="end" class="tiny">7</text>
+<rect x="477" y="379" width="41" height="41" fill="#fed1a8"><title>Qwen 4B cluster 7 vs Pat-SPECTER cluster 0: weighted Jaccard 0.263</title></rect>
+<text x="498.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.26</text>
+<rect x="519" y="379" width="41" height="41" fill="#ffe6ce"><title>Qwen 4B cluster 7 vs Pat-SPECTER cluster 1: weighted Jaccard 0.118</title></rect>
+<text x="540.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.12</text>
+<rect x="561" y="379" width="41" height="41" fill="#fecea3"><title>Qwen 4B cluster 7 vs Pat-SPECTER cluster 2: weighted Jaccard 0.284</title></rect>
+<text x="582.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.28</text>
+<rect x="603" y="379" width="41" height="41" fill="#fedcbd"><title>Qwen 4B cluster 7 vs Pat-SPECTER cluster 3: weighted Jaccard 0.184</title></rect>
+<text x="624.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.18</text>
+<rect x="645" y="379" width="41" height="41" fill="#fdb97e"><title>Qwen 4B cluster 7 vs Pat-SPECTER cluster 4: weighted Jaccard 0.425</title></rect>
+<text x="666.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.43</text>
+<rect x="687" y="379" width="41" height="41" fill="#fdb06f"><title>Qwen 4B cluster 7 vs Pat-SPECTER cluster 5: weighted Jaccard 0.485</title></rect>
+<text x="708.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.48</text>
+<rect x="729" y="379" width="41" height="41" fill="#fed3ac"><title>Qwen 4B cluster 7 vs Pat-SPECTER cluster 6: weighted Jaccard 0.248</title></rect>
+<text x="750.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.25</text>
+<rect x="771" y="379" width="41" height="41" fill="#ffecd9"><title>Qwen 4B cluster 7 vs Pat-SPECTER cluster 7: weighted Jaccard 0.072</title></rect>
+<text x="792.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.07</text>
+<text x="645.0" y="447" text-anchor="middle" class="tiny">cluster Pat-SPECTER</text>
+<text x="441" y="253.0" text-anchor="middle" transform="rotate(-90 441 253.0)" class="tiny">cluster Qwen 4B</text>
+<text x="1049.0" y="43" text-anchor="middle" class="small" font-weight="700">SBERT × Pat-SPECTER</text>
+<text x="902.0" y="73" text-anchor="middle" class="tiny">0</text>
+<text x="944.0" y="73" text-anchor="middle" class="tiny">1</text>
+<text x="986.0" y="73" text-anchor="middle" class="tiny">2</text>
+<text x="1028.0" y="73" text-anchor="middle" class="tiny">3</text>
+<text x="1070.0" y="73" text-anchor="middle" class="tiny">4</text>
+<text x="1112.0" y="73" text-anchor="middle" class="tiny">5</text>
+<text x="1154.0" y="73" text-anchor="middle" class="tiny">6</text>
+<text x="1196.0" y="73" text-anchor="middle" class="tiny">7</text>
+<text x="873" y="112.3" text-anchor="end" class="tiny">0</text>
+<rect x="881" y="85" width="41" height="41" fill="#fed5af"><title>SBERT cluster 0 vs Pat-SPECTER cluster 0: weighted Jaccard 0.235</title></rect>
+<text x="902.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.24</text>
+<rect x="923" y="85" width="41" height="41" fill="#fecfa4"><title>SBERT cluster 0 vs Pat-SPECTER cluster 1: weighted Jaccard 0.277</title></rect>
+<text x="944.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.28</text>
+<rect x="965" y="85" width="41" height="41" fill="#ffe9d3"><title>SBERT cluster 0 vs Pat-SPECTER cluster 2: weighted Jaccard 0.098</title></rect>
+<text x="986.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.10</text>
+<rect x="1007" y="85" width="41" height="41" fill="#9c471c"><title>SBERT cluster 0 vs Pat-SPECTER cluster 3: weighted Jaccard 0.883</title></rect>
+<text x="1028.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#ffffff">0.88</text>
+<rect x="1049" y="85" width="41" height="41" fill="#fed2aa"><title>SBERT cluster 0 vs Pat-SPECTER cluster 4: weighted Jaccard 0.254</title></rect>
+<text x="1070.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.25</text>
+<rect x="1091" y="85" width="41" height="41" fill="#fed7b4"><title>SBERT cluster 0 vs Pat-SPECTER cluster 5: weighted Jaccard 0.216</title></rect>
+<text x="1112.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.22</text>
+<rect x="1133" y="85" width="41" height="41" fill="#ffefde"><title>SBERT cluster 0 vs Pat-SPECTER cluster 6: weighted Jaccard 0.056</title></rect>
+<text x="1154.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.06</text>
+<rect x="1175" y="85" width="41" height="41" fill="#ffe6cf"><title>SBERT cluster 0 vs Pat-SPECTER cluster 7: weighted Jaccard 0.114</title></rect>
+<text x="1196.0" y="111.03999999999999" text-anchor="middle" class="tiny" style="fill:#263238">0.11</text>
+<text x="873" y="154.3" text-anchor="end" class="tiny">1</text>
+<rect x="881" y="127" width="41" height="41" fill="#fed7b3"><title>SBERT cluster 1 vs Pat-SPECTER cluster 0: weighted Jaccard 0.219</title></rect>
+<text x="902.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.22</text>
+<rect x="923" y="127" width="41" height="41" fill="#fee3ca"><title>SBERT cluster 1 vs Pat-SPECTER cluster 1: weighted Jaccard 0.134</title></rect>
+<text x="944.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.13</text>
+<rect x="965" y="127" width="41" height="41" fill="#fee0c4"><title>SBERT cluster 1 vs Pat-SPECTER cluster 2: weighted Jaccard 0.156</title></rect>
+<text x="986.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.16</text>
+<rect x="1007" y="127" width="41" height="41" fill="#fed7b4"><title>SBERT cluster 1 vs Pat-SPECTER cluster 3: weighted Jaccard 0.216</title></rect>
+<text x="1028.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.22</text>
+<rect x="1049" y="127" width="41" height="41" fill="#b35f2f"><title>SBERT cluster 1 vs Pat-SPECTER cluster 4: weighted Jaccard 0.792</title></rect>
+<text x="1070.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#ffffff">0.79</text>
+<rect x="1091" y="127" width="41" height="41" fill="#fdbf89"><title>SBERT cluster 1 vs Pat-SPECTER cluster 5: weighted Jaccard 0.382</title></rect>
+<text x="1112.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.38</text>
+<rect x="1133" y="127" width="41" height="41" fill="#fee3c9"><title>SBERT cluster 1 vs Pat-SPECTER cluster 6: weighted Jaccard 0.134</title></rect>
+<text x="1154.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.13</text>
+<rect x="1175" y="127" width="41" height="41" fill="#ffe9d2"><title>SBERT cluster 1 vs Pat-SPECTER cluster 7: weighted Jaccard 0.099</title></rect>
+<text x="1196.0" y="153.04" text-anchor="middle" class="tiny" style="fill:#263238">0.10</text>
+<text x="873" y="196.3" text-anchor="end" class="tiny">2</text>
+<rect x="881" y="169" width="41" height="41" fill="#af5b2c"><title>SBERT cluster 2 vs Pat-SPECTER cluster 0: weighted Jaccard 0.808</title></rect>
+<text x="902.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#ffffff">0.81</text>
+<rect x="923" y="169" width="41" height="41" fill="#fee3c8"><title>SBERT cluster 2 vs Pat-SPECTER cluster 1: weighted Jaccard 0.140</title></rect>
+<text x="944.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.14</text>
+<rect x="965" y="169" width="41" height="41" fill="#fed1a8"><title>SBERT cluster 2 vs Pat-SPECTER cluster 2: weighted Jaccard 0.262</title></rect>
+<text x="986.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.26</text>
+<rect x="1007" y="169" width="41" height="41" fill="#feca9d"><title>SBERT cluster 2 vs Pat-SPECTER cluster 3: weighted Jaccard 0.307</title></rect>
+<text x="1028.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.31</text>
+<rect x="1049" y="169" width="41" height="41" fill="#fed0a7"><title>SBERT cluster 2 vs Pat-SPECTER cluster 4: weighted Jaccard 0.266</title></rect>
+<text x="1070.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.27</text>
+<rect x="1091" y="169" width="41" height="41" fill="#feca9c"><title>SBERT cluster 2 vs Pat-SPECTER cluster 5: weighted Jaccard 0.308</title></rect>
+<text x="1112.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.31</text>
+<rect x="1133" y="169" width="41" height="41" fill="#fedbbb"><title>SBERT cluster 2 vs Pat-SPECTER cluster 6: weighted Jaccard 0.190</title></rect>
+<text x="1154.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.19</text>
+<rect x="1175" y="169" width="41" height="41" fill="#ffe6ce"><title>SBERT cluster 2 vs Pat-SPECTER cluster 7: weighted Jaccard 0.115</title></rect>
+<text x="1196.0" y="195.04" text-anchor="middle" class="tiny" style="fill:#263238">0.11</text>
+<text x="873" y="238.3" text-anchor="end" class="tiny">3</text>
+<rect x="881" y="211" width="41" height="41" fill="#fedbbb"><title>SBERT cluster 3 vs Pat-SPECTER cluster 0: weighted Jaccard 0.190</title></rect>
+<text x="902.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.19</text>
+<rect x="923" y="211" width="41" height="41" fill="#fedcbc"><title>SBERT cluster 3 vs Pat-SPECTER cluster 1: weighted Jaccard 0.186</title></rect>
+<text x="944.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.19</text>
+<rect x="965" y="211" width="41" height="41" fill="#ffecd9"><title>SBERT cluster 3 vs Pat-SPECTER cluster 2: weighted Jaccard 0.075</title></rect>
+<text x="986.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.07</text>
+<rect x="1007" y="211" width="41" height="41" fill="#fed1a8"><title>SBERT cluster 3 vs Pat-SPECTER cluster 3: weighted Jaccard 0.263</title></rect>
+<text x="1028.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.26</text>
+<rect x="1049" y="211" width="41" height="41" fill="#fec18d"><title>SBERT cluster 3 vs Pat-SPECTER cluster 4: weighted Jaccard 0.366</title></rect>
+<text x="1070.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.37</text>
+<rect x="1091" y="211" width="41" height="41" fill="#fdbb82"><title>SBERT cluster 3 vs Pat-SPECTER cluster 5: weighted Jaccard 0.410</title></rect>
+<text x="1112.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.41</text>
+<rect x="1133" y="211" width="41" height="41" fill="#ffecd9"><title>SBERT cluster 3 vs Pat-SPECTER cluster 6: weighted Jaccard 0.073</title></rect>
+<text x="1154.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.07</text>
+<rect x="1175" y="211" width="41" height="41" fill="#ffeedb"><title>SBERT cluster 3 vs Pat-SPECTER cluster 7: weighted Jaccard 0.065</title></rect>
+<text x="1196.0" y="237.04" text-anchor="middle" class="tiny" style="fill:#263238">0.06</text>
+<text x="873" y="280.3" text-anchor="end" class="tiny">4</text>
+<rect x="881" y="253" width="41" height="41" fill="#fed7b4"><title>SBERT cluster 4 vs Pat-SPECTER cluster 0: weighted Jaccard 0.218</title></rect>
+<text x="902.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.22</text>
+<rect x="923" y="253" width="41" height="41" fill="#fff0e0"><title>SBERT cluster 4 vs Pat-SPECTER cluster 1: weighted Jaccard 0.048</title></rect>
+<text x="944.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.05</text>
+<rect x="965" y="253" width="41" height="41" fill="#fec593"><title>SBERT cluster 4 vs Pat-SPECTER cluster 2: weighted Jaccard 0.345</title></rect>
+<text x="986.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.34</text>
+<rect x="1007" y="253" width="41" height="41" fill="#ffecd9"><title>SBERT cluster 4 vs Pat-SPECTER cluster 3: weighted Jaccard 0.074</title></rect>
+<text x="1028.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.07</text>
+<rect x="1049" y="253" width="41" height="41" fill="#fee1c5"><title>SBERT cluster 4 vs Pat-SPECTER cluster 4: weighted Jaccard 0.151</title></rect>
+<text x="1070.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.15</text>
+<rect x="1091" y="253" width="41" height="41" fill="#fedbba"><title>SBERT cluster 4 vs Pat-SPECTER cluster 5: weighted Jaccard 0.193</title></rect>
+<text x="1112.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.19</text>
+<rect x="1133" y="253" width="41" height="41" fill="#8f3811"><title>SBERT cluster 4 vs Pat-SPECTER cluster 6: weighted Jaccard 0.937</title></rect>
+<text x="1154.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#ffffff">0.94</text>
+<rect x="1175" y="253" width="41" height="41" fill="#ffedda"><title>SBERT cluster 4 vs Pat-SPECTER cluster 7: weighted Jaccard 0.068</title></rect>
+<text x="1196.0" y="279.04" text-anchor="middle" class="tiny" style="fill:#263238">0.07</text>
+<text x="873" y="322.3" text-anchor="end" class="tiny">5</text>
+<rect x="881" y="295" width="41" height="41" fill="#ffe9d2"><title>SBERT cluster 5 vs Pat-SPECTER cluster 0: weighted Jaccard 0.099</title></rect>
+<text x="902.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.10</text>
+<rect x="923" y="295" width="41" height="41" fill="#fdaf6c"><title>SBERT cluster 5 vs Pat-SPECTER cluster 1: weighted Jaccard 0.496</title></rect>
+<text x="944.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.50</text>
+<rect x="965" y="295" width="41" height="41" fill="#fff0df"><title>SBERT cluster 5 vs Pat-SPECTER cluster 2: weighted Jaccard 0.051</title></rect>
+<text x="986.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.05</text>
+<rect x="1007" y="295" width="41" height="41" fill="#fee1c5"><title>SBERT cluster 5 vs Pat-SPECTER cluster 3: weighted Jaccard 0.152</title></rect>
+<text x="1028.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.15</text>
+<rect x="1049" y="295" width="41" height="41" fill="#fee4cb"><title>SBERT cluster 5 vs Pat-SPECTER cluster 4: weighted Jaccard 0.129</title></rect>
+<text x="1070.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.13</text>
+<rect x="1091" y="295" width="41" height="41" fill="#ffe9d3"><title>SBERT cluster 5 vs Pat-SPECTER cluster 5: weighted Jaccard 0.097</title></rect>
+<text x="1112.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.10</text>
+<rect x="1133" y="295" width="41" height="41" fill="#ffeedd"><title>SBERT cluster 5 vs Pat-SPECTER cluster 6: weighted Jaccard 0.060</title></rect>
+<text x="1154.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.06</text>
+<rect x="1175" y="295" width="41" height="41" fill="#d07e46"><title>SBERT cluster 5 vs Pat-SPECTER cluster 7: weighted Jaccard 0.679</title></rect>
+<text x="1196.0" y="321.04" text-anchor="middle" class="tiny" style="fill:#263238">0.68</text>
+<text x="873" y="364.3" text-anchor="end" class="tiny">6</text>
+<rect x="881" y="337" width="41" height="41" fill="#fecfa6"><title>SBERT cluster 6 vs Pat-SPECTER cluster 0: weighted Jaccard 0.272</title></rect>
+<text x="902.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.27</text>
+<rect x="923" y="337" width="41" height="41" fill="#fff1e2"><title>SBERT cluster 6 vs Pat-SPECTER cluster 1: weighted Jaccard 0.041</title></rect>
+<text x="944.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.04</text>
+<rect x="965" y="337" width="41" height="41" fill="#994219"><title>SBERT cluster 6 vs Pat-SPECTER cluster 2: weighted Jaccard 0.899</title></rect>
+<text x="986.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#ffffff">0.90</text>
+<rect x="1007" y="337" width="41" height="41" fill="#ffe6ce"><title>SBERT cluster 6 vs Pat-SPECTER cluster 3: weighted Jaccard 0.116</title></rect>
+<text x="1028.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.12</text>
+<rect x="1049" y="337" width="41" height="41" fill="#fee1c5"><title>SBERT cluster 6 vs Pat-SPECTER cluster 4: weighted Jaccard 0.150</title></rect>
+<text x="1070.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.15</text>
+<rect x="1091" y="337" width="41" height="41" fill="#fed8b5"><title>SBERT cluster 6 vs Pat-SPECTER cluster 5: weighted Jaccard 0.214</title></rect>
+<text x="1112.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.21</text>
+<rect x="1133" y="337" width="41" height="41" fill="#fec99b"><title>SBERT cluster 6 vs Pat-SPECTER cluster 6: weighted Jaccard 0.314</title></rect>
+<text x="1154.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.31</text>
+<rect x="1175" y="337" width="41" height="41" fill="#fff0e0"><title>SBERT cluster 6 vs Pat-SPECTER cluster 7: weighted Jaccard 0.048</title></rect>
+<text x="1196.0" y="363.04" text-anchor="middle" class="tiny" style="fill:#263238">0.05</text>
+<text x="873" y="406.3" text-anchor="end" class="tiny">7</text>
+<rect x="881" y="379" width="41" height="41" fill="#fed2ab"><title>SBERT cluster 7 vs Pat-SPECTER cluster 0: weighted Jaccard 0.252</title></rect>
+<text x="902.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.25</text>
+<rect x="923" y="379" width="41" height="41" fill="#ffead4"><title>SBERT cluster 7 vs Pat-SPECTER cluster 1: weighted Jaccard 0.092</title></rect>
+<text x="944.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.09</text>
+<rect x="965" y="379" width="41" height="41" fill="#fed0a6"><title>SBERT cluster 7 vs Pat-SPECTER cluster 2: weighted Jaccard 0.270</title></rect>
+<text x="986.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.27</text>
+<rect x="1007" y="379" width="41" height="41" fill="#fedec0"><title>SBERT cluster 7 vs Pat-SPECTER cluster 3: weighted Jaccard 0.169</title></rect>
+<text x="1028.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.17</text>
+<rect x="1049" y="379" width="41" height="41" fill="#fec899"><title>SBERT cluster 7 vs Pat-SPECTER cluster 4: weighted Jaccard 0.320</title></rect>
+<text x="1070.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.32</text>
+<rect x="1091" y="379" width="41" height="41" fill="#d07e46"><title>SBERT cluster 7 vs Pat-SPECTER cluster 5: weighted Jaccard 0.677</title></rect>
+<text x="1112.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.68</text>
+<rect x="1133" y="379" width="41" height="41" fill="#fed8b6"><title>SBERT cluster 7 vs Pat-SPECTER cluster 6: weighted Jaccard 0.211</title></rect>
+<text x="1154.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.21</text>
+<rect x="1175" y="379" width="41" height="41" fill="#ffedda"><title>SBERT cluster 7 vs Pat-SPECTER cluster 7: weighted Jaccard 0.069</title></rect>
+<text x="1196.0" y="405.04" text-anchor="middle" class="tiny" style="fill:#263238">0.07</text>
+<text x="1049.0" y="447" text-anchor="middle" class="tiny">cluster Pat-SPECTER</text>
+<text x="845" y="253.0" text-anchor="middle" transform="rotate(-90 845 253.0)" class="tiny">cluster SBERT</text>
+<text x="30" y="542" class="tiny">Profilo = percentuale di brevetti nel cluster con ciascun campo compatibile. WIPO è multi-label; valori e somiglianze sono descrittivi.</text>
+</svg>

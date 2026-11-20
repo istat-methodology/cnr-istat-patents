@@ -79,6 +79,8 @@ WIPO groups IPC symbols into **35 technology fields**, which are grouped into **
 
 The WIPO fields cut across the IPC sections (A to H). For example, *Computer technology* is mostly built from codes in section G (Physics), *Digital communication* from section H (Electricity), and *Environmental technology* from sections A, B, C, E, F and G.
 
+For concise Italian descriptions of all 35 fields, see the [WIPO technology fields glossary](wipo-technology-fields.csv). These descriptions summarize Schmoch’s 2008 conceptual notes; they are interpretive guidance, not exhaustive definitions. For current code assignments, use the March 2026 concordance in `ipc/ipc_technology.xlsx` and the [WIPO IPC concordance page](https://www.wipo.int/en/web/ip-statistics), which is updated regularly.
+
 ## 4. From the WIPO Excel file to the SQL queries
 
 The starting point is the file `ipc/ipc_technology.xlsx` (sheet `IPC Tech Concordance`, last update March 2026), published by WIPO. Each row is one rule that links an IPC pattern to a field.

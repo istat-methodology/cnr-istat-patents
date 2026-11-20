@@ -1,0 +1,894 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1338" height="816" viewBox="0 0 1338 816">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#263238}.small{font-size:10px}.tiny{font-size:9px}.title{font-size:20px;font-weight:700}.subtitle{font-size:12px;fill:#52616b}</style>
+<text x="180" y="35" class="title">Compatibilità WIPO nei cluster — corpus completo, K=8</text>
+<text x="180" y="58" class="subtitle">Quota di brevetti del cluster associata a ciascun campo WIPO compatibile via IPC; campi multi-label.</text>
+<text x="194.5" y="108" text-anchor="middle" class="tiny">01</text>
+<text x="223.5" y="108" text-anchor="middle" class="tiny">02</text>
+<text x="252.5" y="108" text-anchor="middle" class="tiny">03</text>
+<text x="281.5" y="108" text-anchor="middle" class="tiny">04</text>
+<text x="310.5" y="108" text-anchor="middle" class="tiny">05</text>
+<text x="339.5" y="108" text-anchor="middle" class="tiny">06</text>
+<text x="368.5" y="108" text-anchor="middle" class="tiny">07</text>
+<text x="397.5" y="108" text-anchor="middle" class="tiny">08</text>
+<text x="426.5" y="108" text-anchor="middle" class="tiny">09</text>
+<text x="455.5" y="108" text-anchor="middle" class="tiny">10</text>
+<text x="484.5" y="108" text-anchor="middle" class="tiny">11</text>
+<text x="513.5" y="108" text-anchor="middle" class="tiny">12</text>
+<text x="542.5" y="108" text-anchor="middle" class="tiny">13</text>
+<text x="571.5" y="108" text-anchor="middle" class="tiny">14</text>
+<text x="600.5" y="108" text-anchor="middle" class="tiny">15</text>
+<text x="629.5" y="108" text-anchor="middle" class="tiny">16</text>
+<text x="658.5" y="108" text-anchor="middle" class="tiny">17</text>
+<text x="687.5" y="108" text-anchor="middle" class="tiny">18</text>
+<text x="716.5" y="108" text-anchor="middle" class="tiny">19</text>
+<text x="745.5" y="108" text-anchor="middle" class="tiny">20</text>
+<text x="774.5" y="108" text-anchor="middle" class="tiny">21</text>
+<text x="803.5" y="108" text-anchor="middle" class="tiny">22</text>
+<text x="832.5" y="108" text-anchor="middle" class="tiny">23</text>
+<text x="861.5" y="108" text-anchor="middle" class="tiny">24</text>
+<text x="890.5" y="108" text-anchor="middle" class="tiny">25</text>
+<text x="919.5" y="108" text-anchor="middle" class="tiny">26</text>
+<text x="948.5" y="108" text-anchor="middle" class="tiny">27</text>
+<text x="977.5" y="108" text-anchor="middle" class="tiny">28</text>
+<text x="1006.5" y="108" text-anchor="middle" class="tiny">29</text>
+<text x="1035.5" y="108" text-anchor="middle" class="tiny">30</text>
+<text x="1064.5" y="108" text-anchor="middle" class="tiny">31</text>
+<text x="1093.5" y="108" text-anchor="middle" class="tiny">32</text>
+<text x="18" y="112" class="small" font-weight="700">Qwen 4B</text>
+<text x="150" y="135" text-anchor="end" class="small">C0</text>
+<rect x="180" y="120" width="28" height="22" fill="#f5fafe"><title>Qwen 4B cluster 0; WIPO 01 Electrical machinery, apparatus, energy: 0.5%</title></rect>
+<rect x="209" y="120" width="28" height="22" fill="#f4f9fe"><title>Qwen 4B cluster 0; WIPO 02 Audio-visual technology: 0.7%</title></rect>
+<rect x="238" y="120" width="28" height="22" fill="#f6faff"><title>Qwen 4B cluster 0; WIPO 03 Telecommunications: 0.3%</title></rect>
+<rect x="267" y="120" width="28" height="22" fill="#f6fbff"><title>Qwen 4B cluster 0; WIPO 04 Digital communication: 0.1%</title></rect>
+<rect x="296" y="120" width="28" height="22" fill="#f6fbff"><title>Qwen 4B cluster 0; WIPO 05 Basic communication processes: 0.2%</title></rect>
+<rect x="325" y="120" width="28" height="22" fill="#e9f3fb"><title>Qwen 4B cluster 0; WIPO 06 Computer technology: 3.6%</title></rect>
+<rect x="354" y="120" width="28" height="22" fill="#f6faff"><title>Qwen 4B cluster 0; WIPO 07 IT methods for management: 0.3%</title></rect>
+<rect x="383" y="120" width="28" height="22" fill="#f6faff"><title>Qwen 4B cluster 0; WIPO 08 Semiconductors: 0.3%</title></rect>
+<rect x="412" y="120" width="28" height="22" fill="#f1f8fd"><title>Qwen 4B cluster 0; WIPO 09 Optics: 1.5%</title></rect>
+<rect x="441" y="120" width="28" height="22" fill="#d8eaf6"><title>Qwen 4B cluster 0; WIPO 10 Measurement: 7.7%</title></rect>
+<rect x="470" y="120" width="28" height="22" fill="#b4d6eb"><title>Qwen 4B cluster 0; WIPO 11 Analysis of biological materials: 16.7%</title></rect>
+<rect x="499" y="120" width="28" height="22" fill="#f4f9fe"><title>Qwen 4B cluster 0; WIPO 12 Control: 0.7%</title></rect>
+<rect x="528" y="120" width="28" height="22" fill="#b0d4ea"><title>Qwen 4B cluster 0; WIPO 13 Medical technology: 17.7%</title></rect>
+<rect x="557" y="120" width="28" height="22" fill="#a5cee7"><title>Qwen 4B cluster 0; WIPO 14 Organic fine chemistry: 20.4%</title></rect>
+<rect x="586" y="120" width="28" height="22" fill="#5a98c4"><title>Qwen 4B cluster 0; WIPO 15 Biotechnology: 41.0%</title></rect>
+<rect x="615" y="120" width="28" height="22" fill="#437cab"><title>Qwen 4B cluster 0; WIPO 16 Pharmaceuticals: 49.0%</title></rect>
+<rect x="644" y="120" width="28" height="22" fill="#eef6fc"><title>Qwen 4B cluster 0; WIPO 17 Macromolecular chemistry, polymers: 2.2%</title></rect>
+<rect x="673" y="120" width="28" height="22" fill="#c8e1f1"><title>Qwen 4B cluster 0; WIPO 18 Food chemistry: 11.9%</title></rect>
+<rect x="702" y="120" width="28" height="22" fill="#e4f0f9"><title>Qwen 4B cluster 0; WIPO 19 Basic materials chemistry: 4.8%</title></rect>
+<rect x="731" y="120" width="28" height="22" fill="#f5fafe"><title>Qwen 4B cluster 0; WIPO 20 Materials, metallurgy: 0.6%</title></rect>
+<rect x="760" y="120" width="28" height="22" fill="#f5fafe"><title>Qwen 4B cluster 0; WIPO 21 Surface technology, coating: 0.6%</title></rect>
+<rect x="789" y="120" width="28" height="22" fill="#eaf4fb"><title>Qwen 4B cluster 0; WIPO 22 Micro-structural and nano-technology: 3.2%</title></rect>
+<rect x="818" y="120" width="28" height="22" fill="#e7f2fa"><title>Qwen 4B cluster 0; WIPO 23 Chemical engineering: 4.0%</title></rect>
+<rect x="847" y="120" width="28" height="22" fill="#f4fafe"><title>Qwen 4B cluster 0; WIPO 24 Environmental technology: 0.7%</title></rect>
+<rect x="876" y="120" width="28" height="22" fill="#f4f9fe"><title>Qwen 4B cluster 0; WIPO 25 Handling: 0.8%</title></rect>
+<rect x="905" y="120" width="28" height="22" fill="#f6faff"><title>Qwen 4B cluster 0; WIPO 26 Machine tools: 0.3%</title></rect>
+<rect x="934" y="120" width="28" height="22" fill="#f5fafe"><title>Qwen 4B cluster 0; WIPO 27 Engines, pumps, turbines: 0.5%</title></rect>
+<rect x="963" y="120" width="28" height="22" fill="#f5fafe"><title>Qwen 4B cluster 0; WIPO 28 Textile and paper machines: 0.6%</title></rect>
+<rect x="992" y="120" width="28" height="22" fill="#eaf4fb"><title>Qwen 4B cluster 0; WIPO 29 Other special machines: 3.1%</title></rect>
+<rect x="1021" y="120" width="28" height="22" fill="#f6fbff"><title>Qwen 4B cluster 0; WIPO 30 Thermal processes and apparatus: 0.2%</title></rect>
+<rect x="1050" y="120" width="28" height="22" fill="#f6faff"><title>Qwen 4B cluster 0; WIPO 31 Mechanical elements: 0.4%</title></rect>
+<rect x="1079" y="120" width="28" height="22" fill="#f6fbff"><title>Qwen 4B cluster 0; WIPO 32 Transport: 0.1%</title></rect>
+<text x="150" y="158" text-anchor="end" class="small">C1</text>
+<rect x="180" y="143" width="28" height="22" fill="#ecf5fc"><title>Qwen 4B cluster 1; WIPO 01 Electrical machinery, apparatus, energy: 2.6%</title></rect>
+<rect x="209" y="143" width="28" height="22" fill="#f2f8fd"><title>Qwen 4B cluster 1; WIPO 02 Audio-visual technology: 1.3%</title></rect>
+<rect x="238" y="143" width="28" height="22" fill="#f6faff"><title>Qwen 4B cluster 1; WIPO 03 Telecommunications: 0.3%</title></rect>
+<rect x="267" y="143" width="28" height="22" fill="#f6fbff"><title>Qwen 4B cluster 1; WIPO 04 Digital communication: 0.1%</title></rect>
+<rect x="296" y="143" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 1; WIPO 05 Basic communication processes: 0.1%</title></rect>
+<rect x="325" y="143" width="28" height="22" fill="#edf6fc"><title>Qwen 4B cluster 1; WIPO 06 Computer technology: 2.5%</title></rect>
+<rect x="354" y="143" width="28" height="22" fill="#f2f9fe"><title>Qwen 4B cluster 1; WIPO 07 IT methods for management: 1.1%</title></rect>
+<rect x="383" y="143" width="28" height="22" fill="#f6fbff"><title>Qwen 4B cluster 1; WIPO 08 Semiconductors: 0.2%</title></rect>
+<rect x="412" y="143" width="28" height="22" fill="#f5faff"><title>Qwen 4B cluster 1; WIPO 09 Optics: 0.4%</title></rect>
+<rect x="441" y="143" width="28" height="22" fill="#daebf6"><title>Qwen 4B cluster 1; WIPO 10 Measurement: 7.3%</title></rect>
+<rect x="470" y="143" width="28" height="22" fill="#edf5fc"><title>Qwen 4B cluster 1; WIPO 11 Analysis of biological materials: 2.5%</title></rect>
+<rect x="499" y="143" width="28" height="22" fill="#edf5fc"><title>Qwen 4B cluster 1; WIPO 12 Control: 2.6%</title></rect>
+<rect x="528" y="143" width="28" height="22" fill="#f3f9fe"><title>Qwen 4B cluster 1; WIPO 13 Medical technology: 1.0%</title></rect>
+<rect x="557" y="143" width="28" height="22" fill="#f6faff"><title>Qwen 4B cluster 1; WIPO 14 Organic fine chemistry: 0.2%</title></rect>
+<rect x="586" y="143" width="28" height="22" fill="#f6faff"><title>Qwen 4B cluster 1; WIPO 15 Biotechnology: 0.3%</title></rect>
+<rect x="615" y="143" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 1; WIPO 16 Pharmaceuticals: 0.0%</title></rect>
+<rect x="644" y="143" width="28" height="22" fill="#f2f8fe"><title>Qwen 4B cluster 1; WIPO 17 Macromolecular chemistry, polymers: 1.2%</title></rect>
+<rect x="673" y="143" width="28" height="22" fill="#eaf4fb"><title>Qwen 4B cluster 1; WIPO 18 Food chemistry: 3.2%</title></rect>
+<rect x="702" y="143" width="28" height="22" fill="#edf5fc"><title>Qwen 4B cluster 1; WIPO 19 Basic materials chemistry: 2.6%</title></rect>
+<rect x="731" y="143" width="28" height="22" fill="#dbecf7"><title>Qwen 4B cluster 1; WIPO 20 Materials, metallurgy: 7.0%</title></rect>
+<rect x="760" y="143" width="28" height="22" fill="#e0eef8"><title>Qwen 4B cluster 1; WIPO 21 Surface technology, coating: 5.7%</title></rect>
+<rect x="789" y="143" width="28" height="22" fill="#f6faff"><title>Qwen 4B cluster 1; WIPO 22 Micro-structural and nano-technology: 0.3%</title></rect>
+<rect x="818" y="143" width="28" height="22" fill="#bad9ed"><title>Qwen 4B cluster 1; WIPO 23 Chemical engineering: 15.3%</title></rect>
+<rect x="847" y="143" width="28" height="22" fill="#cfe5f3"><title>Qwen 4B cluster 1; WIPO 24 Environmental technology: 10.0%</title></rect>
+<rect x="876" y="143" width="28" height="22" fill="#cae2f2"><title>Qwen 4B cluster 1; WIPO 25 Handling: 11.2%</title></rect>
+<rect x="905" y="143" width="28" height="22" fill="#c0ddef"><title>Qwen 4B cluster 1; WIPO 26 Machine tools: 13.9%</title></rect>
+<rect x="934" y="143" width="28" height="22" fill="#dcecf7"><title>Qwen 4B cluster 1; WIPO 27 Engines, pumps, turbines: 6.7%</title></rect>
+<rect x="963" y="143" width="28" height="22" fill="#d5e8f5"><title>Qwen 4B cluster 1; WIPO 28 Textile and paper machines: 8.6%</title></rect>
+<rect x="992" y="143" width="28" height="22" fill="#cde4f3"><title>Qwen 4B cluster 1; WIPO 29 Other special machines: 10.4%</title></rect>
+<rect x="1021" y="143" width="28" height="22" fill="#d2e7f4"><title>Qwen 4B cluster 1; WIPO 30 Thermal processes and apparatus: 9.3%</title></rect>
+<rect x="1050" y="143" width="28" height="22" fill="#cbe3f2"><title>Qwen 4B cluster 1; WIPO 31 Mechanical elements: 11.0%</title></rect>
+<rect x="1079" y="143" width="28" height="22" fill="#e0eef8"><title>Qwen 4B cluster 1; WIPO 32 Transport: 5.7%</title></rect>
+<text x="150" y="181" text-anchor="end" class="small">C2</text>
+<rect x="180" y="166" width="28" height="22" fill="#d3e7f4"><title>Qwen 4B cluster 2; WIPO 01 Electrical machinery, apparatus, energy: 9.0%</title></rect>
+<rect x="209" y="166" width="28" height="22" fill="#b9d9ed"><title>Qwen 4B cluster 2; WIPO 02 Audio-visual technology: 15.6%</title></rect>
+<rect x="238" y="166" width="28" height="22" fill="#dfeef8"><title>Qwen 4B cluster 2; WIPO 03 Telecommunications: 6.0%</title></rect>
+<rect x="267" y="166" width="28" height="22" fill="#f3f9fe"><title>Qwen 4B cluster 2; WIPO 04 Digital communication: 1.1%</title></rect>
+<rect x="296" y="166" width="28" height="22" fill="#bfdcef"><title>Qwen 4B cluster 2; WIPO 05 Basic communication processes: 13.9%</title></rect>
+<rect x="325" y="166" width="28" height="22" fill="#d2e7f4"><title>Qwen 4B cluster 2; WIPO 06 Computer technology: 9.2%</title></rect>
+<rect x="354" y="166" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 2; WIPO 07 IT methods for management: 0.1%</title></rect>
+<rect x="383" y="166" width="28" height="22" fill="#62a2cc"><title>Qwen 4B cluster 2; WIPO 08 Semiconductors: 38.3%</title></rect>
+<rect x="412" y="166" width="28" height="22" fill="#92c4e2"><title>Qwen 4B cluster 2; WIPO 09 Optics: 25.1%</title></rect>
+<rect x="441" y="166" width="28" height="22" fill="#d6e9f5"><title>Qwen 4B cluster 2; WIPO 10 Measurement: 8.3%</title></rect>
+<rect x="470" y="166" width="28" height="22" fill="#f4fafe"><title>Qwen 4B cluster 2; WIPO 11 Analysis of biological materials: 0.7%</title></rect>
+<rect x="499" y="166" width="28" height="22" fill="#f1f8fd"><title>Qwen 4B cluster 2; WIPO 12 Control: 1.5%</title></rect>
+<rect x="528" y="166" width="28" height="22" fill="#f3f9fe"><title>Qwen 4B cluster 2; WIPO 13 Medical technology: 0.9%</title></rect>
+<rect x="557" y="166" width="28" height="22" fill="#e7f2fa"><title>Qwen 4B cluster 2; WIPO 14 Organic fine chemistry: 4.0%</title></rect>
+<rect x="586" y="166" width="28" height="22" fill="#f6fbff"><title>Qwen 4B cluster 2; WIPO 15 Biotechnology: 0.1%</title></rect>
+<rect x="615" y="166" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 2; WIPO 16 Pharmaceuticals: 0.1%</title></rect>
+<rect x="644" y="166" width="28" height="22" fill="#e7f2fa"><title>Qwen 4B cluster 2; WIPO 17 Macromolecular chemistry, polymers: 3.9%</title></rect>
+<rect x="673" y="166" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 2; WIPO 18 Food chemistry: 0.0%</title></rect>
+<rect x="702" y="166" width="28" height="22" fill="#d6e9f5"><title>Qwen 4B cluster 2; WIPO 19 Basic materials chemistry: 8.4%</title></rect>
+<rect x="731" y="166" width="28" height="22" fill="#ebf4fb"><title>Qwen 4B cluster 2; WIPO 20 Materials, metallurgy: 3.0%</title></rect>
+<rect x="760" y="166" width="28" height="22" fill="#d2e6f4"><title>Qwen 4B cluster 2; WIPO 21 Surface technology, coating: 9.3%</title></rect>
+<rect x="789" y="166" width="28" height="22" fill="#d4e8f5"><title>Qwen 4B cluster 2; WIPO 22 Micro-structural and nano-technology: 8.8%</title></rect>
+<rect x="818" y="166" width="28" height="22" fill="#eef6fc"><title>Qwen 4B cluster 2; WIPO 23 Chemical engineering: 2.3%</title></rect>
+<rect x="847" y="166" width="28" height="22" fill="#f5fafe"><title>Qwen 4B cluster 2; WIPO 24 Environmental technology: 0.6%</title></rect>
+<rect x="876" y="166" width="28" height="22" fill="#f1f8fd"><title>Qwen 4B cluster 2; WIPO 25 Handling: 1.5%</title></rect>
+<rect x="905" y="166" width="28" height="22" fill="#eef6fc"><title>Qwen 4B cluster 2; WIPO 26 Machine tools: 2.3%</title></rect>
+<rect x="934" y="166" width="28" height="22" fill="#f5faff"><title>Qwen 4B cluster 2; WIPO 27 Engines, pumps, turbines: 0.4%</title></rect>
+<rect x="963" y="166" width="28" height="22" fill="#e2eff9"><title>Qwen 4B cluster 2; WIPO 28 Textile and paper machines: 5.3%</title></rect>
+<rect x="992" y="166" width="28" height="22" fill="#ebf5fc"><title>Qwen 4B cluster 2; WIPO 29 Other special machines: 2.9%</title></rect>
+<rect x="1021" y="166" width="28" height="22" fill="#f5fafe"><title>Qwen 4B cluster 2; WIPO 30 Thermal processes and apparatus: 0.5%</title></rect>
+<rect x="1050" y="166" width="28" height="22" fill="#f4f9fe"><title>Qwen 4B cluster 2; WIPO 31 Mechanical elements: 0.8%</title></rect>
+<rect x="1079" y="166" width="28" height="22" fill="#f4f9fe"><title>Qwen 4B cluster 2; WIPO 32 Transport: 0.7%</title></rect>
+<text x="150" y="204" text-anchor="end" class="small">C3</text>
+<rect x="180" y="189" width="28" height="22" fill="#cce3f2"><title>Qwen 4B cluster 3; WIPO 01 Electrical machinery, apparatus, energy: 10.8%</title></rect>
+<rect x="209" y="189" width="28" height="22" fill="#f2f8fe"><title>Qwen 4B cluster 3; WIPO 02 Audio-visual technology: 1.2%</title></rect>
+<rect x="238" y="189" width="28" height="22" fill="#f6faff"><title>Qwen 4B cluster 3; WIPO 03 Telecommunications: 0.3%</title></rect>
+<rect x="267" y="189" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 3; WIPO 04 Digital communication: 0.0%</title></rect>
+<rect x="296" y="189" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 3; WIPO 05 Basic communication processes: 0.0%</title></rect>
+<rect x="325" y="189" width="28" height="22" fill="#f4f9fe"><title>Qwen 4B cluster 3; WIPO 06 Computer technology: 0.9%</title></rect>
+<rect x="354" y="189" width="28" height="22" fill="#f5faff"><title>Qwen 4B cluster 3; WIPO 07 IT methods for management: 0.4%</title></rect>
+<rect x="383" y="189" width="28" height="22" fill="#eff7fd"><title>Qwen 4B cluster 3; WIPO 08 Semiconductors: 2.0%</title></rect>
+<rect x="412" y="189" width="28" height="22" fill="#f0f7fd"><title>Qwen 4B cluster 3; WIPO 09 Optics: 1.7%</title></rect>
+<rect x="441" y="189" width="28" height="22" fill="#e4f1fa"><title>Qwen 4B cluster 3; WIPO 10 Measurement: 4.6%</title></rect>
+<rect x="470" y="189" width="28" height="22" fill="#f0f7fd"><title>Qwen 4B cluster 3; WIPO 11 Analysis of biological materials: 1.7%</title></rect>
+<rect x="499" y="189" width="28" height="22" fill="#f5fafe"><title>Qwen 4B cluster 3; WIPO 12 Control: 0.4%</title></rect>
+<rect x="528" y="189" width="28" height="22" fill="#f2f8fe"><title>Qwen 4B cluster 3; WIPO 13 Medical technology: 1.3%</title></rect>
+<rect x="557" y="189" width="28" height="22" fill="#c6e0f1"><title>Qwen 4B cluster 3; WIPO 14 Organic fine chemistry: 12.4%</title></rect>
+<rect x="586" y="189" width="28" height="22" fill="#f3f9fe"><title>Qwen 4B cluster 3; WIPO 15 Biotechnology: 1.1%</title></rect>
+<rect x="615" y="189" width="28" height="22" fill="#f4f9fe"><title>Qwen 4B cluster 3; WIPO 16 Pharmaceuticals: 0.8%</title></rect>
+<rect x="644" y="189" width="28" height="22" fill="#86bdde"><title>Qwen 4B cluster 3; WIPO 17 Macromolecular chemistry, polymers: 28.2%</title></rect>
+<rect x="673" y="189" width="28" height="22" fill="#f0f7fd"><title>Qwen 4B cluster 3; WIPO 18 Food chemistry: 1.6%</title></rect>
+<rect x="702" y="189" width="28" height="22" fill="#97c6e3"><title>Qwen 4B cluster 3; WIPO 19 Basic materials chemistry: 24.0%</title></rect>
+<rect x="731" y="189" width="28" height="22" fill="#94c5e2"><title>Qwen 4B cluster 3; WIPO 20 Materials, metallurgy: 24.7%</title></rect>
+<rect x="760" y="189" width="28" height="22" fill="#b6d7ec"><title>Qwen 4B cluster 3; WIPO 21 Surface technology, coating: 16.3%</title></rect>
+<rect x="789" y="189" width="28" height="22" fill="#c4dff0"><title>Qwen 4B cluster 3; WIPO 22 Micro-structural and nano-technology: 12.8%</title></rect>
+<rect x="818" y="189" width="28" height="22" fill="#aad1e9"><title>Qwen 4B cluster 3; WIPO 23 Chemical engineering: 19.1%</title></rect>
+<rect x="847" y="189" width="28" height="22" fill="#cbe3f2"><title>Qwen 4B cluster 3; WIPO 24 Environmental technology: 11.1%</title></rect>
+<rect x="876" y="189" width="28" height="22" fill="#ecf5fc"><title>Qwen 4B cluster 3; WIPO 25 Handling: 2.7%</title></rect>
+<rect x="905" y="189" width="28" height="22" fill="#f1f7fd"><title>Qwen 4B cluster 3; WIPO 26 Machine tools: 1.6%</title></rect>
+<rect x="934" y="189" width="28" height="22" fill="#f3f9fe"><title>Qwen 4B cluster 3; WIPO 27 Engines, pumps, turbines: 0.9%</title></rect>
+<rect x="963" y="189" width="28" height="22" fill="#dcecf7"><title>Qwen 4B cluster 3; WIPO 28 Textile and paper machines: 6.7%</title></rect>
+<rect x="992" y="189" width="28" height="22" fill="#c2deef"><title>Qwen 4B cluster 3; WIPO 29 Other special machines: 13.4%</title></rect>
+<rect x="1021" y="189" width="28" height="22" fill="#edf6fc"><title>Qwen 4B cluster 3; WIPO 30 Thermal processes and apparatus: 2.5%</title></rect>
+<rect x="1050" y="189" width="28" height="22" fill="#f3f9fe"><title>Qwen 4B cluster 3; WIPO 31 Mechanical elements: 1.1%</title></rect>
+<rect x="1079" y="189" width="28" height="22" fill="#f4f9fe"><title>Qwen 4B cluster 3; WIPO 32 Transport: 0.7%</title></rect>
+<text x="150" y="227" text-anchor="end" class="small">C4</text>
+<rect x="180" y="212" width="28" height="22" fill="#96c6e3"><title>Qwen 4B cluster 4; WIPO 01 Electrical machinery, apparatus, energy: 24.2%</title></rect>
+<rect x="209" y="212" width="28" height="22" fill="#bbdaee"><title>Qwen 4B cluster 4; WIPO 02 Audio-visual technology: 14.9%</title></rect>
+<rect x="238" y="212" width="28" height="22" fill="#d0e5f4"><title>Qwen 4B cluster 4; WIPO 03 Telecommunications: 9.8%</title></rect>
+<rect x="267" y="212" width="28" height="22" fill="#e1eff8"><title>Qwen 4B cluster 4; WIPO 04 Digital communication: 5.6%</title></rect>
+<rect x="296" y="212" width="28" height="22" fill="#d9eaf6"><title>Qwen 4B cluster 4; WIPO 05 Basic communication processes: 7.6%</title></rect>
+<rect x="325" y="212" width="28" height="22" fill="#b5d6ec"><title>Qwen 4B cluster 4; WIPO 06 Computer technology: 16.6%</title></rect>
+<rect x="354" y="212" width="28" height="22" fill="#d4e8f5"><title>Qwen 4B cluster 4; WIPO 07 IT methods for management: 8.8%</title></rect>
+<rect x="383" y="212" width="28" height="22" fill="#e9f3fb"><title>Qwen 4B cluster 4; WIPO 08 Semiconductors: 3.5%</title></rect>
+<rect x="412" y="212" width="28" height="22" fill="#deedf8"><title>Qwen 4B cluster 4; WIPO 09 Optics: 6.4%</title></rect>
+<rect x="441" y="212" width="28" height="22" fill="#b5d7ec"><title>Qwen 4B cluster 4; WIPO 10 Measurement: 16.5%</title></rect>
+<rect x="470" y="212" width="28" height="22" fill="#e9f3fb"><title>Qwen 4B cluster 4; WIPO 11 Analysis of biological materials: 3.5%</title></rect>
+<rect x="499" y="212" width="28" height="22" fill="#c4dff0"><title>Qwen 4B cluster 4; WIPO 12 Control: 12.7%</title></rect>
+<rect x="528" y="212" width="28" height="22" fill="#f2f9fe"><title>Qwen 4B cluster 4; WIPO 13 Medical technology: 1.1%</title></rect>
+<rect x="557" y="212" width="28" height="22" fill="#f6fbff"><title>Qwen 4B cluster 4; WIPO 14 Organic fine chemistry: 0.1%</title></rect>
+<rect x="586" y="212" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 4; WIPO 15 Biotechnology: 0.1%</title></rect>
+<rect x="615" y="212" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 4; WIPO 16 Pharmaceuticals: 0.0%</title></rect>
+<rect x="644" y="212" width="28" height="22" fill="#f5fafe"><title>Qwen 4B cluster 4; WIPO 17 Macromolecular chemistry, polymers: 0.6%</title></rect>
+<rect x="673" y="212" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 4; WIPO 18 Food chemistry: 0.1%</title></rect>
+<rect x="702" y="212" width="28" height="22" fill="#f4fafe"><title>Qwen 4B cluster 4; WIPO 19 Basic materials chemistry: 0.6%</title></rect>
+<rect x="731" y="212" width="28" height="22" fill="#f3f9fe"><title>Qwen 4B cluster 4; WIPO 20 Materials, metallurgy: 1.0%</title></rect>
+<rect x="760" y="212" width="28" height="22" fill="#eff7fd"><title>Qwen 4B cluster 4; WIPO 21 Surface technology, coating: 1.9%</title></rect>
+<rect x="789" y="212" width="28" height="22" fill="#f0f7fd"><title>Qwen 4B cluster 4; WIPO 22 Micro-structural and nano-technology: 1.7%</title></rect>
+<rect x="818" y="212" width="28" height="22" fill="#e6f2fa"><title>Qwen 4B cluster 4; WIPO 23 Chemical engineering: 4.2%</title></rect>
+<rect x="847" y="212" width="28" height="22" fill="#e9f3fb"><title>Qwen 4B cluster 4; WIPO 24 Environmental technology: 3.6%</title></rect>
+<rect x="876" y="212" width="28" height="22" fill="#e7f2fa"><title>Qwen 4B cluster 4; WIPO 25 Handling: 3.9%</title></rect>
+<rect x="905" y="212" width="28" height="22" fill="#ecf5fc"><title>Qwen 4B cluster 4; WIPO 26 Machine tools: 2.8%</title></rect>
+<rect x="934" y="212" width="28" height="22" fill="#eaf4fb"><title>Qwen 4B cluster 4; WIPO 27 Engines, pumps, turbines: 3.1%</title></rect>
+<rect x="963" y="212" width="28" height="22" fill="#f3f9fe"><title>Qwen 4B cluster 4; WIPO 28 Textile and paper machines: 0.9%</title></rect>
+<rect x="992" y="212" width="28" height="22" fill="#f0f7fd"><title>Qwen 4B cluster 4; WIPO 29 Other special machines: 1.8%</title></rect>
+<rect x="1021" y="212" width="28" height="22" fill="#e9f3fb"><title>Qwen 4B cluster 4; WIPO 30 Thermal processes and apparatus: 3.5%</title></rect>
+<rect x="1050" y="212" width="28" height="22" fill="#ddedf7"><title>Qwen 4B cluster 4; WIPO 31 Mechanical elements: 6.5%</title></rect>
+<rect x="1079" y="212" width="28" height="22" fill="#e3f0f9"><title>Qwen 4B cluster 4; WIPO 32 Transport: 5.0%</title></rect>
+<text x="150" y="250" text-anchor="end" class="small">C5</text>
+<rect x="180" y="235" width="28" height="22" fill="#f0f7fd"><title>Qwen 4B cluster 5; WIPO 01 Electrical machinery, apparatus, energy: 1.7%</title></rect>
+<rect x="209" y="235" width="28" height="22" fill="#c8e1f1"><title>Qwen 4B cluster 5; WIPO 02 Audio-visual technology: 11.7%</title></rect>
+<rect x="238" y="235" width="28" height="22" fill="#a1cce6"><title>Qwen 4B cluster 5; WIPO 03 Telecommunications: 21.5%</title></rect>
+<rect x="267" y="235" width="28" height="22" fill="#5a98c3"><title>Qwen 4B cluster 5; WIPO 04 Digital communication: 41.1%</title></rect>
+<rect x="296" y="235" width="28" height="22" fill="#deedf8"><title>Qwen 4B cluster 5; WIPO 05 Basic communication processes: 6.2%</title></rect>
+<rect x="325" y="235" width="28" height="22" fill="#5491bd"><title>Qwen 4B cluster 5; WIPO 06 Computer technology: 43.1%</title></rect>
+<rect x="354" y="235" width="28" height="22" fill="#99c7e4"><title>Qwen 4B cluster 5; WIPO 07 IT methods for management: 23.4%</title></rect>
+<rect x="383" y="235" width="28" height="22" fill="#f6faff"><title>Qwen 4B cluster 5; WIPO 08 Semiconductors: 0.4%</title></rect>
+<rect x="412" y="235" width="28" height="22" fill="#f0f7fd"><title>Qwen 4B cluster 5; WIPO 09 Optics: 1.8%</title></rect>
+<rect x="441" y="235" width="28" height="22" fill="#e4f1f9"><title>Qwen 4B cluster 5; WIPO 10 Measurement: 4.7%</title></rect>
+<rect x="470" y="235" width="28" height="22" fill="#f5fafe"><title>Qwen 4B cluster 5; WIPO 11 Analysis of biological materials: 0.6%</title></rect>
+<rect x="499" y="235" width="28" height="22" fill="#d1e6f4"><title>Qwen 4B cluster 5; WIPO 12 Control: 9.4%</title></rect>
+<rect x="528" y="235" width="28" height="22" fill="#e8f3fb"><title>Qwen 4B cluster 5; WIPO 13 Medical technology: 3.7%</title></rect>
+<rect x="557" y="235" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 5; WIPO 14 Organic fine chemistry: 0.0%</title></rect>
+<rect x="586" y="235" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 5; WIPO 15 Biotechnology: 0.0%</title></rect>
+<rect x="615" y="235" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 5; WIPO 16 Pharmaceuticals: 0.0%</title></rect>
+<rect x="644" y="235" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 5; WIPO 17 Macromolecular chemistry, polymers: 0.0%</title></rect>
+<rect x="673" y="235" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 5; WIPO 18 Food chemistry: 0.0%</title></rect>
+<rect x="702" y="235" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 5; WIPO 19 Basic materials chemistry: 0.0%</title></rect>
+<rect x="731" y="235" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 5; WIPO 20 Materials, metallurgy: 0.0%</title></rect>
+<rect x="760" y="235" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 5; WIPO 21 Surface technology, coating: 0.0%</title></rect>
+<rect x="789" y="235" width="28" height="22" fill="#f6faff"><title>Qwen 4B cluster 5; WIPO 22 Micro-structural and nano-technology: 0.3%</title></rect>
+<rect x="818" y="235" width="28" height="22" fill="#f6fbff"><title>Qwen 4B cluster 5; WIPO 23 Chemical engineering: 0.2%</title></rect>
+<rect x="847" y="235" width="28" height="22" fill="#f6fbff"><title>Qwen 4B cluster 5; WIPO 24 Environmental technology: 0.2%</title></rect>
+<rect x="876" y="235" width="28" height="22" fill="#f5fafe"><title>Qwen 4B cluster 5; WIPO 25 Handling: 0.5%</title></rect>
+<rect x="905" y="235" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 5; WIPO 26 Machine tools: 0.1%</title></rect>
+<rect x="934" y="235" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 5; WIPO 27 Engines, pumps, turbines: 0.1%</title></rect>
+<rect x="963" y="235" width="28" height="22" fill="#f4fafe"><title>Qwen 4B cluster 5; WIPO 28 Textile and paper machines: 0.7%</title></rect>
+<rect x="992" y="235" width="28" height="22" fill="#f5fafe"><title>Qwen 4B cluster 5; WIPO 29 Other special machines: 0.5%</title></rect>
+<rect x="1021" y="235" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 5; WIPO 30 Thermal processes and apparatus: 0.1%</title></rect>
+<rect x="1050" y="235" width="28" height="22" fill="#f5fafe"><title>Qwen 4B cluster 5; WIPO 31 Mechanical elements: 0.5%</title></rect>
+<rect x="1079" y="235" width="28" height="22" fill="#f2f8fd"><title>Qwen 4B cluster 5; WIPO 32 Transport: 1.4%</title></rect>
+<text x="150" y="273" text-anchor="end" class="small">C6</text>
+<rect x="180" y="258" width="28" height="22" fill="#f3f9fe"><title>Qwen 4B cluster 6; WIPO 01 Electrical machinery, apparatus, energy: 1.0%</title></rect>
+<rect x="209" y="258" width="28" height="22" fill="#f3f9fe"><title>Qwen 4B cluster 6; WIPO 02 Audio-visual technology: 1.0%</title></rect>
+<rect x="238" y="258" width="28" height="22" fill="#f6faff"><title>Qwen 4B cluster 6; WIPO 03 Telecommunications: 0.3%</title></rect>
+<rect x="267" y="258" width="28" height="22" fill="#f6faff"><title>Qwen 4B cluster 6; WIPO 04 Digital communication: 0.2%</title></rect>
+<rect x="296" y="258" width="28" height="22" fill="#f6faff"><title>Qwen 4B cluster 6; WIPO 05 Basic communication processes: 0.3%</title></rect>
+<rect x="325" y="258" width="28" height="22" fill="#e6f2fa"><title>Qwen 4B cluster 6; WIPO 06 Computer technology: 4.2%</title></rect>
+<rect x="354" y="258" width="28" height="22" fill="#f2f8fd"><title>Qwen 4B cluster 6; WIPO 07 IT methods for management: 1.3%</title></rect>
+<rect x="383" y="258" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 6; WIPO 08 Semiconductors: 0.1%</title></rect>
+<rect x="412" y="258" width="28" height="22" fill="#f3f9fe"><title>Qwen 4B cluster 6; WIPO 09 Optics: 0.9%</title></rect>
+<rect x="441" y="258" width="28" height="22" fill="#d9eaf6"><title>Qwen 4B cluster 6; WIPO 10 Measurement: 7.6%</title></rect>
+<rect x="470" y="258" width="28" height="22" fill="#d5e9f5"><title>Qwen 4B cluster 6; WIPO 11 Analysis of biological materials: 8.4%</title></rect>
+<rect x="499" y="258" width="28" height="22" fill="#f0f7fd"><title>Qwen 4B cluster 6; WIPO 12 Control: 1.8%</title></rect>
+<rect x="528" y="258" width="28" height="22" fill="#9ecae5"><title>Qwen 4B cluster 6; WIPO 13 Medical technology: 22.1%</title></rect>
+<rect x="557" y="258" width="28" height="22" fill="#c6e0f1"><title>Qwen 4B cluster 6; WIPO 14 Organic fine chemistry: 12.1%</title></rect>
+<rect x="586" y="258" width="28" height="22" fill="#97c6e3"><title>Qwen 4B cluster 6; WIPO 15 Biotechnology: 24.0%</title></rect>
+<rect x="615" y="258" width="28" height="22" fill="#afd4ea"><title>Qwen 4B cluster 6; WIPO 16 Pharmaceuticals: 18.0%</title></rect>
+<rect x="644" y="258" width="28" height="22" fill="#e9f3fb"><title>Qwen 4B cluster 6; WIPO 17 Macromolecular chemistry, polymers: 3.5%</title></rect>
+<rect x="673" y="258" width="28" height="22" fill="#a9d0e8"><title>Qwen 4B cluster 6; WIPO 18 Food chemistry: 19.6%</title></rect>
+<rect x="702" y="258" width="28" height="22" fill="#d2e7f4"><title>Qwen 4B cluster 6; WIPO 19 Basic materials chemistry: 9.2%</title></rect>
+<rect x="731" y="258" width="28" height="22" fill="#f1f8fd"><title>Qwen 4B cluster 6; WIPO 20 Materials, metallurgy: 1.5%</title></rect>
+<rect x="760" y="258" width="28" height="22" fill="#f3f9fe"><title>Qwen 4B cluster 6; WIPO 21 Surface technology, coating: 1.0%</title></rect>
+<rect x="789" y="258" width="28" height="22" fill="#ebf4fb"><title>Qwen 4B cluster 6; WIPO 22 Micro-structural and nano-technology: 3.1%</title></rect>
+<rect x="818" y="258" width="28" height="22" fill="#d2e6f4"><title>Qwen 4B cluster 6; WIPO 23 Chemical engineering: 9.4%</title></rect>
+<rect x="847" y="258" width="28" height="22" fill="#e8f3fb"><title>Qwen 4B cluster 6; WIPO 24 Environmental technology: 3.7%</title></rect>
+<rect x="876" y="258" width="28" height="22" fill="#ebf4fb"><title>Qwen 4B cluster 6; WIPO 25 Handling: 3.0%</title></rect>
+<rect x="905" y="258" width="28" height="22" fill="#f3f9fe"><title>Qwen 4B cluster 6; WIPO 26 Machine tools: 0.9%</title></rect>
+<rect x="934" y="258" width="28" height="22" fill="#f6faff"><title>Qwen 4B cluster 6; WIPO 27 Engines, pumps, turbines: 0.4%</title></rect>
+<rect x="963" y="258" width="28" height="22" fill="#f2f8fe"><title>Qwen 4B cluster 6; WIPO 28 Textile and paper machines: 1.3%</title></rect>
+<rect x="992" y="258" width="28" height="22" fill="#c2deef"><title>Qwen 4B cluster 6; WIPO 29 Other special machines: 13.3%</title></rect>
+<rect x="1021" y="258" width="28" height="22" fill="#f2f8fe"><title>Qwen 4B cluster 6; WIPO 30 Thermal processes and apparatus: 1.2%</title></rect>
+<rect x="1050" y="258" width="28" height="22" fill="#f3f9fe"><title>Qwen 4B cluster 6; WIPO 31 Mechanical elements: 1.1%</title></rect>
+<rect x="1079" y="258" width="28" height="22" fill="#f5fafe"><title>Qwen 4B cluster 6; WIPO 32 Transport: 0.6%</title></rect>
+<text x="150" y="296" text-anchor="end" class="small">C7</text>
+<rect x="180" y="281" width="28" height="22" fill="#bbdaee"><title>Qwen 4B cluster 7; WIPO 01 Electrical machinery, apparatus, energy: 14.9%</title></rect>
+<rect x="209" y="281" width="28" height="22" fill="#e7f2fa"><title>Qwen 4B cluster 7; WIPO 02 Audio-visual technology: 4.0%</title></rect>
+<rect x="238" y="281" width="28" height="22" fill="#eef6fc"><title>Qwen 4B cluster 7; WIPO 03 Telecommunications: 2.2%</title></rect>
+<rect x="267" y="281" width="28" height="22" fill="#eff7fd"><title>Qwen 4B cluster 7; WIPO 04 Digital communication: 1.9%</title></rect>
+<rect x="296" y="281" width="28" height="22" fill="#f3f9fe"><title>Qwen 4B cluster 7; WIPO 05 Basic communication processes: 1.1%</title></rect>
+<rect x="325" y="281" width="28" height="22" fill="#dcecf7"><title>Qwen 4B cluster 7; WIPO 06 Computer technology: 6.8%</title></rect>
+<rect x="354" y="281" width="28" height="22" fill="#e5f1fa"><title>Qwen 4B cluster 7; WIPO 07 IT methods for management: 4.4%</title></rect>
+<rect x="383" y="281" width="28" height="22" fill="#f1f8fd"><title>Qwen 4B cluster 7; WIPO 08 Semiconductors: 1.5%</title></rect>
+<rect x="412" y="281" width="28" height="22" fill="#eff7fd"><title>Qwen 4B cluster 7; WIPO 09 Optics: 2.0%</title></rect>
+<rect x="441" y="281" width="28" height="22" fill="#c9e2f2"><title>Qwen 4B cluster 7; WIPO 10 Measurement: 11.5%</title></rect>
+<rect x="470" y="281" width="28" height="22" fill="#ecf5fc"><title>Qwen 4B cluster 7; WIPO 11 Analysis of biological materials: 2.6%</title></rect>
+<rect x="499" y="281" width="28" height="22" fill="#c3def0"><title>Qwen 4B cluster 7; WIPO 12 Control: 13.1%</title></rect>
+<rect x="528" y="281" width="28" height="22" fill="#ebf4fb"><title>Qwen 4B cluster 7; WIPO 13 Medical technology: 3.0%</title></rect>
+<rect x="557" y="281" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 7; WIPO 14 Organic fine chemistry: 0.1%</title></rect>
+<rect x="586" y="281" width="28" height="22" fill="#f6fbff"><title>Qwen 4B cluster 7; WIPO 15 Biotechnology: 0.2%</title></rect>
+<rect x="615" y="281" width="28" height="22" fill="#f7fbff"><title>Qwen 4B cluster 7; WIPO 16 Pharmaceuticals: 0.0%</title></rect>
+<rect x="644" y="281" width="28" height="22" fill="#f5fafe"><title>Qwen 4B cluster 7; WIPO 17 Macromolecular chemistry, polymers: 0.5%</title></rect>
+<rect x="673" y="281" width="28" height="22" fill="#f1f8fd"><title>Qwen 4B cluster 7; WIPO 18 Food chemistry: 1.4%</title></rect>
+<rect x="702" y="281" width="28" height="22" fill="#f2f8fd"><title>Qwen 4B cluster 7; WIPO 19 Basic materials chemistry: 1.3%</title></rect>
+<rect x="731" y="281" width="28" height="22" fill="#ecf5fc"><title>Qwen 4B cluster 7; WIPO 20 Materials, metallurgy: 2.8%</title></rect>
+<rect x="760" y="281" width="28" height="22" fill="#ecf5fc"><title>Qwen 4B cluster 7; WIPO 21 Surface technology, coating: 2.6%</title></rect>
+<rect x="789" y="281" width="28" height="22" fill="#f6faff"><title>Qwen 4B cluster 7; WIPO 22 Micro-structural and nano-technology: 0.3%</title></rect>
+<rect x="818" y="281" width="28" height="22" fill="#e4f1fa"><title>Qwen 4B cluster 7; WIPO 23 Chemical engineering: 4.7%</title></rect>
+<rect x="847" y="281" width="28" height="22" fill="#e1eff9"><title>Qwen 4B cluster 7; WIPO 24 Environmental technology: 5.4%</title></rect>
+<rect x="876" y="281" width="28" height="22" fill="#d7e9f6"><title>Qwen 4B cluster 7; WIPO 25 Handling: 8.1%</title></rect>
+<rect x="905" y="281" width="28" height="22" fill="#e4f1f9"><title>Qwen 4B cluster 7; WIPO 26 Machine tools: 4.7%</title></rect>
+<rect x="934" y="281" width="28" height="22" fill="#b2d5eb"><title>Qwen 4B cluster 7; WIPO 27 Engines, pumps, turbines: 17.2%</title></rect>
+<rect x="963" y="281" width="28" height="22" fill="#eff7fd"><title>Qwen 4B cluster 7; WIPO 28 Textile and paper machines: 1.9%</title></rect>
+<rect x="992" y="281" width="28" height="22" fill="#dbecf7"><title>Qwen 4B cluster 7; WIPO 29 Other special machines: 6.9%</title></rect>
+<rect x="1021" y="281" width="28" height="22" fill="#cae2f2"><title>Qwen 4B cluster 7; WIPO 30 Thermal processes and apparatus: 11.2%</title></rect>
+<rect x="1050" y="281" width="28" height="22" fill="#c9e1f1"><title>Qwen 4B cluster 7; WIPO 31 Mechanical elements: 11.6%</title></rect>
+<rect x="1079" y="281" width="28" height="22" fill="#8bbfdf"><title>Qwen 4B cluster 7; WIPO 32 Transport: 27.1%</title></rect>
+<line x1="12" y1="313.0" x2="1108" y2="313.0" stroke="#cbd5e1"/>
+<text x="18" y="314" class="small" font-weight="700">SBERT</text>
+<text x="150" y="337" text-anchor="end" class="small">C0</text>
+<rect x="180" y="322" width="28" height="22" fill="#cfe5f3"><title>SBERT cluster 0; WIPO 01 Electrical machinery, apparatus, energy: 10.1%</title></rect>
+<rect x="209" y="322" width="28" height="22" fill="#f1f8fd"><title>SBERT cluster 0; WIPO 02 Audio-visual technology: 1.5%</title></rect>
+<rect x="238" y="322" width="28" height="22" fill="#f6faff"><title>SBERT cluster 0; WIPO 03 Telecommunications: 0.3%</title></rect>
+<rect x="267" y="322" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 0; WIPO 04 Digital communication: 0.0%</title></rect>
+<rect x="296" y="322" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 0; WIPO 05 Basic communication processes: 0.1%</title></rect>
+<rect x="325" y="322" width="28" height="22" fill="#f6fbff"><title>SBERT cluster 0; WIPO 06 Computer technology: 0.2%</title></rect>
+<rect x="354" y="322" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 0; WIPO 07 IT methods for management: 0.0%</title></rect>
+<rect x="383" y="322" width="28" height="22" fill="#deedf8"><title>SBERT cluster 0; WIPO 08 Semiconductors: 6.4%</title></rect>
+<rect x="412" y="322" width="28" height="22" fill="#ebf4fb"><title>SBERT cluster 0; WIPO 09 Optics: 3.0%</title></rect>
+<rect x="441" y="322" width="28" height="22" fill="#edf6fc"><title>SBERT cluster 0; WIPO 10 Measurement: 2.4%</title></rect>
+<rect x="470" y="322" width="28" height="22" fill="#f5fafe"><title>SBERT cluster 0; WIPO 11 Analysis of biological materials: 0.5%</title></rect>
+<rect x="499" y="322" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 0; WIPO 12 Control: 0.1%</title></rect>
+<rect x="528" y="322" width="28" height="22" fill="#eff7fd"><title>SBERT cluster 0; WIPO 13 Medical technology: 2.0%</title></rect>
+<rect x="557" y="322" width="28" height="22" fill="#bbdaed"><title>SBERT cluster 0; WIPO 14 Organic fine chemistry: 15.0%</title></rect>
+<rect x="586" y="322" width="28" height="22" fill="#f0f7fd"><title>SBERT cluster 0; WIPO 15 Biotechnology: 1.7%</title></rect>
+<rect x="615" y="322" width="28" height="22" fill="#ecf5fc"><title>SBERT cluster 0; WIPO 16 Pharmaceuticals: 2.7%</title></rect>
+<rect x="644" y="322" width="28" height="22" fill="#7fb9dc"><title>SBERT cluster 0; WIPO 17 Macromolecular chemistry, polymers: 30.0%</title></rect>
+<rect x="673" y="322" width="28" height="22" fill="#f0f7fd"><title>SBERT cluster 0; WIPO 18 Food chemistry: 1.8%</title></rect>
+<rect x="702" y="322" width="28" height="22" fill="#8ec1e0"><title>SBERT cluster 0; WIPO 19 Basic materials chemistry: 26.3%</title></rect>
+<rect x="731" y="322" width="28" height="22" fill="#89bfdf"><title>SBERT cluster 0; WIPO 20 Materials, metallurgy: 27.5%</title></rect>
+<rect x="760" y="322" width="28" height="22" fill="#bad9ed"><title>SBERT cluster 0; WIPO 21 Surface technology, coating: 15.4%</title></rect>
+<rect x="789" y="322" width="28" height="22" fill="#bcdaee"><title>SBERT cluster 0; WIPO 22 Micro-structural and nano-technology: 14.8%</title></rect>
+<rect x="818" y="322" width="28" height="22" fill="#b7d8ec"><title>SBERT cluster 0; WIPO 23 Chemical engineering: 15.9%</title></rect>
+<rect x="847" y="322" width="28" height="22" fill="#daebf7"><title>SBERT cluster 0; WIPO 24 Environmental technology: 7.1%</title></rect>
+<rect x="876" y="322" width="28" height="22" fill="#f3f9fe"><title>SBERT cluster 0; WIPO 25 Handling: 0.9%</title></rect>
+<rect x="905" y="322" width="28" height="22" fill="#edf5fc"><title>SBERT cluster 0; WIPO 26 Machine tools: 2.5%</title></rect>
+<rect x="934" y="322" width="28" height="22" fill="#f4f9fe"><title>SBERT cluster 0; WIPO 27 Engines, pumps, turbines: 0.8%</title></rect>
+<rect x="963" y="322" width="28" height="22" fill="#dbecf7"><title>SBERT cluster 0; WIPO 28 Textile and paper machines: 7.0%</title></rect>
+<rect x="992" y="322" width="28" height="22" fill="#c4dff0"><title>SBERT cluster 0; WIPO 29 Other special machines: 12.9%</title></rect>
+<rect x="1021" y="322" width="28" height="22" fill="#f1f8fd"><title>SBERT cluster 0; WIPO 30 Thermal processes and apparatus: 1.4%</title></rect>
+<rect x="1050" y="322" width="28" height="22" fill="#f5fafe"><title>SBERT cluster 0; WIPO 31 Mechanical elements: 0.6%</title></rect>
+<rect x="1079" y="322" width="28" height="22" fill="#f4f9fe"><title>SBERT cluster 0; WIPO 32 Transport: 0.7%</title></rect>
+<text x="150" y="360" text-anchor="end" class="small">C1</text>
+<rect x="180" y="345" width="28" height="22" fill="#daebf7"><title>SBERT cluster 1; WIPO 01 Electrical machinery, apparatus, energy: 7.2%</title></rect>
+<rect x="209" y="345" width="28" height="22" fill="#eef6fc"><title>SBERT cluster 1; WIPO 02 Audio-visual technology: 2.2%</title></rect>
+<rect x="238" y="345" width="28" height="22" fill="#f6faff"><title>SBERT cluster 1; WIPO 03 Telecommunications: 0.3%</title></rect>
+<rect x="267" y="345" width="28" height="22" fill="#f6fbff"><title>SBERT cluster 1; WIPO 04 Digital communication: 0.2%</title></rect>
+<rect x="296" y="345" width="28" height="22" fill="#f6fbff"><title>SBERT cluster 1; WIPO 05 Basic communication processes: 0.2%</title></rect>
+<rect x="325" y="345" width="28" height="22" fill="#f2f8fe"><title>SBERT cluster 1; WIPO 06 Computer technology: 1.2%</title></rect>
+<rect x="354" y="345" width="28" height="22" fill="#f5fafe"><title>SBERT cluster 1; WIPO 07 IT methods for management: 0.4%</title></rect>
+<rect x="383" y="345" width="28" height="22" fill="#f1f8fd"><title>SBERT cluster 1; WIPO 08 Semiconductors: 1.6%</title></rect>
+<rect x="412" y="345" width="28" height="22" fill="#f6fbff"><title>SBERT cluster 1; WIPO 09 Optics: 0.1%</title></rect>
+<rect x="441" y="345" width="28" height="22" fill="#d6e9f5"><title>SBERT cluster 1; WIPO 10 Measurement: 8.3%</title></rect>
+<rect x="470" y="345" width="28" height="22" fill="#e0eef8"><title>SBERT cluster 1; WIPO 11 Analysis of biological materials: 5.8%</title></rect>
+<rect x="499" y="345" width="28" height="22" fill="#eaf4fb"><title>SBERT cluster 1; WIPO 12 Control: 3.2%</title></rect>
+<rect x="528" y="345" width="28" height="22" fill="#e6f2fa"><title>SBERT cluster 1; WIPO 13 Medical technology: 4.2%</title></rect>
+<rect x="557" y="345" width="28" height="22" fill="#f4f9fe"><title>SBERT cluster 1; WIPO 14 Organic fine chemistry: 0.7%</title></rect>
+<rect x="586" y="345" width="28" height="22" fill="#f2f8fd"><title>SBERT cluster 1; WIPO 15 Biotechnology: 1.4%</title></rect>
+<rect x="615" y="345" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 1; WIPO 16 Pharmaceuticals: 0.1%</title></rect>
+<rect x="644" y="345" width="28" height="22" fill="#f5fafe"><title>SBERT cluster 1; WIPO 17 Macromolecular chemistry, polymers: 0.5%</title></rect>
+<rect x="673" y="345" width="28" height="22" fill="#f1f8fd"><title>SBERT cluster 1; WIPO 18 Food chemistry: 1.5%</title></rect>
+<rect x="702" y="345" width="28" height="22" fill="#e8f3fb"><title>SBERT cluster 1; WIPO 19 Basic materials chemistry: 3.7%</title></rect>
+<rect x="731" y="345" width="28" height="22" fill="#e1eff9"><title>SBERT cluster 1; WIPO 20 Materials, metallurgy: 5.5%</title></rect>
+<rect x="760" y="345" width="28" height="22" fill="#e5f1fa"><title>SBERT cluster 1; WIPO 21 Surface technology, coating: 4.5%</title></rect>
+<rect x="789" y="345" width="28" height="22" fill="#f6faff"><title>SBERT cluster 1; WIPO 22 Micro-structural and nano-technology: 0.3%</title></rect>
+<rect x="818" y="345" width="28" height="22" fill="#aed3ea"><title>SBERT cluster 1; WIPO 23 Chemical engineering: 18.3%</title></rect>
+<rect x="847" y="345" width="28" height="22" fill="#9fcbe5"><title>SBERT cluster 1; WIPO 24 Environmental technology: 22.0%</title></rect>
+<rect x="876" y="345" width="28" height="22" fill="#ecf5fc"><title>SBERT cluster 1; WIPO 25 Handling: 2.7%</title></rect>
+<rect x="905" y="345" width="28" height="22" fill="#ecf5fc"><title>SBERT cluster 1; WIPO 26 Machine tools: 2.7%</title></rect>
+<rect x="934" y="345" width="28" height="22" fill="#aed3ea"><title>SBERT cluster 1; WIPO 27 Engines, pumps, turbines: 18.3%</title></rect>
+<rect x="963" y="345" width="28" height="22" fill="#f4fafe"><title>SBERT cluster 1; WIPO 28 Textile and paper machines: 0.6%</title></rect>
+<rect x="992" y="345" width="28" height="22" fill="#e2f0f9"><title>SBERT cluster 1; WIPO 29 Other special machines: 5.2%</title></rect>
+<rect x="1021" y="345" width="28" height="22" fill="#9bc8e4"><title>SBERT cluster 1; WIPO 30 Thermal processes and apparatus: 23.1%</title></rect>
+<rect x="1050" y="345" width="28" height="22" fill="#c8e1f1"><title>SBERT cluster 1; WIPO 31 Mechanical elements: 11.8%</title></rect>
+<rect x="1079" y="345" width="28" height="22" fill="#e6f1fa"><title>SBERT cluster 1; WIPO 32 Transport: 4.4%</title></rect>
+<text x="150" y="383" text-anchor="end" class="small">C2</text>
+<rect x="180" y="368" width="28" height="22" fill="#cbe3f2"><title>SBERT cluster 2; WIPO 01 Electrical machinery, apparatus, energy: 10.9%</title></rect>
+<rect x="209" y="368" width="28" height="22" fill="#bbdaed"><title>SBERT cluster 2; WIPO 02 Audio-visual technology: 15.1%</title></rect>
+<rect x="238" y="368" width="28" height="22" fill="#e7f2fa"><title>SBERT cluster 2; WIPO 03 Telecommunications: 3.9%</title></rect>
+<rect x="267" y="368" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 2; WIPO 04 Digital communication: 0.1%</title></rect>
+<rect x="296" y="368" width="28" height="22" fill="#edf5fc"><title>SBERT cluster 2; WIPO 05 Basic communication processes: 2.5%</title></rect>
+<rect x="325" y="368" width="28" height="22" fill="#deedf8"><title>SBERT cluster 2; WIPO 06 Computer technology: 6.2%</title></rect>
+<rect x="354" y="368" width="28" height="22" fill="#f6fbff"><title>SBERT cluster 2; WIPO 07 IT methods for management: 0.2%</title></rect>
+<rect x="383" y="368" width="28" height="22" fill="#8dc1e0"><title>SBERT cluster 2; WIPO 08 Semiconductors: 26.5%</title></rect>
+<rect x="412" y="368" width="28" height="22" fill="#8ec1e0"><title>SBERT cluster 2; WIPO 09 Optics: 26.3%</title></rect>
+<rect x="441" y="368" width="28" height="22" fill="#bbdaed"><title>SBERT cluster 2; WIPO 10 Measurement: 15.0%</title></rect>
+<rect x="470" y="368" width="28" height="22" fill="#e8f3fb"><title>SBERT cluster 2; WIPO 11 Analysis of biological materials: 3.8%</title></rect>
+<rect x="499" y="368" width="28" height="22" fill="#f1f8fd"><title>SBERT cluster 2; WIPO 12 Control: 1.4%</title></rect>
+<rect x="528" y="368" width="28" height="22" fill="#e3f0f9"><title>SBERT cluster 2; WIPO 13 Medical technology: 5.1%</title></rect>
+<rect x="557" y="368" width="28" height="22" fill="#eff7fd"><title>SBERT cluster 2; WIPO 14 Organic fine chemistry: 1.9%</title></rect>
+<rect x="586" y="368" width="28" height="22" fill="#f0f7fd"><title>SBERT cluster 2; WIPO 15 Biotechnology: 1.7%</title></rect>
+<rect x="615" y="368" width="28" height="22" fill="#f6faff"><title>SBERT cluster 2; WIPO 16 Pharmaceuticals: 0.3%</title></rect>
+<rect x="644" y="368" width="28" height="22" fill="#e9f3fb"><title>SBERT cluster 2; WIPO 17 Macromolecular chemistry, polymers: 3.4%</title></rect>
+<rect x="673" y="368" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 2; WIPO 18 Food chemistry: 0.1%</title></rect>
+<rect x="702" y="368" width="28" height="22" fill="#dfeef8"><title>SBERT cluster 2; WIPO 19 Basic materials chemistry: 6.0%</title></rect>
+<rect x="731" y="368" width="28" height="22" fill="#e8f3fb"><title>SBERT cluster 2; WIPO 20 Materials, metallurgy: 3.8%</title></rect>
+<rect x="760" y="368" width="28" height="22" fill="#cfe5f3"><title>SBERT cluster 2; WIPO 21 Surface technology, coating: 10.0%</title></rect>
+<rect x="789" y="368" width="28" height="22" fill="#d6e9f5"><title>SBERT cluster 2; WIPO 22 Micro-structural and nano-technology: 8.2%</title></rect>
+<rect x="818" y="368" width="28" height="22" fill="#e5f1fa"><title>SBERT cluster 2; WIPO 23 Chemical engineering: 4.4%</title></rect>
+<rect x="847" y="368" width="28" height="22" fill="#f3f9fe"><title>SBERT cluster 2; WIPO 24 Environmental technology: 1.0%</title></rect>
+<rect x="876" y="368" width="28" height="22" fill="#edf5fc"><title>SBERT cluster 2; WIPO 25 Handling: 2.6%</title></rect>
+<rect x="905" y="368" width="28" height="22" fill="#eaf4fb"><title>SBERT cluster 2; WIPO 26 Machine tools: 3.3%</title></rect>
+<rect x="934" y="368" width="28" height="22" fill="#f3f9fe"><title>SBERT cluster 2; WIPO 27 Engines, pumps, turbines: 0.9%</title></rect>
+<rect x="963" y="368" width="28" height="22" fill="#e4f1fa"><title>SBERT cluster 2; WIPO 28 Textile and paper machines: 4.7%</title></rect>
+<rect x="992" y="368" width="28" height="22" fill="#e1eff8"><title>SBERT cluster 2; WIPO 29 Other special machines: 5.6%</title></rect>
+<rect x="1021" y="368" width="28" height="22" fill="#f2f8fe"><title>SBERT cluster 2; WIPO 30 Thermal processes and apparatus: 1.2%</title></rect>
+<rect x="1050" y="368" width="28" height="22" fill="#eef6fc"><title>SBERT cluster 2; WIPO 31 Mechanical elements: 2.2%</title></rect>
+<rect x="1079" y="368" width="28" height="22" fill="#f1f8fd"><title>SBERT cluster 2; WIPO 32 Transport: 1.6%</title></rect>
+<text x="150" y="406" text-anchor="end" class="small">C3</text>
+<rect x="180" y="391" width="28" height="22" fill="#eff7fd"><title>SBERT cluster 3; WIPO 01 Electrical machinery, apparatus, energy: 1.9%</title></rect>
+<rect x="209" y="391" width="28" height="22" fill="#f3f9fe"><title>SBERT cluster 3; WIPO 02 Audio-visual technology: 0.9%</title></rect>
+<rect x="238" y="391" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 3; WIPO 03 Telecommunications: 0.1%</title></rect>
+<rect x="267" y="391" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 3; WIPO 04 Digital communication: 0.0%</title></rect>
+<rect x="296" y="391" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 3; WIPO 05 Basic communication processes: 0.0%</title></rect>
+<rect x="325" y="391" width="28" height="22" fill="#f5fafe"><title>SBERT cluster 3; WIPO 06 Computer technology: 0.4%</title></rect>
+<rect x="354" y="391" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 3; WIPO 07 IT methods for management: 0.1%</title></rect>
+<rect x="383" y="391" width="28" height="22" fill="#f3f9fe"><title>SBERT cluster 3; WIPO 08 Semiconductors: 1.1%</title></rect>
+<rect x="412" y="391" width="28" height="22" fill="#f5fafe"><title>SBERT cluster 3; WIPO 09 Optics: 0.5%</title></rect>
+<rect x="441" y="391" width="28" height="22" fill="#eef6fc"><title>SBERT cluster 3; WIPO 10 Measurement: 2.2%</title></rect>
+<rect x="470" y="391" width="28" height="22" fill="#f3f9fe"><title>SBERT cluster 3; WIPO 11 Analysis of biological materials: 0.9%</title></rect>
+<rect x="499" y="391" width="28" height="22" fill="#f1f8fd"><title>SBERT cluster 3; WIPO 12 Control: 1.5%</title></rect>
+<rect x="528" y="391" width="28" height="22" fill="#ebf5fc"><title>SBERT cluster 3; WIPO 13 Medical technology: 2.9%</title></rect>
+<rect x="557" y="391" width="28" height="22" fill="#f6faff"><title>SBERT cluster 3; WIPO 14 Organic fine chemistry: 0.3%</title></rect>
+<rect x="586" y="391" width="28" height="22" fill="#f3f9fe"><title>SBERT cluster 3; WIPO 15 Biotechnology: 0.9%</title></rect>
+<rect x="615" y="391" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 3; WIPO 16 Pharmaceuticals: 0.1%</title></rect>
+<rect x="644" y="391" width="28" height="22" fill="#f2f8fe"><title>SBERT cluster 3; WIPO 17 Macromolecular chemistry, polymers: 1.1%</title></rect>
+<rect x="673" y="391" width="28" height="22" fill="#d7e9f6"><title>SBERT cluster 3; WIPO 18 Food chemistry: 8.1%</title></rect>
+<rect x="702" y="391" width="28" height="22" fill="#ecf5fc"><title>SBERT cluster 3; WIPO 19 Basic materials chemistry: 2.7%</title></rect>
+<rect x="731" y="391" width="28" height="22" fill="#dfeef8"><title>SBERT cluster 3; WIPO 20 Materials, metallurgy: 6.1%</title></rect>
+<rect x="760" y="391" width="28" height="22" fill="#d9ebf6"><title>SBERT cluster 3; WIPO 21 Surface technology, coating: 7.4%</title></rect>
+<rect x="789" y="391" width="28" height="22" fill="#f6fbff"><title>SBERT cluster 3; WIPO 22 Micro-structural and nano-technology: 0.2%</title></rect>
+<rect x="818" y="391" width="28" height="22" fill="#a1cce6"><title>SBERT cluster 3; WIPO 23 Chemical engineering: 21.5%</title></rect>
+<rect x="847" y="391" width="28" height="22" fill="#e6f2fa"><title>SBERT cluster 3; WIPO 24 Environmental technology: 4.2%</title></rect>
+<rect x="876" y="391" width="28" height="22" fill="#b9d9ed"><title>SBERT cluster 3; WIPO 25 Handling: 15.5%</title></rect>
+<rect x="905" y="391" width="28" height="22" fill="#a8d0e8"><title>SBERT cluster 3; WIPO 26 Machine tools: 19.7%</title></rect>
+<rect x="934" y="391" width="28" height="22" fill="#f3f9fe"><title>SBERT cluster 3; WIPO 27 Engines, pumps, turbines: 0.9%</title></rect>
+<rect x="963" y="391" width="28" height="22" fill="#b0d4ea"><title>SBERT cluster 3; WIPO 28 Textile and paper machines: 17.8%</title></rect>
+<rect x="992" y="391" width="28" height="22" fill="#a7cfe7"><title>SBERT cluster 3; WIPO 29 Other special machines: 20.1%</title></rect>
+<rect x="1021" y="391" width="28" height="22" fill="#f0f7fd"><title>SBERT cluster 3; WIPO 30 Thermal processes and apparatus: 1.9%</title></rect>
+<rect x="1050" y="391" width="28" height="22" fill="#e7f2fa"><title>SBERT cluster 3; WIPO 31 Mechanical elements: 4.0%</title></rect>
+<rect x="1079" y="391" width="28" height="22" fill="#f1f8fd"><title>SBERT cluster 3; WIPO 32 Transport: 1.4%</title></rect>
+<text x="150" y="429" text-anchor="end" class="small">C4</text>
+<rect x="180" y="414" width="28" height="22" fill="#e9f4fb"><title>SBERT cluster 4; WIPO 01 Electrical machinery, apparatus, energy: 3.4%</title></rect>
+<rect x="209" y="414" width="28" height="22" fill="#d0e5f3"><title>SBERT cluster 4; WIPO 02 Audio-visual technology: 9.9%</title></rect>
+<rect x="238" y="414" width="28" height="22" fill="#c6e0f1"><title>SBERT cluster 4; WIPO 03 Telecommunications: 12.2%</title></rect>
+<rect x="267" y="414" width="28" height="22" fill="#88bede"><title>SBERT cluster 4; WIPO 04 Digital communication: 27.8%</title></rect>
+<rect x="296" y="414" width="28" height="22" fill="#eef6fc"><title>SBERT cluster 4; WIPO 05 Basic communication processes: 2.2%</title></rect>
+<rect x="325" y="414" width="28" height="22" fill="#508cb9"><title>SBERT cluster 4; WIPO 06 Computer technology: 44.4%</title></rect>
+<rect x="354" y="414" width="28" height="22" fill="#8ec2e0"><title>SBERT cluster 4; WIPO 07 IT methods for management: 26.1%</title></rect>
+<rect x="383" y="414" width="28" height="22" fill="#f6faff"><title>SBERT cluster 4; WIPO 08 Semiconductors: 0.4%</title></rect>
+<rect x="412" y="414" width="28" height="22" fill="#f0f7fd"><title>SBERT cluster 4; WIPO 09 Optics: 1.7%</title></rect>
+<rect x="441" y="414" width="28" height="22" fill="#c7e0f1"><title>SBERT cluster 4; WIPO 10 Measurement: 12.1%</title></rect>
+<rect x="470" y="414" width="28" height="22" fill="#e6f2fa"><title>SBERT cluster 4; WIPO 11 Analysis of biological materials: 4.2%</title></rect>
+<rect x="499" y="414" width="28" height="22" fill="#afd3ea"><title>SBERT cluster 4; WIPO 12 Control: 18.1%</title></rect>
+<rect x="528" y="414" width="28" height="22" fill="#deedf8"><title>SBERT cluster 4; WIPO 13 Medical technology: 6.2%</title></rect>
+<rect x="557" y="414" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 4; WIPO 14 Organic fine chemistry: 0.0%</title></rect>
+<rect x="586" y="414" width="28" height="22" fill="#f5faff"><title>SBERT cluster 4; WIPO 15 Biotechnology: 0.4%</title></rect>
+<rect x="615" y="414" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 4; WIPO 16 Pharmaceuticals: 0.0%</title></rect>
+<rect x="644" y="414" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 4; WIPO 17 Macromolecular chemistry, polymers: 0.1%</title></rect>
+<rect x="673" y="414" width="28" height="22" fill="#f6fbff"><title>SBERT cluster 4; WIPO 18 Food chemistry: 0.2%</title></rect>
+<rect x="702" y="414" width="28" height="22" fill="#f6fbff"><title>SBERT cluster 4; WIPO 19 Basic materials chemistry: 0.2%</title></rect>
+<rect x="731" y="414" width="28" height="22" fill="#f6faff"><title>SBERT cluster 4; WIPO 20 Materials, metallurgy: 0.3%</title></rect>
+<rect x="760" y="414" width="28" height="22" fill="#f6faff"><title>SBERT cluster 4; WIPO 21 Surface technology, coating: 0.2%</title></rect>
+<rect x="789" y="414" width="28" height="22" fill="#f6fbff"><title>SBERT cluster 4; WIPO 22 Micro-structural and nano-technology: 0.1%</title></rect>
+<rect x="818" y="414" width="28" height="22" fill="#f4f9fe"><title>SBERT cluster 4; WIPO 23 Chemical engineering: 0.7%</title></rect>
+<rect x="847" y="414" width="28" height="22" fill="#f4f9fe"><title>SBERT cluster 4; WIPO 24 Environmental technology: 0.9%</title></rect>
+<rect x="876" y="414" width="28" height="22" fill="#eef6fc"><title>SBERT cluster 4; WIPO 25 Handling: 2.1%</title></rect>
+<rect x="905" y="414" width="28" height="22" fill="#f5faff"><title>SBERT cluster 4; WIPO 26 Machine tools: 0.4%</title></rect>
+<rect x="934" y="414" width="28" height="22" fill="#f4f9fe"><title>SBERT cluster 4; WIPO 27 Engines, pumps, turbines: 0.8%</title></rect>
+<rect x="963" y="414" width="28" height="22" fill="#f4f9fe"><title>SBERT cluster 4; WIPO 28 Textile and paper machines: 0.9%</title></rect>
+<rect x="992" y="414" width="28" height="22" fill="#f0f7fd"><title>SBERT cluster 4; WIPO 29 Other special machines: 1.7%</title></rect>
+<rect x="1021" y="414" width="28" height="22" fill="#f3f9fe"><title>SBERT cluster 4; WIPO 30 Thermal processes and apparatus: 0.9%</title></rect>
+<rect x="1050" y="414" width="28" height="22" fill="#f2f8fe"><title>SBERT cluster 4; WIPO 31 Mechanical elements: 1.1%</title></rect>
+<rect x="1079" y="414" width="28" height="22" fill="#e0eef8"><title>SBERT cluster 4; WIPO 32 Transport: 5.7%</title></rect>
+<text x="150" y="452" text-anchor="end" class="small">C5</text>
+<rect x="180" y="437" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 5; WIPO 01 Electrical machinery, apparatus, energy: 0.1%</title></rect>
+<rect x="209" y="437" width="28" height="22" fill="#f6fbff"><title>SBERT cluster 5; WIPO 02 Audio-visual technology: 0.1%</title></rect>
+<rect x="238" y="437" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 5; WIPO 03 Telecommunications: 0.0%</title></rect>
+<rect x="267" y="437" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 5; WIPO 04 Digital communication: 0.0%</title></rect>
+<rect x="296" y="437" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 5; WIPO 05 Basic communication processes: 0.0%</title></rect>
+<rect x="325" y="437" width="28" height="22" fill="#f0f7fd"><title>SBERT cluster 5; WIPO 06 Computer technology: 1.7%</title></rect>
+<rect x="354" y="437" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 5; WIPO 07 IT methods for management: 0.0%</title></rect>
+<rect x="383" y="437" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 5; WIPO 08 Semiconductors: 0.1%</title></rect>
+<rect x="412" y="437" width="28" height="22" fill="#f6fbff"><title>SBERT cluster 5; WIPO 09 Optics: 0.2%</title></rect>
+<rect x="441" y="437" width="28" height="22" fill="#e3f0f9"><title>SBERT cluster 5; WIPO 10 Measurement: 5.0%</title></rect>
+<rect x="470" y="437" width="28" height="22" fill="#c0ddef"><title>SBERT cluster 5; WIPO 11 Analysis of biological materials: 13.7%</title></rect>
+<rect x="499" y="437" width="28" height="22" fill="#f6fbff"><title>SBERT cluster 5; WIPO 12 Control: 0.2%</title></rect>
+<rect x="528" y="437" width="28" height="22" fill="#dbecf7"><title>SBERT cluster 5; WIPO 13 Medical technology: 6.9%</title></rect>
+<rect x="557" y="437" width="28" height="22" fill="#9bc8e4"><title>SBERT cluster 5; WIPO 14 Organic fine chemistry: 23.1%</title></rect>
+<rect x="586" y="437" width="28" height="22" fill="#4f8ab8"><title>SBERT cluster 5; WIPO 15 Biotechnology: 44.9%</title></rect>
+<rect x="615" y="437" width="28" height="22" fill="#457dad"><title>SBERT cluster 5; WIPO 16 Pharmaceuticals: 48.5%</title></rect>
+<rect x="644" y="437" width="28" height="22" fill="#eaf4fb"><title>SBERT cluster 5; WIPO 17 Macromolecular chemistry, polymers: 3.4%</title></rect>
+<rect x="673" y="437" width="28" height="22" fill="#a0cbe6"><title>SBERT cluster 5; WIPO 18 Food chemistry: 21.6%</title></rect>
+<rect x="702" y="437" width="28" height="22" fill="#d5e8f5"><title>SBERT cluster 5; WIPO 19 Basic materials chemistry: 8.5%</title></rect>
+<rect x="731" y="437" width="28" height="22" fill="#f4f9fe"><title>SBERT cluster 5; WIPO 20 Materials, metallurgy: 0.8%</title></rect>
+<rect x="760" y="437" width="28" height="22" fill="#f5fafe"><title>SBERT cluster 5; WIPO 21 Surface technology, coating: 0.5%</title></rect>
+<rect x="789" y="437" width="28" height="22" fill="#ebf4fb"><title>SBERT cluster 5; WIPO 22 Micro-structural and nano-technology: 3.0%</title></rect>
+<rect x="818" y="437" width="28" height="22" fill="#ecf5fc"><title>SBERT cluster 5; WIPO 23 Chemical engineering: 2.6%</title></rect>
+<rect x="847" y="437" width="28" height="22" fill="#f2f8fe"><title>SBERT cluster 5; WIPO 24 Environmental technology: 1.2%</title></rect>
+<rect x="876" y="437" width="28" height="22" fill="#f6faff"><title>SBERT cluster 5; WIPO 25 Handling: 0.3%</title></rect>
+<rect x="905" y="437" width="28" height="22" fill="#f6fbff"><title>SBERT cluster 5; WIPO 26 Machine tools: 0.2%</title></rect>
+<rect x="934" y="437" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 5; WIPO 27 Engines, pumps, turbines: 0.1%</title></rect>
+<rect x="963" y="437" width="28" height="22" fill="#f5fafe"><title>SBERT cluster 5; WIPO 28 Textile and paper machines: 0.6%</title></rect>
+<rect x="992" y="437" width="28" height="22" fill="#e3f0f9"><title>SBERT cluster 5; WIPO 29 Other special machines: 4.9%</title></rect>
+<rect x="1021" y="437" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 5; WIPO 30 Thermal processes and apparatus: 0.1%</title></rect>
+<rect x="1050" y="437" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 5; WIPO 31 Mechanical elements: 0.1%</title></rect>
+<rect x="1079" y="437" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 5; WIPO 32 Transport: 0.0%</title></rect>
+<text x="150" y="475" text-anchor="end" class="small">C6</text>
+<rect x="180" y="460" width="28" height="22" fill="#9bc8e4"><title>SBERT cluster 6; WIPO 01 Electrical machinery, apparatus, energy: 23.1%</title></rect>
+<rect x="209" y="460" width="28" height="22" fill="#cee5f3"><title>SBERT cluster 6; WIPO 02 Audio-visual technology: 10.2%</title></rect>
+<rect x="238" y="460" width="28" height="22" fill="#a0cbe5"><title>SBERT cluster 6; WIPO 03 Telecommunications: 21.8%</title></rect>
+<rect x="267" y="460" width="28" height="22" fill="#d2e7f4"><title>SBERT cluster 6; WIPO 04 Digital communication: 9.1%</title></rect>
+<rect x="296" y="460" width="28" height="22" fill="#6baed6"><title>SBERT cluster 6; WIPO 05 Basic communication processes: 34.9%</title></rect>
+<rect x="325" y="460" width="28" height="22" fill="#c1ddef"><title>SBERT cluster 6; WIPO 06 Computer technology: 13.6%</title></rect>
+<rect x="354" y="460" width="28" height="22" fill="#f2f8fd"><title>SBERT cluster 6; WIPO 07 IT methods for management: 1.3%</title></rect>
+<rect x="383" y="460" width="28" height="22" fill="#ddedf8"><title>SBERT cluster 6; WIPO 08 Semiconductors: 6.4%</title></rect>
+<rect x="412" y="460" width="28" height="22" fill="#f0f7fd"><title>SBERT cluster 6; WIPO 09 Optics: 1.9%</title></rect>
+<rect x="441" y="460" width="28" height="22" fill="#afd3ea"><title>SBERT cluster 6; WIPO 10 Measurement: 18.1%</title></rect>
+<rect x="470" y="460" width="28" height="22" fill="#f3f9fe"><title>SBERT cluster 6; WIPO 11 Analysis of biological materials: 0.9%</title></rect>
+<rect x="499" y="460" width="28" height="22" fill="#ddedf7"><title>SBERT cluster 6; WIPO 12 Control: 6.6%</title></rect>
+<rect x="528" y="460" width="28" height="22" fill="#f1f8fd"><title>SBERT cluster 6; WIPO 13 Medical technology: 1.6%</title></rect>
+<rect x="557" y="460" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 6; WIPO 14 Organic fine chemistry: 0.0%</title></rect>
+<rect x="586" y="460" width="28" height="22" fill="#f6fbff"><title>SBERT cluster 6; WIPO 15 Biotechnology: 0.1%</title></rect>
+<rect x="615" y="460" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 6; WIPO 16 Pharmaceuticals: 0.0%</title></rect>
+<rect x="644" y="460" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 6; WIPO 17 Macromolecular chemistry, polymers: 0.0%</title></rect>
+<rect x="673" y="460" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 6; WIPO 18 Food chemistry: 0.0%</title></rect>
+<rect x="702" y="460" width="28" height="22" fill="#f6fbff"><title>SBERT cluster 6; WIPO 19 Basic materials chemistry: 0.1%</title></rect>
+<rect x="731" y="460" width="28" height="22" fill="#f6fbff"><title>SBERT cluster 6; WIPO 20 Materials, metallurgy: 0.2%</title></rect>
+<rect x="760" y="460" width="28" height="22" fill="#f5fafe"><title>SBERT cluster 6; WIPO 21 Surface technology, coating: 0.4%</title></rect>
+<rect x="789" y="460" width="28" height="22" fill="#f2f8fd"><title>SBERT cluster 6; WIPO 22 Micro-structural and nano-technology: 1.3%</title></rect>
+<rect x="818" y="460" width="28" height="22" fill="#f4f9fe"><title>SBERT cluster 6; WIPO 23 Chemical engineering: 0.8%</title></rect>
+<rect x="847" y="460" width="28" height="22" fill="#f3f9fe"><title>SBERT cluster 6; WIPO 24 Environmental technology: 0.9%</title></rect>
+<rect x="876" y="460" width="28" height="22" fill="#f3f9fe"><title>SBERT cluster 6; WIPO 25 Handling: 0.9%</title></rect>
+<rect x="905" y="460" width="28" height="22" fill="#f5fafe"><title>SBERT cluster 6; WIPO 26 Machine tools: 0.6%</title></rect>
+<rect x="934" y="460" width="28" height="22" fill="#ebf4fb"><title>SBERT cluster 6; WIPO 27 Engines, pumps, turbines: 3.1%</title></rect>
+<rect x="963" y="460" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 6; WIPO 28 Textile and paper machines: 0.1%</title></rect>
+<rect x="992" y="460" width="28" height="22" fill="#f6faff"><title>SBERT cluster 6; WIPO 29 Other special machines: 0.3%</title></rect>
+<rect x="1021" y="460" width="28" height="22" fill="#f1f8fd"><title>SBERT cluster 6; WIPO 30 Thermal processes and apparatus: 1.5%</title></rect>
+<rect x="1050" y="460" width="28" height="22" fill="#f1f8fd"><title>SBERT cluster 6; WIPO 31 Mechanical elements: 1.4%</title></rect>
+<rect x="1079" y="460" width="28" height="22" fill="#e4f1f9"><title>SBERT cluster 6; WIPO 32 Transport: 4.7%</title></rect>
+<text x="150" y="498" text-anchor="end" class="small">C7</text>
+<rect x="180" y="483" width="28" height="22" fill="#bddbee"><title>SBERT cluster 7; WIPO 01 Electrical machinery, apparatus, energy: 14.4%</title></rect>
+<rect x="209" y="483" width="28" height="22" fill="#d7e9f6"><title>SBERT cluster 7; WIPO 02 Audio-visual technology: 8.0%</title></rect>
+<rect x="238" y="483" width="28" height="22" fill="#ecf5fc"><title>SBERT cluster 7; WIPO 03 Telecommunications: 2.8%</title></rect>
+<rect x="267" y="483" width="28" height="22" fill="#f4f9fe"><title>SBERT cluster 7; WIPO 04 Digital communication: 0.7%</title></rect>
+<rect x="296" y="483" width="28" height="22" fill="#f5fafe"><title>SBERT cluster 7; WIPO 05 Basic communication processes: 0.5%</title></rect>
+<rect x="325" y="483" width="28" height="22" fill="#eef6fc"><title>SBERT cluster 7; WIPO 06 Computer technology: 2.2%</title></rect>
+<rect x="354" y="483" width="28" height="22" fill="#f6faff"><title>SBERT cluster 7; WIPO 07 IT methods for management: 0.3%</title></rect>
+<rect x="383" y="483" width="28" height="22" fill="#f3f9fe"><title>SBERT cluster 7; WIPO 08 Semiconductors: 0.9%</title></rect>
+<rect x="412" y="483" width="28" height="22" fill="#eff6fd"><title>SBERT cluster 7; WIPO 09 Optics: 2.1%</title></rect>
+<rect x="441" y="483" width="28" height="22" fill="#daebf7"><title>SBERT cluster 7; WIPO 10 Measurement: 7.2%</title></rect>
+<rect x="470" y="483" width="28" height="22" fill="#f2f8fd"><title>SBERT cluster 7; WIPO 11 Analysis of biological materials: 1.3%</title></rect>
+<rect x="499" y="483" width="28" height="22" fill="#dfeef8"><title>SBERT cluster 7; WIPO 12 Control: 5.9%</title></rect>
+<rect x="528" y="483" width="28" height="22" fill="#cde4f3"><title>SBERT cluster 7; WIPO 13 Medical technology: 10.5%</title></rect>
+<rect x="557" y="483" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 7; WIPO 14 Organic fine chemistry: 0.0%</title></rect>
+<rect x="586" y="483" width="28" height="22" fill="#f6fbff"><title>SBERT cluster 7; WIPO 15 Biotechnology: 0.2%</title></rect>
+<rect x="615" y="483" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 7; WIPO 16 Pharmaceuticals: 0.0%</title></rect>
+<rect x="644" y="483" width="28" height="22" fill="#f6faff"><title>SBERT cluster 7; WIPO 17 Macromolecular chemistry, polymers: 0.3%</title></rect>
+<rect x="673" y="483" width="28" height="22" fill="#f6fbff"><title>SBERT cluster 7; WIPO 18 Food chemistry: 0.1%</title></rect>
+<rect x="702" y="483" width="28" height="22" fill="#f5fafe"><title>SBERT cluster 7; WIPO 19 Basic materials chemistry: 0.5%</title></rect>
+<rect x="731" y="483" width="28" height="22" fill="#f5fafe"><title>SBERT cluster 7; WIPO 20 Materials, metallurgy: 0.6%</title></rect>
+<rect x="760" y="483" width="28" height="22" fill="#eff7fd"><title>SBERT cluster 7; WIPO 21 Surface technology, coating: 2.0%</title></rect>
+<rect x="789" y="483" width="28" height="22" fill="#f7fbff"><title>SBERT cluster 7; WIPO 22 Micro-structural and nano-technology: 0.1%</title></rect>
+<rect x="818" y="483" width="28" height="22" fill="#e6f2fa"><title>SBERT cluster 7; WIPO 23 Chemical engineering: 4.3%</title></rect>
+<rect x="847" y="483" width="28" height="22" fill="#eaf4fb"><title>SBERT cluster 7; WIPO 24 Environmental technology: 3.2%</title></rect>
+<rect x="876" y="483" width="28" height="22" fill="#bddbee"><title>SBERT cluster 7; WIPO 25 Handling: 14.4%</title></rect>
+<rect x="905" y="483" width="28" height="22" fill="#d2e7f4"><title>SBERT cluster 7; WIPO 26 Machine tools: 9.2%</title></rect>
+<rect x="934" y="483" width="28" height="22" fill="#e0eff8"><title>SBERT cluster 7; WIPO 27 Engines, pumps, turbines: 5.7%</title></rect>
+<rect x="963" y="483" width="28" height="22" fill="#f2f8fd"><title>SBERT cluster 7; WIPO 28 Textile and paper machines: 1.3%</title></rect>
+<rect x="992" y="483" width="28" height="22" fill="#e1eff8"><title>SBERT cluster 7; WIPO 29 Other special machines: 5.6%</title></rect>
+<rect x="1021" y="483" width="28" height="22" fill="#eef6fc"><title>SBERT cluster 7; WIPO 30 Thermal processes and apparatus: 2.2%</title></rect>
+<rect x="1050" y="483" width="28" height="22" fill="#aed3ea"><title>SBERT cluster 7; WIPO 31 Mechanical elements: 18.3%</title></rect>
+<rect x="1079" y="483" width="28" height="22" fill="#a2cce6"><title>SBERT cluster 7; WIPO 32 Transport: 21.2%</title></rect>
+<line x1="12" y1="515.0" x2="1108" y2="515.0" stroke="#cbd5e1"/>
+<text x="18" y="516" class="small" font-weight="700">Pat-SPECTER</text>
+<text x="150" y="539" text-anchor="end" class="small">C0</text>
+<rect x="180" y="524" width="28" height="22" fill="#d2e7f4"><title>Pat-SPECTER cluster 0; WIPO 01 Electrical machinery, apparatus, energy: 9.1%</title></rect>
+<rect x="209" y="524" width="28" height="22" fill="#b7d8ec"><title>Pat-SPECTER cluster 0; WIPO 02 Audio-visual technology: 16.1%</title></rect>
+<rect x="238" y="524" width="28" height="22" fill="#ddedf7"><title>Pat-SPECTER cluster 0; WIPO 03 Telecommunications: 6.4%</title></rect>
+<rect x="267" y="524" width="28" height="22" fill="#f6faff"><title>Pat-SPECTER cluster 0; WIPO 04 Digital communication: 0.3%</title></rect>
+<rect x="296" y="524" width="28" height="22" fill="#e8f3fb"><title>Pat-SPECTER cluster 0; WIPO 05 Basic communication processes: 3.7%</title></rect>
+<rect x="325" y="524" width="28" height="22" fill="#d8eaf6"><title>Pat-SPECTER cluster 0; WIPO 06 Computer technology: 7.6%</title></rect>
+<rect x="354" y="524" width="28" height="22" fill="#f6faff"><title>Pat-SPECTER cluster 0; WIPO 07 IT methods for management: 0.3%</title></rect>
+<rect x="383" y="524" width="28" height="22" fill="#78b5da"><title>Pat-SPECTER cluster 0; WIPO 08 Semiconductors: 31.8%</title></rect>
+<rect x="412" y="524" width="28" height="22" fill="#86bdde"><title>Pat-SPECTER cluster 0; WIPO 09 Optics: 28.2%</title></rect>
+<rect x="441" y="524" width="28" height="22" fill="#c8e1f1"><title>Pat-SPECTER cluster 0; WIPO 10 Measurement: 11.7%</title></rect>
+<rect x="470" y="524" width="28" height="22" fill="#f0f7fd"><title>Pat-SPECTER cluster 0; WIPO 11 Analysis of biological materials: 1.8%</title></rect>
+<rect x="499" y="524" width="28" height="22" fill="#f1f8fd"><title>Pat-SPECTER cluster 0; WIPO 12 Control: 1.5%</title></rect>
+<rect x="528" y="524" width="28" height="22" fill="#e4f1f9"><title>Pat-SPECTER cluster 0; WIPO 13 Medical technology: 4.8%</title></rect>
+<rect x="557" y="524" width="28" height="22" fill="#f5fafe"><title>Pat-SPECTER cluster 0; WIPO 14 Organic fine chemistry: 0.5%</title></rect>
+<rect x="586" y="524" width="28" height="22" fill="#f4f9fe"><title>Pat-SPECTER cluster 0; WIPO 15 Biotechnology: 0.7%</title></rect>
+<rect x="615" y="524" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 0; WIPO 16 Pharmaceuticals: 0.1%</title></rect>
+<rect x="644" y="524" width="28" height="22" fill="#f3f9fe"><title>Pat-SPECTER cluster 0; WIPO 17 Macromolecular chemistry, polymers: 1.0%</title></rect>
+<rect x="673" y="524" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 0; WIPO 18 Food chemistry: 0.1%</title></rect>
+<rect x="702" y="524" width="28" height="22" fill="#ecf5fc"><title>Pat-SPECTER cluster 0; WIPO 19 Basic materials chemistry: 2.7%</title></rect>
+<rect x="731" y="524" width="28" height="22" fill="#eaf4fb"><title>Pat-SPECTER cluster 0; WIPO 20 Materials, metallurgy: 3.4%</title></rect>
+<rect x="760" y="524" width="28" height="22" fill="#cfe5f3"><title>Pat-SPECTER cluster 0; WIPO 21 Surface technology, coating: 9.9%</title></rect>
+<rect x="789" y="524" width="28" height="22" fill="#d3e7f4"><title>Pat-SPECTER cluster 0; WIPO 22 Micro-structural and nano-technology: 9.1%</title></rect>
+<rect x="818" y="524" width="28" height="22" fill="#ecf5fc"><title>Pat-SPECTER cluster 0; WIPO 23 Chemical engineering: 2.7%</title></rect>
+<rect x="847" y="524" width="28" height="22" fill="#f4f9fe"><title>Pat-SPECTER cluster 0; WIPO 24 Environmental technology: 0.8%</title></rect>
+<rect x="876" y="524" width="28" height="22" fill="#f1f8fd"><title>Pat-SPECTER cluster 0; WIPO 25 Handling: 1.5%</title></rect>
+<rect x="905" y="524" width="28" height="22" fill="#ebf4fb"><title>Pat-SPECTER cluster 0; WIPO 26 Machine tools: 3.0%</title></rect>
+<rect x="934" y="524" width="28" height="22" fill="#f4f9fe"><title>Pat-SPECTER cluster 0; WIPO 27 Engines, pumps, turbines: 0.8%</title></rect>
+<rect x="963" y="524" width="28" height="22" fill="#e2eff9"><title>Pat-SPECTER cluster 0; WIPO 28 Textile and paper machines: 5.3%</title></rect>
+<rect x="992" y="524" width="28" height="22" fill="#e3f0f9"><title>Pat-SPECTER cluster 0; WIPO 29 Other special machines: 4.9%</title></rect>
+<rect x="1021" y="524" width="28" height="22" fill="#f1f8fd"><title>Pat-SPECTER cluster 0; WIPO 30 Thermal processes and apparatus: 1.4%</title></rect>
+<rect x="1050" y="524" width="28" height="22" fill="#f3f9fe"><title>Pat-SPECTER cluster 0; WIPO 31 Mechanical elements: 0.9%</title></rect>
+<rect x="1079" y="524" width="28" height="22" fill="#eef6fc"><title>Pat-SPECTER cluster 0; WIPO 32 Transport: 2.4%</title></rect>
+<text x="150" y="562" text-anchor="end" class="small">C1</text>
+<rect x="180" y="547" width="28" height="22" fill="#f6fbff"><title>Pat-SPECTER cluster 1; WIPO 01 Electrical machinery, apparatus, energy: 0.2%</title></rect>
+<rect x="209" y="547" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 1; WIPO 02 Audio-visual technology: 0.1%</title></rect>
+<rect x="238" y="547" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 1; WIPO 03 Telecommunications: 0.0%</title></rect>
+<rect x="267" y="547" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 1; WIPO 04 Digital communication: 0.0%</title></rect>
+<rect x="296" y="547" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 1; WIPO 05 Basic communication processes: 0.0%</title></rect>
+<rect x="325" y="547" width="28" height="22" fill="#f2f8fe"><title>Pat-SPECTER cluster 1; WIPO 06 Computer technology: 1.2%</title></rect>
+<rect x="354" y="547" width="28" height="22" fill="#f5faff"><title>Pat-SPECTER cluster 1; WIPO 07 IT methods for management: 0.4%</title></rect>
+<rect x="383" y="547" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 1; WIPO 08 Semiconductors: 0.1%</title></rect>
+<rect x="412" y="547" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 1; WIPO 09 Optics: 0.0%</title></rect>
+<rect x="441" y="547" width="28" height="22" fill="#ecf5fc"><title>Pat-SPECTER cluster 1; WIPO 10 Measurement: 2.7%</title></rect>
+<rect x="470" y="547" width="28" height="22" fill="#eef6fc"><title>Pat-SPECTER cluster 1; WIPO 11 Analysis of biological materials: 2.3%</title></rect>
+<rect x="499" y="547" width="28" height="22" fill="#f6faff"><title>Pat-SPECTER cluster 1; WIPO 12 Control: 0.3%</title></rect>
+<rect x="528" y="547" width="28" height="22" fill="#eff7fd"><title>Pat-SPECTER cluster 1; WIPO 13 Medical technology: 2.0%</title></rect>
+<rect x="557" y="547" width="28" height="22" fill="#b2d5eb"><title>Pat-SPECTER cluster 1; WIPO 14 Organic fine chemistry: 17.3%</title></rect>
+<rect x="586" y="547" width="28" height="22" fill="#82bbdd"><title>Pat-SPECTER cluster 1; WIPO 15 Biotechnology: 29.2%</title></rect>
+<rect x="615" y="547" width="28" height="22" fill="#9bc9e4"><title>Pat-SPECTER cluster 1; WIPO 16 Pharmaceuticals: 22.9%</title></rect>
+<rect x="644" y="547" width="28" height="22" fill="#e0eff8"><title>Pat-SPECTER cluster 1; WIPO 17 Macromolecular chemistry, polymers: 5.7%</title></rect>
+<rect x="673" y="547" width="28" height="22" fill="#508cb9"><title>Pat-SPECTER cluster 1; WIPO 18 Food chemistry: 44.5%</title></rect>
+<rect x="702" y="547" width="28" height="22" fill="#aad0e8"><title>Pat-SPECTER cluster 1; WIPO 19 Basic materials chemistry: 19.3%</title></rect>
+<rect x="731" y="547" width="28" height="22" fill="#ebf5fc"><title>Pat-SPECTER cluster 1; WIPO 20 Materials, metallurgy: 2.9%</title></rect>
+<rect x="760" y="547" width="28" height="22" fill="#f4f9fe"><title>Pat-SPECTER cluster 1; WIPO 21 Surface technology, coating: 0.8%</title></rect>
+<rect x="789" y="547" width="28" height="22" fill="#f2f8fe"><title>Pat-SPECTER cluster 1; WIPO 22 Micro-structural and nano-technology: 1.3%</title></rect>
+<rect x="818" y="547" width="28" height="22" fill="#dfeef8"><title>Pat-SPECTER cluster 1; WIPO 23 Chemical engineering: 6.0%</title></rect>
+<rect x="847" y="547" width="28" height="22" fill="#e2eff9"><title>Pat-SPECTER cluster 1; WIPO 24 Environmental technology: 5.2%</title></rect>
+<rect x="876" y="547" width="28" height="22" fill="#f3f9fe"><title>Pat-SPECTER cluster 1; WIPO 25 Handling: 1.1%</title></rect>
+<rect x="905" y="547" width="28" height="22" fill="#f4f9fe"><title>Pat-SPECTER cluster 1; WIPO 26 Machine tools: 0.9%</title></rect>
+<rect x="934" y="547" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 1; WIPO 27 Engines, pumps, turbines: 0.1%</title></rect>
+<rect x="963" y="547" width="28" height="22" fill="#e8f3fb"><title>Pat-SPECTER cluster 1; WIPO 28 Textile and paper machines: 3.6%</title></rect>
+<rect x="992" y="547" width="28" height="22" fill="#c8e1f1"><title>Pat-SPECTER cluster 1; WIPO 29 Other special machines: 11.7%</title></rect>
+<rect x="1021" y="547" width="28" height="22" fill="#f6fbff"><title>Pat-SPECTER cluster 1; WIPO 30 Thermal processes and apparatus: 0.2%</title></rect>
+<rect x="1050" y="547" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 1; WIPO 31 Mechanical elements: 0.1%</title></rect>
+<rect x="1079" y="547" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 1; WIPO 32 Transport: 0.0%</title></rect>
+<text x="150" y="585" text-anchor="end" class="small">C2</text>
+<rect x="180" y="570" width="28" height="22" fill="#a7cfe8"><title>Pat-SPECTER cluster 2; WIPO 01 Electrical machinery, apparatus, energy: 19.9%</title></rect>
+<rect x="209" y="570" width="28" height="22" fill="#d5e8f5"><title>Pat-SPECTER cluster 2; WIPO 02 Audio-visual technology: 8.6%</title></rect>
+<rect x="238" y="570" width="28" height="22" fill="#a5cee7"><title>Pat-SPECTER cluster 2; WIPO 03 Telecommunications: 20.6%</title></rect>
+<rect x="267" y="570" width="28" height="22" fill="#d3e7f4"><title>Pat-SPECTER cluster 2; WIPO 04 Digital communication: 9.0%</title></rect>
+<rect x="296" y="570" width="28" height="22" fill="#66a8d1"><title>Pat-SPECTER cluster 2; WIPO 05 Basic communication processes: 36.6%</title></rect>
+<rect x="325" y="570" width="28" height="22" fill="#bfdcef"><title>Pat-SPECTER cluster 2; WIPO 06 Computer technology: 14.1%</title></rect>
+<rect x="354" y="570" width="28" height="22" fill="#f3f9fe"><title>Pat-SPECTER cluster 2; WIPO 07 IT methods for management: 1.0%</title></rect>
+<rect x="383" y="570" width="28" height="22" fill="#dfeef8"><title>Pat-SPECTER cluster 2; WIPO 08 Semiconductors: 5.9%</title></rect>
+<rect x="412" y="570" width="28" height="22" fill="#eff6fd"><title>Pat-SPECTER cluster 2; WIPO 09 Optics: 2.1%</title></rect>
+<rect x="441" y="570" width="28" height="22" fill="#acd2e9"><title>Pat-SPECTER cluster 2; WIPO 10 Measurement: 18.6%</title></rect>
+<rect x="470" y="570" width="28" height="22" fill="#f2f8fd"><title>Pat-SPECTER cluster 2; WIPO 11 Analysis of biological materials: 1.3%</title></rect>
+<rect x="499" y="570" width="28" height="22" fill="#d6e9f5"><title>Pat-SPECTER cluster 2; WIPO 12 Control: 8.2%</title></rect>
+<rect x="528" y="570" width="28" height="22" fill="#e9f3fb"><title>Pat-SPECTER cluster 2; WIPO 13 Medical technology: 3.6%</title></rect>
+<rect x="557" y="570" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 2; WIPO 14 Organic fine chemistry: 0.0%</title></rect>
+<rect x="586" y="570" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 2; WIPO 15 Biotechnology: 0.1%</title></rect>
+<rect x="615" y="570" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 2; WIPO 16 Pharmaceuticals: 0.0%</title></rect>
+<rect x="644" y="570" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 2; WIPO 17 Macromolecular chemistry, polymers: 0.0%</title></rect>
+<rect x="673" y="570" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 2; WIPO 18 Food chemistry: 0.1%</title></rect>
+<rect x="702" y="570" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 2; WIPO 19 Basic materials chemistry: 0.0%</title></rect>
+<rect x="731" y="570" width="28" height="22" fill="#f6fbff"><title>Pat-SPECTER cluster 2; WIPO 20 Materials, metallurgy: 0.2%</title></rect>
+<rect x="760" y="570" width="28" height="22" fill="#f5faff"><title>Pat-SPECTER cluster 2; WIPO 21 Surface technology, coating: 0.4%</title></rect>
+<rect x="789" y="570" width="28" height="22" fill="#f2f8fe"><title>Pat-SPECTER cluster 2; WIPO 22 Micro-structural and nano-technology: 1.2%</title></rect>
+<rect x="818" y="570" width="28" height="22" fill="#f4f9fe"><title>Pat-SPECTER cluster 2; WIPO 23 Chemical engineering: 0.8%</title></rect>
+<rect x="847" y="570" width="28" height="22" fill="#f5fafe"><title>Pat-SPECTER cluster 2; WIPO 24 Environmental technology: 0.6%</title></rect>
+<rect x="876" y="570" width="28" height="22" fill="#f4f9fe"><title>Pat-SPECTER cluster 2; WIPO 25 Handling: 0.7%</title></rect>
+<rect x="905" y="570" width="28" height="22" fill="#f5faff"><title>Pat-SPECTER cluster 2; WIPO 26 Machine tools: 0.4%</title></rect>
+<rect x="934" y="570" width="28" height="22" fill="#ebf4fb"><title>Pat-SPECTER cluster 2; WIPO 27 Engines, pumps, turbines: 3.1%</title></rect>
+<rect x="963" y="570" width="28" height="22" fill="#f6faff"><title>Pat-SPECTER cluster 2; WIPO 28 Textile and paper machines: 0.4%</title></rect>
+<rect x="992" y="570" width="28" height="22" fill="#f5fafe"><title>Pat-SPECTER cluster 2; WIPO 29 Other special machines: 0.5%</title></rect>
+<rect x="1021" y="570" width="28" height="22" fill="#f2f8fd"><title>Pat-SPECTER cluster 2; WIPO 30 Thermal processes and apparatus: 1.3%</title></rect>
+<rect x="1050" y="570" width="28" height="22" fill="#f2f8fd"><title>Pat-SPECTER cluster 2; WIPO 31 Mechanical elements: 1.3%</title></rect>
+<rect x="1079" y="570" width="28" height="22" fill="#dcecf7"><title>Pat-SPECTER cluster 2; WIPO 32 Transport: 6.7%</title></rect>
+<text x="150" y="608" text-anchor="end" class="small">C3</text>
+<rect x="180" y="593" width="28" height="22" fill="#c7e1f1"><title>Pat-SPECTER cluster 3; WIPO 01 Electrical machinery, apparatus, energy: 11.9%</title></rect>
+<rect x="209" y="593" width="28" height="22" fill="#eef6fc"><title>Pat-SPECTER cluster 3; WIPO 02 Audio-visual technology: 2.3%</title></rect>
+<rect x="238" y="593" width="28" height="22" fill="#f6faff"><title>Pat-SPECTER cluster 3; WIPO 03 Telecommunications: 0.4%</title></rect>
+<rect x="267" y="593" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 3; WIPO 04 Digital communication: 0.0%</title></rect>
+<rect x="296" y="593" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 3; WIPO 05 Basic communication processes: 0.0%</title></rect>
+<rect x="325" y="593" width="28" height="22" fill="#f5fafe"><title>Pat-SPECTER cluster 3; WIPO 06 Computer technology: 0.5%</title></rect>
+<rect x="354" y="593" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 3; WIPO 07 IT methods for management: 0.1%</title></rect>
+<rect x="383" y="593" width="28" height="22" fill="#d7e9f6"><title>Pat-SPECTER cluster 3; WIPO 08 Semiconductors: 8.0%</title></rect>
+<rect x="412" y="593" width="28" height="22" fill="#e5f1fa"><title>Pat-SPECTER cluster 3; WIPO 09 Optics: 4.6%</title></rect>
+<rect x="441" y="593" width="28" height="22" fill="#e7f2fa"><title>Pat-SPECTER cluster 3; WIPO 10 Measurement: 4.1%</title></rect>
+<rect x="470" y="593" width="28" height="22" fill="#f2f8fe"><title>Pat-SPECTER cluster 3; WIPO 11 Analysis of biological materials: 1.2%</title></rect>
+<rect x="499" y="593" width="28" height="22" fill="#f6fbff"><title>Pat-SPECTER cluster 3; WIPO 12 Control: 0.1%</title></rect>
+<rect x="528" y="593" width="28" height="22" fill="#edf5fc"><title>Pat-SPECTER cluster 3; WIPO 13 Medical technology: 2.6%</title></rect>
+<rect x="557" y="593" width="28" height="22" fill="#bddbee"><title>Pat-SPECTER cluster 3; WIPO 14 Organic fine chemistry: 14.6%</title></rect>
+<rect x="586" y="593" width="28" height="22" fill="#f4f9fe"><title>Pat-SPECTER cluster 3; WIPO 15 Biotechnology: 0.7%</title></rect>
+<rect x="615" y="593" width="28" height="22" fill="#ebf5fc"><title>Pat-SPECTER cluster 3; WIPO 16 Pharmaceuticals: 2.9%</title></rect>
+<rect x="644" y="593" width="28" height="22" fill="#7cb7db"><title>Pat-SPECTER cluster 3; WIPO 17 Macromolecular chemistry, polymers: 30.8%</title></rect>
+<rect x="673" y="593" width="28" height="22" fill="#f5faff"><title>Pat-SPECTER cluster 3; WIPO 18 Food chemistry: 0.4%</title></rect>
+<rect x="702" y="593" width="28" height="22" fill="#8dc1e0"><title>Pat-SPECTER cluster 3; WIPO 19 Basic materials chemistry: 26.4%</title></rect>
+<rect x="731" y="593" width="28" height="22" fill="#8fc2e1"><title>Pat-SPECTER cluster 3; WIPO 20 Materials, metallurgy: 25.9%</title></rect>
+<rect x="760" y="593" width="28" height="22" fill="#b1d4ea"><title>Pat-SPECTER cluster 3; WIPO 21 Surface technology, coating: 17.6%</title></rect>
+<rect x="789" y="593" width="28" height="22" fill="#bddbee"><title>Pat-SPECTER cluster 3; WIPO 22 Micro-structural and nano-technology: 14.6%</title></rect>
+<rect x="818" y="593" width="28" height="22" fill="#c6e0f1"><title>Pat-SPECTER cluster 3; WIPO 23 Chemical engineering: 12.3%</title></rect>
+<rect x="847" y="593" width="28" height="22" fill="#e4f1f9"><title>Pat-SPECTER cluster 3; WIPO 24 Environmental technology: 4.7%</title></rect>
+<rect x="876" y="593" width="28" height="22" fill="#f2f8fd"><title>Pat-SPECTER cluster 3; WIPO 25 Handling: 1.3%</title></rect>
+<rect x="905" y="593" width="28" height="22" fill="#ecf5fc"><title>Pat-SPECTER cluster 3; WIPO 26 Machine tools: 2.9%</title></rect>
+<rect x="934" y="593" width="28" height="22" fill="#f3f9fe"><title>Pat-SPECTER cluster 3; WIPO 27 Engines, pumps, turbines: 0.9%</title></rect>
+<rect x="963" y="593" width="28" height="22" fill="#dbecf7"><title>Pat-SPECTER cluster 3; WIPO 28 Textile and paper machines: 7.0%</title></rect>
+<rect x="992" y="593" width="28" height="22" fill="#bfdcef"><title>Pat-SPECTER cluster 3; WIPO 29 Other special machines: 14.0%</title></rect>
+<rect x="1021" y="593" width="28" height="22" fill="#f4f9fe"><title>Pat-SPECTER cluster 3; WIPO 30 Thermal processes and apparatus: 0.9%</title></rect>
+<rect x="1050" y="593" width="28" height="22" fill="#f3f9fe"><title>Pat-SPECTER cluster 3; WIPO 31 Mechanical elements: 1.0%</title></rect>
+<rect x="1079" y="593" width="28" height="22" fill="#f3f9fe"><title>Pat-SPECTER cluster 3; WIPO 32 Transport: 1.0%</title></rect>
+<text x="150" y="631" text-anchor="end" class="small">C4</text>
+<rect x="180" y="616" width="28" height="22" fill="#dcecf7"><title>Pat-SPECTER cluster 4; WIPO 01 Electrical machinery, apparatus, energy: 6.7%</title></rect>
+<rect x="209" y="616" width="28" height="22" fill="#ebf5fc"><title>Pat-SPECTER cluster 4; WIPO 02 Audio-visual technology: 2.9%</title></rect>
+<rect x="238" y="616" width="28" height="22" fill="#f5fafe"><title>Pat-SPECTER cluster 4; WIPO 03 Telecommunications: 0.5%</title></rect>
+<rect x="267" y="616" width="28" height="22" fill="#f6fbff"><title>Pat-SPECTER cluster 4; WIPO 04 Digital communication: 0.2%</title></rect>
+<rect x="296" y="616" width="28" height="22" fill="#f6fbff"><title>Pat-SPECTER cluster 4; WIPO 05 Basic communication processes: 0.1%</title></rect>
+<rect x="325" y="616" width="28" height="22" fill="#f1f8fd"><title>Pat-SPECTER cluster 4; WIPO 06 Computer technology: 1.4%</title></rect>
+<rect x="354" y="616" width="28" height="22" fill="#f5fafe"><title>Pat-SPECTER cluster 4; WIPO 07 IT methods for management: 0.6%</title></rect>
+<rect x="383" y="616" width="28" height="22" fill="#f1f8fd"><title>Pat-SPECTER cluster 4; WIPO 08 Semiconductors: 1.5%</title></rect>
+<rect x="412" y="616" width="28" height="22" fill="#f5faff"><title>Pat-SPECTER cluster 4; WIPO 09 Optics: 0.4%</title></rect>
+<rect x="441" y="616" width="28" height="22" fill="#d6e9f5"><title>Pat-SPECTER cluster 4; WIPO 10 Measurement: 8.2%</title></rect>
+<rect x="470" y="616" width="28" height="22" fill="#dfeef8"><title>Pat-SPECTER cluster 4; WIPO 11 Analysis of biological materials: 5.9%</title></rect>
+<rect x="499" y="616" width="28" height="22" fill="#eaf4fb"><title>Pat-SPECTER cluster 4; WIPO 12 Control: 3.3%</title></rect>
+<rect x="528" y="616" width="28" height="22" fill="#e2eff9"><title>Pat-SPECTER cluster 4; WIPO 13 Medical technology: 5.3%</title></rect>
+<rect x="557" y="616" width="28" height="22" fill="#f1f8fd"><title>Pat-SPECTER cluster 4; WIPO 14 Organic fine chemistry: 1.4%</title></rect>
+<rect x="586" y="616" width="28" height="22" fill="#eff7fd"><title>Pat-SPECTER cluster 4; WIPO 15 Biotechnology: 2.0%</title></rect>
+<rect x="615" y="616" width="28" height="22" fill="#f6fbff"><title>Pat-SPECTER cluster 4; WIPO 16 Pharmaceuticals: 0.2%</title></rect>
+<rect x="644" y="616" width="28" height="22" fill="#f5fafe"><title>Pat-SPECTER cluster 4; WIPO 17 Macromolecular chemistry, polymers: 0.4%</title></rect>
+<rect x="673" y="616" width="28" height="22" fill="#e8f3fb"><title>Pat-SPECTER cluster 4; WIPO 18 Food chemistry: 3.7%</title></rect>
+<rect x="702" y="616" width="28" height="22" fill="#e9f3fb"><title>Pat-SPECTER cluster 4; WIPO 19 Basic materials chemistry: 3.5%</title></rect>
+<rect x="731" y="616" width="28" height="22" fill="#deedf8"><title>Pat-SPECTER cluster 4; WIPO 20 Materials, metallurgy: 6.2%</title></rect>
+<rect x="760" y="616" width="28" height="22" fill="#e4f1f9"><title>Pat-SPECTER cluster 4; WIPO 21 Surface technology, coating: 4.7%</title></rect>
+<rect x="789" y="616" width="28" height="22" fill="#f6faff"><title>Pat-SPECTER cluster 4; WIPO 22 Micro-structural and nano-technology: 0.3%</title></rect>
+<rect x="818" y="616" width="28" height="22" fill="#95c5e2"><title>Pat-SPECTER cluster 4; WIPO 23 Chemical engineering: 24.6%</title></rect>
+<rect x="847" y="616" width="28" height="22" fill="#a3cde7"><title>Pat-SPECTER cluster 4; WIPO 24 Environmental technology: 20.9%</title></rect>
+<rect x="876" y="616" width="28" height="22" fill="#e3f0f9"><title>Pat-SPECTER cluster 4; WIPO 25 Handling: 5.0%</title></rect>
+<rect x="905" y="616" width="28" height="22" fill="#edf5fc"><title>Pat-SPECTER cluster 4; WIPO 26 Machine tools: 2.5%</title></rect>
+<rect x="934" y="616" width="28" height="22" fill="#c5e0f0"><title>Pat-SPECTER cluster 4; WIPO 27 Engines, pumps, turbines: 12.4%</title></rect>
+<rect x="963" y="616" width="28" height="22" fill="#eef6fc"><title>Pat-SPECTER cluster 4; WIPO 28 Textile and paper machines: 2.2%</title></rect>
+<rect x="992" y="616" width="28" height="22" fill="#d5e8f5"><title>Pat-SPECTER cluster 4; WIPO 29 Other special machines: 8.4%</title></rect>
+<rect x="1021" y="616" width="28" height="22" fill="#add2e9"><title>Pat-SPECTER cluster 4; WIPO 30 Thermal processes and apparatus: 18.6%</title></rect>
+<rect x="1050" y="616" width="28" height="22" fill="#d9ebf6"><title>Pat-SPECTER cluster 4; WIPO 31 Mechanical elements: 7.4%</title></rect>
+<rect x="1079" y="616" width="28" height="22" fill="#e7f2fa"><title>Pat-SPECTER cluster 4; WIPO 32 Transport: 4.1%</title></rect>
+<text x="150" y="654" text-anchor="end" class="small">C5</text>
+<rect x="180" y="639" width="28" height="22" fill="#cee5f3"><title>Pat-SPECTER cluster 5; WIPO 01 Electrical machinery, apparatus, energy: 10.2%</title></rect>
+<rect x="209" y="639" width="28" height="22" fill="#ddedf7"><title>Pat-SPECTER cluster 5; WIPO 02 Audio-visual technology: 6.5%</title></rect>
+<rect x="238" y="639" width="28" height="22" fill="#edf6fc"><title>Pat-SPECTER cluster 5; WIPO 03 Telecommunications: 2.5%</title></rect>
+<rect x="267" y="639" width="28" height="22" fill="#f5fafe"><title>Pat-SPECTER cluster 5; WIPO 04 Digital communication: 0.6%</title></rect>
+<rect x="296" y="639" width="28" height="22" fill="#f5fafe"><title>Pat-SPECTER cluster 5; WIPO 05 Basic communication processes: 0.4%</title></rect>
+<rect x="325" y="639" width="28" height="22" fill="#f0f7fd"><title>Pat-SPECTER cluster 5; WIPO 06 Computer technology: 1.7%</title></rect>
+<rect x="354" y="639" width="28" height="22" fill="#f6fbff"><title>Pat-SPECTER cluster 5; WIPO 07 IT methods for management: 0.2%</title></rect>
+<rect x="383" y="639" width="28" height="22" fill="#f1f8fd"><title>Pat-SPECTER cluster 5; WIPO 08 Semiconductors: 1.5%</title></rect>
+<rect x="412" y="639" width="28" height="22" fill="#ebf4fb"><title>Pat-SPECTER cluster 5; WIPO 09 Optics: 3.1%</title></rect>
+<rect x="441" y="639" width="28" height="22" fill="#d8eaf6"><title>Pat-SPECTER cluster 5; WIPO 10 Measurement: 7.6%</title></rect>
+<rect x="470" y="639" width="28" height="22" fill="#f0f7fd"><title>Pat-SPECTER cluster 5; WIPO 11 Analysis of biological materials: 1.9%</title></rect>
+<rect x="499" y="639" width="28" height="22" fill="#e9f3fb"><title>Pat-SPECTER cluster 5; WIPO 12 Control: 3.5%</title></rect>
+<rect x="528" y="639" width="28" height="22" fill="#daebf7"><title>Pat-SPECTER cluster 5; WIPO 13 Medical technology: 7.2%</title></rect>
+<rect x="557" y="639" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 5; WIPO 14 Organic fine chemistry: 0.0%</title></rect>
+<rect x="586" y="639" width="28" height="22" fill="#f6faff"><title>Pat-SPECTER cluster 5; WIPO 15 Biotechnology: 0.3%</title></rect>
+<rect x="615" y="639" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 5; WIPO 16 Pharmaceuticals: 0.0%</title></rect>
+<rect x="644" y="639" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 5; WIPO 17 Macromolecular chemistry, polymers: 0.1%</title></rect>
+<rect x="673" y="639" width="28" height="22" fill="#f2f8fd"><title>Pat-SPECTER cluster 5; WIPO 18 Food chemistry: 1.3%</title></rect>
+<rect x="702" y="639" width="28" height="22" fill="#f6faff"><title>Pat-SPECTER cluster 5; WIPO 19 Basic materials chemistry: 0.4%</title></rect>
+<rect x="731" y="639" width="28" height="22" fill="#eff7fd"><title>Pat-SPECTER cluster 5; WIPO 20 Materials, metallurgy: 1.9%</title></rect>
+<rect x="760" y="639" width="28" height="22" fill="#e9f3fb"><title>Pat-SPECTER cluster 5; WIPO 21 Surface technology, coating: 3.5%</title></rect>
+<rect x="789" y="639" width="28" height="22" fill="#f6fbff"><title>Pat-SPECTER cluster 5; WIPO 22 Micro-structural and nano-technology: 0.1%</title></rect>
+<rect x="818" y="639" width="28" height="22" fill="#d6e9f5"><title>Pat-SPECTER cluster 5; WIPO 23 Chemical engineering: 8.3%</title></rect>
+<rect x="847" y="639" width="28" height="22" fill="#ecf5fc"><title>Pat-SPECTER cluster 5; WIPO 24 Environmental technology: 2.7%</title></rect>
+<rect x="876" y="639" width="28" height="22" fill="#c0ddef"><title>Pat-SPECTER cluster 5; WIPO 25 Handling: 13.8%</title></rect>
+<rect x="905" y="639" width="28" height="22" fill="#bddbee"><title>Pat-SPECTER cluster 5; WIPO 26 Machine tools: 14.6%</title></rect>
+<rect x="934" y="639" width="28" height="22" fill="#e2f0f9"><title>Pat-SPECTER cluster 5; WIPO 27 Engines, pumps, turbines: 5.2%</title></rect>
+<rect x="963" y="639" width="28" height="22" fill="#d9ebf6"><title>Pat-SPECTER cluster 5; WIPO 28 Textile and paper machines: 7.5%</title></rect>
+<rect x="992" y="639" width="28" height="22" fill="#d4e8f5"><title>Pat-SPECTER cluster 5; WIPO 29 Other special machines: 8.8%</title></rect>
+<rect x="1021" y="639" width="28" height="22" fill="#ecf5fc"><title>Pat-SPECTER cluster 5; WIPO 30 Thermal processes and apparatus: 2.9%</title></rect>
+<rect x="1050" y="639" width="28" height="22" fill="#bedcee"><title>Pat-SPECTER cluster 5; WIPO 31 Mechanical elements: 14.3%</title></rect>
+<rect x="1079" y="639" width="28" height="22" fill="#cee5f3"><title>Pat-SPECTER cluster 5; WIPO 32 Transport: 10.2%</title></rect>
+<text x="150" y="677" text-anchor="end" class="small">C6</text>
+<rect x="180" y="662" width="28" height="22" fill="#e9f3fb"><title>Pat-SPECTER cluster 6; WIPO 01 Electrical machinery, apparatus, energy: 3.6%</title></rect>
+<rect x="209" y="662" width="28" height="22" fill="#d2e7f4"><title>Pat-SPECTER cluster 6; WIPO 02 Audio-visual technology: 9.3%</title></rect>
+<rect x="238" y="662" width="28" height="22" fill="#c9e2f1"><title>Pat-SPECTER cluster 6; WIPO 03 Telecommunications: 11.6%</title></rect>
+<rect x="267" y="662" width="28" height="22" fill="#84bcdd"><title>Pat-SPECTER cluster 6; WIPO 04 Digital communication: 28.7%</title></rect>
+<rect x="296" y="662" width="28" height="22" fill="#edf6fc"><title>Pat-SPECTER cluster 6; WIPO 05 Basic communication processes: 2.5%</title></rect>
+<rect x="325" y="662" width="28" height="22" fill="#4e8ab7"><title>Pat-SPECTER cluster 6; WIPO 06 Computer technology: 45.1%</title></rect>
+<rect x="354" y="662" width="28" height="22" fill="#8cc0e0"><title>Pat-SPECTER cluster 6; WIPO 07 IT methods for management: 26.7%</title></rect>
+<rect x="383" y="662" width="28" height="22" fill="#f6fbff"><title>Pat-SPECTER cluster 6; WIPO 08 Semiconductors: 0.1%</title></rect>
+<rect x="412" y="662" width="28" height="22" fill="#f1f7fd"><title>Pat-SPECTER cluster 6; WIPO 09 Optics: 1.6%</title></rect>
+<rect x="441" y="662" width="28" height="22" fill="#cee4f3"><title>Pat-SPECTER cluster 6; WIPO 10 Measurement: 10.3%</title></rect>
+<rect x="470" y="662" width="28" height="22" fill="#edf5fc"><title>Pat-SPECTER cluster 6; WIPO 11 Analysis of biological materials: 2.6%</title></rect>
+<rect x="499" y="662" width="28" height="22" fill="#aed3ea"><title>Pat-SPECTER cluster 6; WIPO 12 Control: 18.4%</title></rect>
+<rect x="528" y="662" width="28" height="22" fill="#deedf8"><title>Pat-SPECTER cluster 6; WIPO 13 Medical technology: 6.3%</title></rect>
+<rect x="557" y="662" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 6; WIPO 14 Organic fine chemistry: 0.0%</title></rect>
+<rect x="586" y="662" width="28" height="22" fill="#f6fbff"><title>Pat-SPECTER cluster 6; WIPO 15 Biotechnology: 0.1%</title></rect>
+<rect x="615" y="662" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 6; WIPO 16 Pharmaceuticals: 0.0%</title></rect>
+<rect x="644" y="662" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 6; WIPO 17 Macromolecular chemistry, polymers: 0.0%</title></rect>
+<rect x="673" y="662" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 6; WIPO 18 Food chemistry: 0.1%</title></rect>
+<rect x="702" y="662" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 6; WIPO 19 Basic materials chemistry: 0.1%</title></rect>
+<rect x="731" y="662" width="28" height="22" fill="#f6faff"><title>Pat-SPECTER cluster 6; WIPO 20 Materials, metallurgy: 0.3%</title></rect>
+<rect x="760" y="662" width="28" height="22" fill="#f6fbff"><title>Pat-SPECTER cluster 6; WIPO 21 Surface technology, coating: 0.1%</title></rect>
+<rect x="789" y="662" width="28" height="22" fill="#f6fbff"><title>Pat-SPECTER cluster 6; WIPO 22 Micro-structural and nano-technology: 0.1%</title></rect>
+<rect x="818" y="662" width="28" height="22" fill="#f5fafe"><title>Pat-SPECTER cluster 6; WIPO 23 Chemical engineering: 0.5%</title></rect>
+<rect x="847" y="662" width="28" height="22" fill="#f4f9fe"><title>Pat-SPECTER cluster 6; WIPO 24 Environmental technology: 0.7%</title></rect>
+<rect x="876" y="662" width="28" height="22" fill="#eff6fd"><title>Pat-SPECTER cluster 6; WIPO 25 Handling: 2.1%</title></rect>
+<rect x="905" y="662" width="28" height="22" fill="#f6faff"><title>Pat-SPECTER cluster 6; WIPO 26 Machine tools: 0.3%</title></rect>
+<rect x="934" y="662" width="28" height="22" fill="#f1f8fd"><title>Pat-SPECTER cluster 6; WIPO 27 Engines, pumps, turbines: 1.4%</title></rect>
+<rect x="963" y="662" width="28" height="22" fill="#f4f9fe"><title>Pat-SPECTER cluster 6; WIPO 28 Textile and paper machines: 0.8%</title></rect>
+<rect x="992" y="662" width="28" height="22" fill="#f1f8fd"><title>Pat-SPECTER cluster 6; WIPO 29 Other special machines: 1.4%</title></rect>
+<rect x="1021" y="662" width="28" height="22" fill="#f2f8fe"><title>Pat-SPECTER cluster 6; WIPO 30 Thermal processes and apparatus: 1.2%</title></rect>
+<rect x="1050" y="662" width="28" height="22" fill="#f4f9fe"><title>Pat-SPECTER cluster 6; WIPO 31 Mechanical elements: 0.7%</title></rect>
+<rect x="1079" y="662" width="28" height="22" fill="#dbecf7"><title>Pat-SPECTER cluster 6; WIPO 32 Transport: 6.9%</title></rect>
+<text x="150" y="700" text-anchor="end" class="small">C7</text>
+<rect x="180" y="685" width="28" height="22" fill="#f6fbff"><title>Pat-SPECTER cluster 7; WIPO 01 Electrical machinery, apparatus, energy: 0.1%</title></rect>
+<rect x="209" y="685" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 7; WIPO 02 Audio-visual technology: 0.1%</title></rect>
+<rect x="238" y="685" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 7; WIPO 03 Telecommunications: 0.0%</title></rect>
+<rect x="267" y="685" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 7; WIPO 04 Digital communication: 0.0%</title></rect>
+<rect x="296" y="685" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 7; WIPO 05 Basic communication processes: 0.1%</title></rect>
+<rect x="325" y="685" width="28" height="22" fill="#edf5fc"><title>Pat-SPECTER cluster 7; WIPO 06 Computer technology: 2.5%</title></rect>
+<rect x="354" y="685" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 7; WIPO 07 IT methods for management: 0.0%</title></rect>
+<rect x="383" y="685" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 7; WIPO 08 Semiconductors: 0.1%</title></rect>
+<rect x="412" y="685" width="28" height="22" fill="#f6fbff"><title>Pat-SPECTER cluster 7; WIPO 09 Optics: 0.2%</title></rect>
+<rect x="441" y="685" width="28" height="22" fill="#d8eaf6"><title>Pat-SPECTER cluster 7; WIPO 10 Measurement: 7.8%</title></rect>
+<rect x="470" y="685" width="28" height="22" fill="#98c7e3"><title>Pat-SPECTER cluster 7; WIPO 11 Analysis of biological materials: 23.7%</title></rect>
+<rect x="499" y="685" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 7; WIPO 12 Control: 0.1%</title></rect>
+<rect x="528" y="685" width="28" height="22" fill="#e2eff9"><title>Pat-SPECTER cluster 7; WIPO 13 Medical technology: 5.3%</title></rect>
+<rect x="557" y="685" width="28" height="22" fill="#94c5e2"><title>Pat-SPECTER cluster 7; WIPO 14 Organic fine chemistry: 24.7%</title></rect>
+<rect x="586" y="685" width="28" height="22" fill="#316497"><title>Pat-SPECTER cluster 7; WIPO 15 Biotechnology: 55.7%</title></rect>
+<rect x="615" y="685" width="28" height="22" fill="#1a467e"><title>Pat-SPECTER cluster 7; WIPO 16 Pharmaceuticals: 63.8%</title></rect>
+<rect x="644" y="685" width="28" height="22" fill="#f0f7fd"><title>Pat-SPECTER cluster 7; WIPO 17 Macromolecular chemistry, polymers: 1.6%</title></rect>
+<rect x="673" y="685" width="28" height="22" fill="#e8f3fb"><title>Pat-SPECTER cluster 7; WIPO 18 Food chemistry: 3.8%</title></rect>
+<rect x="702" y="685" width="28" height="22" fill="#e8f3fb"><title>Pat-SPECTER cluster 7; WIPO 19 Basic materials chemistry: 3.8%</title></rect>
+<rect x="731" y="685" width="28" height="22" fill="#f4f9fe"><title>Pat-SPECTER cluster 7; WIPO 20 Materials, metallurgy: 0.8%</title></rect>
+<rect x="760" y="685" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 7; WIPO 21 Surface technology, coating: 0.1%</title></rect>
+<rect x="789" y="685" width="28" height="22" fill="#e3f0f9"><title>Pat-SPECTER cluster 7; WIPO 22 Micro-structural and nano-technology: 4.9%</title></rect>
+<rect x="818" y="685" width="28" height="22" fill="#eff6fd"><title>Pat-SPECTER cluster 7; WIPO 23 Chemical engineering: 2.1%</title></rect>
+<rect x="847" y="685" width="28" height="22" fill="#f6fbff"><title>Pat-SPECTER cluster 7; WIPO 24 Environmental technology: 0.2%</title></rect>
+<rect x="876" y="685" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 7; WIPO 25 Handling: 0.1%</title></rect>
+<rect x="905" y="685" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 7; WIPO 26 Machine tools: 0.0%</title></rect>
+<rect x="934" y="685" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 7; WIPO 27 Engines, pumps, turbines: 0.0%</title></rect>
+<rect x="963" y="685" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 7; WIPO 28 Textile and paper machines: 0.1%</title></rect>
+<rect x="992" y="685" width="28" height="22" fill="#f0f7fd"><title>Pat-SPECTER cluster 7; WIPO 29 Other special machines: 1.7%</title></rect>
+<rect x="1021" y="685" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 7; WIPO 30 Thermal processes and apparatus: 0.0%</title></rect>
+<rect x="1050" y="685" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 7; WIPO 31 Mechanical elements: 0.0%</title></rect>
+<rect x="1079" y="685" width="28" height="22" fill="#f7fbff"><title>Pat-SPECTER cluster 7; WIPO 32 Transport: 0.1%</title></rect>
+<text x="1144" y="138" class="small" font-weight="700">Prevalenza</text>
+<rect x="1144" y="148" width="20" height="6" fill="#f7fbff"/>
+<rect x="1144" y="153" width="20" height="6" fill="#f1f8fd"/>
+<rect x="1144" y="158" width="20" height="6" fill="#ecf5fc"/>
+<rect x="1144" y="163" width="20" height="6" fill="#e6f2fa"/>
+<rect x="1144" y="168" width="20" height="6" fill="#e1eff8"/>
+<rect x="1144" y="173" width="20" height="6" fill="#dbecf7"/>
+<rect x="1144" y="178" width="20" height="6" fill="#d5e9f5"/>
+<rect x="1144" y="183" width="20" height="6" fill="#d0e5f4"/>
+<rect x="1144" y="188" width="20" height="6" fill="#cae2f2"/>
+<rect x="1144" y="193" width="20" height="6" fill="#c5dff0"/>
+<rect x="1144" y="198" width="20" height="6" fill="#bfdcef"/>
+<rect x="1144" y="203" width="20" height="6" fill="#b9d9ed"/>
+<rect x="1144" y="208" width="20" height="6" fill="#b4d6eb"/>
+<rect x="1144" y="213" width="20" height="6" fill="#aed3ea"/>
+<rect x="1144" y="218" width="20" height="6" fill="#a9d0e8"/>
+<rect x="1144" y="223" width="20" height="6" fill="#a3cde6"/>
+<rect x="1144" y="228" width="20" height="6" fill="#9dcae5"/>
+<rect x="1144" y="233" width="20" height="6" fill="#98c7e3"/>
+<rect x="1144" y="238" width="20" height="6" fill="#92c4e1"/>
+<rect x="1144" y="243" width="20" height="6" fill="#8dc0e0"/>
+<rect x="1144" y="248" width="20" height="6" fill="#87bdde"/>
+<rect x="1144" y="253" width="20" height="6" fill="#81badd"/>
+<rect x="1144" y="258" width="20" height="6" fill="#7cb7db"/>
+<rect x="1144" y="263" width="20" height="6" fill="#76b4d9"/>
+<rect x="1144" y="268" width="20" height="6" fill="#71b1d8"/>
+<rect x="1144" y="273" width="20" height="6" fill="#6baed6"/>
+<rect x="1144" y="278" width="20" height="6" fill="#67a9d2"/>
+<rect x="1144" y="283" width="20" height="6" fill="#63a4cd"/>
+<rect x="1144" y="288" width="20" height="6" fill="#5f9fc9"/>
+<rect x="1144" y="293" width="20" height="6" fill="#5b9ac5"/>
+<rect x="1144" y="298" width="20" height="6" fill="#5795c1"/>
+<rect x="1144" y="303" width="20" height="6" fill="#5390bc"/>
+<rect x="1144" y="308" width="20" height="6" fill="#4f8bb8"/>
+<rect x="1144" y="313" width="20" height="6" fill="#4b86b4"/>
+<rect x="1144" y="318" width="20" height="6" fill="#4781af"/>
+<rect x="1144" y="323" width="20" height="6" fill="#437cab"/>
+<rect x="1144" y="328" width="20" height="6" fill="#3f77a7"/>
+<rect x="1144" y="333" width="20" height="6" fill="#3b72a3"/>
+<rect x="1144" y="338" width="20" height="6" fill="#386c9e"/>
+<rect x="1144" y="343" width="20" height="6" fill="#34679a"/>
+<rect x="1144" y="348" width="20" height="6" fill="#306296"/>
+<rect x="1144" y="353" width="20" height="6" fill="#2c5d92"/>
+<rect x="1144" y="358" width="20" height="6" fill="#28588d"/>
+<rect x="1144" y="363" width="20" height="6" fill="#245389"/>
+<rect x="1144" y="368" width="20" height="6" fill="#204e85"/>
+<rect x="1144" y="373" width="20" height="6" fill="#1c4980"/>
+<rect x="1144" y="378" width="20" height="6" fill="#18447c"/>
+<rect x="1144" y="383" width="20" height="6" fill="#143f78"/>
+<rect x="1144" y="388" width="20" height="6" fill="#103a74"/>
+<rect x="1144" y="393" width="20" height="6" fill="#0c356f"/>
+<rect x="1144" y="398" width="20" height="6" fill="#08306b"/>
+<text x="1172" y="152" class="tiny">0%</text>
+<text x="1172" y="214.5" class="tiny">18%</text>
+<text x="1172" y="277.0" class="tiny">35%</text>
+<text x="1172" y="339.5" class="tiny">52%</text>
+<text x="1172" y="402" class="tiny">70%</text>
+<text x="1144" y="433" class="tiny">WIPO field numbers</text>
+<text x="180" y="781" class="tiny">Legenda dei campi: docs/wipo-technology-fields.csv. Le quote non sommano necessariamente a 100%, perché un brevetto può essere compatibile con più campi.</text>
+</svg>

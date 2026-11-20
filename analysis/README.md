@@ -95,6 +95,17 @@ La cartella del singolo run contiene:
 - `metrics/full_vs_no_cn_refit_ari.csv`: cambiamento delle assegnazioni sui brevetti comuni dopo il refit senza CN;
 - `assignments/`: assegnazione per brevetto al seed di riferimento, incluse le liste di field WIPO selezionati e compatibili;
 - `profiles/`: schede cluster, termini c-TF-IDF, composizione WIPO e brevetti centrali/periferici.
+- `comparison/`: heatmap delle prevalenze WIPO e delle somiglianze tra profili cluster per i tre modelli del paper; sono output derivati dai profili salvati, non un nuovo fit.
+
+## Confronto descrittivo dei profili WIPO
+
+Per rigenerare il confronto K=8 dei tre modelli del paper a partire dai profili già salvati:
+
+```bash
+python analysis/compare_cluster_wipo_profiles.py
+```
+
+Lo script legge i file `ipc_compatible` del run di riferimento e scrive heatmap SVG, tabelle CSV e una nota in `analysis/results/run_20261118T132255Z/comparison/`. Non esegue embedding né clustering. Le percentuali sono multi-label; il weighted Jaccard confronta la forma dei profili WIPO e non sostituisce l’ARI, che confronta le assegnazioni dei brevetti.
 
 ## Regole di interpretazione
 

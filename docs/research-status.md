@@ -69,6 +69,14 @@ ARI fra fit full e senza CN, calcolato sui 20.579 brevetti comuni: **0,646 per Q
 
 Fonte numerica: [`analysis/results/run_20261118T132255Z/metrics/model_k_summary.csv`](../analysis/results/run_20261118T132255Z/metrics/model_k_summary.csv), [`cross_model_ari_reference_seed.csv`](../analysis/results/run_20261118T132255Z/metrics/cross_model_ari_reference_seed.csv) e [`full_vs_no_cn_refit_ari.csv`](../analysis/results/run_20261118T132255Z/metrics/full_vs_no_cn_refit_ari.csv). La [pagina comparativa locale](model-comparison.html) mostra le card per i tre modelli e le due coorti.
 
+### Nuovi output: confronto dei profili WIPO nei cluster
+
+Dai profili già salvati del corpus completo, K=8, è stato derivato un confronto descrittivo per Qwen 4B, SBERT-adapt-ub e Pat-SPECTER. La heatmap di prevalenza mostra, per ogni cluster, la quota di brevetti associata a ciascuno dei 32 campi WIPO compatibili. Poiché la compatibilità è multi-label, le quote non sommano a 100%. Una seconda heatmap confronta tutte le coppie di cluster con weighted Jaccard sulle prevalenze: è una somiglianza di profilo, senza abbinamento forzato 1:1.
+
+Le sovrapposizioni di profilo più alte includono SBERT cluster 4–Pat-SPECTER cluster 6 (0,937; informatica e comunicazione digitale), SBERT 6–Pat-SPECTER 2 (0,899; processi di comunicazione di base e telecomunicazioni) e Qwen 3–SBERT 0 (0,826; polimeri, materiali e chimica di base). Questi valori non indicano che i modelli assegnino gli stessi brevetti ai cluster: l’ARI sulle partizioni è 0,282 tra Qwen e SBERT, 0,276 tra Qwen e Pat-SPECTER e 0,487 tra SBERT e Pat-SPECTER. La lettura WIPO resta descrittiva, anche perché il corpus è stratificato proprio sui campi WIPO.
+
+Output e metodo: [nota comparativa e heatmap](../analysis/results/run_20261118T132255Z/comparison/wipo_cluster_comparison_full_k8.md), [script di post-processing](../analysis/compare_cluster_wipo_profiles.py). La revisione delle label e delle motivazioni Qwen/SBERT è in [cluster-label-review.md](cluster-label-review.md); la label Qwen cluster 1 resta provvisoria e Pat-SPECTER non è ancora stato rivisto manualmente.
+
 ## 5. Cosa possiamo sostenere adesso
 
 Una formulazione sostenibile è che, in un corpus bilanciato per selezione WIPO e sbilanciato per ufficio, embedding diversi producono partizioni con associazione misurabile alla struttura WIPO, ma con profili e assegnazioni non identici. Le card rendono visibile la coerenza lessicale e classificatoria dei cluster e i brevetti ambigui o periferici. I risultati sono sensibili al modello, a K e alla composizione della coorte.
@@ -83,7 +91,7 @@ Non abbiamo ancora dimostrato che:
 
 ## 6. Priorità prima della stesura
 
-1. **Revisione umana mirata:** leggere le otto card Qwen K=8 (termini, WIPO, IPC e cinque brevetti centrali), annotare coerenza, sovrapposizioni e casi di confine; poi confrontare le differenze più informative con SBERT e Pat-SPECTER.
+1. **Completare la revisione umana mirata:** la prima passata di label e motivazioni è stata completata per Qwen 4B e SBERT-adapt-ub a K=8; Qwen cluster 1 resta provvisorio. Proseguire con Pat-SPECTER e con una verifica sistematica degli esempi centrali e di confine prima di formulare affermazioni sulla coerenza semantica.
 2. **Congelare la tabella principale:** decidere se il paper usa come riferimento il WIPO di selezione, il WIPO IPC-compatibile primario o soprattutto i profili multi-label; mantenere chiara la distinzione.
 3. **Verificare la sensibilità geografica:** descrivere full vs senza CN come refit su coorti diverse e leggere i risultati insieme a uffici, kind code e distribuzione WIPO. Evitare di chiamarlo un effetto causale della Cina.
 4. **Usare K=16 come sensibilità**, non aggiungere ogni variante alla narrativa centrale. Riportare i risultati che cambiano l'interpretazione.
@@ -95,5 +103,8 @@ Non abbiamo ancora dimostrato che:
 - [Protocollo e output della pipeline](../analysis/README.md)
 - [Configurazione del run corrente](../analysis/results/run_20261118T132255Z/run_config.json)
 - [Risultati e audit del run](../analysis/results/run_20261118T132255Z/)
+- [Confronto dei profili WIPO e heatmap](../analysis/results/run_20261118T132255Z/comparison/wipo_cluster_comparison_full_k8.md)
+- [Label e motivazioni dei cluster Qwen/SBERT](cluster-label-review.md)
+- [Glossario dei WIPO Technology Fields](wipo-technology-fields.csv)
 - [Patent Observatory di Brian](patent-observatory/README.md) — dashboard più ampia e risultati di notebook precedenti; non va confusa con la pagina comparativa a tre modelli.
 

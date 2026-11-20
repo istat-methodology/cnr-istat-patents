@@ -1,0 +1,756 @@
+model,cluster,wipo_field_number,wipo_field_name,patents_with_compatible_field,share_of_cluster_percent,lift_vs_cohort
+Qwen 4B,0,1,"Electrical machinery, apparatus, energy",33,0.5441,0.067609
+Qwen 4B,0,2,Audio-visual technology,44,0.7255,0.121421
+Qwen 4B,0,3,Telecommunications,18,0.2968,0.064772
+Qwen 4B,0,4,Digital communication,8,0.1319,0.024693
+Qwen 4B,0,5,Basic communication processes,10,0.1649,0.048337
+Qwen 4B,0,6,Computer technology,218,3.5944,0.367529
+Qwen 4B,0,7,IT methods for management,20,0.3298,0.073473
+Qwen 4B,0,8,Semiconductors,17,0.2803,0.052274
+Qwen 4B,0,9,Optics,89,1.4674,0.31542
+Qwen 4B,0,10,Measurement,469,7.7329,0.909966
+Qwen 4B,0,11,Analysis of biological materials,1015,16.7354,4.104785
+Qwen 4B,0,12,Control,45,0.742,0.149064
+Qwen 4B,0,13,Medical technology,1072,17.6752,3.452355
+Qwen 4B,0,14,Organic fine chemistry,1240,20.4452,3.876221
+Qwen 4B,0,15,Biotechnology,2487,41.0058,6.358926
+Qwen 4B,0,16,Pharmaceuticals,2973,49.019,7.550313
+Qwen 4B,0,17,"Macromolecular chemistry, polymers",135,2.2259,0.434234
+Qwen 4B,0,18,Food chemistry,719,11.8549,2.875747
+Qwen 4B,0,19,Basic materials chemistry,290,4.7815,0.762376
+Qwen 4B,0,20,"Materials, metallurgy",34,0.5606,0.096191
+Qwen 4B,0,21,"Surface technology, coating",34,0.5606,0.107623
+Qwen 4B,0,22,Micro-structural and nano-technology,193,3.1822,0.874392
+Qwen 4B,0,23,Chemical engineering,244,4.0231,0.466211
+Qwen 4B,0,24,Environmental technology,40,0.6595,0.124891
+Qwen 4B,0,25,Handling,48,0.7914,0.164477
+Qwen 4B,0,26,Machine tools,18,0.2968,0.064138
+Qwen 4B,0,27,"Engines, pumps, turbines",29,0.4782,0.123532
+Qwen 4B,0,28,Textile and paper machines,34,0.5606,0.139208
+Qwen 4B,0,29,Other special machines,190,3.1327,0.445618
+Qwen 4B,0,30,Thermal processes and apparatus,11,0.1814,0.043017
+Qwen 4B,0,31,Mechanical elements,22,0.3627,0.073105
+Qwen 4B,0,32,Transport,8,0.1319,0.026609
+Qwen 4B,1,1,"Electrical machinery, apparatus, energy",387,2.626,0.326307
+Qwen 4B,1,2,Audio-visual technology,193,1.3096,0.21919
+Qwen 4B,1,3,Telecommunications,50,0.3393,0.074047
+Qwen 4B,1,4,Digital communication,22,0.1493,0.027947
+Qwen 4B,1,5,Basic communication processes,13,0.0882,0.025861
+Qwen 4B,1,6,Computer technology,367,2.4903,0.254638
+Qwen 4B,1,7,IT methods for management,166,1.1264,0.250974
+Qwen 4B,1,8,Semiconductors,26,0.1764,0.032903
+Qwen 4B,1,9,Optics,61,0.4139,0.088971
+Qwen 4B,1,10,Measurement,1080,7.3285,0.862379
+Qwen 4B,1,11,Analysis of biological materials,375,2.5446,0.624133
+Qwen 4B,1,12,Control,376,2.5514,0.512588
+Qwen 4B,1,13,Medical technology,141,0.9568,0.186879
+Qwen 4B,1,14,Organic fine chemistry,34,0.2307,0.043741
+Qwen 4B,1,15,Biotechnology,40,0.2714,0.042091
+Qwen 4B,1,17,"Macromolecular chemistry, polymers",178,1.2078,0.235631
+Qwen 4B,1,18,Food chemistry,478,3.2435,0.786813
+Qwen 4B,1,19,Basic materials chemistry,379,2.5718,0.410045
+Qwen 4B,1,20,"Materials, metallurgy",1033,7.0096,1.202758
+Qwen 4B,1,21,"Surface technology, coating",843,5.7203,1.098187
+Qwen 4B,1,22,Micro-structural and nano-technology,40,0.2714,0.074581
+Qwen 4B,1,23,Chemical engineering,2260,15.3355,1.777146
+Qwen 4B,1,24,Environmental technology,1475,10.0088,1.895335
+Qwen 4B,1,25,Handling,1651,11.2031,2.328264
+Qwen 4B,1,26,Machine tools,2042,13.8563,2.994454
+Qwen 4B,1,27,"Engines, pumps, turbines",990,6.7178,1.735554
+Qwen 4B,1,28,Textile and paper machines,1270,8.6178,2.139989
+Qwen 4B,1,29,Other special machines,1535,10.416,1.481628
+Qwen 4B,1,30,Thermal processes and apparatus,1372,9.3099,2.208141
+Qwen 4B,1,31,Mechanical elements,1624,11.0199,2.220919
+Qwen 4B,1,32,Transport,841,5.7067,1.151207
+Qwen 4B,2,1,"Electrical machinery, apparatus, energy",659,9.0299,1.122033
+Qwen 4B,2,2,Audio-visual technology,1138,15.5933,2.60982
+Qwen 4B,2,3,Telecommunications,437,5.9879,1.306846
+Qwen 4B,2,4,Digital communication,78,1.0688,0.200082
+Qwen 4B,2,5,Basic communication processes,1015,13.9079,4.077277
+Qwen 4B,2,6,Computer technology,668,9.1532,0.93592
+Qwen 4B,2,7,IT methods for management,7,0.0959,0.021371
+Qwen 4B,2,8,Semiconductors,2796,38.3119,7.144996
+Qwen 4B,2,9,Optics,1835,25.1439,5.404581
+Qwen 4B,2,10,Measurement,603,8.2625,0.972292
+Qwen 4B,2,11,Analysis of biological materials,49,0.6714,0.164682
+Qwen 4B,2,12,Control,107,1.4662,0.294557
+Qwen 4B,2,13,Medical technology,67,0.9181,0.179317
+Qwen 4B,2,14,Organic fine chemistry,292,4.0011,0.758572
+Qwen 4B,2,15,Biotechnology,10,0.137,0.021249
+Qwen 4B,2,16,Pharmaceuticals,4,0.0548,0.008442
+Qwen 4B,2,17,"Macromolecular chemistry, polymers",287,3.9326,0.767184
+Qwen 4B,2,19,Basic materials chemistry,610,8.3585,1.332686
+Qwen 4B,2,20,"Materials, metallurgy",220,3.0145,0.517256
+Qwen 4B,2,21,"Surface technology, coating",682,9.345,1.794066
+Qwen 4B,2,22,Micro-structural and nano-technology,639,8.7558,2.405896
+Qwen 4B,2,23,Chemical engineering,165,2.2609,0.262002
+Qwen 4B,2,24,Environmental technology,44,0.6029,0.11417
+Qwen 4B,2,25,Handling,107,1.4662,0.304701
+Qwen 4B,2,26,Machine tools,171,2.3431,0.506365
+Qwen 4B,2,27,"Engines, pumps, turbines",31,0.4248,0.109741
+Qwen 4B,2,28,Textile and paper machines,390,5.3439,1.327021
+Qwen 4B,2,29,Other special machines,214,2.9323,0.417109
+Qwen 4B,2,30,Thermal processes and apparatus,39,0.5344,0.126748
+Qwen 4B,2,31,Mechanical elements,62,0.8495,0.171216
+Qwen 4B,2,32,Transport,51,0.6988,0.140972
+Qwen 4B,3,1,"Electrical machinery, apparatus, energy",910,10.7578,1.336739
+Qwen 4B,3,2,Audio-visual technology,104,1.2295,0.205772
+Qwen 4B,3,3,Telecommunications,22,0.2601,0.056761
+Qwen 4B,3,5,Basic communication processes,2,0.0236,0.006931
+Qwen 4B,3,6,Computer technology,72,0.8512,0.087032
+Qwen 4B,3,7,IT methods for management,32,0.3783,0.084287
+Qwen 4B,3,8,Semiconductors,170,2.0097,0.374799
+Qwen 4B,3,9,Optics,148,1.7496,0.376073
+Qwen 4B,3,10,Measurement,392,4.6341,0.545319
+Qwen 4B,3,11,Analysis of biological materials,148,1.7496,0.429139
+Qwen 4B,3,12,Control,38,0.4492,0.090251
+Qwen 4B,3,13,Medical technology,106,1.2531,0.244759
+Qwen 4B,3,14,Organic fine chemistry,1046,12.3655,2.344393
+Qwen 4B,3,15,Biotechnology,89,1.0521,0.163159
+Qwen 4B,3,16,Pharmaceuticals,68,0.8039,0.12382
+Qwen 4B,3,17,"Macromolecular chemistry, polymers",2382,28.1594,5.493436
+Qwen 4B,3,18,Food chemistry,139,1.6432,0.39861
+Qwen 4B,3,19,Basic materials chemistry,2030,23.9981,3.826299
+Qwen 4B,3,20,"Materials, metallurgy",2086,24.6601,4.231381
+Qwen 4B,3,21,"Surface technology, coating",1379,16.3022,3.129702
+Qwen 4B,3,22,Micro-structural and nano-technology,1083,12.8029,3.517946
+Qwen 4B,3,23,Chemical engineering,1618,19.1276,2.216579
+Qwen 4B,3,24,Environmental technology,941,11.1242,2.106559
+Qwen 4B,3,25,Handling,225,2.6599,0.552787
+Qwen 4B,3,26,Machine tools,137,1.6196,0.350004
+Qwen 4B,3,27,"Engines, pumps, turbines",77,0.9103,0.235171
+Qwen 4B,3,28,Textile and paper machines,568,6.7147,1.667425
+Qwen 4B,3,29,Other special machines,1131,13.3704,1.901882
+Qwen 4B,3,30,Thermal processes and apparatus,211,2.4944,0.591623
+Qwen 4B,3,31,Mechanical elements,92,1.0876,0.219192
+Qwen 4B,3,32,Transport,60,0.7093,0.143087
+Qwen 4B,4,1,"Electrical machinery, apparatus, energy",2075,24.1983,3.006825
+Qwen 4B,4,2,Audio-visual technology,1277,14.8921,2.492464
+Qwen 4B,4,3,Telecommunications,841,9.8076,2.140468
+Qwen 4B,4,4,Digital communication,479,5.586,1.045729
+Qwen 4B,4,5,Basic communication processes,649,7.5685,2.218802
+Qwen 4B,4,6,Computer technology,1425,16.6181,1.699209
+Qwen 4B,4,7,IT methods for management,758,8.8397,1.969539
+Qwen 4B,4,8,Semiconductors,303,3.5335,0.658987
+Qwen 4B,4,9,Optics,546,6.3673,1.368637
+Qwen 4B,4,10,Measurement,1416,16.5131,1.943177
+Qwen 4B,4,11,Analysis of biological materials,303,3.5335,0.86669
+Qwen 4B,4,12,Control,1085,12.6531,2.542057
+Qwen 4B,4,13,Medical technology,97,1.1312,0.220947
+Qwen 4B,4,14,Organic fine chemistry,11,0.1283,0.024321
+Qwen 4B,4,15,Biotechnology,5,0.0583,0.009042
+Qwen 4B,4,16,Pharmaceuticals,1,0.0117,0.001796
+Qwen 4B,4,17,"Macromolecular chemistry, polymers",51,0.5948,0.116027
+Qwen 4B,4,18,Food chemistry,7,0.0816,0.019802
+Qwen 4B,4,19,Basic materials chemistry,55,0.6414,0.102266
+Qwen 4B,4,20,"Materials, metallurgy",83,0.9679,0.166085
+Qwen 4B,4,21,"Surface technology, coating",166,1.9359,0.371648
+Qwen 4B,4,22,Micro-structural and nano-technology,150,1.7493,0.480659
+Qwen 4B,4,23,Chemical engineering,362,4.2216,0.489213
+Qwen 4B,4,24,Environmental technology,306,3.5685,0.675757
+Qwen 4B,4,25,Handling,333,3.8834,0.807057
+Qwen 4B,4,26,Machine tools,242,2.8222,0.609891
+Qwen 4B,4,27,"Engines, pumps, turbines",268,3.1254,0.807445
+Qwen 4B,4,28,Textile and paper machines,76,0.8863,0.220088
+Qwen 4B,4,29,Other special machines,152,1.7726,0.252144
+Qwen 4B,4,30,Thermal processes and apparatus,300,3.4985,0.829791
+Qwen 4B,4,31,Mechanical elements,561,6.5423,1.318514
+Qwen 4B,4,32,Transport,428,4.9913,1.006876
+Qwen 4B,5,1,"Electrical machinery, apparatus, energy",111,1.6905,0.210061
+Qwen 4B,5,2,Audio-visual technology,765,11.6509,1.949991
+Qwen 4B,5,3,Telecommunications,1409,21.459,4.683355
+Qwen 4B,5,4,Digital communication,2699,41.1057,7.695198
+Qwen 4B,5,5,Basic communication processes,406,6.1834,1.81273
+Qwen 4B,5,6,Computer technology,2830,43.1008,4.407087
+Qwen 4B,5,7,IT methods for management,1538,23.4237,5.218973
+Qwen 4B,5,8,Semiconductors,23,0.3503,0.065327
+Qwen 4B,5,9,Optics,119,1.8124,0.389561
+Qwen 4B,5,10,Measurement,309,4.7061,0.553785
+Qwen 4B,5,11,Analysis of biological materials,41,0.6244,0.153157
+Qwen 4B,5,12,Control,620,9.4426,1.897058
+Qwen 4B,5,13,Medical technology,244,3.7161,0.725839
+Qwen 4B,5,14,Organic fine chemistry,1,0.0152,0.002887
+Qwen 4B,5,15,Biotechnology,3,0.0457,0.007085
+Qwen 4B,5,16,Pharmaceuticals,1,0.0152,0.002346
+Qwen 4B,5,17,"Macromolecular chemistry, polymers",1,0.0152,0.002971
+Qwen 4B,5,18,Food chemistry,3,0.0457,0.011083
+Qwen 4B,5,19,Basic materials chemistry,3,0.0457,0.007285
+Qwen 4B,5,20,"Materials, metallurgy",3,0.0457,0.00784
+Qwen 4B,5,21,"Surface technology, coating",3,0.0457,0.008772
+Qwen 4B,5,22,Micro-structural and nano-technology,18,0.2741,0.075327
+Qwen 4B,5,23,Chemical engineering,10,0.1523,0.017649
+Qwen 4B,5,24,Environmental technology,12,0.1828,0.034609
+Qwen 4B,5,25,Handling,35,0.533,0.11078
+Qwen 4B,5,26,Machine tools,4,0.0609,0.013165
+Qwen 4B,5,27,"Engines, pumps, turbines",4,0.0609,0.015739
+Qwen 4B,5,28,Textile and paper machines,43,0.6549,0.162624
+Qwen 4B,5,29,Other special machines,36,0.5483,0.07799
+Qwen 4B,5,30,Thermal processes and apparatus,8,0.1218,0.028898
+Qwen 4B,5,31,Mechanical elements,36,0.5483,0.110499
+Qwen 4B,5,32,Transport,90,1.3707,0.276508
+Qwen 4B,6,1,"Electrical machinery, apparatus, energy",61,0.992,0.123268
+Qwen 4B,6,2,Audio-visual technology,59,0.9595,0.16059
+Qwen 4B,6,3,Telecommunications,17,0.2765,0.060338
+Qwen 4B,6,4,Digital communication,15,0.2439,0.045667
+Qwen 4B,6,5,Basic communication processes,21,0.3415,0.10012
+Qwen 4B,6,6,Computer technology,261,4.2446,0.434012
+Qwen 4B,6,7,IT methods for management,80,1.301,0.289878
+Qwen 4B,6,8,Semiconductors,6,0.0976,0.018198
+Qwen 4B,6,9,Optics,58,0.9432,0.202746
+Qwen 4B,6,10,Measurement,466,7.5785,0.891794
+Qwen 4B,6,11,Analysis of biological materials,515,8.3753,2.054272
+Qwen 4B,6,12,Control,113,1.8377,0.369202
+Qwen 4B,6,13,Medical technology,1362,22.1499,4.326374
+Qwen 4B,6,14,Organic fine chemistry,746,12.1321,2.300128
+Qwen 4B,6,15,Biotechnology,1478,24.0364,3.727424
+Qwen 4B,6,16,Pharmaceuticals,1104,17.9541,2.765448
+Qwen 4B,6,17,"Macromolecular chemistry, polymers",216,3.5128,0.685284
+Qwen 4B,6,18,Food chemistry,1203,19.5642,4.745847
+Qwen 4B,6,19,Basic materials chemistry,563,9.156,1.459842
+Qwen 4B,6,20,"Materials, metallurgy",95,1.545,0.265098
+Qwen 4B,6,21,"Surface technology, coating",63,1.0246,0.196695
+Qwen 4B,6,22,Micro-structural and nano-technology,189,3.0737,0.844573
+Qwen 4B,6,23,Chemical engineering,576,9.3674,1.08553
+Qwen 4B,6,24,Environmental technology,230,3.7404,0.708315
+Qwen 4B,6,25,Handling,185,3.0086,0.625261
+Qwen 4B,6,26,Machine tools,57,0.927,0.200328
+Qwen 4B,6,27,"Engines, pumps, turbines",23,0.374,0.096635
+Qwen 4B,6,28,Textile and paper machines,78,1.2685,0.314997
+Qwen 4B,6,29,Other special machines,817,13.2867,1.889981
+Qwen 4B,6,30,Thermal processes and apparatus,72,1.1709,0.277722
+Qwen 4B,6,31,Mechanical elements,67,1.0896,0.219597
+Qwen 4B,6,32,Transport,34,0.5529,0.111543
+Qwen 4B,7,1,"Electrical machinery, apparatus, energy",912,14.9044,1.85199
+Qwen 4B,7,2,Audio-visual technology,242,3.9549,0.661922
+Qwen 4B,7,3,Telecommunications,137,2.2389,0.488638
+Qwen 4B,7,4,Digital communication,116,1.8957,0.354891
+Qwen 4B,7,5,Basic communication processes,66,1.0786,0.316207
+Qwen 4B,7,6,Computer technology,415,6.7822,0.69348
+Qwen 4B,7,7,IT methods for management,270,4.4125,0.983134
+Qwen 4B,7,8,Semiconductors,89,1.4545,0.271255
+Qwen 4B,7,9,Optics,120,1.9611,0.421532
+Qwen 4B,7,10,Measurement,701,11.4561,1.348096
+Qwen 4B,7,11,Analysis of biological materials,162,2.6475,0.649366
+Qwen 4B,7,12,Control,800,13.074,2.626632
+Qwen 4B,7,13,Medical technology,186,3.0397,0.593723
+Qwen 4B,7,14,Organic fine chemistry,4,0.0654,0.012394
+Qwen 4B,7,15,Biotechnology,13,0.2125,0.032946
+Qwen 4B,7,16,Pharmaceuticals,2,0.0327,0.005034
+Qwen 4B,7,17,"Macromolecular chemistry, polymers",29,0.4739,0.092457
+Qwen 4B,7,18,Food chemistry,88,1.4381,0.348863
+Qwen 4B,7,19,Basic materials chemistry,82,1.3401,0.213666
+Qwen 4B,7,20,"Materials, metallurgy",174,2.8436,0.487928
+Qwen 4B,7,21,"Surface technology, coating",162,2.6475,0.508268
+Qwen 4B,7,22,Micro-structural and nano-technology,16,0.2615,0.071849
+Qwen 4B,7,23,Chemical engineering,285,4.6576,0.539744
+Qwen 4B,7,24,Environmental technology,330,5.393,1.021261
+Qwen 4B,7,25,Handling,494,8.0732,1.677802
+Qwen 4B,7,26,Machine tools,289,4.723,1.020677
+Qwen 4B,7,27,"Engines, pumps, turbines",1054,17.225,4.450126
+Qwen 4B,7,28,Textile and paper machines,117,1.9121,0.474813
+Qwen 4B,7,29,Other special machines,422,6.8966,0.981006
+Qwen 4B,7,30,Thermal processes and apparatus,684,11.1783,2.651291
+Qwen 4B,7,31,Mechanical elements,710,11.6032,2.33848
+Qwen 4B,7,32,Transport,1659,27.1123,5.469309
+SBERT,0,1,"Electrical machinery, apparatus, energy",865,10.1205,1.257554
+SBERT,0,2,Audio-visual technology,124,1.4508,0.242818
+SBERT,0,3,Telecommunications,24,0.2808,0.061284
+SBERT,0,4,Digital communication,1,0.0117,0.00219
+SBERT,0,5,Basic communication processes,5,0.0585,0.01715
+SBERT,0,6,Computer technology,14,0.1638,0.016749
+SBERT,0,7,IT methods for management,2,0.0234,0.005214
+SBERT,0,8,Semiconductors,543,6.3531,1.184827
+SBERT,0,9,Optics,256,2.9952,0.643808
+SBERT,0,10,Measurement,203,2.3751,0.27949
+SBERT,0,11,Analysis of biological materials,41,0.4797,0.117659
+SBERT,0,12,Control,7,0.0819,0.016454
+SBERT,0,13,Medical technology,169,1.9773,0.386211
+SBERT,0,14,Organic fine chemistry,1278,14.9526,2.834881
+SBERT,0,15,Biotechnology,146,1.7082,0.264898
+SBERT,0,16,Pharmaceuticals,230,2.691,0.414491
+SBERT,0,17,"Macromolecular chemistry, polymers",2564,29.9988,5.852288
+SBERT,0,18,Food chemistry,152,1.7784,0.431402
+SBERT,0,19,Basic materials chemistry,2245,26.2665,4.187979
+SBERT,0,20,"Materials, metallurgy",2349,27.4833,4.715809
+SBERT,0,21,"Surface technology, coating",1312,15.3504,2.946985
+SBERT,0,22,Micro-structural and nano-technology,1267,14.8239,4.073265
+SBERT,0,23,Chemical engineering,1358,15.8886,1.841237
+SBERT,0,24,Environmental technology,609,7.1253,1.349294
+SBERT,0,25,Handling,80,0.936,0.194523
+SBERT,0,26,Machine tools,217,2.5389,0.548677
+SBERT,0,27,"Engines, pumps, turbines",65,0.7605,0.196477
+SBERT,0,28,Textile and paper machines,597,6.9849,1.734513
+SBERT,0,29,Other special machines,1100,12.87,1.830707
+SBERT,0,30,Thermal processes and apparatus,120,1.404,0.333004
+SBERT,0,31,Mechanical elements,48,0.5616,0.113184
+SBERT,0,32,Transport,62,0.7254,0.146334
+SBERT,1,1,"Electrical machinery, apparatus, energy",621,7.1717,0.891144
+SBERT,1,2,Audio-visual technology,190,2.1942,0.367247
+SBERT,1,3,Telecommunications,25,0.2887,0.063011
+SBERT,1,4,Digital communication,16,0.1848,0.034592
+SBERT,1,5,Basic communication processes,15,0.1732,0.050785
+SBERT,1,6,Computer technology,102,1.178,0.120448
+SBERT,1,7,IT methods for management,38,0.4388,0.097779
+SBERT,1,8,Semiconductors,136,1.5706,0.292914
+SBERT,1,9,Optics,12,0.1386,0.029788
+SBERT,1,10,Measurement,720,8.315,0.978471
+SBERT,1,11,Analysis of biological materials,505,5.8321,1.43047
+SBERT,1,12,Control,275,3.1759,0.63805
+SBERT,1,13,Medical technology,366,4.2268,0.825591
+SBERT,1,14,Organic fine chemistry,61,0.7045,0.133561
+SBERT,1,15,Biotechnology,118,1.3627,0.211326
+SBERT,1,16,Pharmaceuticals,8,0.0924,0.014231
+SBERT,1,17,"Macromolecular chemistry, polymers",41,0.4735,0.092371
+SBERT,1,18,Food chemistry,130,1.5013,0.36419
+SBERT,1,19,Basic materials chemistry,320,3.6956,0.589229
+SBERT,1,20,"Materials, metallurgy",472,5.451,0.935322
+SBERT,1,21,"Surface technology, coating",391,4.5155,0.866896
+SBERT,1,22,Micro-structural and nano-technology,29,0.3349,0.092026
+SBERT,1,23,Chemical engineering,1586,18.3162,2.122556
+SBERT,1,24,Environmental technology,1901,21.954,4.157359
+SBERT,1,25,Handling,235,2.7139,0.56402
+SBERT,1,26,Machine tools,237,2.737,0.591496
+SBERT,1,27,"Engines, pumps, turbines",1586,18.3162,4.732031
+SBERT,1,28,Textile and paper machines,56,0.6467,0.160597
+SBERT,1,29,Other special machines,449,5.1854,0.737596
+SBERT,1,30,Thermal processes and apparatus,1998,23.0743,5.4728
+SBERT,1,31,Mechanical elements,1024,11.8258,2.383351
+SBERT,1,32,Transport,377,4.3539,0.878294
+SBERT,2,1,"Electrical machinery, apparatus, energy",926,10.8941,1.353681
+SBERT,2,2,Audio-visual technology,1285,15.1176,2.530208
+SBERT,2,3,Telecommunications,331,3.8941,0.849877
+SBERT,2,4,Digital communication,9,0.1059,0.019822
+SBERT,2,5,Basic communication processes,213,2.5059,0.73463
+SBERT,2,6,Computer technology,531,6.2471,0.638766
+SBERT,2,7,IT methods for management,13,0.1529,0.034076
+SBERT,2,8,Semiconductors,2252,26.4941,4.941037
+SBERT,2,9,Optics,2234,26.2824,5.649293
+SBERT,2,10,Measurement,1274,14.9882,1.763737
+SBERT,2,11,Analysis of biological materials,322,3.7882,0.929163
+SBERT,2,12,Control,122,1.4353,0.288357
+SBERT,2,13,Medical technology,430,5.0588,0.9881
+SBERT,2,14,Organic fine chemistry,162,1.9059,0.361338
+SBERT,2,15,Biotechnology,145,1.7059,0.264538
+SBERT,2,16,Pharmaceuticals,24,0.2824,0.04349
+SBERT,2,17,"Macromolecular chemistry, polymers",293,3.4471,0.672466
+SBERT,2,18,Food chemistry,10,0.1176,0.028539
+SBERT,2,19,Basic materials chemistry,511,6.0118,0.958526
+SBERT,2,20,"Materials, metallurgy",320,3.7647,0.645978
+SBERT,2,21,"Surface technology, coating",852,10.0235,1.924325
+SBERT,2,22,Micro-structural and nano-technology,693,8.1529,2.240238
+SBERT,2,23,Chemical engineering,374,4.4,0.50989
+SBERT,2,24,Environmental technology,87,1.0235,0.193822
+SBERT,2,25,Handling,221,2.6,0.54034
+SBERT,2,26,Machine tools,277,3.2588,0.704258
+SBERT,2,27,"Engines, pumps, turbines",75,0.8824,0.227958
+SBERT,2,28,Textile and paper machines,398,4.6824,1.162736
+SBERT,2,29,Other special machines,476,5.6,0.796577
+SBERT,2,30,Thermal processes and apparatus,101,1.1882,0.281828
+SBERT,2,31,Mechanical elements,183,2.1529,0.433898
+SBERT,2,32,Transport,134,1.5765,0.318019
+SBERT,3,1,"Electrical machinery, apparatus, energy",137,1.9007,0.236173
+SBERT,3,2,Audio-visual technology,65,0.9018,0.150928
+SBERT,3,3,Telecommunications,6,0.0832,0.018167
+SBERT,3,4,Digital communication,2,0.0277,0.005194
+SBERT,3,5,Basic communication processes,1,0.0139,0.004067
+SBERT,3,6,Computer technology,31,0.4301,0.043976
+SBERT,3,7,IT methods for management,9,0.1249,0.02782
+SBERT,3,8,Semiconductors,77,1.0683,0.199225
+SBERT,3,9,Optics,34,0.4717,0.10139
+SBERT,3,10,Measurement,157,2.1781,0.256312
+SBERT,3,11,Analysis of biological materials,66,0.9156,0.224587
+SBERT,3,12,Control,106,1.4706,0.295448
+SBERT,3,13,Medical technology,209,2.8996,0.566347
+SBERT,3,14,Organic fine chemistry,23,0.3191,0.060497
+SBERT,3,15,Biotechnology,66,0.9156,0.141993
+SBERT,3,16,Pharmaceuticals,8,0.111,0.017095
+SBERT,3,17,"Macromolecular chemistry, polymers",82,1.1376,0.221932
+SBERT,3,18,Food chemistry,584,8.1021,1.965399
+SBERT,3,19,Basic materials chemistry,195,2.7053,0.431342
+SBERT,3,20,"Materials, metallurgy",440,6.1043,1.047429
+SBERT,3,21,"Surface technology, coating",534,7.4084,1.422277
+SBERT,3,22,Micro-structural and nano-technology,12,0.1665,0.045745
+SBERT,3,23,Chemical engineering,1547,21.4623,2.487134
+SBERT,3,24,Environmental technology,306,4.2453,0.803914
+SBERT,3,25,Handling,1120,15.5383,3.229218
+SBERT,3,26,Machine tools,1417,19.6587,4.248407
+SBERT,3,27,"Engines, pumps, turbines",67,0.9295,0.240144
+SBERT,3,28,Textile and paper machines,1280,17.758,4.409731
+SBERT,3,29,Other special machines,1446,20.061,2.853602
+SBERT,3,30,Thermal processes and apparatus,134,1.859,0.440932
+SBERT,3,31,Mechanical elements,288,3.9956,0.805255
+SBERT,3,32,Transport,102,1.4151,0.285464
+SBERT,4,1,"Electrical machinery, apparatus, energy",353,3.3913,0.421396
+SBERT,4,2,Audio-visual technology,1026,9.8569,1.649721
+SBERT,4,3,Telecommunications,1274,12.2394,2.671206
+SBERT,4,4,Digital communication,2897,27.8317,5.210235
+SBERT,4,5,Basic communication processes,234,2.2481,0.659045
+SBERT,4,6,Computer technology,4622,44.4039,4.540325
+SBERT,4,7,IT methods for management,2720,26.1312,5.822232
+SBERT,4,8,Semiconductors,37,0.3555,0.066292
+SBERT,4,9,Optics,174,1.6716,0.359311
+SBERT,4,10,Measurement,1256,12.0665,1.41992
+SBERT,4,11,Analysis of biological materials,433,4.1599,1.020315
+SBERT,4,12,Control,1879,18.0517,3.626665
+SBERT,4,13,Medical technology,646,6.2062,1.212202
+SBERT,4,14,Organic fine chemistry,4,0.0384,0.007286
+SBERT,4,15,Biotechnology,44,0.4227,0.065551
+SBERT,4,16,Pharmaceuticals,4,0.0384,0.005919
+SBERT,4,17,"Macromolecular chemistry, polymers",7,0.0672,0.013119
+SBERT,4,18,Food chemistry,21,0.2017,0.04894
+SBERT,4,19,Basic materials chemistry,18,0.1729,0.027572
+SBERT,4,20,"Materials, metallurgy",27,0.2594,0.044508
+SBERT,4,21,"Surface technology, coating",24,0.2306,0.044265
+SBERT,4,22,Micro-structural and nano-technology,14,0.1345,0.036957
+SBERT,4,23,Chemical engineering,72,0.6917,0.080158
+SBERT,4,24,Environmental technology,89,0.855,0.161914
+SBERT,4,25,Handling,223,2.1424,0.445236
+SBERT,4,26,Machine tools,43,0.4131,0.089275
+SBERT,4,27,"Engines, pumps, turbines",84,0.807,0.208489
+SBERT,4,28,Textile and paper machines,89,0.855,0.212323
+SBERT,4,29,Other special machines,177,1.7005,0.241882
+SBERT,4,30,Thermal processes and apparatus,94,0.9031,0.214191
+SBERT,4,31,Mechanical elements,119,1.1432,0.230406
+SBERT,4,32,Transport,597,5.7354,1.156996
+SBERT,5,1,"Electrical machinery, apparatus, energy",8,0.1002,0.012444
+SBERT,5,2,Audio-visual technology,10,0.1252,0.020952
+SBERT,5,3,Telecommunications,1,0.0125,0.002732
+SBERT,5,5,Basic communication processes,1,0.0125,0.00367
+SBERT,5,6,Computer technology,134,1.6775,0.171527
+SBERT,5,8,Semiconductors,9,0.1127,0.021012
+SBERT,5,9,Optics,15,0.1878,0.040363
+SBERT,5,10,Measurement,397,4.97,0.584838
+SBERT,5,11,Analysis of biological materials,1096,13.7206,3.36533
+SBERT,5,12,Control,15,0.1878,0.037726
+SBERT,5,13,Medical technology,551,6.8978,1.347302
+SBERT,5,14,Organic fine chemistry,1843,23.0721,4.374264
+SBERT,5,15,Biotechnology,3588,44.9174,6.965514
+SBERT,5,16,Pharmaceuticals,3876,48.5228,7.473887
+SBERT,5,17,"Macromolecular chemistry, polymers",268,3.355,0.654513
+SBERT,5,18,Food chemistry,1729,21.645,5.250608
+SBERT,5,19,Basic materials chemistry,680,8.5128,1.35729
+SBERT,5,20,"Materials, metallurgy",65,0.8137,0.139625
+SBERT,5,21,"Surface technology, coating",38,0.4757,0.091328
+SBERT,5,22,Micro-structural and nano-technology,243,3.0421,0.835888
+SBERT,5,23,Chemical engineering,210,2.6289,0.304653
+SBERT,5,24,Environmental technology,92,1.1517,0.218099
+SBERT,5,25,Handling,23,0.2879,0.059839
+SBERT,5,26,Machine tools,13,0.1627,0.03517
+SBERT,5,27,"Engines, pumps, turbines",6,0.0751,0.019406
+SBERT,5,28,Textile and paper machines,47,0.5884,0.146109
+SBERT,5,29,Other special machines,392,4.9074,0.698052
+SBERT,5,30,Thermal processes and apparatus,6,0.0751,0.017815
+SBERT,5,31,Mechanical elements,6,0.0751,0.015138
+SBERT,5,32,Transport,2,0.025,0.005051
+SBERT,6,1,"Electrical machinery, apparatus, energy",1107,23.0962,2.869885
+SBERT,6,2,Audio-visual technology,489,10.2024,1.70755
+SBERT,6,3,Telecommunications,1046,21.8235,4.762897
+SBERT,6,4,Digital communication,438,9.1383,1.710742
+SBERT,6,5,Basic communication processes,1673,34.9051,10.232848
+SBERT,6,6,Computer technology,651,13.5823,1.3888
+SBERT,6,7,IT methods for management,63,1.3144,0.292862
+SBERT,6,8,Semiconductors,306,6.3843,1.190646
+SBERT,6,9,Optics,89,1.8569,0.399128
+SBERT,6,10,Measurement,866,18.068,2.126149
+SBERT,6,11,Analysis of biological materials,44,0.918,0.225165
+SBERT,6,12,Control,315,6.5721,1.320361
+SBERT,6,13,Medical technology,76,1.5856,0.309712
+SBERT,6,14,Organic fine chemistry,1,0.0209,0.003956
+SBERT,6,15,Biotechnology,6,0.1252,0.019413
+SBERT,6,17,"Macromolecular chemistry, polymers",1,0.0209,0.00407
+SBERT,6,19,Basic materials chemistry,7,0.146,0.023286
+SBERT,6,20,"Materials, metallurgy",8,0.1669,0.02864
+SBERT,6,21,"Surface technology, coating",21,0.4381,0.084114
+SBERT,6,22,Micro-structural and nano-technology,62,1.2936,0.355438
+SBERT,6,23,Chemical engineering,37,0.772,0.089458
+SBERT,6,24,Environmental technology,43,0.8971,0.169889
+SBERT,6,25,Handling,43,0.8971,0.186447
+SBERT,6,26,Machine tools,29,0.605,0.130756
+SBERT,6,27,"Engines, pumps, turbines",148,3.0878,0.797749
+SBERT,6,28,Textile and paper machines,3,0.0626,0.015543
+SBERT,6,29,Other special machines,16,0.3338,0.047485
+SBERT,6,30,Thermal processes and apparatus,72,1.5022,0.356293
+SBERT,6,31,Mechanical elements,67,1.3979,0.281724
+SBERT,6,32,Transport,226,4.7152,0.951191
+SBERT,7,1,"Electrical machinery, apparatus, energy",1131,14.382,1.787077
+SBERT,7,2,Audio-visual technology,633,8.0493,1.347201
+SBERT,7,3,Telecommunications,224,2.8484,0.621658
+SBERT,7,4,Digital communication,54,0.6867,0.128549
+SBERT,7,5,Basic communication processes,40,0.5086,0.149116
+SBERT,7,6,Computer technology,171,2.1745,0.222341
+SBERT,7,7,IT methods for management,26,0.3306,0.073665
+SBERT,7,8,Semiconductors,70,0.8901,0.166006
+SBERT,7,9,Optics,162,2.06,0.442794
+SBERT,7,10,Measurement,563,7.1592,0.842458
+SBERT,7,11,Analysis of biological materials,101,1.2843,0.315016
+SBERT,7,12,Control,465,5.913,1.187953
+SBERT,7,13,Medical technology,828,10.529,2.056545
+SBERT,7,14,Organic fine chemistry,2,0.0254,0.004822
+SBERT,7,15,Biotechnology,12,0.1526,0.023663
+SBERT,7,16,Pharmaceuticals,3,0.0381,0.005876
+SBERT,7,17,"Macromolecular chemistry, polymers",23,0.2925,0.057057
+SBERT,7,18,Food chemistry,11,0.1399,0.033931
+SBERT,7,19,Basic materials chemistry,36,0.4578,0.07299
+SBERT,7,20,"Materials, metallurgy",47,0.5977,0.102551
+SBERT,7,21,"Surface technology, coating",160,2.0346,0.390602
+SBERT,7,22,Micro-structural and nano-technology,8,0.1017,0.027953
+SBERT,7,23,Chemical engineering,336,4.2726,0.49513
+SBERT,7,24,Environmental technology,251,3.1918,0.604412
+SBERT,7,25,Handling,1133,14.4074,2.994198
+SBERT,7,26,Machine tools,727,9.2447,1.997846
+SBERT,7,27,"Engines, pumps, turbines",445,5.6587,1.461937
+SBERT,7,28,Textile and paper machines,106,1.3479,0.334718
+SBERT,7,29,Other special machines,441,5.6078,0.797692
+SBERT,7,30,Thermal processes and apparatus,172,2.1872,0.51876
+SBERT,7,31,Mechanical elements,1439,18.2986,3.687849
+SBERT,7,32,Transport,1671,21.2487,4.286467
+Pat-SPECTER,0,1,"Electrical machinery, apparatus, energy",582,9.1323,1.134758
+Pat-SPECTER,0,2,Audio-visual technology,1024,16.0678,2.689231
+Pat-SPECTER,0,3,Telecommunications,409,6.4177,1.400639
+Pat-SPECTER,0,4,Digital communication,19,0.2981,0.055812
+Pat-SPECTER,0,5,Basic communication processes,234,3.6717,1.076416
+Pat-SPECTER,0,6,Computer technology,487,7.6416,0.78136
+Pat-SPECTER,0,7,IT methods for management,19,0.2981,0.066426
+Pat-SPECTER,0,8,Semiconductors,2027,31.8061,5.931691
+Pat-SPECTER,0,9,Optics,1795,28.1657,6.054111
+Pat-SPECTER,0,10,Measurement,745,11.6899,1.375611
+Pat-SPECTER,0,11,Analysis of biological materials,116,1.8202,0.446446
+Pat-SPECTER,0,12,Control,93,1.4593,0.293176
+Pat-SPECTER,0,13,Medical technology,304,4.7701,0.931711
+Pat-SPECTER,0,14,Organic fine chemistry,29,0.455,0.086272
+Pat-SPECTER,0,15,Biotechnology,47,0.7375,0.114365
+Pat-SPECTER,0,16,Pharmaceuticals,6,0.0941,0.014501
+Pat-SPECTER,0,17,"Macromolecular chemistry, polymers",64,1.0042,0.19591
+Pat-SPECTER,0,18,Food chemistry,5,0.0785,0.019032
+Pat-SPECTER,0,19,Basic materials chemistry,175,2.746,0.43782
+Pat-SPECTER,0,20,"Materials, metallurgy",214,3.3579,0.576178
+Pat-SPECTER,0,21,"Surface technology, coating",630,9.8855,1.897817
+Pat-SPECTER,0,22,Micro-structural and nano-technology,577,9.0538,2.487778
+Pat-SPECTER,0,23,Chemical engineering,170,2.6675,0.309121
+Pat-SPECTER,0,24,Environmental technology,54,0.8473,0.160455
+Pat-SPECTER,0,25,Handling,95,1.4907,0.309795
+Pat-SPECTER,0,26,Machine tools,194,3.0441,0.657853
+Pat-SPECTER,0,27,"Engines, pumps, turbines",50,0.7846,0.202693
+Pat-SPECTER,0,28,Textile and paper machines,340,5.335,1.324805
+Pat-SPECTER,0,29,Other special machines,313,4.9113,0.698619
+Pat-SPECTER,0,30,Thermal processes and apparatus,88,1.3808,0.327507
+Pat-SPECTER,0,31,Mechanical elements,56,0.8787,0.177092
+Pat-SPECTER,0,32,Transport,150,2.3537,0.474803
+Pat-SPECTER,1,1,"Electrical machinery, apparatus, energy",8,0.1932,0.024011
+Pat-SPECTER,1,2,Audio-visual technology,3,0.0725,0.012128
+Pat-SPECTER,1,4,Digital communication,1,0.0242,0.004522
+Pat-SPECTER,1,6,Computer technology,48,1.1594,0.118551
+Pat-SPECTER,1,7,IT methods for management,16,0.3865,0.086109
+Pat-SPECTER,1,8,Semiconductors,3,0.0725,0.013514
+Pat-SPECTER,1,9,Optics,1,0.0242,0.005192
+Pat-SPECTER,1,10,Measurement,112,2.7053,0.318347
+Pat-SPECTER,1,11,Analysis of biological materials,96,2.3188,0.568756
+Pat-SPECTER,1,12,Control,12,0.2899,0.058233
+Pat-SPECTER,1,13,Medical technology,82,1.9807,0.38687
+Pat-SPECTER,1,14,Organic fine chemistry,716,17.2947,3.278917
+Pat-SPECTER,1,15,Biotechnology,1207,29.1546,4.521117
+Pat-SPECTER,1,16,Pharmaceuticals,950,22.9469,3.534468
+Pat-SPECTER,1,17,"Macromolecular chemistry, polymers",234,5.6522,1.102648
+Pat-SPECTER,1,18,Food chemistry,1841,44.4686,10.787134
+Pat-SPECTER,1,19,Basic materials chemistry,800,19.3237,3.080999
+Pat-SPECTER,1,20,"Materials, metallurgy",120,2.8986,0.497356
+Pat-SPECTER,1,21,"Surface technology, coating",35,0.8454,0.162303
+Pat-SPECTER,1,22,Micro-structural and nano-technology,53,1.2802,0.351767
+Pat-SPECTER,1,23,Chemical engineering,250,6.0386,0.699783
+Pat-SPECTER,1,24,Environmental technology,217,5.2415,0.992573
+Pat-SPECTER,1,25,Handling,46,1.1111,0.230915
+Pat-SPECTER,1,26,Machine tools,36,0.8696,0.18792
+Pat-SPECTER,1,27,"Engines, pumps, turbines",4,0.0966,0.024962
+Pat-SPECTER,1,28,Textile and paper machines,151,3.6473,0.905719
+Pat-SPECTER,1,29,Other special machines,483,11.6667,1.659536
+Pat-SPECTER,1,30,Thermal processes and apparatus,7,0.1691,0.040103
+Pat-SPECTER,1,31,Mechanical elements,3,0.0725,0.014604
+Pat-SPECTER,1,32,Transport,1,0.0242,0.004873
+Pat-SPECTER,2,1,"Electrical machinery, apparatus, energy",880,19.9411,2.477838
+Pat-SPECTER,2,2,Audio-visual technology,379,8.5883,1.437399
+Pat-SPECTER,2,3,Telecommunications,907,20.5529,4.485598
+Pat-SPECTER,2,4,Digital communication,399,9.0415,1.692609
+Pat-SPECTER,2,5,Basic communication processes,1616,36.6191,10.735331
+Pat-SPECTER,2,6,Computer technology,621,14.0721,1.438877
+Pat-SPECTER,2,7,IT methods for management,46,1.0424,0.232249
+Pat-SPECTER,2,8,Semiconductors,261,5.9143,1.102999
+Pat-SPECTER,2,9,Optics,91,2.0621,0.443238
+Pat-SPECTER,2,10,Measurement,823,18.6494,2.194569
+Pat-SPECTER,2,11,Analysis of biological materials,58,1.3143,0.322366
+Pat-SPECTER,2,12,Control,361,8.1804,1.643475
+Pat-SPECTER,2,13,Medical technology,159,3.603,0.703744
+Pat-SPECTER,2,14,Organic fine chemistry,1,0.0227,0.004296
+Pat-SPECTER,2,15,Biotechnology,4,0.0906,0.014056
+Pat-SPECTER,2,16,Pharmaceuticals,1,0.0227,0.00349
+Pat-SPECTER,2,18,Food chemistry,4,0.0906,0.021988
+Pat-SPECTER,2,19,Basic materials chemistry,1,0.0227,0.003613
+Pat-SPECTER,2,20,"Materials, metallurgy",7,0.1586,0.027218
+Pat-SPECTER,2,21,"Surface technology, coating",17,0.3852,0.073956
+Pat-SPECTER,2,22,Micro-structural and nano-technology,52,1.1783,0.323779
+Pat-SPECTER,2,23,Chemical engineering,37,0.8384,0.097161
+Pat-SPECTER,2,24,Environmental technology,27,0.6118,0.11586
+Pat-SPECTER,2,25,Handling,32,0.7251,0.150699
+Pat-SPECTER,2,26,Machine tools,17,0.3852,0.08325
+Pat-SPECTER,2,27,"Engines, pumps, turbines",135,3.0591,0.790336
+Pat-SPECTER,2,28,Textile and paper machines,16,0.3626,0.090033
+Pat-SPECTER,2,29,Other special machines,23,0.5212,0.074137
+Pat-SPECTER,2,30,Thermal processes and apparatus,59,1.337,0.317103
+Pat-SPECTER,2,31,Mechanical elements,58,1.3143,0.26488
+Pat-SPECTER,2,32,Transport,294,6.6621,1.34394
+Pat-SPECTER,3,1,"Electrical machinery, apparatus, energy",1102,11.9264,1.481951
+Pat-SPECTER,3,2,Audio-visual technology,213,2.3052,0.385816
+Pat-SPECTER,3,3,Telecommunications,33,0.3571,0.077945
+Pat-SPECTER,3,5,Basic communication processes,4,0.0433,0.012691
+Pat-SPECTER,3,6,Computer technology,46,0.4978,0.050904
+Pat-SPECTER,3,7,IT methods for management,9,0.0974,0.021702
+Pat-SPECTER,3,8,Semiconductors,743,8.0411,1.499635
+Pat-SPECTER,3,9,Optics,422,4.5671,0.981681
+Pat-SPECTER,3,10,Measurement,381,4.1234,0.485217
+Pat-SPECTER,3,11,Analysis of biological materials,107,1.158,0.284032
+Pat-SPECTER,3,12,Control,12,0.1299,0.026091
+Pat-SPECTER,3,13,Medical technology,239,2.5866,0.505216
+Pat-SPECTER,3,14,Organic fine chemistry,1351,14.6212,2.77205
+Pat-SPECTER,3,15,Biotechnology,68,0.7359,0.114124
+Pat-SPECTER,3,16,Pharmaceuticals,269,2.9113,0.448416
+Pat-SPECTER,3,17,"Macromolecular chemistry, polymers",2843,30.7684,6.002418
+Pat-SPECTER,3,18,Food chemistry,36,0.3896,0.094511
+Pat-SPECTER,3,19,Basic materials chemistry,2440,26.4069,4.210365
+Pat-SPECTER,3,20,"Materials, metallurgy",2396,25.9307,4.449403
+Pat-SPECTER,3,21,"Surface technology, coating",1624,17.5758,3.374208
+Pat-SPECTER,3,22,Micro-structural and nano-technology,1351,14.6212,4.017567
+Pat-SPECTER,3,23,Chemical engineering,1140,12.3377,1.429738
+Pat-SPECTER,3,24,Environmental technology,434,4.697,0.889449
+Pat-SPECTER,3,25,Handling,123,1.3312,0.276648
+Pat-SPECTER,3,26,Machine tools,264,2.8571,0.617452
+Pat-SPECTER,3,27,"Engines, pumps, turbines",83,0.8983,0.23207
+Pat-SPECTER,3,28,Textile and paper machines,647,7.0022,1.738798
+Pat-SPECTER,3,29,Other special machines,1289,13.9502,1.984362
+Pat-SPECTER,3,30,Thermal processes and apparatus,80,0.8658,0.205352
+Pat-SPECTER,3,31,Mechanical elements,93,1.0065,0.202846
+Pat-SPECTER,3,32,Transport,92,0.9957,0.200855
+Pat-SPECTER,4,1,"Electrical machinery, apparatus, energy",692,6.6938,0.831752
+Pat-SPECTER,4,2,Audio-visual technology,304,2.9406,0.492163
+Pat-SPECTER,4,3,Telecommunications,47,0.4546,0.099222
+Pat-SPECTER,4,4,Digital communication,22,0.2128,0.039839
+Pat-SPECTER,4,5,Basic communication processes,13,0.1257,0.036865
+Pat-SPECTER,4,6,Computer technology,144,1.3929,0.142427
+Pat-SPECTER,4,7,IT methods for management,63,0.6094,0.135779
+Pat-SPECTER,4,8,Semiconductors,160,1.5477,0.288637
+Pat-SPECTER,4,9,Optics,44,0.4256,0.091484
+Pat-SPECTER,4,10,Measurement,852,8.2414,0.969809
+Pat-SPECTER,4,11,Analysis of biological materials,611,5.9102,1.449639
+Pat-SPECTER,4,12,Control,339,3.2792,0.658799
+Pat-SPECTER,4,13,Medical technology,549,5.3105,1.037259
+Pat-SPECTER,4,14,Organic fine chemistry,143,1.3832,0.262251
+Pat-SPECTER,4,15,Biotechnology,203,1.9636,0.304508
+Pat-SPECTER,4,16,Pharmaceuticals,16,0.1548,0.023839
+Pat-SPECTER,4,17,"Macromolecular chemistry, polymers",45,0.4353,0.084918
+Pat-SPECTER,4,18,Food chemistry,378,3.6564,0.886968
+Pat-SPECTER,4,19,Basic materials chemistry,361,3.492,0.556766
+Pat-SPECTER,4,20,"Materials, metallurgy",642,6.2101,1.065578
+Pat-SPECTER,4,21,"Surface technology, coating",491,4.7495,0.911807
+Pat-SPECTER,4,22,Micro-structural and nano-technology,35,0.3386,0.093027
+Pat-SPECTER,4,23,Chemical engineering,2541,24.5792,2.84834
+Pat-SPECTER,4,24,Environmental technology,2161,20.9035,3.958415
+Pat-SPECTER,4,25,Handling,519,5.0203,1.043338
+Pat-SPECTER,4,26,Machine tools,259,2.5053,0.54142
+Pat-SPECTER,4,27,"Engines, pumps, turbines",1282,12.4009,3.203787
+Pat-SPECTER,4,28,Textile and paper machines,228,2.2055,0.547665
+Pat-SPECTER,4,29,Other special machines,873,8.4446,1.201206
+Pat-SPECTER,4,30,Thermal processes and apparatus,1922,18.5916,4.409595
+Pat-SPECTER,4,31,Mechanical elements,770,7.4482,1.501101
+Pat-SPECTER,4,32,Transport,419,4.053,0.817606
+Pat-SPECTER,5,1,"Electrical machinery, apparatus, energy",1515,10.2068,1.26828
+Pat-SPECTER,5,2,Audio-visual technology,960,6.4677,1.082484
+Pat-SPECTER,5,3,Telecommunications,370,2.4928,0.544035
+Pat-SPECTER,5,4,Digital communication,85,0.5727,0.107205
+Pat-SPECTER,5,5,Basic communication processes,64,0.4312,0.126406
+Pat-SPECTER,5,6,Computer technology,251,1.691,0.172909
+Pat-SPECTER,5,7,IT methods for management,32,0.2156,0.048035
+Pat-SPECTER,5,8,Semiconductors,219,1.4754,0.275164
+Pat-SPECTER,5,9,Optics,455,3.0654,0.6589
+Pat-SPECTER,5,10,Measurement,1132,7.6265,0.897445
+Pat-SPECTER,5,11,Analysis of biological materials,278,1.8729,0.459387
+Pat-SPECTER,5,12,Control,515,3.4696,0.697068
+Pat-SPECTER,5,13,Medical technology,1065,7.1751,1.401456
+Pat-SPECTER,5,14,Organic fine chemistry,5,0.0337,0.006387
+Pat-SPECTER,5,15,Biotechnology,48,0.3234,0.050149
+Pat-SPECTER,5,16,Pharmaceuticals,6,0.0404,0.006226
+Pat-SPECTER,5,17,"Macromolecular chemistry, polymers",17,0.1145,0.022343
+Pat-SPECTER,5,18,Food chemistry,192,1.2935,0.313785
+Pat-SPECTER,5,19,Basic materials chemistry,55,0.3705,0.05908
+Pat-SPECTER,5,20,"Materials, metallurgy",282,1.8999,0.325998
+Pat-SPECTER,5,21,"Surface technology, coating",516,3.4764,0.667399
+Pat-SPECTER,5,22,Micro-structural and nano-technology,21,0.1415,0.038876
+Pat-SPECTER,5,23,Chemical engineering,1238,8.3406,0.966546
+Pat-SPECTER,5,24,Environmental technology,406,2.7353,0.517973
+Pat-SPECTER,5,25,Handling,2050,13.8112,2.870294
+Pat-SPECTER,5,26,Machine tools,2161,14.5591,3.146329
+Pat-SPECTER,5,27,"Engines, pumps, turbines",775,5.2213,1.348938
+Pat-SPECTER,5,28,Textile and paper machines,1106,7.4513,1.850335
+Pat-SPECTER,5,29,Other special machines,1299,8.7516,1.24488
+Pat-SPECTER,5,30,Thermal processes and apparatus,424,2.8566,0.677526
+Pat-SPECTER,5,31,Mechanical elements,2124,14.3098,2.883956
+Pat-SPECTER,5,32,Transport,1516,10.2136,2.060364
+Pat-SPECTER,6,1,"Electrical machinery, apparatus, energy",363,3.6048,0.447921
+Pat-SPECTER,6,2,Audio-visual technology,936,9.2949,1.555674
+Pat-SPECTER,6,3,Telecommunications,1164,11.5591,2.522728
+Pat-SPECTER,6,4,Digital communication,2891,28.709,5.37448
+Pat-SPECTER,6,5,Basic communication processes,248,2.4628,0.721988
+Pat-SPECTER,6,6,Computer technology,4544,45.1241,4.613971
+Pat-SPECTER,6,7,IT methods for management,2685,26.6634,5.940793
+Pat-SPECTER,6,8,Semiconductors,13,0.1291,0.024076
+Pat-SPECTER,6,9,Optics,161,1.5988,0.343658
+Pat-SPECTER,6,10,Measurement,1034,10.2681,1.208299
+Pat-SPECTER,6,11,Analysis of biological materials,264,2.6216,0.643028
+Pat-SPECTER,6,12,Control,1848,18.3515,3.686907
+Pat-SPECTER,6,13,Medical technology,637,6.3257,1.235553
+Pat-SPECTER,6,14,Organic fine chemistry,3,0.0298,0.005648
+Pat-SPECTER,6,15,Biotechnology,14,0.139,0.021559
+Pat-SPECTER,6,16,Pharmaceuticals,2,0.0199,0.003059
+Pat-SPECTER,6,17,"Macromolecular chemistry, polymers",1,0.0099,0.001937
+Pat-SPECTER,6,18,Food chemistry,8,0.0794,0.019271
+Pat-SPECTER,6,19,Basic materials chemistry,6,0.0596,0.0095
+Pat-SPECTER,6,20,"Materials, metallurgy",30,0.2979,0.051119
+Pat-SPECTER,6,21,"Surface technology, coating",15,0.149,0.028597
+Pat-SPECTER,6,22,Micro-structural and nano-technology,15,0.149,0.04093
+Pat-SPECTER,6,23,Chemical engineering,50,0.4965,0.057539
+Pat-SPECTER,6,24,Environmental technology,71,0.7051,0.133516
+Pat-SPECTER,6,25,Handling,210,2.0854,0.433395
+Pat-SPECTER,6,26,Machine tools,28,0.2781,0.06009
+Pat-SPECTER,6,27,"Engines, pumps, turbines",146,1.4499,0.374572
+Pat-SPECTER,6,28,Textile and paper machines,83,0.8242,0.204675
+Pat-SPECTER,6,29,Other special machines,140,1.3903,0.19776
+Pat-SPECTER,6,30,Thermal processes and apparatus,116,1.1519,0.273219
+Pat-SPECTER,6,31,Mechanical elements,70,0.6951,0.140096
+Pat-SPECTER,6,32,Transport,696,6.9116,1.394268
+Pat-SPECTER,7,1,"Electrical machinery, apparatus, energy",6,0.1318,0.016382
+Pat-SPECTER,7,2,Audio-visual technology,3,0.0659,0.011033
+Pat-SPECTER,7,3,Telecommunications,1,0.022,0.004796
+Pat-SPECTER,7,5,Basic communication processes,3,0.0659,0.019325
+Pat-SPECTER,7,6,Computer technology,115,2.5269,0.258379
+Pat-SPECTER,7,7,IT methods for management,1,0.022,0.004896
+Pat-SPECTER,7,8,Semiconductors,4,0.0879,0.016392
+Pat-SPECTER,7,9,Optics,7,0.1538,0.033061
+Pat-SPECTER,7,10,Measurement,357,7.8444,0.923091
+Pat-SPECTER,7,11,Analysis of biological materials,1078,23.6871,5.809879
+Pat-SPECTER,7,12,Control,4,0.0879,0.017658
+Pat-SPECTER,7,13,Medical technology,240,5.2736,1.030044
+Pat-SPECTER,7,14,Organic fine chemistry,1126,24.7418,4.690825
+Pat-SPECTER,7,15,Biotechnology,2534,55.6801,8.634528
+Pat-SPECTER,7,16,Pharmaceuticals,2903,63.7882,9.825192
+Pat-SPECTER,7,17,"Macromolecular chemistry, polymers",75,1.648,0.321496
+Pat-SPECTER,7,18,Food chemistry,173,3.8014,0.922129
+Pat-SPECTER,7,19,Basic materials chemistry,174,3.8233,0.609599
+Pat-SPECTER,7,20,"Materials, metallurgy",37,0.813,0.139502
+Pat-SPECTER,7,21,"Surface technology, coating",4,0.0879,0.016874
+Pat-SPECTER,7,22,Micro-structural and nano-technology,224,4.922,1.352449
+Pat-SPECTER,7,23,Chemical engineering,94,2.0655,0.239356
+Pat-SPECTER,7,24,Environmental technology,8,0.1758,0.033288
+Pat-SPECTER,7,25,Handling,3,0.0659,0.0137
+Pat-SPECTER,7,26,Machine tools,1,0.022,0.004749
+Pat-SPECTER,7,27,"Engines, pumps, turbines",1,0.022,0.005677
+Pat-SPECTER,7,28,Textile and paper machines,5,0.1099,0.027282
+Pat-SPECTER,7,29,Other special machines,77,1.6919,0.240671
+Pat-SPECTER,7,30,Thermal processes and apparatus,1,0.022,0.005212
+Pat-SPECTER,7,32,Transport,3,0.0659,0.013298
