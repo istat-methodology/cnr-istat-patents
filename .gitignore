@@ -226,3 +226,10 @@ data/samples/
 
 # Embeddings (large; regenerate with src/generate_embeddings.py)
 embeddings/
+
+# paper pipeline: keep tables and controls, drop heavy files
+paper/outputs/*-quick*/
+paper/outputs/*-input/
+paper/outputs/*/assignments/
+paper/outputs/*/profiles/
+paper/outputs/*/metrics/*_progress.csv
