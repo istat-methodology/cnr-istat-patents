@@ -1,0 +1,47 @@
+# Configuration of the paper pipeline. This is the only file to edit.
+# Paths are relative to the repository root.
+
+run_name: paper-2026-11          # results go to <output_dir>/<run_name>/
+output_dir: paper/outputs
+
+data: data/processed/patents_2021-2026_by_publication.parquet
+concordance: ipc/ipc_technology.xlsx
+embeddings_dir: embeddings       # filled by step 1; not in git
+
+# Embeddings published on Hugging Face (public, no token needed).
+hf_dataset: istat-ai/wipo32-patent-embeddings
+hf_revision: e570ab0121c6dff0e61b05b64dd7ee21b98b78b7   # revision recorded in Notebook 12
+
+# All models analysed with the same metrics.
+# "tfidf-svd256" is the lexical baseline: TF-IDF + SVD with 256 dimensions,
+# built by src/generate_tfidf_baseline.py (the number in the name is the dimension).
+models:
+  - qwen3-embedding-4b
+  - sbert-adapt-ub
+  - pat-specter
+  - bge-m3
+  - qwen3-embedding-0.6b
+  - embeddinggemma-300m
+  - paecter
+  - mpnet
+  - tfidf-svd256
+
+# Models that also get cluster cards and manual review (they come first in the tables).
+deep_dive_models:
+  - qwen3-embedding-4b
+  - sbert-adapt-ub
+  - pat-specter
+
+cohorts: [full, exclude-cn]      # exclude-cn = publication office is not CN
+k: [8, 16]
+seeds: [42, 43, 44]              # the first one is the reference seed
+n_init: 10
+max_iter: 300
+silhouette_sample: 1200
+threads: 4
+
+# --quick: random sample of publications, to test everything in a few minutes.
+# Numbers from a quick run are not results.
+quick:
+  n_publications: 3000
+  seed: 42
