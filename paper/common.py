@@ -11,6 +11,7 @@ import json
 import sys
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 import yaml
 
@@ -101,3 +102,19 @@ def write_table(frame: pd.DataFrame, folder: Path, name: str, decimals: int = 3)
         lines.append(" & ".join(_latex_escape(v) for v in row) + " \\\\")
     lines += ["\\bottomrule", "\\end{tabular}", ""]
     (folder / f"{name}.tex").write_text("\n".join(lines), encoding="utf-8")
+
+
+def office_group(office: str, groups: list[str]) -> str:
+    """Office code if it is one of the named groups, else 'Other' (config: office_groups)."""
+    return office if office in groups else "Other"
+
+
+def load_matrix(emb_root: Path, model: str, ids) -> np.ndarray:
+    """Vectors of `model` for the given publication numbers, in that order, L2-normalised float32."""
+    stored = pd.read_parquet(Path(emb_root) / model / "ids.parquet")["publication_number"].astype(str)
+    positions = pd.Index(stored).get_indexer(pd.Series(ids).astype(str))
+    if (positions < 0).any():
+        raise ValueError(f"{model}: some publications are missing from the embedding ids")
+    matrix = np.load(Path(emb_root) / model / "embeddings.npy", mmap_mode="r")[positions]
+    matrix = np.asarray(matrix, dtype=np.float32)
+    return matrix / np.linalg.norm(matrix, axis=1, keepdims=True)

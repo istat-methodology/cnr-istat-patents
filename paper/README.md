@@ -33,8 +33,11 @@ Results go to `paper/outputs/<run_name>/` (not in git).
 |---|---|
 | `c01_reference_scale.py` | What AMI vs WIPO can a partition reach? Random, sector oracle, merge oracle, IPC-only K-means, models |
 | `c02_noise_ceiling.py` | How much do models agree, relative to the seed-to-seed noise ceiling? |
+| `c03_confounder_cn.py` | Is CN a confounder or just a smaller sample? Remove CN vs remove the same number at random; AMI inside each office |
+| `c04_explanation_stability.py` | Are the c-TF-IDF cluster cards stable across seeds, cohorts and models? (deep-dive models, K=8) |
 
-More controls are added here as they are agreed (confounders, explanation stability, surrogate, boundary cases).
+More controls are added here as they are agreed (surrogate, boundary cases).
+Controls 3 and 4 refit K-means (about 20-40 minutes on a 24-core machine).
 
 ## Notes
 

@@ -40,6 +40,17 @@ max_iter: 300
 silhouette_sample: 1200
 threads: 4
 
+# Offices named here are kept apart in the within-office analysis; all others are 'Other'.
+# (Notebook 13 uses the same seven groups.)
+office_groups: [CN, US, WO, EP, JP, KR]
+
+# Control 3: how many random removals of the same size as CN.
+random_removal_draws: 3
+
+# Control 4: cluster explanations (c-TF-IDF cards) for the deep-dive models.
+explain_k: [8]
+explain_top_terms: 10
+
 # --quick: random sample of publications, to test everything in a few minutes.
 # Numbers from a quick run are not results.
 quick:

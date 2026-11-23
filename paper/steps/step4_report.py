@@ -56,7 +56,19 @@ def main() -> None:
     if c2.exists():
         t = pd.read_csv(c2)
         t = t[t.cohort == "full"][["k", "model", "seed_ari", "mean_ari_vs_others", "max_ari", "closest_model"]]
-        common.write_table(order(t, cfg), out, "tab_cross_model")
+        t = order(t, cfg).sort_values("k", kind="stable")
+        common.write_table(t, out, "tab_cross_model")
+    c3 = run / "controls" / "c03_summary.csv"
+    if c3.exists():
+        common.write_table(order(pd.read_csv(c3), cfg), out, "tab_confounder_cn")
+    c3b = run / "controls" / "c03_within_office.csv"
+    if c3b.exists():
+        t = pd.read_csv(c3b)
+        t = t[t.k == cfg["k"][0]].pivot(index="model", columns="office_group", values="AMI_selection").reset_index()
+        common.write_table(order(t, cfg), out, "tab_within_office")
+    c4 = run / "controls" / "c04_explanation_summary.csv"
+    if c4.exists():
+        common.write_table(pd.read_csv(c4), out, "tab_explanation_stability")
     print(f"tables in {out}")
     print("step 4 done")
 
