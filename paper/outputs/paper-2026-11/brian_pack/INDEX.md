@@ -207,9 +207,9 @@ Level: workshop. Status: done.
 
 Question: Do the c-TF-IDF cluster cards stay the same across seeds, cohorts and models?
 
-Message: Across seeds the cards are as stable as the clustering: at K=8 identical (Jaccard 1.0); at K=16 SBERT 0.89-0.96 (seed ARI 0.97), Qwen3-4B 0.63-0.85 (0.85), Pat-SPECTER 0.48-0.72 (0.69), with the minimum over clusters down to 0-0.18 for the last two. Across cohorts (full vs exclude-CN) the term Jaccard is 0.13-0.24 at both K, minimum 0, even when 94% of the patents are kept (Pat-SPECTER, K=8). Across models 0.10-0.24, against 0.003-0.015 for unmatched clusters. The Jaccard on the top 10 terms is strict; a comparison of the labels would complement it.
+Message: Across seeds the cards are as stable as the clustering: at K=8 identical (Jaccard 1.0); at K=16 SBERT 0.89-0.96 (seed ARI 0.97), Qwen3-4B 0.63-0.85 (0.85), Pat-SPECTER 0.48-0.72 (0.69), with the minimum over clusters down to 0-0.18 for the last two. Across cohorts (full vs exclude-CN) the term Jaccard is 0.13-0.24 at both K, minimum 0, even when 94% of the patents are kept (Pat-SPECTER, K=8). Across models 0.10-0.24, against 0.003-0.015 for unmatched clusters. The Jaccard on the top 10 terms is strict. Control 4b compares what the matched cards say. Between full and exclude-CN, among the matched pairs that share at least half of their patents (5-8 of 8 at K=8, 10-14 of 16 at K=16), the most compatible WIPO field is the same in 60-91% of pairs (0-2% for unmatched pairs) and the cosine of the WIPO profiles is 0.85-0.94 (0.05-0.09 for unmatched pairs). The Jaccard of the words in the terms is 0.23-0.30. So the terms change but the field content mostly stays. Caveats: the threshold of one half was set after the first results; the WIPO measures are not independent of the reference used in R02; they are not a comparison of labels written by people. Across models few pairs reach the threshold at K=16 (3-6 of 16), so those values rest on few pairs.
 
-Script: `controls/c04_explanation_stability.py`
+Script: `controls/c04_explanation_stability.py, controls/c04b_label_agreement.py`
 
 Figure `fig_explanation_stability` (files: `figures/fig_explanation_stability.pdf`, `figures/fig_explanation_stability.png`)
 
@@ -244,13 +244,30 @@ Table `tab_explanation_stability` (files: `tables/tab_explanation_stability.tex`
 | model | qwen3-embedding-4b | pat-specter | 16 | reference seeds | 0.387 | 0.161 | 0.000 | 0.005 |
 | model | sbert-adapt-ub | pat-specter | 16 | reference seeds | 0.410 | 0.152 | 0.000 | 0.006 |
 
+Table `tab_explanation_labels` (files: `tables/tab_explanation_labels.tex`, `tables/tab_explanation_labels.csv`)
+
+| Comparison | Model | K | Pairs | Term Jaccard | Word Jaccard | Same top field | Same top field, unmatched | WIPO cosine | WIPO cosine, unmatched |
+|---|---|---|---|---|---|---|---|---|---|
+| cohort | qwen3-embedding-4b | 8 | 5/8 | 0.129 | 0.246 | 0.800 | 0.000 | 0.862 | 0.093 |
+| cohort | sbert-adapt-ub | 8 | 6/8 | 0.138 | 0.231 | 0.833 | 0.018 | 0.916 | 0.063 |
+| cohort | pat-specter | 8 | 8/8 | 0.225 | 0.239 | 0.750 | 0.000 | 0.938 | 0.054 |
+| cohort | qwen3-embedding-4b | 16 | 10/16 | 0.152 | 0.247 | 0.600 | 0.017 | 0.849 | 0.086 |
+| cohort | sbert-adapt-ub | 16 | 11/16 | 0.167 | 0.256 | 0.909 | 0.008 | 0.893 | 0.085 |
+| cohort | pat-specter | 16 | 14/16 | 0.236 | 0.297 | 0.714 | 0.013 | 0.872 | 0.092 |
+| model | qwen3-embedding-4b vs sbert-adapt-ub | 8 | 4/8 | 0.106 | 0.220 | 1.000 | 0.018 | 0.920 | 0.087 |
+| model | qwen3-embedding-4b vs pat-specter | 8 | 5/8 | 0.101 | 0.162 | 0.800 | 0.018 | 0.869 | 0.080 |
+| model | sbert-adapt-ub vs pat-specter | 8 | 7/8 | 0.241 | 0.364 | 0.714 | 0.018 | 0.931 | 0.063 |
+| model | qwen3-embedding-4b vs sbert-adapt-ub | 16 | 5/16 | 0.140 | 0.264 | 0.800 | 0.017 | 0.912 | 0.097 |
+| model | qwen3-embedding-4b vs pat-specter | 16 | 3/16 | 0.161 | 0.515 | 0.667 | 0.008 | 0.959 | 0.095 |
+| model | sbert-adapt-ub vs pat-specter | 16 | 6/16 | 0.152 | 0.263 | 1.000 | 0.004 | 0.910 | 0.099 |
+
 ## R07 Manual review of the clusters
 
 Level: workshop. Status: done.
 
 Question: Do the clusters of the three deep-dive models make sense to a reader?
 
-Message: Qwen3-4B and SBERT reviewed at K=8 (Qwen cluster 1 provisional); Pat-SPECTER pending.
+Message: Qwen3-4B, SBERT-adapt-ub and Pat-SPECTER reviewed at K=8 on the full corpus. Each cluster has a working label and a short comment based on the c-TF-IDF terms, the central patents and the WIPO profile. The labels are descriptive, not a validated taxonomy. The review was done on the cards of the earlier run run_20261118T132255Z; to be checked against paper-2026-11 before the labels go in the paper.
 
 Script: `docs/cluster-label-review.md (manual)`
 

@@ -1,0 +1,18 @@
+\begin{tabular}{llllllllll}
+\toprule
+Comparison & Model & K & Pairs & Term Jaccard & Word Jaccard & Same top field & Same top field, unmatched & WIPO cosine & WIPO cosine, unmatched \\
+\midrule
+cohort & qwen3-embedding-4b & 8 & 5/8 & 0.129 & 0.246 & 0.800 & 0.000 & 0.862 & 0.093 \\
+cohort & sbert-adapt-ub & 8 & 6/8 & 0.138 & 0.231 & 0.833 & 0.018 & 0.916 & 0.063 \\
+cohort & pat-specter & 8 & 8/8 & 0.225 & 0.239 & 0.750 & 0.000 & 0.938 & 0.054 \\
+cohort & qwen3-embedding-4b & 16 & 10/16 & 0.152 & 0.247 & 0.600 & 0.017 & 0.849 & 0.086 \\
+cohort & sbert-adapt-ub & 16 & 11/16 & 0.167 & 0.256 & 0.909 & 0.008 & 0.893 & 0.085 \\
+cohort & pat-specter & 16 & 14/16 & 0.236 & 0.297 & 0.714 & 0.013 & 0.872 & 0.092 \\
+model & qwen3-embedding-4b vs sbert-adapt-ub & 8 & 4/8 & 0.106 & 0.220 & 1.000 & 0.018 & 0.920 & 0.087 \\
+model & qwen3-embedding-4b vs pat-specter & 8 & 5/8 & 0.101 & 0.162 & 0.800 & 0.018 & 0.869 & 0.080 \\
+model & sbert-adapt-ub vs pat-specter & 8 & 7/8 & 0.241 & 0.364 & 0.714 & 0.018 & 0.931 & 0.063 \\
+model & qwen3-embedding-4b vs sbert-adapt-ub & 16 & 5/16 & 0.140 & 0.264 & 0.800 & 0.017 & 0.912 & 0.097 \\
+model & qwen3-embedding-4b vs pat-specter & 16 & 3/16 & 0.161 & 0.515 & 0.667 & 0.008 & 0.959 & 0.095 \\
+model & sbert-adapt-ub vs pat-specter & 16 & 6/16 & 0.152 & 0.263 & 1.000 & 0.004 & 0.910 & 0.099 \\
+\bottomrule
+\end{tabular}
