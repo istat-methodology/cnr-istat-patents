@@ -1,0 +1,30 @@
+\begin{tabular}{lllllllll}
+\toprule
+comparison & model\_a & model\_b & k & detail & mean\_overlap\_share & mean\_jaccard\_matched & min\_jaccard\_matched & mean\_jaccard\_unmatched \\
+\midrule
+seed & qwen3-embedding-4b & qwen3-embedding-4b & 8 & seed 42 vs 43 & 1.000 & 1.000 & 1.000 & 0.018 \\
+seed & qwen3-embedding-4b & qwen3-embedding-4b & 8 & seed 42 vs 44 & 0.999 & 1.000 & 1.000 & 0.018 \\
+cohort & qwen3-embedding-4b & qwen3-embedding-4b & 8 & full vs exclude-cn & 0.571 & 0.129 & 0.000 & 0.014 \\
+seed & sbert-adapt-ub & sbert-adapt-ub & 8 & seed 42 vs 43 & 1.000 & 1.000 & 1.000 & 0.006 \\
+seed & sbert-adapt-ub & sbert-adapt-ub & 8 & seed 42 vs 44 & 0.998 & 1.000 & 1.000 & 0.006 \\
+cohort & sbert-adapt-ub & sbert-adapt-ub & 8 & full vs exclude-cn & 0.740 & 0.138 & 0.000 & 0.003 \\
+seed & pat-specter & pat-specter & 8 & seed 42 vs 43 & 0.998 & 1.000 & 1.000 & 0.004 \\
+seed & pat-specter & pat-specter & 8 & seed 42 vs 44 & 0.999 & 1.000 & 1.000 & 0.004 \\
+cohort & pat-specter & pat-specter & 8 & full vs exclude-cn & 0.937 & 0.225 & 0.053 & 0.008 \\
+model & qwen3-embedding-4b & sbert-adapt-ub & 8 & reference seeds & 0.496 & 0.106 & 0.000 & 0.010 \\
+model & qwen3-embedding-4b & pat-specter & 8 & reference seeds & 0.507 & 0.101 & 0.000 & 0.012 \\
+model & sbert-adapt-ub & pat-specter & 8 & reference seeds & 0.653 & 0.241 & 0.000 & 0.003 \\
+seed & qwen3-embedding-4b & qwen3-embedding-4b & 16 & seed 42 vs 43 & 0.942 & 0.845 & 0.429 & 0.006 \\
+seed & qwen3-embedding-4b & qwen3-embedding-4b & 16 & seed 42 vs 44 & 0.853 & 0.627 & 0.000 & 0.006 \\
+cohort & qwen3-embedding-4b & qwen3-embedding-4b & 16 & full vs exclude-cn & 0.563 & 0.152 & 0.000 & 0.006 \\
+seed & sbert-adapt-ub & sbert-adapt-ub & 16 & seed 42 vs 43 & 0.989 & 0.955 & 0.818 & 0.006 \\
+seed & sbert-adapt-ub & sbert-adapt-ub & 16 & seed 42 vs 44 & 0.971 & 0.892 & 0.667 & 0.006 \\
+cohort & sbert-adapt-ub & sbert-adapt-ub & 16 & full vs exclude-cn & 0.646 & 0.167 & 0.000 & 0.003 \\
+seed & pat-specter & pat-specter & 16 & seed 42 vs 43 & 0.867 & 0.715 & 0.176 & 0.015 \\
+seed & pat-specter & pat-specter & 16 & seed 42 vs 44 & 0.804 & 0.482 & 0.053 & 0.009 \\
+cohort & pat-specter & pat-specter & 16 & full vs exclude-cn & 0.694 & 0.236 & 0.000 & 0.008 \\
+model & qwen3-embedding-4b & sbert-adapt-ub & 16 & reference seeds & 0.396 & 0.140 & 0.000 & 0.011 \\
+model & qwen3-embedding-4b & pat-specter & 16 & reference seeds & 0.387 & 0.161 & 0.000 & 0.005 \\
+model & sbert-adapt-ub & pat-specter & 16 & reference seeds & 0.410 & 0.152 & 0.000 & 0.006 \\
+\bottomrule
+\end{tabular}

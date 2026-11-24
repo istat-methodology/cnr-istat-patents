@@ -1,0 +1,289 @@
+comparison,model_a,model_b,k,detail,cluster_a,cluster_b,overlap_share,jaccard_terms
+seed,qwen3-embedding-4b,qwen3-embedding-4b,8,seed 42 vs 43,0,1,1.0,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,8,seed 42 vs 43,1,3,0.9995250050892311,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,8,seed 42 vs 43,2,4,1.0,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,8,seed 42 vs 43,3,0,1.0,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,8,seed 42 vs 43,4,7,0.9991836734693877,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,8,seed 42 vs 43,5,2,1.0,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,8,seed 42 vs 43,6,6,0.9995121157911856,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,8,seed 42 vs 43,7,5,0.9996731492073868,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,8,seed 42 vs 44,0,3,1.0,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,8,seed 42 vs 44,1,6,0.9995250050892311,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,8,seed 42 vs 44,2,4,0.9998629761578515,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,8,seed 42 vs 44,3,1,0.9998817827166332,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,8,seed 42 vs 44,4,7,0.998600583090379,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,8,seed 42 vs 44,5,0,0.9998477002741395,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,8,seed 42 vs 44,6,2,0.9993494877215807,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,8,seed 42 vs 44,7,5,0.998038895244321,1.0
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,8,full vs exclude-cn,0,3,0.7647910633016136,0.5384615384615384
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,8,full vs exclude-cn,1,1,0.012048192771084338,0.0
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,8,full vs exclude-cn,2,6,0.4889413785698948,0.05263157894736842
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,8,full vs exclude-cn,3,4,0.9252009786787836,0.1111111111111111
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,8,full vs exclude-cn,4,5,0.058823529411764705,0.0
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,8,full vs exclude-cn,5,0,0.6618824178857301,0.1111111111111111
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,8,full vs exclude-cn,6,2,0.7909407665505227,0.1111111111111111
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,8,full vs exclude-cn,7,7,0.8662515566625155,0.1111111111111111
+seed,sbert-adapt-ub,sbert-adapt-ub,8,seed 42 vs 43,0,4,1.0,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,8,seed 42 vs 43,1,0,0.9995286909390833,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,8,seed 42 vs 43,2,7,0.999654417693814,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,8,seed 42 vs 43,3,6,0.9999038923594425,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,8,seed 42 vs 43,4,3,0.9992355714103708,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,8,seed 42 vs 43,5,1,1.0,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,8,seed 42 vs 43,6,5,0.9990296645411699,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,8,seed 42 vs 43,7,2,0.9997917100604041,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,8,seed 42 vs 44,0,3,0.9994991861775385,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,8,seed 42 vs 44,1,1,0.9996465182043125,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,8,seed 42 vs 44,2,5,0.995507430019583,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,8,seed 42 vs 44,3,4,0.9997116770783278,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,8,seed 42 vs 44,4,7,0.9965600713466684,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,8,seed 42 vs 44,5,6,0.9992977528089888,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,8,seed 42 vs 44,6,2,0.9950097033545883,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,8,seed 42 vs 44,7,0,0.9987502603624245,1.0
+cohort,sbert-adapt-ub,sbert-adapt-ub,8,full vs exclude-cn,0,2,0.9567947751821151,0.25
+cohort,sbert-adapt-ub,sbert-adapt-ub,8,full vs exclude-cn,1,4,0.4700437130367704,0.1111111111111111
+cohort,sbert-adapt-ub,sbert-adapt-ub,8,full vs exclude-cn,2,7,0.9537682077264091,0.0
+cohort,sbert-adapt-ub,sbert-adapt-ub,8,full vs exclude-cn,3,0,0.9024154589371981,0.3333333333333333
+cohort,sbert-adapt-ub,sbert-adapt-ub,8,full vs exclude-cn,4,6,0.8461059190031153,0.05263157894736842
+cohort,sbert-adapt-ub,sbert-adapt-ub,8,full vs exclude-cn,5,3,0.823726292301971,0.17647058823529413
+cohort,sbert-adapt-ub,sbert-adapt-ub,8,full vs exclude-cn,6,1,0.09584295612009237,0.0
+cohort,sbert-adapt-ub,sbert-adapt-ub,8,full vs exclude-cn,7,5,0.8732240437158469,0.17647058823529413
+seed,pat-specter,pat-specter,8,seed 42 vs 43,0,2,0.9973324964694806,1.0
+seed,pat-specter,pat-specter,8,seed 42 vs 43,1,0,0.9995169082125603,1.0
+seed,pat-specter,pat-specter,8,seed 42 vs 43,2,7,0.9891230455472467,1.0
+seed,pat-specter,pat-specter,8,seed 42 vs 43,3,6,0.9993506493506493,1.0
+seed,pat-specter,pat-specter,8,seed 42 vs 43,4,5,0.9991294254207778,1.0
+seed,pat-specter,pat-specter,8,seed 42 vs 43,5,1,0.9989894226234589,1.0
+seed,pat-specter,pat-specter,8,seed 42 vs 43,6,3,0.9996027805362463,1.0
+seed,pat-specter,pat-specter,8,seed 42 vs 43,7,4,1.0,1.0
+seed,pat-specter,pat-specter,8,seed 42 vs 44,0,2,0.999372352110466,1.0
+seed,pat-specter,pat-specter,8,seed 42 vs 44,1,0,0.9973429951690821,1.0
+seed,pat-specter,pat-specter,8,seed 42 vs 44,2,7,0.9995467935644686,1.0
+seed,pat-specter,pat-specter,8,seed 42 vs 44,3,5,0.9995670995670995,1.0
+seed,pat-specter,pat-specter,8,seed 42 vs 44,4,6,0.99961307796479,1.0
+seed,pat-specter,pat-specter,8,seed 42 vs 44,5,1,0.9984504480226369,1.0
+seed,pat-specter,pat-specter,8,seed 42 vs 44,6,3,0.9998013902681231,1.0
+seed,pat-specter,pat-specter,8,seed 42 vs 44,7,4,0.99780268072951,1.0
+cohort,pat-specter,pat-specter,8,full vs exclude-cn,0,5,0.8823715916296766,0.3333333333333333
+cohort,pat-specter,pat-specter,8,full vs exclude-cn,1,3,0.9786381842456608,0.17647058823529413
+cohort,pat-specter,pat-specter,8,full vs exclude-cn,2,4,0.8854505971769815,0.25
+cohort,pat-specter,pat-specter,8,full vs exclude-cn,3,1,0.9225806451612903,0.1111111111111111
+cohort,pat-specter,pat-specter,8,full vs exclude-cn,4,7,0.9142550911039657,0.1111111111111111
+cohort,pat-specter,pat-specter,8,full vs exclude-cn,5,0,0.9895691609977324,0.05263157894736842
+cohort,pat-specter,pat-specter,8,full vs exclude-cn,6,2,0.9718787878787879,0.3333333333333333
+cohort,pat-specter,pat-specter,8,full vs exclude-cn,7,6,0.954822517031194,0.42857142857142855
+model,qwen3-embedding-4b,sbert-adapt-ub,8,reference seeds,0,0,0.7683429513602638,0.3333333333333333
+model,qwen3-embedding-4b,sbert-adapt-ub,8,reference seeds,1,6,0.3499355364049671,0.1111111111111111
+model,qwen3-embedding-4b,sbert-adapt-ub,8,reference seeds,2,1,0.6303096738832557,0.17647058823529413
+model,qwen3-embedding-4b,sbert-adapt-ub,8,reference seeds,3,5,0.7240808606218229,0.05263157894736842
+model,qwen3-embedding-4b,sbert-adapt-ub,8,reference seeds,4,7,0.23486880466472304,0.0
+model,qwen3-embedding-4b,sbert-adapt-ub,8,reference seeds,5,3,0.8583612549497411,0.17647058823529413
+model,qwen3-embedding-4b,sbert-adapt-ub,8,reference seeds,6,4,0.10944869084403969,0.0
+model,qwen3-embedding-4b,sbert-adapt-ub,8,reference seeds,7,2,0.2900800784441902,0.0
+model,qwen3-embedding-4b,pat-specter,8,reference seeds,0,7,0.5886232481450948,0.42857142857142855
+model,qwen3-embedding-4b,pat-specter,8,reference seeds,1,5,0.5286693356856891,0.05263157894736842
+model,qwen3-embedding-4b,pat-specter,8,reference seeds,2,0,0.5390517950123321,0.05263157894736842
+model,qwen3-embedding-4b,pat-specter,8,reference seeds,3,3,0.7273909445560941,0.05263157894736842
+model,qwen3-embedding-4b,pat-specter,8,reference seeds,4,2,0.18612244897959185,0.0
+model,qwen3-embedding-4b,pat-specter,8,reference seeds,5,6,0.8528784648187633,0.1111111111111111
+model,qwen3-embedding-4b,pat-specter,8,reference seeds,6,1,0.35095137420718814,0.1111111111111111
+model,qwen3-embedding-4b,pat-specter,8,reference seeds,7,4,0.285831018140219,0.0
+model,sbert-adapt-ub,pat-specter,8,reference seeds,0,7,0.5446350319268812,0.6666666666666666
+model,sbert-adapt-ub,pat-specter,8,reference seeds,1,0,0.6081065158477672,0.1111111111111111
+model,sbert-adapt-ub,pat-specter,8,reference seeds,2,4,0.7688054371616173,0.0
+model,sbert-adapt-ub,pat-specter,8,reference seeds,3,6,0.8689091782796733,0.3333333333333333
+model,sbert-adapt-ub,pat-specter,8,reference seeds,4,5,0.8524652822015544,0.0
+model,sbert-adapt-ub,pat-specter,8,reference seeds,5,3,0.8353230337078652,0.3333333333333333
+model,sbert-adapt-ub,pat-specter,8,reference seeds,6,1,0.04089270862212365,0.05263157894736842
+model,sbert-adapt-ub,pat-specter,8,reference seeds,7,2,0.7081857946261195,0.42857142857142855
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 43,0,7,0.4402134368178511,0.42857142857142855
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 43,1,1,0.9795483596080102,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 43,2,5,0.9839234449760765,0.6666666666666666
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 43,3,9,0.9635443037974684,0.8181818181818182
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 43,4,11,0.989320676357164,0.8181818181818182
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 43,5,8,0.971757852077001,0.6666666666666666
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 43,6,10,0.9994991234660656,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 43,7,4,0.9927121290994274,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 43,8,14,0.9789864029666254,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 43,9,12,0.9220234150651646,0.8181818181818182
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 43,10,13,0.9973070017953322,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 43,11,15,0.9833442910365987,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 43,12,6,0.9213364903972638,0.8181818181818182
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 43,13,0,0.9860809047411918,1.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 43,14,3,0.968796992481203,0.6666666666666666
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 43,15,2,0.9974719101123596,0.8181818181818182
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 44,0,10,0.41062333252486055,0.42857142857142855
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 44,1,5,0.9273540690242863,0.6666666666666666
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 44,2,1,0.9601913875598086,0.42857142857142855
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 44,3,8,0.8579746835443038,0.3333333333333333
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 44,4,9,0.9632156630080095,0.8181818181818182
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 44,5,2,0.9407294832826748,0.5384615384615384
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 44,6,3,0.993488605058853,0.8181818181818182
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 44,7,12,0.9601769911504425,0.8181818181818182
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 44,8,13,0.9317058096415327,0.8181818181818182
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 44,9,14,0.9182681687651867,0.42857142857142855
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 44,10,15,0.9901256732495511,0.8181818181818182
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 44,11,4,0.9500328731097962,0.8181818181818182
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 44,12,0,0.7237569060773481,0.6666666666666666
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 44,13,11,0.17877337973031754,0.0
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 44,14,7,0.9627819548872181,0.8181818181818182
+seed,qwen3-embedding-4b,qwen3-embedding-4b,16,seed 42 vs 44,15,6,0.976123595505618,0.8181818181818182
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,16,full vs exclude-cn,0,11,0.8062248995983936,0.05263157894736842
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,16,full vs exclude-cn,1,0,0.046511627906976744,0.05263157894736842
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,16,full vs exclude-cn,2,7,0.6226415094339622,0.0
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,16,full vs exclude-cn,3,10,0.4899638038828562,0.1111111111111111
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,16,full vs exclude-cn,4,3,0.6101532567049809,0.17647058823529413
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,16,full vs exclude-cn,5,15,0.0,0.05263157894736842
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,16,full vs exclude-cn,6,13,0.5146088595664468,0.5384615384615384
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,16,full vs exclude-cn,7,5,0.19008264462809918,0.0
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,16,full vs exclude-cn,8,9,0.927027027027027,0.1111111111111111
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,16,full vs exclude-cn,9,8,0.4642857142857143,0.0
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,16,full vs exclude-cn,10,12,0.6452312138728323,0.25
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,16,full vs exclude-cn,11,2,0.9132606721162579,0.25
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,16,full vs exclude-cn,12,6,0.684689812179852,0.1111111111111111
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,16,full vs exclude-cn,13,1,0.8526011560693642,0.42857142857142855
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,16,full vs exclude-cn,14,4,0.7917888563049853,0.05263157894736842
+cohort,qwen3-embedding-4b,qwen3-embedding-4b,16,full vs exclude-cn,15,14,0.4525043177892919,0.25
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 43,0,8,0.9963744232036915,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 43,1,9,0.9960495600646435,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 43,2,5,0.9879518072289156,0.8181818181818182
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 43,3,12,0.9827232796486091,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 43,4,15,0.9951456310679612,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 43,5,13,0.9919666765843499,0.8181818181818182
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 43,6,2,0.950488379925901,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 43,7,4,0.9986996098829649,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 43,8,3,0.9973708920187794,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 43,9,7,0.986322188449848,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 43,10,0,0.9845474613686535,0.8181818181818182
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 43,11,11,0.9902302861130495,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 43,12,6,0.9812606473594548,0.8181818181818182
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 43,13,10,0.9951545916012922,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 43,14,1,0.9935770750988142,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 43,15,14,0.9949972206781545,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 44,0,11,0.9957152274225445,0.8181818181818182
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 44,1,0,0.9834799784521459,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 44,2,8,0.947991967871486,0.6666666666666666
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 44,3,1,0.939385065885798,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 44,4,13,0.9951456310679612,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 44,5,15,0.9872061886343351,0.8181818181818182
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 44,6,12,0.8427079824856855,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 44,7,9,0.9981216587198382,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 44,8,6,0.9964319248826291,0.8181818181818182
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 44,9,4,0.9620060790273556,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 44,10,10,0.9668874172185431,0.6666666666666666
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 44,11,5,0.9890672249360316,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 44,12,14,0.9652470187393526,0.6666666666666666
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 44,13,7,0.9882325796031379,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 44,14,2,0.9898715415019763,1.0
+seed,sbert-adapt-ub,sbert-adapt-ub,16,seed 42 vs 44,15,3,0.981100611450806,0.8181818181818182
+cohort,sbert-adapt-ub,sbert-adapt-ub,16,full vs exclude-cn,0,0,0.7966101694915254,0.3333333333333333
+cohort,sbert-adapt-ub,sbert-adapt-ub,16,full vs exclude-cn,1,11,0.7230406599882145,0.17647058823529413
+cohort,sbert-adapt-ub,sbert-adapt-ub,16,full vs exclude-cn,2,6,0.9513406156901688,0.25
+cohort,sbert-adapt-ub,sbert-adapt-ub,16,full vs exclude-cn,3,3,0.4874141876430206,0.05263157894736842
+cohort,sbert-adapt-ub,sbert-adapt-ub,16,full vs exclude-cn,4,14,0.5738916256157636,0.05263157894736842
+cohort,sbert-adapt-ub,sbert-adapt-ub,16,full vs exclude-cn,5,10,0.762684124386252,0.05263157894736842
+cohort,sbert-adapt-ub,sbert-adapt-ub,16,full vs exclude-cn,6,4,0.49320652173913043,0.0
+cohort,sbert-adapt-ub,sbert-adapt-ub,16,full vs exclude-cn,7,12,0.7518248175182481,0.6666666666666666
+cohort,sbert-adapt-ub,sbert-adapt-ub,16,full vs exclude-cn,8,1,0.9586776859504132,0.42857142857142855
+cohort,sbert-adapt-ub,sbert-adapt-ub,16,full vs exclude-cn,9,9,0.003676470588235294,0.0
+cohort,sbert-adapt-ub,sbert-adapt-ub,16,full vs exclude-cn,10,15,0.3163138231631382,0.0
+cohort,sbert-adapt-ub,sbert-adapt-ub,16,full vs exclude-cn,11,7,0.7155655095184771,0.25
+cohort,sbert-adapt-ub,sbert-adapt-ub,16,full vs exclude-cn,12,5,0.6508135168961201,0.1111111111111111
+cohort,sbert-adapt-ub,sbert-adapt-ub,16,full vs exclude-cn,13,13,0.49406910778751933,0.05263157894736842
+cohort,sbert-adapt-ub,sbert-adapt-ub,16,full vs exclude-cn,14,2,0.8188368502316006,0.25
+cohort,sbert-adapt-ub,sbert-adapt-ub,16,full vs exclude-cn,15,8,0.8324538258575198,0.0
+seed,pat-specter,pat-specter,16,seed 42 vs 43,0,3,0.9514221796100991,0.8181818181818182
+seed,pat-specter,pat-specter,16,seed 42 vs 43,1,1,0.688337801608579,0.6666666666666666
+seed,pat-specter,pat-specter,16,seed 42 vs 43,2,15,0.6336226587482869,0.42857142857142855
+seed,pat-specter,pat-specter,16,seed 42 vs 43,3,12,0.9884453781512605,0.8181818181818182
+seed,pat-specter,pat-specter,16,seed 42 vs 43,4,7,0.9924425634824667,1.0
+seed,pat-specter,pat-specter,16,seed 42 vs 43,5,8,0.9885654885654885,0.5384615384615384
+seed,pat-specter,pat-specter,16,seed 42 vs 43,6,4,0.5546034639927074,0.3333333333333333
+seed,pat-specter,pat-specter,16,seed 42 vs 43,7,5,0.9885914874945151,0.8181818181818182
+seed,pat-specter,pat-specter,16,seed 42 vs 43,8,13,0.9722766732007841,1.0
+seed,pat-specter,pat-specter,16,seed 42 vs 43,9,14,0.9862306368330465,1.0
+seed,pat-specter,pat-specter,16,seed 42 vs 43,10,10,0.36356186834198306,0.17647058823529413
+seed,pat-specter,pat-specter,16,seed 42 vs 43,11,11,0.9786426198386331,0.6666666666666666
+seed,pat-specter,pat-specter,16,seed 42 vs 43,12,0,0.9724870607463906,0.8181818181818182
+seed,pat-specter,pat-specter,16,seed 42 vs 43,13,2,0.8674810290579308,0.5384615384615384
+seed,pat-specter,pat-specter,16,seed 42 vs 43,14,9,0.9919719016557953,0.8181818181818182
+seed,pat-specter,pat-specter,16,seed 42 vs 43,15,6,0.9593345656192237,1.0
+seed,pat-specter,pat-specter,16,seed 42 vs 44,0,5,0.559603707254714,0.3333333333333333
+seed,pat-specter,pat-specter,16,seed 42 vs 44,1,1,0.798704200178731,0.6666666666666666
+seed,pat-specter,pat-specter,16,seed 42 vs 44,2,13,0.7126541799908634,0.3333333333333333
+seed,pat-specter,pat-specter,16,seed 42 vs 44,3,10,0.7791491596638656,0.6666666666666666
+seed,pat-specter,pat-specter,16,seed 42 vs 44,4,6,0.9915356711003628,0.8181818181818182
+seed,pat-specter,pat-specter,16,seed 42 vs 44,5,3,0.9525294525294525,0.42857142857142855
+seed,pat-specter,pat-specter,16,seed 42 vs 44,6,8,0.7598906107566089,0.1111111111111111
+seed,pat-specter,pat-specter,16,seed 42 vs 44,7,11,0.9828872312417727,0.6666666666666666
+seed,pat-specter,pat-specter,16,seed 42 vs 44,8,9,0.9683562027443293,0.6666666666666666
+seed,pat-specter,pat-specter,16,seed 42 vs 44,9,2,0.9821428571428571,0.6666666666666666
+seed,pat-specter,pat-specter,16,seed 42 vs 44,10,7,0.8601475006828735,0.3333333333333333
+seed,pat-specter,pat-specter,16,seed 42 vs 44,11,12,0.9587090650213573,0.42857142857142855
+seed,pat-specter,pat-specter,16,seed 42 vs 44,12,14,0.8191228548079542,0.5384615384615384
+seed,pat-specter,pat-specter,16,seed 42 vs 44,13,4,0.8078845086063298,0.17647058823529413
+seed,pat-specter,pat-specter,16,seed 42 vs 44,14,15,0.10938283993978926,0.05263157894736842
+seed,pat-specter,pat-specter,16,seed 42 vs 44,15,0,0.8229615937564182,0.8181818181818182
+cohort,pat-specter,pat-specter,16,full vs exclude-cn,0,14,0.5206985769728332,0.17647058823529413
+cohort,pat-specter,pat-specter,16,full vs exclude-cn,1,6,0.7578378378378379,0.25
+cohort,pat-specter,pat-specter,16,full vs exclude-cn,2,0,0.7903225806451613,0.05263157894736842
+cohort,pat-specter,pat-specter,16,full vs exclude-cn,3,15,0.8044092707744488,0.5384615384615384
+cohort,pat-specter,pat-specter,16,full vs exclude-cn,4,13,0.9196029776674938,0.6666666666666666
+cohort,pat-specter,pat-specter,16,full vs exclude-cn,5,2,0.9287949921752738,0.17647058823529413
+cohort,pat-specter,pat-specter,16,full vs exclude-cn,6,5,0.006072874493927126,0.0
+cohort,pat-specter,pat-specter,16,full vs exclude-cn,7,1,0.826487845766974,0.5384615384615384
+cohort,pat-specter,pat-specter,16,full vs exclude-cn,8,8,0.9490740740740741,0.17647058823529413
+cohort,pat-specter,pat-specter,16,full vs exclude-cn,9,7,0.765793528505393,0.17647058823529413
+cohort,pat-specter,pat-specter,16,full vs exclude-cn,10,3,0.55,0.05263157894736842
+cohort,pat-specter,pat-specter,16,full vs exclude-cn,11,11,0.8956870611835507,0.17647058823529413
+cohort,pat-specter,pat-specter,16,full vs exclude-cn,12,9,0.7164258962011771,0.25
+cohort,pat-specter,pat-specter,16,full vs exclude-cn,13,12,0.12004069175991862,0.0
+cohort,pat-specter,pat-specter,16,full vs exclude-cn,14,4,0.7403760071620412,0.42857142857142855
+cohort,pat-specter,pat-specter,16,full vs exclude-cn,15,10,0.8172043010752689,0.1111111111111111
+model,qwen3-embedding-4b,sbert-adapt-ub,16,reference seeds,0,2,0.4157167111326704,0.1111111111111111
+model,qwen3-embedding-4b,sbert-adapt-ub,16,reference seeds,1,12,0.24648487430762675,0.05263157894736842
+model,qwen3-embedding-4b,sbert-adapt-ub,16,reference seeds,2,10,0.2461244019138756,0.17647058823529413
+model,qwen3-embedding-4b,sbert-adapt-ub,16,reference seeds,3,6,0.14126582278481012,0.0
+model,qwen3-embedding-4b,sbert-adapt-ub,16,reference seeds,4,14,0.5520617027588253,0.1111111111111111
+model,qwen3-embedding-4b,sbert-adapt-ub,16,reference seeds,5,9,0.2008611955420466,0.1111111111111111
+model,qwen3-embedding-4b,sbert-adapt-ub,16,reference seeds,6,7,0.9403956924618082,0.6666666666666666
+model,qwen3-embedding-4b,sbert-adapt-ub,16,reference seeds,7,4,0.2667881311816762,0.05263157894736842
+model,qwen3-embedding-4b,sbert-adapt-ub,16,reference seeds,8,0,0.14864029666254636,0.0
+model,qwen3-embedding-4b,sbert-adapt-ub,16,reference seeds,9,1,0.5495913408438259,0.1111111111111111
+model,qwen3-embedding-4b,sbert-adapt-ub,16,reference seeds,10,11,0.6481149012567325,0.1111111111111111
+model,qwen3-embedding-4b,sbert-adapt-ub,16,reference seeds,11,8,0.7727372342756959,0.17647058823529413
+model,qwen3-embedding-4b,sbert-adapt-ub,16,reference seeds,12,15,0.31149697448039987,0.05263157894736842
+model,qwen3-embedding-4b,sbert-adapt-ub,16,reference seeds,13,5,0.11178773379730318,0.0
+model,qwen3-embedding-4b,sbert-adapt-ub,16,reference seeds,14,3,0.39210526315789473,0.3333333333333333
+model,qwen3-embedding-4b,sbert-adapt-ub,16,reference seeds,15,13,0.39325842696629215,0.17647058823529413
+model,qwen3-embedding-4b,pat-specter,16,reference seeds,0,1,0.4166868784865389,0.05263157894736842
+model,qwen3-embedding-4b,pat-specter,16,reference seeds,1,6,0.3466126970600767,0.0
+model,qwen3-embedding-4b,pat-specter,16,reference seeds,2,13,0.2826794258373206,0.0
+model,qwen3-embedding-4b,pat-specter,16,reference seeds,3,9,0.49088607594936706,0.1111111111111111
+model,qwen3-embedding-4b,pat-specter,16,reference seeds,4,0,0.38771877781073866,0.05263157894736842
+model,qwen3-embedding-4b,pat-specter,16,reference seeds,5,2,0.3691742654508612,0.0
+model,qwen3-embedding-4b,pat-specter,16,reference seeds,6,4,0.5709992486851991,0.5384615384615384
+model,qwen3-embedding-4b,pat-specter,16,reference seeds,7,7,0.10879750130140552,0.0
+model,qwen3-embedding-4b,pat-specter,16,reference seeds,8,5,0.06613102595797281,0.0
+model,qwen3-embedding-4b,pat-specter,16,reference seeds,9,11,0.44356085707974374,0.1111111111111111
+model,qwen3-embedding-4b,pat-specter,16,reference seeds,10,14,0.5987432675044884,0.5384615384615384
+model,qwen3-embedding-4b,pat-specter,16,reference seeds,11,3,0.6497918036379575,0.3333333333333333
+model,qwen3-embedding-4b,pat-specter,16,reference seeds,12,15,0.3751644304130492,0.3333333333333333
+model,qwen3-embedding-4b,pat-specter,16,reference seeds,13,10,0.20965637233579817,0.0
+model,qwen3-embedding-4b,pat-specter,16,reference seeds,14,8,0.40338345864661657,0.25
+model,qwen3-embedding-4b,pat-specter,16,reference seeds,15,12,0.4705056179775281,0.25
+model,sbert-adapt-ub,pat-specter,16,reference seeds,0,5,0.6829268292682927,0.8181818181818182
+model,sbert-adapt-ub,pat-specter,16,reference seeds,1,9,0.44388579637277786,0.25
+model,sbert-adapt-ub,pat-specter,16,reference seeds,2,1,0.46204819277108433,0.1111111111111111
+model,sbert-adapt-ub,pat-specter,16,reference seeds,3,6,0.6184480234260615,0.0
+model,sbert-adapt-ub,pat-specter,16,reference seeds,4,10,0.26037069726390116,0.0
+model,sbert-adapt-ub,pat-specter,16,reference seeds,5,15,0.2784885450758703,0.0
+model,sbert-adapt-ub,pat-specter,16,reference seeds,6,11,0.321993937352644,0.0
+model,sbert-adapt-ub,pat-specter,16,reference seeds,7,4,0.4301401531570582,0.42857142857142855
+model,sbert-adapt-ub,pat-specter,16,reference seeds,8,3,0.5956807511737089,0.42857142857142855
+model,sbert-adapt-ub,pat-specter,16,reference seeds,9,2,0.5963525835866261,0.0
+model,sbert-adapt-ub,pat-specter,16,reference seeds,10,13,0.6089955849889624,0.0
+model,sbert-adapt-ub,pat-specter,16,reference seeds,11,14,0.31728308909048614,0.1111111111111111
+model,sbert-adapt-ub,pat-specter,16,reference seeds,12,8,0.0030664395229982964,0.0
+model,sbert-adapt-ub,pat-specter,16,reference seeds,13,12,0.4125519150899862,0.17647058823529413
+model,sbert-adapt-ub,pat-specter,16,reference seeds,14,0,0.529397233201581,0.1111111111111111
+model,sbert-adapt-ub,pat-specter,16,reference seeds,15,7,0.0,0.0

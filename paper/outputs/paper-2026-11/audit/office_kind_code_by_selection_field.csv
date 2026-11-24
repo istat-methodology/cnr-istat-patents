@@ -1,0 +1,1109 @@
+office,kind_code,wipo_field_number,wipo_field_name,size
+AU,A1,1,"Electrical machinery, apparatus, energy",1
+AU,A1,2,Audio-visual technology,6
+AU,A1,3,Telecommunications,6
+AU,A1,4,Digital communication,7
+AU,A1,5,Basic communication processes,5
+AU,A1,6,Computer technology,3
+AU,A1,7,IT methods for management,10
+AU,A1,8,Semiconductors,1
+AU,A1,9,Optics,5
+AU,A1,10,Measurement,7
+AU,A1,11,Analysis of biological materials,19
+AU,A1,12,Control,11
+AU,A1,13,Medical technology,25
+AU,A1,14,Organic fine chemistry,42
+AU,A1,15,Biotechnology,50
+AU,A1,16,Pharmaceuticals,85
+AU,A1,17,"Macromolecular chemistry, polymers",9
+AU,A1,18,Food chemistry,31
+AU,A1,19,Basic materials chemistry,14
+AU,A1,20,"Materials, metallurgy",15
+AU,A1,21,"Surface technology, coating",9
+AU,A1,22,Micro-structural and nano-technology,13
+AU,A1,23,Chemical engineering,6
+AU,A1,24,Environmental technology,5
+AU,A1,25,Handling,9
+AU,A1,26,Machine tools,2
+AU,A1,27,"Engines, pumps, turbines",4
+AU,A1,28,Textile and paper machines,3
+AU,A1,29,Other special machines,4
+AU,A1,30,Thermal processes and apparatus,7
+AU,A1,31,Mechanical elements,6
+AU,A1,32,Transport,9
+AU,A2,11,Analysis of biological materials,1
+AU,A2,17,"Macromolecular chemistry, polymers",1
+AU,A4,4,Digital communication,1
+AU,A4,6,Computer technology,1
+AU,A4,7,IT methods for management,2
+AU,A4,10,Measurement,1
+AU,A4,11,Analysis of biological materials,2
+AU,A4,15,Biotechnology,1
+AU,A4,16,Pharmaceuticals,4
+AU,A4,17,"Macromolecular chemistry, polymers",1
+AU,A4,18,Food chemistry,2
+AU,A4,19,Basic materials chemistry,3
+AU,A4,21,"Surface technology, coating",1
+AU,A4,22,Micro-structural and nano-technology,3
+AU,A4,24,Environmental technology,1
+AU,A4,27,"Engines, pumps, turbines",1
+AU,A4,31,Mechanical elements,1
+AU,A8,2,Audio-visual technology,1
+AU,A9,11,Analysis of biological materials,1
+AU,A9,13,Medical technology,1
+AU,A9,14,Organic fine chemistry,2
+AU,A9,15,Biotechnology,5
+AU,A9,16,Pharmaceuticals,6
+AU,A9,18,Food chemistry,1
+AU,A9,22,Micro-structural and nano-technology,1
+AU,A9,29,Other special machines,1
+AU,B1,27,"Engines, pumps, turbines",1
+AU,B2,1,"Electrical machinery, apparatus, energy",4
+AU,B2,2,Audio-visual technology,8
+AU,B2,3,Telecommunications,9
+AU,B2,4,Digital communication,5
+AU,B2,5,Basic communication processes,2
+AU,B2,7,IT methods for management,1
+AU,B2,8,Semiconductors,3
+AU,B2,9,Optics,6
+AU,B2,10,Measurement,4
+AU,B2,11,Analysis of biological materials,18
+AU,B2,12,Control,5
+AU,B2,13,Medical technology,12
+AU,B2,14,Organic fine chemistry,22
+AU,B2,15,Biotechnology,23
+AU,B2,16,Pharmaceuticals,32
+AU,B2,17,"Macromolecular chemistry, polymers",9
+AU,B2,18,Food chemistry,15
+AU,B2,19,Basic materials chemistry,7
+AU,B2,20,"Materials, metallurgy",9
+AU,B2,21,"Surface technology, coating",2
+AU,B2,22,Micro-structural and nano-technology,4
+AU,B2,23,Chemical engineering,2
+AU,B2,24,Environmental technology,1
+AU,B2,27,"Engines, pumps, turbines",5
+AU,B2,28,Textile and paper machines,4
+AU,B2,29,Other special machines,2
+AU,B2,30,Thermal processes and apparatus,6
+AU,B2,31,Mechanical elements,4
+AU,B2,32,Transport,3
+AU,B9,1,"Electrical machinery, apparatus, energy",1
+AU,B9,20,"Materials, metallurgy",1
+AU,C1,15,Biotechnology,3
+AU,C1,16,Pharmaceuticals,2
+AU,C1,19,Basic materials chemistry,1
+AU,C1,23,Chemical engineering,1
+AU,C1,27,"Engines, pumps, turbines",1
+AU,C1,29,Other special machines,1
+BG,A,15,Biotechnology,1
+BG,A,18,Food chemistry,1
+BG,A,28,Textile and paper machines,1
+BG,B1,16,Pharmaceuticals,1
+BG,U1,3,Telecommunications,1
+BG,U1,15,Biotechnology,1
+BG,U1,18,Food chemistry,1
+BG,U1,26,Machine tools,1
+BG,U1,32,Transport,1
+CA,A1,1,"Electrical machinery, apparatus, energy",2
+CA,A1,2,Audio-visual technology,4
+CA,A1,3,Telecommunications,5
+CA,A1,4,Digital communication,2
+CA,A1,5,Basic communication processes,2
+CA,A1,6,Computer technology,4
+CA,A1,7,IT methods for management,4
+CA,A1,8,Semiconductors,1
+CA,A1,10,Measurement,5
+CA,A1,11,Analysis of biological materials,9
+CA,A1,12,Control,6
+CA,A1,13,Medical technology,12
+CA,A1,14,Organic fine chemistry,23
+CA,A1,15,Biotechnology,40
+CA,A1,16,Pharmaceuticals,43
+CA,A1,17,"Macromolecular chemistry, polymers",6
+CA,A1,18,Food chemistry,14
+CA,A1,19,Basic materials chemistry,13
+CA,A1,20,"Materials, metallurgy",9
+CA,A1,21,"Surface technology, coating",5
+CA,A1,22,Micro-structural and nano-technology,5
+CA,A1,23,Chemical engineering,5
+CA,A1,24,Environmental technology,5
+CA,A1,25,Handling,7
+CA,A1,26,Machine tools,3
+CA,A1,27,"Engines, pumps, turbines",13
+CA,A1,28,Textile and paper machines,2
+CA,A1,29,Other special machines,3
+CA,A1,30,Thermal processes and apparatus,1
+CA,A1,31,Mechanical elements,5
+CA,A1,32,Transport,17
+CA,C,1,"Electrical machinery, apparatus, energy",6
+CA,C,2,Audio-visual technology,6
+CA,C,3,Telecommunications,2
+CA,C,4,Digital communication,3
+CA,C,5,Basic communication processes,1
+CA,C,6,Computer technology,1
+CA,C,7,IT methods for management,1
+CA,C,8,Semiconductors,1
+CA,C,9,Optics,3
+CA,C,10,Measurement,5
+CA,C,11,Analysis of biological materials,14
+CA,C,12,Control,2
+CA,C,13,Medical technology,9
+CA,C,14,Organic fine chemistry,17
+CA,C,15,Biotechnology,16
+CA,C,16,Pharmaceuticals,20
+CA,C,17,"Macromolecular chemistry, polymers",5
+CA,C,18,Food chemistry,16
+CA,C,19,Basic materials chemistry,17
+CA,C,20,"Materials, metallurgy",6
+CA,C,21,"Surface technology, coating",2
+CA,C,22,Micro-structural and nano-technology,7
+CA,C,23,Chemical engineering,3
+CA,C,24,Environmental technology,3
+CA,C,25,Handling,3
+CA,C,26,Machine tools,1
+CA,C,27,"Engines, pumps, turbines",7
+CA,C,28,Textile and paper machines,9
+CA,C,29,Other special machines,8
+CA,C,30,Thermal processes and apparatus,5
+CA,C,31,Mechanical elements,6
+CA,C,32,Transport,5
+CN,A,1,"Electrical machinery, apparatus, energy",591
+CN,A,2,Audio-visual technology,438
+CN,A,3,Telecommunications,541
+CN,A,4,Digital communication,625
+CN,A,5,Basic communication processes,541
+CN,A,6,Computer technology,912
+CN,A,7,IT methods for management,952
+CN,A,8,Semiconductors,485
+CN,A,9,Optics,447
+CN,A,10,Measurement,722
+CN,A,11,Analysis of biological materials,604
+CN,A,12,Control,705
+CN,A,13,Medical technology,470
+CN,A,14,Organic fine chemistry,655
+CN,A,15,Biotechnology,618
+CN,A,16,Pharmaceuticals,546
+CN,A,17,"Macromolecular chemistry, polymers",824
+CN,A,18,Food chemistry,753
+CN,A,19,Basic materials chemistry,774
+CN,A,20,"Materials, metallurgy",826
+CN,A,21,"Surface technology, coating",582
+CN,A,22,Micro-structural and nano-technology,895
+CN,A,23,Chemical engineering,475
+CN,A,24,Environmental technology,542
+CN,A,25,Handling,405
+CN,A,26,Machine tools,471
+CN,A,27,"Engines, pumps, turbines",508
+CN,A,28,Textile and paper machines,448
+CN,A,29,Other special machines,487
+CN,A,30,Thermal processes and apparatus,472
+CN,A,31,Mechanical elements,360
+CN,A,32,Transport,484
+CN,A8,5,Basic communication processes,1
+CN,A8,17,"Macromolecular chemistry, polymers",1
+CN,A8,21,"Surface technology, coating",1
+CN,A8,25,Handling,1
+CN,B,1,"Electrical machinery, apparatus, energy",222
+CN,B,2,Audio-visual technology,218
+CN,B,3,Telecommunications,326
+CN,B,4,Digital communication,391
+CN,B,5,Basic communication processes,321
+CN,B,6,Computer technology,429
+CN,B,7,IT methods for management,337
+CN,B,8,Semiconductors,257
+CN,B,9,Optics,253
+CN,B,10,Measurement,318
+CN,B,11,Analysis of biological materials,267
+CN,B,12,Control,300
+CN,B,13,Medical technology,169
+CN,B,14,Organic fine chemistry,371
+CN,B,15,Biotechnology,305
+CN,B,16,Pharmaceuticals,228
+CN,B,17,"Macromolecular chemistry, polymers",404
+CN,B,18,Food chemistry,269
+CN,B,19,Basic materials chemistry,337
+CN,B,20,"Materials, metallurgy",378
+CN,B,21,"Surface technology, coating",232
+CN,B,22,Micro-structural and nano-technology,489
+CN,B,23,Chemical engineering,182
+CN,B,24,Environmental technology,237
+CN,B,25,Handling,171
+CN,B,26,Machine tools,217
+CN,B,27,"Engines, pumps, turbines",280
+CN,B,28,Textile and paper machines,234
+CN,B,29,Other special machines,255
+CN,B,30,Thermal processes and apparatus,222
+CN,B,31,Mechanical elements,165
+CN,B,32,Transport,233
+CN,B8,1,"Electrical machinery, apparatus, energy",1
+CN,B8,14,Organic fine chemistry,1
+CN,B9,13,Medical technology,1
+CN,U,1,"Electrical machinery, apparatus, energy",674
+CN,U,2,Audio-visual technology,610
+CN,U,3,Telecommunications,282
+CN,U,4,Digital communication,47
+CN,U,5,Basic communication processes,173
+CN,U,6,Computer technology,46
+CN,U,7,IT methods for management,18
+CN,U,8,Semiconductors,133
+CN,U,9,Optics,335
+CN,U,10,Measurement,564
+CN,U,11,Analysis of biological materials,434
+CN,U,12,Control,382
+CN,U,13,Medical technology,634
+CN,U,14,Organic fine chemistry,45
+CN,U,15,Biotechnology,112
+CN,U,16,Pharmaceuticals,1
+CN,U,17,"Macromolecular chemistry, polymers",23
+CN,U,18,Food chemistry,309
+CN,U,19,Basic materials chemistry,158
+CN,U,20,"Materials, metallurgy",309
+CN,U,21,"Surface technology, coating",553
+CN,U,22,Micro-structural and nano-technology,38
+CN,U,23,Chemical engineering,1126
+CN,U,24,Environmental technology,974
+CN,U,25,Handling,1115
+CN,U,26,Machine tools,1145
+CN,U,27,"Engines, pumps, turbines",610
+CN,U,28,Textile and paper machines,837
+CN,U,29,Other special machines,877
+CN,U,30,Thermal processes and apparatus,951
+CN,U,31,Mechanical elements,1100
+CN,U,32,Transport,613
+CR,A,13,Medical technology,1
+CR,A,14,Organic fine chemistry,2
+CR,A,15,Biotechnology,3
+CR,A,16,Pharmaceuticals,1
+CR,A,19,Basic materials chemistry,1
+CR,A,25,Handling,1
+CZ,B6,14,Organic fine chemistry,1
+CZ,B6,16,Pharmaceuticals,1
+CZ,B6,19,Basic materials chemistry,1
+CZ,B6,22,Micro-structural and nano-technology,3
+CZ,B6,30,Thermal processes and apparatus,1
+DK,A1,12,Control,1
+DK,A1,21,"Surface technology, coating",1
+DK,B1,13,Medical technology,1
+DK,B1,14,Organic fine chemistry,1
+DK,B1,19,Basic materials chemistry,1
+DK,B1,29,Other special machines,1
+EA,B1,3,Telecommunications,1
+EA,B1,14,Organic fine chemistry,1
+EA,B1,15,Biotechnology,1
+EA,B1,16,Pharmaceuticals,2
+EA,B9,27,"Engines, pumps, turbines",1
+EE,A,32,Transport,1
+EP,A1,1,"Electrical machinery, apparatus, energy",43
+EP,A1,2,Audio-visual technology,44
+EP,A1,3,Telecommunications,72
+EP,A1,4,Digital communication,108
+EP,A1,5,Basic communication processes,53
+EP,A1,6,Computer technology,46
+EP,A1,7,IT methods for management,27
+EP,A1,8,Semiconductors,52
+EP,A1,9,Optics,80
+EP,A1,10,Measurement,32
+EP,A1,11,Analysis of biological materials,66
+EP,A1,12,Control,40
+EP,A1,13,Medical technology,77
+EP,A1,14,Organic fine chemistry,89
+EP,A1,15,Biotechnology,106
+EP,A1,16,Pharmaceuticals,134
+EP,A1,17,"Macromolecular chemistry, polymers",91
+EP,A1,18,Food chemistry,48
+EP,A1,19,Basic materials chemistry,72
+EP,A1,20,"Materials, metallurgy",47
+EP,A1,21,"Surface technology, coating",49
+EP,A1,22,Micro-structural and nano-technology,50
+EP,A1,23,Chemical engineering,25
+EP,A1,24,Environmental technology,31
+EP,A1,25,Handling,25
+EP,A1,26,Machine tools,22
+EP,A1,27,"Engines, pumps, turbines",68
+EP,A1,28,Textile and paper machines,37
+EP,A1,29,Other special machines,42
+EP,A1,30,Thermal processes and apparatus,37
+EP,A1,31,Mechanical elements,32
+EP,A1,32,Transport,62
+EP,A2,1,"Electrical machinery, apparatus, energy",4
+EP,A2,2,Audio-visual technology,2
+EP,A2,3,Telecommunications,3
+EP,A2,4,Digital communication,6
+EP,A2,5,Basic communication processes,2
+EP,A2,6,Computer technology,3
+EP,A2,8,Semiconductors,8
+EP,A2,9,Optics,5
+EP,A2,11,Analysis of biological materials,7
+EP,A2,13,Medical technology,11
+EP,A2,14,Organic fine chemistry,8
+EP,A2,15,Biotechnology,13
+EP,A2,16,Pharmaceuticals,21
+EP,A2,17,"Macromolecular chemistry, polymers",5
+EP,A2,18,Food chemistry,2
+EP,A2,19,Basic materials chemistry,3
+EP,A2,20,"Materials, metallurgy",2
+EP,A2,21,"Surface technology, coating",3
+EP,A2,22,Micro-structural and nano-technology,3
+EP,A2,23,Chemical engineering,1
+EP,A2,24,Environmental technology,1
+EP,A2,25,Handling,2
+EP,A2,26,Machine tools,2
+EP,A2,27,"Engines, pumps, turbines",5
+EP,A2,28,Textile and paper machines,1
+EP,A2,29,Other special machines,2
+EP,A2,30,Thermal processes and apparatus,1
+EP,A2,31,Mechanical elements,4
+EP,A2,32,Transport,4
+EP,A3,1,"Electrical machinery, apparatus, energy",4
+EP,A3,2,Audio-visual technology,3
+EP,A3,3,Telecommunications,2
+EP,A3,4,Digital communication,8
+EP,A3,5,Basic communication processes,5
+EP,A3,6,Computer technology,5
+EP,A3,7,IT methods for management,3
+EP,A3,8,Semiconductors,7
+EP,A3,9,Optics,3
+EP,A3,10,Measurement,2
+EP,A3,11,Analysis of biological materials,7
+EP,A3,12,Control,3
+EP,A3,13,Medical technology,7
+EP,A3,14,Organic fine chemistry,4
+EP,A3,15,Biotechnology,3
+EP,A3,16,Pharmaceuticals,8
+EP,A3,17,"Macromolecular chemistry, polymers",2
+EP,A3,18,Food chemistry,5
+EP,A3,19,Basic materials chemistry,2
+EP,A3,20,"Materials, metallurgy",3
+EP,A3,21,"Surface technology, coating",2
+EP,A3,22,Micro-structural and nano-technology,6
+EP,A3,23,Chemical engineering,1
+EP,A3,24,Environmental technology,1
+EP,A3,25,Handling,2
+EP,A3,26,Machine tools,1
+EP,A3,27,"Engines, pumps, turbines",2
+EP,A3,28,Textile and paper machines,2
+EP,A3,29,Other special machines,2
+EP,A3,30,Thermal processes and apparatus,3
+EP,A3,31,Mechanical elements,1
+EP,A3,32,Transport,4
+EP,A8,19,Basic materials chemistry,1
+EP,A9,1,"Electrical machinery, apparatus, energy",1
+ES,A1,10,Measurement,2
+ES,A1,13,Medical technology,1
+ES,A1,16,Pharmaceuticals,1
+ES,A1,27,"Engines, pumps, turbines",1
+ES,A1,30,Thermal processes and apparatus,1
+ES,A2,14,Organic fine chemistry,1
+ES,A2,18,Food chemistry,1
+ES,A2,20,"Materials, metallurgy",2
+ES,U,14,Organic fine chemistry,1
+ES,U,19,Basic materials chemistry,2
+ES,U,20,"Materials, metallurgy",1
+ES,U,25,Handling,1
+ES,U,26,Machine tools,1
+ES,U,29,Other special machines,2
+ES,U,30,Thermal processes and apparatus,1
+ES,U,32,Transport,2
+FI,A1,9,Optics,1
+FI,A1,17,"Macromolecular chemistry, polymers",1
+FI,A1,18,Food chemistry,2
+FI,A1,19,Basic materials chemistry,1
+FI,A1,20,"Materials, metallurgy",1
+FI,A1,21,"Surface technology, coating",1
+FI,A1,28,Textile and paper machines,1
+FI,A1,31,Mechanical elements,2
+FI,B,7,IT methods for management,1
+FI,B,17,"Macromolecular chemistry, polymers",1
+FI,B,28,Textile and paper machines,1
+FI,B1,1,"Electrical machinery, apparatus, energy",1
+FI,B1,14,Organic fine chemistry,2
+FI,B1,17,"Macromolecular chemistry, polymers",1
+FI,B1,21,"Surface technology, coating",1
+FI,B1,28,Textile and paper machines,1
+GB,A,2,Audio-visual technology,4
+GB,A,3,Telecommunications,5
+GB,A,4,Digital communication,5
+GB,A,5,Basic communication processes,4
+GB,A,6,Computer technology,5
+GB,A,7,IT methods for management,3
+GB,A,8,Semiconductors,5
+GB,A,9,Optics,4
+GB,A,10,Measurement,2
+GB,A,11,Analysis of biological materials,1
+GB,A,12,Control,4
+GB,A,13,Medical technology,4
+GB,A,14,Organic fine chemistry,2
+GB,A,15,Biotechnology,3
+GB,A,16,Pharmaceuticals,3
+GB,A,17,"Macromolecular chemistry, polymers",1
+GB,A,18,Food chemistry,3
+GB,A,19,Basic materials chemistry,2
+GB,A,20,"Materials, metallurgy",1
+GB,A,21,"Surface technology, coating",4
+GB,A,22,Micro-structural and nano-technology,1
+GB,A,23,Chemical engineering,2
+GB,A,24,Environmental technology,2
+GB,A,25,Handling,3
+GB,A,27,"Engines, pumps, turbines",11
+GB,A,28,Textile and paper machines,3
+GB,A,29,Other special machines,4
+GB,A,30,Thermal processes and apparatus,2
+GB,A,31,Mechanical elements,4
+GB,A,32,Transport,9
+GE,B,15,Biotechnology,1
+GR,A,11,Analysis of biological materials,1
+GR,A,30,Thermal processes and apparatus,1
+HU,A1,14,Organic fine chemistry,1
+IE,A3,10,Measurement,1
+IE,A3,16,Pharmaceuticals,1
+IE,A3,22,Micro-structural and nano-technology,1
+JO,A1,16,Pharmaceuticals,3
+JO,B1,16,Pharmaceuticals,1
+JO,B1,24,Environmental technology,1
+JP,A,1,"Electrical machinery, apparatus, energy",64
+JP,A,2,Audio-visual technology,66
+JP,A,3,Telecommunications,84
+JP,A,4,Digital communication,33
+JP,A,5,Basic communication processes,50
+JP,A,6,Computer technology,38
+JP,A,7,IT methods for management,134
+JP,A,8,Semiconductors,107
+JP,A,9,Optics,130
+JP,A,10,Measurement,37
+JP,A,11,Analysis of biological materials,34
+JP,A,12,Control,92
+JP,A,13,Medical technology,57
+JP,A,14,Organic fine chemistry,53
+JP,A,15,Biotechnology,46
+JP,A,16,Pharmaceuticals,58
+JP,A,17,"Macromolecular chemistry, polymers",101
+JP,A,18,Food chemistry,56
+JP,A,19,Basic materials chemistry,72
+JP,A,20,"Materials, metallurgy",64
+JP,A,21,"Surface technology, coating",96
+JP,A,22,Micro-structural and nano-technology,21
+JP,A,23,Chemical engineering,17
+JP,A,24,Environmental technology,26
+JP,A,25,Handling,54
+JP,A,26,Machine tools,20
+JP,A,27,"Engines, pumps, turbines",66
+JP,A,28,Textile and paper machines,111
+JP,A,29,Other special machines,25
+JP,A,30,Thermal processes and apparatus,35
+JP,A,31,Mechanical elements,39
+JP,A,32,Transport,91
+KR,A,1,"Electrical machinery, apparatus, energy",46
+KR,A,2,Audio-visual technology,48
+KR,A,3,Telecommunications,31
+KR,A,4,Digital communication,34
+KR,A,5,Basic communication processes,41
+KR,A,6,Computer technology,44
+KR,A,7,IT methods for management,95
+KR,A,8,Semiconductors,97
+KR,A,9,Optics,44
+KR,A,10,Measurement,35
+KR,A,11,Analysis of biological materials,44
+KR,A,12,Control,56
+KR,A,13,Medical technology,34
+KR,A,14,Organic fine chemistry,41
+KR,A,15,Biotechnology,34
+KR,A,16,Pharmaceuticals,31
+KR,A,17,"Macromolecular chemistry, polymers",45
+KR,A,18,Food chemistry,97
+KR,A,19,Basic materials chemistry,44
+KR,A,20,"Materials, metallurgy",31
+KR,A,21,"Surface technology, coating",43
+KR,A,22,Micro-structural and nano-technology,20
+KR,A,23,Chemical engineering,17
+KR,A,24,Environmental technology,27
+KR,A,25,Handling,19
+KR,A,26,Machine tools,11
+KR,A,27,"Engines, pumps, turbines",29
+KR,A,28,Textile and paper machines,25
+KR,A,29,Other special machines,25
+KR,A,30,Thermal processes and apparatus,29
+KR,A,31,Mechanical elements,31
+KR,A,32,Transport,47
+KR,B1,1,"Electrical machinery, apparatus, energy",11
+KR,B1,2,Audio-visual technology,8
+KR,B1,3,Telecommunications,10
+KR,B1,4,Digital communication,9
+KR,B1,5,Basic communication processes,3
+KR,B1,6,Computer technology,9
+KR,B1,7,IT methods for management,29
+KR,B1,8,Semiconductors,8
+KR,B1,9,Optics,7
+KR,B1,10,Measurement,13
+KR,B1,11,Analysis of biological materials,5
+KR,B1,12,Control,12
+KR,B1,13,Medical technology,17
+KR,B1,14,Organic fine chemistry,14
+KR,B1,15,Biotechnology,5
+KR,B1,16,Pharmaceuticals,4
+KR,B1,17,"Macromolecular chemistry, polymers",9
+KR,B1,18,Food chemistry,26
+KR,B1,19,Basic materials chemistry,18
+KR,B1,20,"Materials, metallurgy",9
+KR,B1,21,"Surface technology, coating",9
+KR,B1,22,Micro-structural and nano-technology,3
+KR,B1,23,Chemical engineering,7
+KR,B1,24,Environmental technology,11
+KR,B1,25,Handling,6
+KR,B1,26,Machine tools,5
+KR,B1,27,"Engines, pumps, turbines",8
+KR,B1,28,Textile and paper machines,13
+KR,B1,29,Other special machines,12
+KR,B1,30,Thermal processes and apparatus,14
+KR,B1,31,Mechanical elements,12
+KR,B1,32,Transport,7
+LU,B1,1,"Electrical machinery, apparatus, energy",1
+LU,B1,7,IT methods for management,2
+LU,B1,10,Measurement,1
+LU,B1,11,Analysis of biological materials,4
+LU,B1,12,Control,2
+LU,B1,13,Medical technology,1
+LU,B1,16,Pharmaceuticals,1
+LU,B1,17,"Macromolecular chemistry, polymers",2
+LU,B1,18,Food chemistry,5
+LU,B1,20,"Materials, metallurgy",1
+LU,B1,21,"Surface technology, coating",1
+LU,B1,23,Chemical engineering,2
+LU,B1,24,Environmental technology,1
+LU,B1,27,"Engines, pumps, turbines",1
+LU,B1,28,Textile and paper machines,1
+LU,B1,29,Other special machines,2
+LU,B1,31,Mechanical elements,1
+MA,A1,22,Micro-structural and nano-technology,1
+MA,B1,19,Basic materials chemistry,1
+MD,B1,20,"Materials, metallurgy",1
+MD,C1,11,Analysis of biological materials,1
+MD,Y,14,Organic fine chemistry,1
+MD,Z,11,Analysis of biological materials,1
+MD,Z,29,Other special machines,1
+MD,Z8,1,"Electrical machinery, apparatus, energy",1
+MX,A,1,"Electrical machinery, apparatus, energy",3
+MX,A,2,Audio-visual technology,8
+MX,A,3,Telecommunications,2
+MX,A,4,Digital communication,5
+MX,A,6,Computer technology,2
+MX,A,7,IT methods for management,2
+MX,A,9,Optics,4
+MX,A,10,Measurement,2
+MX,A,11,Analysis of biological materials,14
+MX,A,12,Control,5
+MX,A,13,Medical technology,5
+MX,A,14,Organic fine chemistry,31
+MX,A,15,Biotechnology,25
+MX,A,16,Pharmaceuticals,53
+MX,A,17,"Macromolecular chemistry, polymers",14
+MX,A,18,Food chemistry,16
+MX,A,19,Basic materials chemistry,18
+MX,A,20,"Materials, metallurgy",9
+MX,A,21,"Surface technology, coating",10
+MX,A,22,Micro-structural and nano-technology,1
+MX,A,23,Chemical engineering,3
+MX,A,24,Environmental technology,3
+MX,A,25,Handling,4
+MX,A,26,Machine tools,1
+MX,A,27,"Engines, pumps, turbines",4
+MX,A,28,Textile and paper machines,8
+MX,A,29,Other special machines,5
+MX,A,30,Thermal processes and apparatus,6
+MX,A,31,Mechanical elements,3
+MX,A,32,Transport,4
+MX,B,2,Audio-visual technology,1
+MX,B,3,Telecommunications,3
+MX,B,4,Digital communication,2
+MX,B,5,Basic communication processes,1
+MX,B,7,IT methods for management,2
+MX,B,9,Optics,3
+MX,B,10,Measurement,1
+MX,B,12,Control,2
+MX,B,13,Medical technology,4
+MX,B,14,Organic fine chemistry,17
+MX,B,15,Biotechnology,7
+MX,B,16,Pharmaceuticals,12
+MX,B,17,"Macromolecular chemistry, polymers",6
+MX,B,18,Food chemistry,8
+MX,B,19,Basic materials chemistry,5
+MX,B,20,"Materials, metallurgy",2
+MX,B,21,"Surface technology, coating",4
+MX,B,25,Handling,4
+MX,B,28,Textile and paper machines,2
+MX,B,29,Other special machines,1
+MX,B,30,Thermal processes and apparatus,1
+MX,B,32,Transport,1
+MX,U,12,Control,1
+MY,A,2,Audio-visual technology,4
+MY,A,3,Telecommunications,3
+MY,A,10,Measurement,1
+MY,A,11,Analysis of biological materials,2
+MY,A,12,Control,1
+MY,A,13,Medical technology,2
+MY,A,14,Organic fine chemistry,3
+MY,A,15,Biotechnology,6
+MY,A,16,Pharmaceuticals,6
+MY,A,17,"Macromolecular chemistry, polymers",4
+MY,A,19,Basic materials chemistry,4
+MY,A,20,"Materials, metallurgy",1
+MY,A,21,"Surface technology, coating",4
+MY,A,22,Micro-structural and nano-technology,1
+MY,A,25,Handling,1
+MY,A,26,Machine tools,1
+MY,A,27,"Engines, pumps, turbines",1
+MY,A,28,Textile and paper machines,1
+MY,A,29,Other special machines,1
+MY,A,30,Thermal processes and apparatus,2
+MY,A,31,Mechanical elements,2
+NL,A,7,IT methods for management,1
+NL,A,14,Organic fine chemistry,1
+NL,A,15,Biotechnology,1
+NL,A,17,"Macromolecular chemistry, polymers",1
+NL,A,29,Other special machines,1
+NL,A,30,Thermal processes and apparatus,1
+NL,B1,4,Digital communication,1
+NL,B1,8,Semiconductors,1
+NL,B1,9,Optics,1
+NL,B1,10,Measurement,1
+NL,B1,11,Analysis of biological materials,1
+NL,B1,18,Food chemistry,2
+NL,B1,19,Basic materials chemistry,1
+NL,B1,20,"Materials, metallurgy",2
+NL,B1,22,Micro-structural and nano-technology,3
+NL,B1,23,Chemical engineering,3
+NL,B1,24,Environmental technology,2
+NL,B1,25,Handling,3
+NL,B1,27,"Engines, pumps, turbines",1
+NL,B1,29,Other special machines,3
+NL,B1,30,Thermal processes and apparatus,1
+NL,B1,31,Mechanical elements,1
+NL,B1,32,Transport,3
+NZ,A,2,Audio-visual technology,1
+NZ,A,7,IT methods for management,1
+NZ,A,9,Optics,3
+NZ,A,11,Analysis of biological materials,2
+NZ,A,12,Control,2
+NZ,A,13,Medical technology,2
+NZ,A,14,Organic fine chemistry,6
+NZ,A,15,Biotechnology,4
+NZ,A,16,Pharmaceuticals,8
+NZ,A,18,Food chemistry,3
+NZ,A,21,"Surface technology, coating",1
+NZ,A,25,Handling,1
+NZ,A,29,Other special machines,1
+NZ,A,31,Mechanical elements,2
+PH,A1,3,Telecommunications,1
+PH,A1,9,Optics,3
+PH,A1,11,Analysis of biological materials,1
+PH,A1,12,Control,1
+PH,A1,14,Organic fine chemistry,3
+PH,A1,15,Biotechnology,4
+PH,A1,16,Pharmaceuticals,7
+PH,A1,18,Food chemistry,5
+PH,A1,19,Basic materials chemistry,1
+PH,A1,27,"Engines, pumps, turbines",1
+PH,A1,28,Textile and paper machines,1
+PH,A1,32,Transport,1
+PH,B1,8,Semiconductors,1
+PH,B1,14,Organic fine chemistry,4
+PH,B1,16,Pharmaceuticals,2
+PH,B1,18,Food chemistry,1
+PH,B1,19,Basic materials chemistry,1
+PH,B1,20,"Materials, metallurgy",1
+PH,B1,27,"Engines, pumps, turbines",1
+PH,B1,32,Transport,2
+PH,U1,16,Pharmaceuticals,2
+PH,U1,18,Food chemistry,5
+PH,U1,29,Other special machines,1
+PH,U3,1,"Electrical machinery, apparatus, energy",1
+PH,U3,2,Audio-visual technology,1
+PH,U3,18,Food chemistry,5
+PH,U3,22,Micro-structural and nano-technology,1
+PH,Y1,18,Food chemistry,1
+PH,Y1,21,"Surface technology, coating",1
+RO,A0,1,"Electrical machinery, apparatus, energy",1
+RO,A0,17,"Macromolecular chemistry, polymers",1
+RO,A0,18,Food chemistry,1
+RO,A0,24,Environmental technology,1
+RO,A0,27,"Engines, pumps, turbines",2
+RO,A2,3,Telecommunications,1
+RO,A2,14,Organic fine chemistry,1
+RO,A2,15,Biotechnology,1
+RO,A2,16,Pharmaceuticals,1
+RO,A2,18,Food chemistry,1
+RO,A2,20,"Materials, metallurgy",1
+RO,A2,22,Micro-structural and nano-technology,1
+RO,A2,29,Other special machines,1
+RO,A3,11,Analysis of biological materials,1
+RO,B1,22,Micro-structural and nano-technology,1
+RS,A1,17,"Macromolecular chemistry, polymers",1
+RU,C1,1,"Electrical machinery, apparatus, energy",1
+RU,C1,4,Digital communication,1
+RU,C1,5,Basic communication processes,4
+RU,C1,9,Optics,1
+RU,C1,10,Measurement,2
+RU,C1,12,Control,1
+RU,C1,13,Medical technology,1
+RU,C1,14,Organic fine chemistry,2
+RU,C1,16,Pharmaceuticals,3
+RU,C1,17,"Macromolecular chemistry, polymers",3
+RU,C1,18,Food chemistry,4
+RU,C1,19,Basic materials chemistry,3
+RU,C1,20,"Materials, metallurgy",1
+RU,C1,21,"Surface technology, coating",1
+RU,C1,22,Micro-structural and nano-technology,4
+RU,C1,23,Chemical engineering,1
+RU,C1,24,Environmental technology,1
+RU,C1,25,Handling,1
+RU,C1,26,Machine tools,1
+RU,C1,27,"Engines, pumps, turbines",2
+RU,C1,28,Textile and paper machines,1
+RU,C1,29,Other special machines,3
+RU,C1,30,Thermal processes and apparatus,2
+RU,C1,31,Mechanical elements,2
+RU,C1,32,Transport,1
+RU,C2,8,Semiconductors,1
+RU,C2,15,Biotechnology,1
+RU,C2,16,Pharmaceuticals,1
+RU,C2,19,Basic materials chemistry,1
+RU,C2,20,"Materials, metallurgy",1
+RU,C2,22,Micro-structural and nano-technology,1
+RU,C2,27,"Engines, pumps, turbines",1
+RU,C2,29,Other special machines,1
+RU,C2,32,Transport,1
+SE,A1,4,Digital communication,1
+SE,A1,7,IT methods for management,1
+SE,A1,12,Control,1
+SE,A1,15,Biotechnology,2
+SE,A1,19,Basic materials chemistry,1
+SE,A1,20,"Materials, metallurgy",1
+SE,A1,21,"Surface technology, coating",1
+SE,A1,22,Micro-structural and nano-technology,1
+SE,A1,24,Environmental technology,1
+SE,A1,28,Textile and paper machines,2
+SE,C2,3,Telecommunications,1
+SE,C2,8,Semiconductors,1
+SE,C2,10,Measurement,1
+SE,C2,11,Analysis of biological materials,2
+SE,C2,21,"Surface technology, coating",1
+SE,C2,22,Micro-structural and nano-technology,2
+SE,C2,26,Machine tools,2
+SE,C2,27,"Engines, pumps, turbines",2
+SE,C2,28,Textile and paper machines,1
+SE,C2,29,Other special machines,2
+SE,C2,30,Thermal processes and apparatus,2
+SK,B6,19,Basic materials chemistry,1
+SK,U1,6,Computer technology,1
+SK,U1,7,IT methods for management,1
+SK,U1,18,Food chemistry,1
+SK,Y1,16,Pharmaceuticals,2
+TW,A,1,"Electrical machinery, apparatus, energy",15
+TW,A,2,Audio-visual technology,27
+TW,A,3,Telecommunications,10
+TW,A,4,Digital communication,9
+TW,A,5,Basic communication processes,35
+TW,A,6,Computer technology,21
+TW,A,7,IT methods for management,15
+TW,A,8,Semiconductors,86
+TW,A,9,Optics,57
+TW,A,10,Measurement,10
+TW,A,11,Analysis of biological materials,8
+TW,A,12,Control,9
+TW,A,13,Medical technology,11
+TW,A,14,Organic fine chemistry,28
+TW,A,15,Biotechnology,13
+TW,A,16,Pharmaceuticals,35
+TW,A,17,"Macromolecular chemistry, polymers",57
+TW,A,18,Food chemistry,9
+TW,A,19,Basic materials chemistry,39
+TW,A,20,"Materials, metallurgy",20
+TW,A,21,"Surface technology, coating",53
+TW,A,22,Micro-structural and nano-technology,39
+TW,A,23,Chemical engineering,9
+TW,A,24,Environmental technology,7
+TW,A,25,Handling,4
+TW,A,26,Machine tools,12
+TW,A,27,"Engines, pumps, turbines",9
+TW,A,28,Textile and paper machines,12
+TW,A,29,Other special machines,13
+TW,A,30,Thermal processes and apparatus,5
+TW,A,31,Mechanical elements,3
+TW,A,32,Transport,8
+TW,B,1,"Electrical machinery, apparatus, energy",9
+TW,B,2,Audio-visual technology,17
+TW,B,3,Telecommunications,10
+TW,B,4,Digital communication,9
+TW,B,5,Basic communication processes,23
+TW,B,6,Computer technology,13
+TW,B,7,IT methods for management,6
+TW,B,8,Semiconductors,64
+TW,B,9,Optics,26
+TW,B,10,Measurement,6
+TW,B,11,Analysis of biological materials,7
+TW,B,12,Control,3
+TW,B,13,Medical technology,7
+TW,B,14,Organic fine chemistry,15
+TW,B,15,Biotechnology,10
+TW,B,16,Pharmaceuticals,22
+TW,B,17,"Macromolecular chemistry, polymers",18
+TW,B,18,Food chemistry,4
+TW,B,19,Basic materials chemistry,18
+TW,B,20,"Materials, metallurgy",5
+TW,B,21,"Surface technology, coating",16
+TW,B,22,Micro-structural and nano-technology,21
+TW,B,23,Chemical engineering,3
+TW,B,24,Environmental technology,5
+TW,B,25,Handling,2
+TW,B,26,Machine tools,4
+TW,B,27,"Engines, pumps, turbines",3
+TW,B,28,Textile and paper machines,8
+TW,B,29,Other special machines,6
+TW,B,30,Thermal processes and apparatus,2
+TW,B,31,Mechanical elements,5
+TW,B,32,Transport,4
+TW,U,1,"Electrical machinery, apparatus, energy",1
+TW,U,2,Audio-visual technology,3
+TW,U,3,Telecommunications,1
+TW,U,6,Computer technology,1
+TW,U,7,IT methods for management,2
+TW,U,9,Optics,2
+TW,U,12,Control,1
+TW,U,18,Food chemistry,1
+TW,U,20,"Materials, metallurgy",1
+TW,U,22,Micro-structural and nano-technology,1
+TW,U,24,Environmental technology,1
+TW,U,25,Handling,1
+TW,U,26,Machine tools,1
+TW,U,29,Other special machines,1
+TW,U,30,Thermal processes and apparatus,2
+UA,C2,4,Digital communication,1
+US,A1,1,"Electrical machinery, apparatus, energy",124
+US,A1,2,Audio-visual technology,186
+US,A1,3,Telecommunications,252
+US,A1,4,Digital communication,272
+US,A1,5,Basic communication processes,294
+US,A1,6,Computer technology,171
+US,A1,7,IT methods for management,158
+US,A1,8,Semiconductors,315
+US,A1,9,Optics,234
+US,A1,10,Measurement,78
+US,A1,11,Analysis of biological materials,158
+US,A1,12,Control,131
+US,A1,13,Medical technology,182
+US,A1,14,Organic fine chemistry,178
+US,A1,15,Biotechnology,227
+US,A1,16,Pharmaceuticals,242
+US,A1,17,"Macromolecular chemistry, polymers",119
+US,A1,18,Food chemistry,90
+US,A1,19,Basic materials chemistry,142
+US,A1,20,"Materials, metallurgy",85
+US,A1,21,"Surface technology, coating",98
+US,A1,22,Micro-structural and nano-technology,99
+US,A1,23,Chemical engineering,46
+US,A1,24,Environmental technology,30
+US,A1,25,Handling,58
+US,A1,26,Machine tools,30
+US,A1,27,"Engines, pumps, turbines",121
+US,A1,28,Textile and paper machines,88
+US,A1,29,Other special machines,84
+US,A1,30,Thermal processes and apparatus,67
+US,A1,31,Mechanical elements,80
+US,A1,32,Transport,148
+US,A2,13,Medical technology,1
+US,A2,14,Organic fine chemistry,1
+US,A2,19,Basic materials chemistry,1
+US,A9,2,Audio-visual technology,2
+US,A9,3,Telecommunications,1
+US,A9,5,Basic communication processes,2
+US,A9,6,Computer technology,1
+US,A9,7,IT methods for management,1
+US,A9,9,Optics,2
+US,A9,19,Basic materials chemistry,1
+US,A9,20,"Materials, metallurgy",1
+US,A9,27,"Engines, pumps, turbines",2
+US,B1,1,"Electrical machinery, apparatus, energy",1
+US,B1,2,Audio-visual technology,10
+US,B1,3,Telecommunications,17
+US,B1,4,Digital communication,24
+US,B1,5,Basic communication processes,29
+US,B1,6,Computer technology,19
+US,B1,7,IT methods for management,15
+US,B1,8,Semiconductors,5
+US,B1,9,Optics,14
+US,B1,10,Measurement,3
+US,B1,11,Analysis of biological materials,6
+US,B1,12,Control,19
+US,B1,13,Medical technology,8
+US,B1,14,Organic fine chemistry,9
+US,B1,15,Biotechnology,1
+US,B1,16,Pharmaceuticals,4
+US,B1,18,Food chemistry,4
+US,B1,19,Basic materials chemistry,6
+US,B1,21,"Surface technology, coating",3
+US,B1,22,Micro-structural and nano-technology,10
+US,B1,23,Chemical engineering,2
+US,B1,24,Environmental technology,3
+US,B1,25,Handling,2
+US,B1,26,Machine tools,2
+US,B1,27,"Engines, pumps, turbines",21
+US,B1,28,Textile and paper machines,2
+US,B1,29,Other special machines,3
+US,B1,30,Thermal processes and apparatus,1
+US,B1,31,Mechanical elements,9
+US,B1,32,Transport,11
+US,B2,1,"Electrical machinery, apparatus, energy",85
+US,B2,2,Audio-visual technology,167
+US,B2,3,Telecommunications,200
+US,B2,4,Digital communication,228
+US,B2,5,Basic communication processes,300
+US,B2,6,Computer technology,155
+US,B2,7,IT methods for management,97
+US,B2,8,Semiconductors,223
+US,B2,9,Optics,204
+US,B2,10,Measurement,79
+US,B2,11,Analysis of biological materials,130
+US,B2,12,Control,127
+US,B2,13,Medical technology,111
+US,B2,14,Organic fine chemistry,127
+US,B2,15,Biotechnology,122
+US,B2,16,Pharmaceuticals,131
+US,B2,17,"Macromolecular chemistry, polymers",85
+US,B2,18,Food chemistry,65
+US,B2,19,Basic materials chemistry,92
+US,B2,20,"Materials, metallurgy",68
+US,B2,21,"Surface technology, coating",105
+US,B2,22,Micro-structural and nano-technology,167
+US,B2,23,Chemical engineering,30
+US,B2,24,Environmental technology,38
+US,B2,25,Handling,44
+US,B2,26,Machine tools,23
+US,B2,27,"Engines, pumps, turbines",119
+US,B2,28,Textile and paper machines,65
+US,B2,29,Other special machines,59
+US,B2,30,Thermal processes and apparatus,64
+US,B2,31,Mechanical elements,75
+US,B2,32,Transport,152
+US,E,1,"Electrical machinery, apparatus, energy",1
+US,E,5,Basic communication processes,1
+US,E,13,Medical technology,2
+US,E,14,Organic fine chemistry,1
+US,E,21,"Surface technology, coating",1
+US,P1,18,Food chemistry,4
+US,P2,18,Food chemistry,13
+US,P3,18,Food chemistry,1
+WO,A1,1,"Electrical machinery, apparatus, energy",76
+WO,A1,2,Audio-visual technology,104
+WO,A1,3,Telecommunications,111
+WO,A1,4,Digital communication,157
+WO,A1,5,Basic communication processes,101
+WO,A1,6,Computer technology,64
+WO,A1,7,IT methods for management,75
+WO,A1,8,Semiconductors,129
+WO,A1,9,Optics,116
+WO,A1,10,Measurement,63
+WO,A1,11,Analysis of biological materials,110
+WO,A1,12,Control,71
+WO,A1,13,Medical technology,106
+WO,A1,14,Organic fine chemistry,158
+WO,A1,15,Biotechnology,153
+WO,A1,16,Pharmaceuticals,195
+WO,A1,17,"Macromolecular chemistry, polymers",143
+WO,A1,18,Food chemistry,89
+WO,A1,19,Basic materials chemistry,112
+WO,A1,20,"Materials, metallurgy",81
+WO,A1,21,"Surface technology, coating",102
+WO,A1,22,Micro-structural and nano-technology,72
+WO,A1,23,Chemical engineering,28
+WO,A1,24,Environmental technology,35
+WO,A1,25,Handling,48
+WO,A1,26,Machine tools,19
+WO,A1,27,"Engines, pumps, turbines",85
+WO,A1,28,Textile and paper machines,73
+WO,A1,29,Other special machines,53
+WO,A1,30,Thermal processes and apparatus,53
+WO,A1,31,Mechanical elements,44
+WO,A1,32,Transport,69
+WO,A2,1,"Electrical machinery, apparatus, energy",1
+WO,A2,3,Telecommunications,3
+WO,A2,4,Digital communication,2
+WO,A2,5,Basic communication processes,4
+WO,A2,6,Computer technology,2
+WO,A2,8,Semiconductors,1
+WO,A2,9,Optics,2
+WO,A2,11,Analysis of biological materials,8
+WO,A2,13,Medical technology,4
+WO,A2,14,Organic fine chemistry,4
+WO,A2,15,Biotechnology,15
+WO,A2,16,Pharmaceuticals,8
+WO,A2,17,"Macromolecular chemistry, polymers",1
+WO,A2,18,Food chemistry,2
+WO,A2,19,Basic materials chemistry,2
+WO,A2,20,"Materials, metallurgy",2
+WO,A2,23,Chemical engineering,1
+WO,A2,24,Environmental technology,1
+WO,A2,25,Handling,1
+WO,A2,27,"Engines, pumps, turbines",1
+WO,A2,28,Textile and paper machines,1
+WO,A2,29,Other special machines,2
+WO,A2,30,Thermal processes and apparatus,1
+WO,A3,1,"Electrical machinery, apparatus, energy",1
+WO,A3,3,Telecommunications,1
+WO,A3,4,Digital communication,3
+WO,A3,5,Basic communication processes,2
+WO,A3,6,Computer technology,2
+WO,A3,7,IT methods for management,2
+WO,A3,8,Semiconductors,3
+WO,A3,9,Optics,3
+WO,A3,10,Measurement,1
+WO,A3,11,Analysis of biological materials,9
+WO,A3,12,Control,4
+WO,A3,13,Medical technology,10
+WO,A3,14,Organic fine chemistry,8
+WO,A3,15,Biotechnology,15
+WO,A3,16,Pharmaceuticals,17
+WO,A3,17,"Macromolecular chemistry, polymers",1
+WO,A3,18,Food chemistry,7
+WO,A3,19,Basic materials chemistry,4
+WO,A3,20,"Materials, metallurgy",1
+WO,A3,21,"Surface technology, coating",1
+WO,A3,22,Micro-structural and nano-technology,6
+WO,A3,23,Chemical engineering,2
+WO,A3,24,Environmental technology,2
+WO,A3,25,Handling,2
+WO,A3,26,Machine tools,2
+WO,A3,27,"Engines, pumps, turbines",2
+WO,A3,28,Textile and paper machines,1
+WO,A3,29,Other special machines,1
+WO,A3,30,Thermal processes and apparatus,1
+WO,A3,32,Transport,3
+WO,A4,4,Digital communication,1
+WO,A4,22,Micro-structural and nano-technology,1
+WO,A8,1,"Electrical machinery, apparatus, energy",2
+WO,A8,3,Telecommunications,1
+WO,A8,6,Computer technology,1
+WO,A8,7,IT methods for management,1
+WO,A8,8,Semiconductors,2
+WO,A8,10,Measurement,1
+WO,A8,14,Organic fine chemistry,3
+WO,A8,15,Biotechnology,3
+WO,A8,16,Pharmaceuticals,2
+WO,A8,17,"Macromolecular chemistry, polymers",3
+WO,A8,19,Basic materials chemistry,2
+WO,A8,20,"Materials, metallurgy",1
+WO,A8,22,Micro-structural and nano-technology,3
+WO,A8,24,Environmental technology,1
+WO,A8,29,Other special machines,1
+WO,A8,31,Mechanical elements,1
+WO,A9,2,Audio-visual technology,3
+WO,A9,3,Telecommunications,2
+WO,A9,6,Computer technology,1
+WO,A9,7,IT methods for management,1
+WO,A9,8,Semiconductors,3
+WO,A9,9,Optics,2
+WO,A9,11,Analysis of biological materials,1
+WO,A9,16,Pharmaceuticals,9
+WO,A9,17,"Macromolecular chemistry, polymers",1
+WO,A9,18,Food chemistry,1
+WO,A9,21,"Surface technology, coating",1
+WO,A9,22,Micro-structural and nano-technology,1
+WO,A9,29,Other special machines,1

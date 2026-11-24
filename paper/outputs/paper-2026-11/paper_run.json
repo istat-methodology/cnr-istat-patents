@@ -1,0 +1,31 @@
+{
+  "run": "paper-2026-11",
+  "quick": false,
+  "data": "/home/azureuser/projects/cnr-istat-patents/data/processed/patents_2021-2026_by_publication.parquet",
+  "concordance": "/home/azureuser/projects/cnr-istat-patents/ipc/ipc_technology.xlsx",
+  "embeddings_dir": "/home/azureuser/projects/cnr-istat-patents/embeddings",
+  "models": [
+    "qwen3-embedding-4b",
+    "sbert-adapt-ub",
+    "pat-specter",
+    "bge-m3",
+    "qwen3-embedding-0.6b",
+    "embeddinggemma-300m",
+    "paecter",
+    "mpnet",
+    "tfidf-svd256"
+  ],
+  "cohorts": [
+    "full",
+    "exclude-cn"
+  ],
+  "k": [
+    8,
+    16
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ]
+}

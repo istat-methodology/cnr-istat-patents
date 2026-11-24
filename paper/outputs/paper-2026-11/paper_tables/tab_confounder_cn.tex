@@ -1,0 +1,24 @@
+\begin{tabular}{llllll}
+\toprule
+model & k & ARI\_full\_vs\_refit\_remove-CN & ARI\_full\_vs\_refit\_remove-random & AMI\_change\_remove-CN & AMI\_change\_remove-random \\
+\midrule
+qwen3-embedding-4b & 8 & 0.646 & 0.880 & 0.032 & -0.002 \\
+qwen3-embedding-4b & 16 & 0.520 & 0.679 & 0.018 & -0.003 \\
+sbert-adapt-ub & 8 & 0.740 & 0.978 & -0.001 & 0.000 \\
+sbert-adapt-ub & 16 & 0.636 & 0.897 & 0.013 & -0.000 \\
+pat-specter & 8 & 0.876 & 0.931 & 0.001 & 0.001 \\
+pat-specter & 16 & 0.651 & 0.837 & 0.005 & -0.001 \\
+bge-m3 & 8 & 0.578 & 0.969 & 0.010 & -0.000 \\
+bge-m3 & 16 & 0.569 & 0.648 & 0.012 & 0.004 \\
+qwen3-embedding-0.6b & 16 & 0.561 & 0.763 & 0.001 & 0.002 \\
+qwen3-embedding-0.6b & 8 & 0.582 & 0.729 & 0.010 & 0.012 \\
+embeddinggemma-300m & 16 & 0.533 & 0.829 & -0.014 & 0.002 \\
+embeddinggemma-300m & 8 & 0.613 & 0.659 & 0.003 & -0.007 \\
+paecter & 8 & 0.540 & 0.965 & 0.002 & -0.000 \\
+paecter & 16 & 0.515 & 0.829 & -0.000 & -0.005 \\
+mpnet & 8 & 0.404 & 0.885 & 0.003 & 0.000 \\
+mpnet & 16 & 0.315 & 0.766 & 0.068 & 0.004 \\
+tfidf-svd256 & 8 & 0.402 & 0.820 & -0.009 & -0.001 \\
+tfidf-svd256 & 16 & 0.346 & 0.732 & -0.019 & -0.002 \\
+\bottomrule
+\end{tabular}
