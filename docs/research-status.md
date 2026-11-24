@@ -75,7 +75,7 @@ Dai profili già salvati del corpus completo, K=8, è stato derivato un confront
 
 Le sovrapposizioni di profilo più alte includono SBERT cluster 4–Pat-SPECTER cluster 6 (0,937; informatica e comunicazione digitale), SBERT 6–Pat-SPECTER 2 (0,899; processi di comunicazione di base e telecomunicazioni) e Qwen 3–SBERT 0 (0,826; polimeri, materiali e chimica di base). Questi valori non indicano che i modelli assegnino gli stessi brevetti ai cluster: l’ARI sulle partizioni è 0,282 tra Qwen e SBERT, 0,276 tra Qwen e Pat-SPECTER e 0,487 tra SBERT e Pat-SPECTER. La lettura WIPO resta descrittiva, anche perché il corpus è stratificato proprio sui campi WIPO.
 
-Output e metodo: [nota comparativa e heatmap](../analysis/results/run_20261118T132255Z/comparison/wipo_cluster_comparison_full_k8.md), [script di post-processing](../analysis/compare_cluster_wipo_profiles.py). La revisione delle label e delle motivazioni Qwen/SBERT è in [cluster-label-review.md](cluster-label-review.md); la label Qwen cluster 1 resta provvisoria e Pat-SPECTER non è ancora stato rivisto manualmente.
+Output e metodo: [nota comparativa e heatmap](../analysis/results/run_20261118T132255Z/comparison/wipo_cluster_comparison_full_k8.md), [script di post-processing](../analysis/compare_cluster_wipo_profiles.py). La prima passata di label e motivazioni per Qwen, SBERT e Pat-SPECTER è in [cluster-label-review.md](cluster-label-review.md).
 
 ## 5. Cosa possiamo sostenere adesso
 
@@ -91,7 +91,7 @@ Non abbiamo ancora dimostrato che:
 
 ## 6. Priorità prima della stesura
 
-1. **Completare la revisione umana mirata:** la prima passata di label e motivazioni è stata completata per Qwen 4B e SBERT-adapt-ub a K=8; Qwen cluster 1 resta provvisorio. Proseguire con Pat-SPECTER e con una verifica sistematica degli esempi centrali e di confine prima di formulare affermazioni sulla coerenza semantica.
+1. **Completare la revisione umana mirata:** la prima passata di label e motivazioni è stata completata per Qwen 4B, SBERT-adapt-ub e Pat-SPECTER a K=8. Resta una verifica sistematica degli esempi centrali e di confine prima di formulare affermazioni sulla coerenza semantica.
 2. **Congelare la tabella principale:** decidere se il paper usa come riferimento il WIPO di selezione, il WIPO IPC-compatibile primario o soprattutto i profili multi-label; mantenere chiara la distinzione.
 3. **Verificare la sensibilità geografica:** descrivere full vs senza CN come refit su coorti diverse e leggere i risultati insieme a uffici, kind code e distribuzione WIPO. Evitare di chiamarlo un effetto causale della Cina.
 4. **Usare K=16 come sensibilità**, non aggiungere ogni variante alla narrativa centrale. Riportare i risultati che cambiano l'interpretazione.

@@ -7,7 +7,7 @@ This repository contains three related but distinct kinds of material. Use this 
 - [Research status](research-status.md) — current dataset, analysis design, preliminary results, caveats, and next steps for the paper.
 - [Methodology](methodology.md) — corpus construction, WIPO–IPC concordance, sampling, and known dataset limits.
 - [WIPO technology fields glossary](wipo-technology-fields.csv) — concise Italian descriptions of all 35 WIPO fields; fields 33–35 are outside this corpus.
-- [Cluster label review](cluster-label-review.md) — working labels and evidence-based comments for the Qwen 4B and SBERT K=8 clusters. Qwen cluster 1 remains provisional.
+- [Cluster label review](cluster-label-review.md) — first-pass labels and evidence-based comments for the Qwen 4B, SBERT and Pat-SPECTER K=8 clusters.
 - [Workflow](workflow.md) — how the source data, embeddings, notebooks, and analysis scripts fit together.
 - [Data dictionary](data_dictionary.md) — dataset columns and known issues.
 - [Embeddings](embeddings.md) — model inputs, outputs, model IDs, and generation details.

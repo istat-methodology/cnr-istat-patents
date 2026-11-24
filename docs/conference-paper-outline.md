@@ -1,6 +1,6 @@
 # Conference paper: results outline
 
-*Working note for converging on the story. This is a focused account of the current three-model comparison, separate from the Patent Observatory. Manual review of cluster examples remains to be completed.*
+*Working note for converging on the story. This is a focused account of the current three-model comparison, separate from the Patent Observatory. First-pass K=8 labels are recorded for all three models; systematic review of central and boundary examples remains open.*
 
 ## Working title
 
