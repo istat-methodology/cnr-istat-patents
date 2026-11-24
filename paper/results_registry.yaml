@@ -86,7 +86,11 @@
   script: docs/cluster-label-review.md (manual)
   tables: []
   question: Do the clusters of the three deep-dive models make sense to a reader?
-  message: Qwen3-4B and SBERT reviewed at K=8 (Qwen cluster 1 provisional); Pat-SPECTER pending.
+  message: >
+    Qwen3-4B, SBERT-adapt-ub and Pat-SPECTER reviewed at K=8 on the full corpus. Each cluster has a working label
+    and a short comment based on the c-TF-IDF terms, the central patents and the WIPO profile.
+    The labels are descriptive, not a validated taxonomy. The review was done on the cards of the earlier run
+    run_20261118T132255Z; to be checked against paper-2026-11 before the labels go in the paper.
 
 - id: R08
   title: Surrogate fidelity of the explanations

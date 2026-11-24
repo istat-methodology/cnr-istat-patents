@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Step 3 - run the control scripts in paper/controls/ (c01_*.py, c02_*.py, ...).
+"""Step 3 - run the control scripts in paper/controls/ (c01_*.py, c02_*.py, c04b_*.py, ...).
 
 Each control answers one question and writes its own CSV in
 <output_dir>/<run_name>/controls/. Controls can also be run one by one:
@@ -24,7 +24,7 @@ def main() -> None:
     parser.add_argument("--only", nargs="+", help="Run only these controls, e.g. --only c01 c02")
     args = parser.parse_args()
 
-    scripts = sorted((common.PAPER_DIR / "controls").glob("c[0-9][0-9]_*.py"))
+    scripts = sorted((common.PAPER_DIR / "controls").glob("c[0-9][0-9]*_*.py"))
     if args.only:
         scripts = [s for s in scripts if s.name[:3] in args.only]
     for script in scripts:

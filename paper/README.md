@@ -39,6 +39,7 @@ Results go to `paper/outputs/<run_name>/` (not in git).
 | `c02_noise_ceiling.py` | How much do models agree, relative to the seed-to-seed noise ceiling? |
 | `c03_confounder_cn.py` | Is CN a confounder or just a smaller sample? Remove CN vs remove the same number at random; AMI inside each office |
 | `c04_explanation_stability.py` | Are the c-TF-IDF cluster cards stable across seeds, cohorts and models? (deep-dive models, K=8) |
+| `c04b_label_agreement.py` | Do two matched cards say the same thing beyond the exact top-10 terms? Word overlap and WIPO field agreement of matched clusters (cohort, model). Reads the cards in `<run>/profiles`, so it runs after step 2 |
 
 More controls are added here as they are agreed (surrogate, boundary cases).
 Controls 3 and 4 refit K-means (about 20-40 minutes on a 24-core machine).
