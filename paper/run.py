@@ -11,6 +11,7 @@ Steps, in order:
     cluster      K-means for every model, cohort, K, seed (analysis/run_analysis.py)
     controls     one script per control, in paper/controls/
     report       tables for the paper, in <run>/paper_tables/
+    pack         results pack for the co-authors (INDEX.md + tables), in <run>/brian_pack/
 
 Settings are in paper/config.yaml. Results are in paper/outputs/<run_name>/.
 """
@@ -28,6 +29,7 @@ STEPS = {
     "cluster": "step2_cluster.py",
     "controls": "step3_controls.py",
     "report": "step4_report.py",
+    "pack": "step5_pack.py",
 }
 
 

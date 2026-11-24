@@ -43,6 +43,9 @@ def add_common_args(parser) -> None:
 
 def load_config(path: Path | None = None) -> dict:
     cfg = yaml.safe_load(Path(path or DEFAULT_CONFIG).read_text(encoding="utf-8"))
+    local = PAPER_DIR / "config.local.yaml"  # machine-specific overrides (e.g. threads), not in git
+    if local.exists() and Path(path or DEFAULT_CONFIG) == DEFAULT_CONFIG:
+        cfg.update(yaml.safe_load(local.read_text(encoding="utf-8")) or {})
     for key in ["data", "concordance", "embeddings_dir", "output_dir"]:
         cfg[key] = (REPO / cfg[key]).resolve()
     return cfg
