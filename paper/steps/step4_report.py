@@ -36,6 +36,28 @@ def table_models(run: Path, cfg: dict, cohort: str, k: int) -> pd.DataFrame:
     return order(out, cfg, "Model")
 
 
+def table_explanation_labels(path: Path, cfg: dict) -> pd.DataFrame:
+    """Control 4b. 'Term Jaccard' is over all matched pairs, as in control 4. 'Pairs' is the number of
+    matched pairs that share at least half of their patents out of all pairs. The other measures are over
+    those pairs only; 'unmatched' columns are the same measure over the pairs that were not matched."""
+    t = pd.read_csv(path)
+    out = pd.DataFrame({
+        "Comparison": t["comparison"],
+        "Model": [a if kind == "cohort" else f"{a} vs {b}" for kind, a, b in zip(t["comparison"], t["model_a"], t["model_b"])],
+        "K": t["k"],
+        "Pairs": [f"{n}/{m}" for n, m in zip(t["n_pairs_overlap"], t["n_pairs"])],
+        "Term Jaccard": t["term_jaccard_matched"],
+        "Word Jaccard": t["word_jaccard_overlap"],
+        "Same top field": t["top1_same_overlap"],
+        "Same top field, unmatched": t["top1_same_unmatched"],
+        "WIPO cosine": t["wipo_cosine_overlap"],
+        "WIPO cosine, unmatched": t["wipo_cosine_unmatched"],
+    })
+    rank = {m: i for i, m in enumerate(cfg["deep_dive_models"])}
+    key = out["Model"].map(lambda v: rank.get(v.split(" vs ")[0], 99))
+    return out.assign(_k=key, _c=out["Comparison"].ne("cohort")).sort_values(["_c", "K", "_k"], kind="stable").drop(columns=["_k", "_c"])
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     common.add_common_args(parser)
@@ -69,6 +91,9 @@ def main() -> None:
     c4 = run / "controls" / "c04_explanation_summary.csv"
     if c4.exists():
         common.write_table(pd.read_csv(c4), out, "tab_explanation_stability")
+    c4b = run / "controls" / "c04b_label_summary.csv"
+    if c4b.exists():
+        common.write_table(table_explanation_labels(c4b, cfg), out, "tab_explanation_labels")
     print(f"tables in {out}")
     print("step 4 done")
 

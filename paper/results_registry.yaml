@@ -68,8 +68,8 @@
   title: Stability of the cluster explanations
   level: workshop
   status: done
-  script: controls/c04_explanation_stability.py
-  tables: [tab_explanation_stability]
+  script: controls/c04_explanation_stability.py, controls/c04b_label_agreement.py
+  tables: [tab_explanation_stability, tab_explanation_labels]
   figures: [fig_explanation_stability]
   question: Do the c-TF-IDF cluster cards stay the same across seeds, cohorts and models?
   message: >
@@ -77,7 +77,14 @@
     (seed ARI 0.97), Qwen3-4B 0.63-0.85 (0.85), Pat-SPECTER 0.48-0.72 (0.69), with the minimum over clusters down to 0-0.18
     for the last two. Across cohorts (full vs exclude-CN) the term Jaccard is 0.13-0.24 at both K, minimum 0, even when
     94% of the patents are kept (Pat-SPECTER, K=8). Across models 0.10-0.24, against 0.003-0.015 for unmatched clusters.
-    The Jaccard on the top 10 terms is strict; a comparison of the labels would complement it.
+    The Jaccard on the top 10 terms is strict. Control 4b compares what the matched cards say. Between full and
+    exclude-CN, among the matched pairs that share at least half of their patents (5-8 of 8 at K=8, 10-14 of 16
+    at K=16), the most compatible WIPO field is the same in 60-91% of pairs (0-2% for unmatched pairs) and the cosine
+    of the WIPO profiles is 0.85-0.94 (0.05-0.09 for unmatched pairs). The Jaccard of the words in the terms is
+    0.23-0.30. So the terms change but the field content mostly stays. Caveats: the threshold of one half was set
+    after the first results; the WIPO measures are not independent of the reference used in R02; they are not a
+    comparison of labels written by people. Across models few pairs reach the threshold at K=16 (3-6 of 16), so
+    those values rest on few pairs.
 
 - id: R07
   title: Manual review of the clusters
