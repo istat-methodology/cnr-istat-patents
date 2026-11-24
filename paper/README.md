@@ -17,7 +17,7 @@ python paper/run.py --step controls --only c01
 
 All settings (models, K, seeds, cohorts, paths) are in `paper/config.yaml`.
 Machine-specific values (for example `threads`) go in `paper/config.local.yaml`, which overrides `config.yaml` and is not in git.
-The results of the pipeline are listed in `paper/results_registry.yaml`; the plan is in `docs/paper-plan.md`.
+The results of the pipeline are listed in `paper/results_registry.yaml`; the plan is in `paper/paper-plan.md`.
 Results go to `paper/outputs/<run_name>/` (not in git).
 
 ## Steps
