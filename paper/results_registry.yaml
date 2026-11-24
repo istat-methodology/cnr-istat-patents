@@ -69,9 +69,11 @@
   tables: [tab_explanation_stability]
   question: Do the c-TF-IDF cluster cards stay the same across seeds, cohorts and models?
   message: >
-    K=8, seeds: identical cards (Jaccard 1.0). Cohorts (full vs exclude-CN): Jaccard 0.13-0.22, minimum 0, even when
-    94% of the patents are kept (Pat-SPECTER). Models: Jaccard 0.10-0.24 against 0.003-0.012 for unmatched clusters.
-    K=16 added in the second run.
+    Across seeds the cards are as stable as the clustering: at K=8 identical (Jaccard 1.0); at K=16 SBERT 0.89-0.96
+    (seed ARI 0.97), Qwen3-4B 0.63-0.85 (0.85), Pat-SPECTER 0.48-0.72 (0.69), with the minimum over clusters down to 0-0.18
+    for the last two. Across cohorts (full vs exclude-CN) the term Jaccard is 0.13-0.24 at both K, minimum 0, even when
+    94% of the patents are kept (Pat-SPECTER, K=8). Across models 0.10-0.24, against 0.003-0.015 for unmatched clusters.
+    The Jaccard on the top 10 terms is strict; a comparison of the labels would complement it.
 
 - id: R07
   title: Manual review of the clusters
