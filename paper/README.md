@@ -11,7 +11,7 @@ From the repository root, with Python 3.10+ and `pip install -r analysis/require
 ```bash
 python paper/run.py --quick     # test on 3,000 patents, a few minutes, numbers are not results
 python paper/run.py             # full pipeline (about 1-2 h on a CPU machine; resumable)
-python paper/run.py --step cluster      # one step: embeddings | cluster | controls | report | pack
+python paper/run.py --step cluster      # one step: embeddings | cluster | controls | report | figures | pack
 python paper/run.py --step controls --only c01
 ```
 
@@ -28,6 +28,7 @@ Results go to `paper/outputs/<run_name>/` (not in git).
 | 2 `cluster` | `steps/step2_cluster.py` | K-means for each model, cohort (full, exclude-CN), K and seed, with `analysis/run_analysis.py` |
 | 3 `controls` | `controls/c0N_*.py` | one script per control, each writes a CSV in `<run>/controls/` |
 | 4 `report` | `steps/step4_report.py` | collects the tables of the paper in `<run>/paper_tables/` (`.csv` and `.tex`) |
+| 4b `figures` | `steps/step4_figures.py` | the four figures of the paper in `<run>/figures/` (`.pdf` for LaTeX, `.png`) |
 | 5 `pack` | `steps/step5_pack.py` | results pack for the co-authors in `<run>/brian_pack/`: `INDEX.md` with question, message and table of each result, plus the tables |
 
 ## Controls

@@ -21,6 +21,7 @@
   status: done
   script: controls/c01_reference_scale.py
   tables: [tab_reference_scale]
+  figures: [fig_reference_scale]
   question: What AMI against WIPO can a partition reach, and where do the models sit?
   message: >
     At K=8 the best coarsening of WIPO reaches 0.750, IPC-only K-means 0.314, the models 0.27-0.34
@@ -33,6 +34,7 @@
   status: done
   script: controls/c02_noise_ceiling.py
   tables: [tab_cross_model]
+  figures: [fig_cross_model]
   question: How much do models agree, compared with the agreement of K-means with itself across seeds?
   message: >
     Qwen3-4B is the outlier (mean ARI with the others 0.28 at K=8, 0.22 at K=16). Pat-SPECTER and PaECTER are the closest pair (0.68).
@@ -44,6 +46,7 @@
   status: done
   script: controls/c03_confounder_cn.py
   tables: [tab_confounder_cn]
+  figures: [fig_cn_removal]
   question: Does removing CN move the clusters more than removing the same number of patents at random?
   message: >
     Yes for all models. ARI between full clustering and refit at K=8: remove-CN 0.40-0.88, remove-random 0.66-0.98
@@ -67,6 +70,7 @@
   status: done
   script: controls/c04_explanation_stability.py
   tables: [tab_explanation_stability]
+  figures: [fig_explanation_stability]
   question: Do the c-TF-IDF cluster cards stay the same across seeds, cohorts and models?
   message: >
     Across seeds the cards are as stable as the clustering: at K=8 identical (Jaccard 1.0); at K=16 SBERT 0.89-0.96

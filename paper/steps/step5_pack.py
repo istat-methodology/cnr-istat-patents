@@ -2,7 +2,7 @@
 """Step 5 - results pack for the co-authors: <run>/brian_pack/
 
 Reads paper/results_registry.yaml and, for every result marked done, copies its tables
-(.tex and .csv) and writes INDEX.md: the question, the message, and the table as markdown.
+(.tex and .csv) and figures (.pdf and .png) and writes INDEX.md: the question, the message, and the table as markdown.
 A co-author opens INDEX.md and has everything, with the files next to it.
 
 The `message` of each result is written by hand in the registry, after reading the run.
@@ -72,6 +72,16 @@ def main() -> None:
         if r.get("message"):
             lines += [f"Message: {' '.join(str(r['message']).split())}", ""]
         lines += [f"Script: `{r['script']}`", ""]
+        for name in r.get("figures", []):
+            png = run / "figures" / f"{name}.png"
+            if not png.exists():
+                lines += [f"Figure `{name}`: not found in this run.", ""]
+                continue
+            (pack / "figures").mkdir(exist_ok=True)
+            for ext in ("png", "pdf"):
+                shutil.copy(run / "figures" / f"{name}.{ext}", pack / "figures" / f"{name}.{ext}")
+            lines += [f"Figure `{name}` (files: `figures/{name}.pdf`, `figures/{name}.png`)", "",
+                      f"![{name}](figures/{name}.png)", ""]
         for name in r.get("tables", []):
             csv = run / "paper_tables" / f"{name}.csv"
             if not csv.exists():

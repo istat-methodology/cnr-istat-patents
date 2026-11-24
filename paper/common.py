@@ -121,3 +121,14 @@ def load_matrix(emb_root: Path, model: str, ids) -> np.ndarray:
     matrix = np.load(Path(emb_root) / model / "embeddings.npy", mmap_mode="r")[positions]
     matrix = np.asarray(matrix, dtype=np.float32)
     return matrix / np.linalg.norm(matrix, axis=1, keepdims=True)
+
+
+PRETTY = {
+    "qwen3-embedding-4b": "Qwen3-4B", "sbert-adapt-ub": "SBERT-adapt", "pat-specter": "Pat-SPECTER",
+    "bge-m3": "BGE-M3", "qwen3-embedding-0.6b": "Qwen3-0.6B", "embeddinggemma-300m": "EmbeddingGemma",
+    "paecter": "PaECTER", "mpnet": "MPNet", "tfidf-svd256": "TF-IDF + SVD",
+}
+
+
+def pretty(name: str) -> str:
+    return PRETTY.get(name, name)
