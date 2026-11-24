@@ -26,7 +26,7 @@ def main() -> None:
 
     scripts = sorted((common.PAPER_DIR / "controls").glob("c[0-9][0-9]*_*.py"))
     if args.only:
-        scripts = [s for s in scripts if s.name[:3] in args.only]
+        scripts = [s for s in scripts if s.name.split("_")[0] in args.only]
     for script in scripts:
         print(f"--- {script.name}")
         command = [sys.executable, str(script), "--config", str(args.config)]

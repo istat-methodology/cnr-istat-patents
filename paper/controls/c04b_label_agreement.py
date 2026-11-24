@@ -129,15 +129,14 @@ def main() -> None:
     args = ap.parse_args()
 
     if args.run_dir:
-        run, models, k = args.run_dir, args.models, args.k
+        run, models, ks = args.run_dir, args.models, [args.k]
     else:
         sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
         import common
         cfg = common.load_config(args.config)
         run = common.run_dir(cfg, args.quick)
-        models, k = cfg["deep_dive_models"], cfg["explain_k"][0]
-    col = f"cluster_k{k}"
-    args.assignments, args.profiles, args.out, args.k = run / "assignments", run / "profiles", run / "controls", k
+        models, ks = cfg["deep_dive_models"], list(cfg["explain_k"])
+    args.assignments, args.profiles, args.out = run / "assignments", run / "profiles", run / "controls"
     args.models = models
 
     def load(cohort, model):
@@ -164,14 +163,17 @@ def main() -> None:
             row[f"{m}_overlap"] = np.nanmean([r[m] for r in same]) if same else float("nan")
         summary.append(row)
 
-    for m in args.models:
-        a, ca = load("full", m)
-        b, cb = load("exclude-cn", m)
-        record("cohort", m, m, "full vs exclude-cn", *compare(a, b, ca, cb, col, args.k))
-    for m1, m2 in itertools.combinations(args.models, 2):
-        a, ca = load("full", m1)
-        b, cb = load("full", m2)
-        record("model", m1, m2, "full corpus", *compare(a, b, ca, cb, col, args.k))
+    for k in ks:
+        args.k = k
+        col = f"cluster_k{k}"
+        for m in args.models:
+            a, ca = load("full", m)
+            b, cb = load("exclude-cn", m)
+            record("cohort", m, m, "full vs exclude-cn", *compare(a, b, ca, cb, col, k))
+        for m1, m2 in itertools.combinations(args.models, 2):
+            a, ca = load("full", m1)
+            b, cb = load("full", m2)
+            record("model", m1, m2, "full corpus", *compare(a, b, ca, cb, col, k))
 
     args.out.mkdir(parents=True, exist_ok=True)
     pd.DataFrame(pairs).to_csv(args.out / "c04b_label_pairs.csv", index=False)
